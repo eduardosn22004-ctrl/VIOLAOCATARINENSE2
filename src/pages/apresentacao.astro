@@ -1,1 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Markdown from '../components/Markdown.astro';
+
+const explainer = `
+Um site com objetivo de preservar a história do violão no estado de Santa Catarina.
+`;
+---
+
+<Layout title="Violão Catarinense">
+    <h1 class="mb-10">Projeto</h1>
+    <Markdown content={explainer} class="mb-10 text-lg" />
+    <p>
+        <a href='/apresentacao' class="btn btn-lg sm:min-w-64">Conheça o projeto</a>
+    </p>
+</Layout>
+
 
