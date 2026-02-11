@@ -2,12 +2,10 @@
 import Layout from '../layouts/Layout.astro';
 import Markdown from '../components/Markdown.astro';
 
-// 1. TEXTO DO PROPÓSITO (NOVO)
 const proposito = `
 O projeto Violão Catarinense tem como propósito valorizar e reconhecer os violonistas e compositores naturais, ou localizados, ou naturalizados no estado de Santa Catarina.
 `;
 
-// 2. TEXTO DA IDEALIZAÇÃO 
 const idealizacao = `
 Edino Krieger é um dos principais responsáveis e incentivador pelo projeto Violão Catarinense ter se tornado uma realidade.
 Lembro que quando combinamos de conversar em Blumenau (meados de 2011), expliquei a ele sobre o projeto e que gostaria de incluir todas 
@@ -24,7 +22,6 @@ Talvez seja isso que estava faltando para seguirmos adiante: “Mas por que não
 <strong>— Andrei Uller</strong>
 `;
 
-// 3. TEXTO DE ESCLARECIMENTOS 
 const esclarecimentos = `
 **“Para participar do projeto o violonista ou compositor precisa obrigatoriamente ser natural de Santa Catarina?”**
 
@@ -51,14 +48,12 @@ cessão dos direitos autorais da obra interpretada para a inclusão de um possí
         </section>
 
         <section class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
-            
             <div>
                 <h2 class="mb-6 text-3xl font-bold text-left">Idealização</h2>
                 <div class="text-lg text-justify leading-relaxed">
                     <Markdown content={idealizacao} />
                 </div>
             </div>
-
             <div class="flex justify-center md:justify-end mt-4 md:mt-40">
                 <img 
                     src="/images/edino.jpg" 
@@ -66,14 +61,16 @@ cessão dos direitos autorais da obra interpretada para a inclusão de um possí
                     class="rounded-xl shadow-xl w-full max-w-md h-auto object-cover" 
                 />
             </div>
-
         </section>
 
-        <section>
-            <h2 class="mb-6 text-3xl font-bold text-left">Esclarecimentos</h2>
-            <div class="text-lg text-justify leading-relaxed space-y-4">
+        <section class="bg-gray-50 rounded-2xl p-8 md:p-12 border border-gray-200">
+            
+            <h2 class="mb-8 text-3xl font-bold text-center text-gray-900">Esclarecimentos</h2>
+            
+            <div class="text-lg text-justify leading-relaxed space-y-6 text-gray-700 [&_strong]:text-rose-700">
                 <Markdown content={esclarecimentos} />
             </div>
+
         </section>
 
     </div>
