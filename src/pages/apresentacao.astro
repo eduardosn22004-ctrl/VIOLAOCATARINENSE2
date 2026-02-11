@@ -2,19 +2,14 @@
 import Layout from '../layouts/Layout.astro';
 import Markdown from '../components/Markdown.astro';
 
+// Texto do Projeto
 const explainer = `
- O projeto Violão Catarinense tem como propósito valorizar e reconhecer os violonistas<br>
-e compositores naturais, localizados ou naturalizados no estado de Santa Catarina.
-
+O projeto Violão Catarinense tem como propósito valorizar e reconhecer os violonistas e compositores naturais, 
+localizados ou naturalizados no estado de Santa Catarina.
 `;
----
 
-<Layout title="Violão Catarinense">
-    <h1 class="mb-10">Projeto</h1>
-    <Markdown content={explainer} class="mb-10 text-lg" />
-    <h1 class="mb-10">Idealização</h1>
-    <p class="text-lg">
-    
+// Texto da Idealização 
+const idealizacao = `
 Edino Krieger é um dos principais responsáveis e incentivador pelo projeto Violão Catarinense ter se tornado uma realidade.
 
 Lembro que quando combinamos de conversar em Blumenau (meados de 2011), expliquei a ele sobre o projeto e que gostaria de incluir todas as suas composições para violão solo no meu primeiro disco.
@@ -26,8 +21,31 @@ Esta foi a resposta que demonstrou a mim o quanto Edino Krieger era humilde e in
 A resposta do maestro Krieger ainda reverbera no disco Violão Catarinense volume II e com a gravação de mais um terceiro disco. Talvez seja isso que estava faltando para seguirmos adiante: “Mas por que não?”
 <br><br>
 <strong>— Andrei Uller</strong>
+`;
+---
 
-       
+<Layout title="Violão Catarinense">
+    
+    <section class="mb-20">
+        <h1 class="mb-10 text-center text-3xl font-bold">Projeto</h1>
+        <Markdown content={explainer} class="text-lg text-center max-w-2xl mx-auto" />
+    </section>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        
+        <div>
+            <h1 class="mb-6 text-3xl font-bold text-left">Idealização</h1>
+            <Markdown content={idealizacao} class="text-lg text-justify" />
+        </div>
+
+        <div class="flex justify-center">
+            <img 
+                src="/images/edino.jpg" 
+                alt="Edino Krieger e Andrei Uller" 
+                class="rounded-lg shadow-lg w-full max-w-md h-auto object-cover" 
+            />
+        </div>
+
+    </div>
+
 </Layout>
-
-
