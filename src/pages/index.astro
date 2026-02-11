@@ -2,19 +2,71 @@
 import Layout from '../layouts/Layout.astro';
 import Markdown from '../components/Markdown.astro';
 
-const explainer = `
-O projeto Violão Catarinense tem como propósito valorizar e reconhecer os violonistas e compositores naturais, 
-localizados ou naturalizados no estado de Santa Catarina.
 
+
+// 1. TEXTO DA IDEALIZAÇÃO 
+const idealizacao = `
+Edino Krieger é um dos principais responsáveis e incentivador pelo projeto Violão Catarinense ter se tornado uma realidade.
+ Lembro que quando combinamos de conversar em Blumenau (meados de 2011), expliquei a ele sobre o projeto e que gostaria de incluir todas 
+as suas composições para violão solo no meu primeiro disco.
+Também expliquei a ele que eu gostaria de incluir no disco outras peças de outros compositores, perguntando-lhe com um certo receio 
+se eu poderia fazer isso. Ele me respondeu de imediato: “Mas por que não?”
+Esta foi a resposta que demonstrou a mim o quanto Edino Krieger era humilde e incentivava outras pessoas a compor. Foi a partir deste momento que o disco Violão Catarinense se materializou.
+A resposta do maestro Krieger ainda reverbera no disco Violão Catarinense volume II e com a gravação de mais um terceiro disco. 
+Talvez seja isso que estava faltando para seguirmos adiante: “Mas por que não?”
+<br><br>
+<strong>— Andrei Uller</strong>
+`;
+
+// 2. TEXTO DE ESCLARECIMENTOS 
+const esclarecimentos = `
+**“Para participar do projeto o violonista ou compositor precisa obrigatoriamente ser natural de Santa Catarina?”**
+
+Não. A proposta é considerar as pessoas que contribuem para a cultura do estado catarinense através de suas composições para violão,
+sejam elas violão solo, duos, trios, ou outras disposições instrumentais, independente de sua origem. 
+A história nos evidencia que os povos autóctones são os únicos que poderiam talvez serem rotulados como “Catarinenses”,
+visto que o próprio termo não faz parte da linguagem destes povos, Santa Catatarina é um território que foi povoado gradativamente 
+por pessoas de vários locais diferentes do globo, caracterizando Santa Catarina como um tipo de mosaico cultural. 
+
+**“Para os novos participantes há algum documento oficial para cessão de direitos autorais?"**
+
+Após a finalização de uma nova gravação, um documento será enviado ao compositor ou violonista participante constando a autorização e 
+cessão dos direitos autorais da obra interpretada para a inclusão de um possível futuro disco a ser lançado.
 `;
 ---
 
 <Layout title="Violão Catarinense">
-    <h1 class="p-10 text-center">Violão Catarinense</h1>
     
-    <Markdown content={explainer} class="mb-10 text-lg text-center" />
-    
-    <p class="text-center">
-        <a href='/apresentacao' class="btn btn-lg sm:min-w-64">Conheça o projeto</a>
-    </p>
+    <div class="space-y-24 py-12">
+
+
+
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+            
+            <div>
+                <h2 class="mb-6 text-3xl font-bold text-left">Idealização</h2>
+                <div class="text-lg text-justify leading-relaxed">
+                    <Markdown content={idealizacao} />
+                </div>
+            </div>
+
+            <div class="flex justify-center md:justify-end mt-4 md:mt-40">
+                <img 
+                    src="/images/edino.jpg" 
+                    alt="Edino Krieger e Andrei Uller" 
+                    class="rounded-xl shadow-xl w-full max-w-md h-auto object-cover" 
+                />
+            </div>
+
+        </section>
+
+        <section>
+            <h2 class="mb-6 text-3xl font-bold text-left">Esclarecimentos</h2>
+            <div class="text-lg text-justify leading-relaxed space-y-4">
+                <Markdown content={esclarecimentos} />
+            </div>
+        </section>
+
+    </div>
+
 </Layout>
