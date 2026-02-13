@@ -37,13 +37,17 @@ const musicos = [
 musicos.sort((a, b) => a.nome.localeCompare(b.nome));
 ---
 
-<Layout title="Compositores | Violão Catarinense">
+<Layout title="Violão Catarinense">
     
-    <div class="max-w-6xl mx-auto py-12 px-6">
-        
-        <h1 class="text-4xl font-bold text-center mb-16 text-gray-900">
-            Compositores e Violonistas
-        </h1>
+    <div class="text-center mb-16">
+    <h1 class="text-4xl font-bold text-red-700 mb-4">
+        Compositores e Violonistas
+    </h1>
+    <p class="text-xl mb-16 text-stone-800 font-normal">
+        Para conhecer os compositores e violonistas contribuentes para o repertório 
+        violonístico no estado de Santa Catarina, acesse a lista abaixo.
+    </p>
+           
 
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
             {musicos.map((musico) => (
