@@ -1,6 +1,3 @@
-npm install @astrojs/vercel
-
-astro.config
 import { defineConfig } from 'astro/config';
 import vercel from '@astrojs/vercel'; // Trocamos netlify por vercel
 import react from '@astrojs/react';
