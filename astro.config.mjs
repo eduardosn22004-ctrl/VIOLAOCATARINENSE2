@@ -1,4 +1,4 @@
-npm install @astrojs/vercel
+
 import { defineConfig } from 'astro/config';
 import vercel from '@astrojs/vercel/serverless'; // Importação mais específica
 import react from '@astrojs/react';
