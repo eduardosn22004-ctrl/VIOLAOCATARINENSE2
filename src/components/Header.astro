@@ -5,40 +5,87 @@ const navItems = [
     { linkText: 'Compositores e Violonistas', href: '/compositores' },
     { linkText: 'Discografia', href: '/discografia' },
     { linkText: 'Referências', href: '/referencias' },
-    { linkText: 'Registros Históricos', href: '/registros' },
+    { 
+        linkText: 'Registros Históricos', 
+        href: '/registros',
+        subItems: [
+            { linkText: 'Década de 20', href: '/registros/decada-20' },
+            { linkText: 'Década de 30', href: '/registros/decada-30' },
+            { linkText: 'Década de 40', href: '/registros/decada-40' },
+            { linkText: 'Década de 50', href: '/registros/decada-50' }
+        ]
+    },
     { linkText: 'Participe Conosco', href: '/participe' }
 ];
 ---
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&display=swap" rel="stylesheet" />
 
-<header class="relative left-1/2 right-1/2 ml-[-50vw] mr-[-50vw] w-screen bg-red-700 shadow-xl overflow-hidden">
+<header class="relative left-1/2 right-1/2 ml-[-50vw] mr-[-50vw] w-screen shadow-xl z-50">
     
-    <div class="relative w-full h-56 md:h-72 flex items-center justify-center">
-        
-        <img 
-            src="/images/logo.png" 
-            alt="Fundo Violão" 
-            class="absolute inset-0 w-full h-full object-contain mix-blend-multiply opacity-40 pointer-events-none -rotate-90 scale-x-[-8] scale-y-[8] translate-x-55 translate-y-10" 
-        />
+    {/* CAIXA DE FUNDO ISOLADA */}
+    <div class="absolute inset-0 bg-red-700 overflow-hidden pointer-events-none z-0">
+        <div class="relative w-full h-56 md:h-72">
+            <img 
+                src="/images/logo.png" 
+                alt="Fundo Violão" 
+                class="absolute inset-0 w-full h-full object-contain mix-blend-multiply opacity-40 -rotate-90 scale-x-[-8] scale-y-[8] translate-x-55 translate-y-10" 
+            />
+        </div>
+    </div>
 
-        <h1 class="relative z-10 text-white text-4xl md:text-7xl font-['Cinzel'] font-bold tracking-wider text-center uppercase drop-shadow-[0_4px_4px_rgba(0,0,0,0.8)] px-4">
+    {/* TÍTULO */}
+    <div class="relative z-10 w-full h-56 md:h-72 flex items-center justify-center pointer-events-none">
+        <h1 class="text-white text-4xl md:text-7xl font-['Cinzel'] font-bold tracking-wider text-center uppercase drop-shadow-[0_4px_4px_rgba(0,0,0,0.8)] px-4 pointer-events-auto">
             VIOLÃO CATARINENSE
         </h1>
     </div>
 
-    <nav class="bg-black/30 border-t border-white/10 py-5">
-        <ul class="flex flex-wrap justify-center gap-x-2 md:gap-x-6 gap-y-3 max-w-full mx-auto px-4">
+    {/* NAVEGAÇÃO */}
+    <nav class="relative z-20 bg-black/30 border-t border-white/10 py-3">
+        <ul class="flex flex-wrap items-center justify-center gap-x-2 md:gap-x-6 gap-y-2 max-w-full mx-auto px-4">
             {navItems.map((item) => (
-                <li>
+                <li class="relative group">
                     <a 
                         href={item.href} 
-                        class="text-white text-[10px] md:text-xs lg:text-sm font-bold no-underline uppercase tracking-widest hover:bg-white hover:text-red-700 px-3 py-2 rounded transition-all duration-300 border border-transparent hover:border-white/20"
+                        class="text-white text-[10px] md:text-xs lg:text-sm font-bold no-underline uppercase tracking-widest hover:bg-white hover:text-red-700 px-3 py-2 rounded transition-all duration-300 border border-transparent hover:border-white/20 inline-flex items-center gap-1.5"
                     >
                         {item.linkText}
+                        
+                        {item.subItems && (
+                            <svg 
+                                xmlns="http://www.w3.org/2000/svg" 
+                                viewBox="0 0 20 20" 
+                                fill="currentColor" 
+                                class="w-3.5 h-3.5 transition-transform duration-300 group-hover:rotate-180" 
+                                aria-hidden="true"
+                            >
+                                <path fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+                            </svg>
+                        )}
                     </a>
+
+                    {/* MENU DAS DÉCADAS */}
+                    {item.subItems && (
+                        <div class="absolute left-1/2 -translate-x-1/2 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+                            {/* Fundo com leve transparência (bg-red-900/90), sem blur */}
+                            <ul class="w-48 bg-red-900/90 border border-white/20 rounded-md shadow-2xl flex flex-col divide-y divide-white/20 overflow-hidden">
+                                {item.subItems.map((subItem) => (
+                                    <li>
+                                        <a 
+                                            href={subItem.href} 
+                                            /* Texto limpo, sem sombras, 100% sólido */
+                                            class="block px-4 py-3 text-center text-[10px] md:text-[11px] text-white font-bold no-underline uppercase tracking-widest hover:bg-black/60 transition-all duration-300"
+                                        >
+                                            {subItem.linkText}
+                                        </a>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    )}
                 </li>
             ))}
         </ul>
