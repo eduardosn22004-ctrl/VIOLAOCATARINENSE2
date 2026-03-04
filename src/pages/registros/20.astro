@@ -99,8 +99,6 @@ const recortesImprensa = [
                 A Trajetória do Violão em Santa Catarina nas Décadas de 1920 a 1950
             </p>
 
-            {/* LINHA MAIOR DE DIVISÓRIA (nova) */}
-            <hr class="w-full max-w-6xl border-t-3 border-red-600 mt-8" />
             
         </div>
 
@@ -109,13 +107,25 @@ const recortesImprensa = [
             SEÇÃO 1: LEVINO ALBANO DA CONCEIÇÃO
         ========================================== */}
         <div>
-            <div class="mb-8 border-l-2 border-red-800/30 pl-4">
-                <h2 class="text-xl md:text-2xl font-semibold text-red-900 font-['Cinzel'] tracking-wide uppercase">
-                    Levino Albano da Conceição
+            <div class="mb-10 text-center">
+                <h2 class="flex items-center gap-4 text-xl md:text-2xl font-semibold text-red-700 font-['Cinzel'] tracking-wide uppercase">
+                    
+                    {/* Linha da esquerda (gradiente de transparente para vermelho) */}
+                    <span class="h-px flex-1 bg-gradient-to-r from-transparent to-red-700"></span>
+                    
+                    {/* Texto centralizado */}
+                    <span class="drop-shadow-[0_2px_2px_rgba(0,0,0,0.25)] whitespace-nowrap">
+                        Levino Albano da Conceição
+                    </span>
+                    
+                    {/* Linha da direita (gradiente de vermelho para transparente) */}
+                    <span class="h-px flex-1 bg-gradient-to-l from-transparent to-red-700"></span>
                 </h2>
-                <p class="text-lg text-stone-500 font-serif italic mt-0.5">
+                
+                {/* Adicionei mx-auto e max-w-2xl para o texto não ficar muito esticado ao ser centralizado */}
+                <p class="text-lg text-stone-500 font-serif italic mt-3 max-w-2xl mx-auto">
                     Levino Albano da Conceição tendo seus recitais comentados por jornais nas cidades de Florianópolis, 
-                    Itajaí e Tubarão nos anos de 1923 e 1924
+                    Itajaí e Tubarão.
                 </p>
             </div>
 
@@ -153,19 +163,22 @@ const recortesImprensa = [
             </section>
         </div>
 
-    <div>
-    <hr class="w-full max-w-6xl border-t-3 border-red-600 mt-8" />   
-    </div>
 
         {/* =========================================
             SEÇÃO 2: RECORTES DE IMPRENSA (NOVA)
         ========================================== */}
-        <div>
-            <div class="mb-8 border-l-2 border-red-800/30 pl-4">
-                <h2 class="text-xl md:text-2xl font-semibold text-red-900 font-['Cinzel'] tracking-wide uppercase">
-                    Recortes de Imprensa
+        <div class="mt-16">
+            <div class="mb-10 text-center">
+                <h2 class="flex items-center gap-4 text-xl md:text-2xl font-semibold text-red-700 font-['Cinzel'] tracking-wide uppercase">
+                    <span class="h-px flex-1 bg-gradient-to-r from-transparent to-red-700"></span>
+                    
+                    <span class="drop-shadow-[0_2px_2px_rgba(0,0,0,0.25)] whitespace-nowrap">
+                        Recortes de Imprensa
+                    </span>
+                    
+                    <span class="h-px flex-1 bg-gradient-to-l from-transparent to-red-700"></span>
                 </h2>
-                <p class="text-lg text-stone-500 font-serif italic mt-0.5">
+                <p class="text-lg text-stone-500 font-serif italic mt-3 max-w-2xl mx-auto">
                     Notícias, artigos e publicações diversas na mídia impressa catarinense
                 </p>
             </div>
