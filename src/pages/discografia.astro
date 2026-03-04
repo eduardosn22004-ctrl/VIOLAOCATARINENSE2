@@ -430,13 +430,18 @@ discografiaFinal.forEach(artista => {
     
     <div class="max-w-6xl mx-auto py-12 px-6 relative overflow-hidden">
         
+        {/* SVGs de Fundo */}
         <svg class="absolute top-10 left-10 text-stone-200 w-24 h-24 -rotate-12 z-[-1]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 3v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h4V3h-6z"/></svg>
         <svg class="absolute top-40 right-10 text-stone-200 w-32 h-32 rotate-12 z-[-1]" fill="currentColor" viewBox="0 0 24 24"><path d="M22 3h-8v10.55c-.59-.34-1.27-.55-2-.55-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V7h6V3z"/></svg>
 
-        <header class="text-center mb-20">
+        {/* =========================================
+            CABEÇALHO COM A BORDA PADRONIZADA
+        ========================================== */}
+       <header class="flex flex-col items-center text-center py-6 mb-20">
             
-            <div class="flex flex-col md:flex-row items-center justify-center gap-6 mb-8">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-6 mb-6">
                 
+                {/* Animação do Toca-Discos */}
                 <div class="relative w-40 h-32 bg-gradient-to-br from-amber-800 to-amber-950 rounded-xl shadow-[0_10px_20px_rgba(0,0,0,0.4)] border-b-4 border-r-4 border-amber-900 p-3 flex items-center transform hover:scale-105 hover:-translate-y-1 transition-all duration-500">
                     
                     <div class="relative w-24 h-24">
@@ -469,14 +474,14 @@ discografiaFinal.forEach(artista => {
                     </div>
                 </div>
 
-                <h1 class="text-5xl md:text-6xl font-black text-red-700 tracking-tight flex items-center gap-3 drop-shadow-sm">
+                {/* Título com a linha embaixo */}
+                <h1 class="text-5xl md:text-6xl font-black text-red-700 tracking-tight flex items-center gap-3 drop-shadow-sm font-['Cinzel'] uppercase border-b-2 border-red-700 pb-2">
                     Discografia
                 </h1>
             </div>
 
-            <p class="text-xl text-stone-600 max-w-2xl mx-auto leading-relaxed flex items-center justify-center gap-2">
-                Para conhecer a discografia contribuinte para o repertório 
-                violonístico no estado de Santa Catarina, acesse a lista abaixo.
+            <p class="text-xl text-stone-600 max-w-2xl mx-auto leading-relaxed flex items-center justify-center gap-2 font-serif italic">
+                Discografia contribuente para o Violão no Estado de Santa Catarina
             </p>
         </header>
 
