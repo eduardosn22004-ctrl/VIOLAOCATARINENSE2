@@ -19,12 +19,12 @@ const levino = [
         legenda: '26 de agosto de 1973',
         fonte: 'Jornal O Estado - Florianópolis'
     },
-{
+    {
         src: '/images/registros/darcy4.avif',
         legenda: '30 de agosto de 1973',
         fonte: 'Jornal O Estado - Florianópolis'
     },
-{
+    {
         src: '/images/registros/darcy5.avif',
         legenda: '27 de novembro de 1974',
         fonte: 'Jornal O Estado - Florianópolis'
@@ -38,7 +38,6 @@ const recortesImprensa = [
         legenda: 'Olga Praguer Coelho, uma virtuose violonista natural de Manaus, apresentando concerto em Laguna no Clube Blondin',
         fonte: 'Jornal Correio do Sul - Laguna - 8 de outubro de 1944'
     },
-    
 ];
 ---
 
@@ -59,13 +58,12 @@ const recortesImprensa = [
                             <stop offset="0%" stop-color="#f5f5f4" />
                             <stop offset="100%" stop-color="#e7e5e4" />
                         </linearGradient>
-                        {/* Filtro de sombra para separar as folhas */}
                         <filter id="paperShadow" x="-10%" y="-10%" width="120%" height="120%">
                             <feDropShadow dx="1" dy="2" stdDeviation="1.5" flood-opacity="0.3"/>
                         </filter>
                     </defs>
 
-                    {/* JORNAL 1 (Base da pilha - levemente rotacionado para a esquerda) */}
+                    {/* JORNAL 1 */}
                     <g transform="rotate(-8 50 50) translate(-2, 4)" filter="url(#paperShadow)">
                         <rect x="10" y="10" width="80" height="80" rx="2" fill="url(#pageGrad)" stroke="#a8a29e" stroke-width="0.5"/>
                         <rect x="20" y="25" width="60" height="4" rx="0.5" fill="#a8a29e"/>
@@ -76,7 +74,7 @@ const recortesImprensa = [
                         <rect x="20" y="57" width="45" height="1.5" rx="0.2" fill="#d6d3d1"/>
                     </g>
                     
-                    {/* JORNAL 2 (Meio da pilha - rotacionado para a direita) */}
+                    {/* JORNAL 2 */}
                     <g transform="rotate(6 50 50) translate(3, -2)" filter="url(#paperShadow)">
                         <rect x="10" y="10" width="80" height="80" rx="2" fill="url(#pageGrad)" stroke="#a8a29e" stroke-width="0.5"/>
                         <rect x="20" y="25" width="30" height="4" rx="0.5" fill="#a8a29e"/>
@@ -87,7 +85,7 @@ const recortesImprensa = [
                         <rect x="20" y="53" width="50" height="1.5" rx="0.2" fill="#d6d3d1"/>
                     </g>
 
-                    {/* JORNAL 3 (Topo da pilha - quase reto, destaque em vermelho escuro) */}
+                    {/* JORNAL 3 */}
                     <g transform="rotate(-2 50 50) translate(0, 0)" filter="url(#paperShadow)">
                         <rect x="10" y="10" width="80" height="80" rx="2" fill="url(#pageGrad)" stroke="#991b1b" stroke-width="1"/>
                         <rect x="20" y="25" width="60" height="6" rx="0.5" fill="#7f1d1d"/>
@@ -99,7 +97,7 @@ const recortesImprensa = [
                     </g>
                 </svg>
                 
-                {/* Texto com a linha mantendo alinhamento impecável com o ícone */}
+                {/* Texto */}
                 <span class="relative after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[2px] after:bg-red-700">
                     Registros Históricos
                 </span>
@@ -108,84 +106,99 @@ const recortesImprensa = [
             <p class="text-xl text-stone-600 mt-6 font-serif italic">
                 A Trajetória do Violão em Santa Catarina nas Décadas de 1920 a 1950
             </p>
-
-            
         </div>
 
 
         {/* =========================================
-            SEÇÃO 1: Darcy Villa Verde
+            SEÇÃO 1: Darcy Villa Verde (Com Carrossel de Setas)
         ========================================== */}
         <div>
             <div class="mb-10 text-center">
                 <h2 class="flex items-center gap-4 text-xl md:text-2xl font-semibold text-red-700 font-['Cinzel'] tracking-wide uppercase">
-                    
-                    {/* Linha da esquerda (gradiente de transparente para vermelho) */}
                     <span class="h-px flex-1 bg-gradient-to-r from-transparent to-red-700"></span>
-                    
-                    {/* Texto centralizado */}
                     <span class="drop-shadow-[0_2px_2px_rgba(0,0,0,0.25)] whitespace-nowrap">
                         Darcy Villa Verde
                     </span>
-                    
-                    {/* Linha da direita (gradiente de vermelho para transparente) */}
                     <span class="h-px flex-1 bg-gradient-to-l from-transparent to-red-700"></span>
                 </h2>
-                
-                {/* Adicionei mx-auto e max-w-2xl para o texto não ficar muito esticado ao ser centralizado */}
                 <p class="text-lg text-stone-500 font-serif italic mt-3 max-w-2xl mx-auto">
-                    Darcy Villa Verde, violonista genial consagrado mundialmente, concede entrevistas e apresenta concerto no Teatro Álvaro de Carvalho em Florianópolis, 
-                    Teatro Carlos Gomes em Blumenau, e inúmeras outras cidades de Santa Catarina
+                    Darcy Villa Verde, violonista genial consagrado mundialmente, concede entrevistas e apresenta concerto no Teatro Álvaro de Carvalho em Florianópolis.
                 </p>
             </div>
 
-            <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-                {levino.map((registro) => (
-                    <div 
-                        class="gallery-item cursor-pointer bg-white p-4 rounded-xl shadow-[0_8px_20px_rgba(0,0,0,0.08)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.15)] transform transition hover:-translate-y-1 border border-stone-100 group"
-                        data-src={registro.src}
-                        data-legenda={registro.legenda}
-                        data-fonte={registro.fonte}
-                    >
-                        <div class="relative overflow-hidden rounded-md mb-4 shadow-sm bg-stone-200">
-                            <img 
-                                src={registro.src} 
-                                alt={registro.legenda} 
-                                class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105"
-                            />
-                            
-                            <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-12 h-12 text-white">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-                                </svg>
+            {/* Container com Botões e Rolagem */}
+            <div class="relative group/section">
+                
+                {/* Botão Esquerdo */}
+                <button 
+                    id="prev-btn" 
+                    class="absolute left-[-20px] top-1/2 -translate-y-1/2 z-10 bg-white shadow-xl rounded-full p-3 text-red-700 hover:bg-red-700 hover:text-white transition-all opacity-0 group-hover/section:opacity-100 hidden md:block border border-stone-200"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                    </svg>
+                </button>
+
+                {/* Lista de Imagens */}
+                <section 
+                    id="scroll-container"
+                    class="flex overflow-x-auto gap-8 pb-4 no-scrollbar snap-x snap-mandatory scroll-smooth"
+                >
+                    {levino.map((registro) => (
+                        <div 
+                            class="gallery-item cursor-pointer bg-white p-4 rounded-xl shadow-[0_8px_20px_rgba(0,0,0,0.08)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.15)] transform transition hover:-translate-y-1 border border-stone-100 group min-w-[280px] md:min-w-[350px] snap-center"
+                            data-src={registro.src}
+                            data-legenda={registro.legenda}
+                            data-fonte={registro.fonte}
+                        >
+                            <div class="relative overflow-hidden rounded-md mb-4 shadow-sm bg-stone-200">
+                                <img 
+                                    src={registro.src} 
+                                    alt={registro.legenda} 
+                                    class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105"
+                                />
+                                <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-12 h-12 text-white">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="px-2">
+                                <p class="text-lg font-medium text-stone-800 leading-snug h-14 line-clamp-2">
+                                    {registro.legenda}
+                                </p>
+                                <p class="text-sm text-stone-500 font-serif italic mt-2">
+                                    Fonte: {registro.fonte}
+                                </p>
                             </div>
                         </div>
-                        <div class="px-2">
-                            <p class="text-lg font-medium text-stone-800 leading-snug">
-                                {registro.legenda}
-                            </p>
-                            <p class="text-sm text-stone-500 font-serif italic mt-2">
-                                Fonte: {registro.fonte}
-                            </p>
-                        </div>
-                    </div>
-                ))} 
-            </section>
+                    ))} 
+                </section>
+
+                {/* Botão Direito */}
+                <button 
+                    id="next-btn" 
+                    class="absolute right-[-20px] top-1/2 -translate-y-1/2 z-10 bg-white shadow-xl rounded-full p-3 text-red-700 hover:bg-red-700 hover:text-white transition-all opacity-0 group-hover/section:opacity-100 hidden md:block border border-stone-200"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </button>
+
+            </div>
         </div>
 
-
         {/* =========================================
-            SEÇÃO 2: RECORTES DE IMPRENSA (NOVA)
+            SEÇÃO 2: RECORTES DE IMPRENSA 
+            (Mantida como Grid original)
         ========================================== */}
         <div class="mt-16">
             <div class="mb-10 text-center">
                 <h2 class="flex items-center gap-4 text-xl md:text-2xl font-semibold text-red-700 font-['Cinzel'] tracking-wide uppercase">
                     <span class="h-px flex-1 bg-gradient-to-r from-transparent to-red-700"></span>
-                    
                     <span class="drop-shadow-[0_2px_2px_rgba(0,0,0,0.25)] whitespace-nowrap">
                         Recortes de Imprensa
                     </span>
-                    
                     <span class="h-px flex-1 bg-gradient-to-l from-transparent to-red-700"></span>
                 </h2>
                 <p class="text-lg text-stone-500 font-serif italic mt-3 max-w-2xl mx-auto">
@@ -256,6 +269,16 @@ const recortesImprensa = [
 </Layout>
 
 <style>
+    /* Esconde a barra de rolagem nativa, mantendo a funcionalidade via botões */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE e Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+
+    /* Manti o custom-scrollbar caso você precise dele depois em outro lugar */
     .custom-scrollbar::-webkit-scrollbar { height: 8px; }
     .custom-scrollbar::-webkit-scrollbar-track { background: #f5f5f4; border-radius: 10px; }
     .custom-scrollbar::-webkit-scrollbar-thumb { background: #b91c1c; border-radius: 10px; }
@@ -274,6 +297,29 @@ const recortesImprensa = [
 </style>
 
 <script>
+    // =========================================
+    // LÓGICA DO CARROSSEL DE SETAS
+    // =========================================
+    const container = document.getElementById('scroll-container');
+    const nextBtn = document.getElementById('next-btn');
+    const prevBtn = document.getElementById('prev-btn');
+
+    if (container && nextBtn && prevBtn) {
+        // Largura do card + gap do Tailwind (md:min-w-[350px] + gap-8 que é 32px)
+        const scrollAmount = 350 + 32; 
+
+        nextBtn.addEventListener('click', () => {
+            container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+        });
+
+        prevBtn.addEventListener('click', () => {
+            container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+        });
+    }
+
+    // =========================================
+    // LÓGICA DO MODAL
+    // =========================================
     const modal = document.getElementById('imageModal');
     const modalContent = document.getElementById('modalContent');
     const modalImg = document.getElementById('modalImage') as HTMLImageElement;
