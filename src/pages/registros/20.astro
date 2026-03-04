@@ -2,8 +2,8 @@
 // Importando o seu Layout
 import Layout from '../../layouts/Layout.astro';
 
-// Dados de exemplo para a galeria
-const registrosPagina = [
+// 1. DADOS: Galeria do Levino
+const levino = [
     {
         src: '/images/registros/levino1.avif',
         legenda: '26 de junho de 1923',
@@ -20,74 +20,142 @@ const registrosPagina = [
         fonte: 'Jornal Tubaronense - Tubarão'
     }
 ];
+
+// 2. DADOS: Nova galeria de Recortes de Imprensa
+const recortesImprensa = [
+    {
+        src: '/images/registros/recorte1.avif', // Substitua pelos seus caminhos reais
+        legenda: 'Artigo sobre a evolução do choro',
+        fonte: 'O Estado - 15 de maio de 1930'
+    },
+    {
+        src: '/images/registros/recorte2.avif',
+        legenda: 'Anúncio de Concerto no Teatro',
+        fonte: 'Gazeta do Povo - 10 de agosto de 1932'
+    },
+    {
+        src: '/images/registros/recorte3.avif',
+        legenda: 'Crítica musical do recital',
+        fonte: 'Diário da Manhã - 05 de novembro de 1935'
+    }
+];
 ---
 
 <Layout title="Violão Catarinense">
     
     <div class="max-w-6xl mx-auto py-16 px-6 space-y-24">
 
-        {/* 1. TÍTULO PRINCIPAL ALINHADO CENTRO */}
+        {/* =========================================
+            CABEÇALHO PRINCIPAL
+        ========================================== */}
         <div class="flex flex-col items-center text-center border-y-2 border-red-700 py-4">
-        <h1 class="text-4xl md:text-5xl font-bold text-red-800 font-['Cinzel'] uppercase tracking-tight">
-        Registros Históricos
-    </h1>
-    <p class="text-xl text-stone-600 mt-2 font-serif italic">
-        A Trajetória do Violão em Santa Catarina nas Décadas de 1920 a 1950
-    </p>
-</div>
+            <h1 class="text-4xl md:text-5xl font-bold text-red-800 font-['Cinzel'] uppercase tracking-tight">
+                Registros Históricos
+            </h1>
+            <p class="text-xl text-stone-600 mt-2 font-serif italic">
+                A Trajetória do Violão em Santa Catarina nas Décadas de 1920 a 1950
+            </p>
+        </div>
 
-       <div class="mt-12 mb-4 border-l-2 border-red-800/30 pl-4">
-    <h2 class="text-xl md:text-2xl font-semibold text-red-900 font-['Cinzel'] tracking-wide uppercase">
-        Levino Albano da Conceição
-    </h2>
-    <p class="text-lg text-stone-500 font-serif italic mt-0.5">
-        Levino Albano da Conceição tendo seus recitais comentados por jornais nas cidades de Florianópolis, 
-        Itajaí e Tubarão nos anos de 1923 e 1924
-    </p>
-</div>
 
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-    </div>
+        {/* =========================================
+            SEÇÃO 1: LEVINO ALBANO DA CONCEIÇÃO
+        ========================================== */}
+        <div>
+            <div class="mb-8 border-l-2 border-red-800/30 pl-4">
+                <h2 class="text-xl md:text-2xl font-semibold text-red-900 font-['Cinzel'] tracking-wide uppercase">
+                    Levino Albano da Conceição
+                </h2>
+                <p class="text-lg text-stone-500 font-serif italic mt-0.5">
+                    Levino Albano da Conceição tendo seus recitais comentados por jornais nas cidades de Florianópolis, 
+                    Itajaí e Tubarão nos anos de 1923 e 1924
+                </p>
+            </div>
 
-        {/* 2. GALERIA DE FOTOS COM SOMBRAS E LEGENDAS */}
-        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-            {registrosPagina.map((registro) => (
-                /* Removido o 'cursor-zoom-in' do item da galeria */
-                <div 
-                    class="gallery-item bg-white p-4 rounded-xl shadow-[0_8px_20px_rgba(0,0,0,0.08)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.15)] transform transition hover:-translate-y-1 border border-stone-100 group"
-                    data-src={registro.src}
-                    data-legenda={registro.legenda}
-                    data-fonte={registro.fonte}
-                >
-                    {/* Contêiner da imagem: adicionado 'relative' para o efeito de lupa */}
-                    <div class="relative overflow-hidden rounded-md mb-4 shadow-sm bg-stone-200">
-                        <img 
-                            src={registro.src} 
-                            alt={registro.legenda} 
-                            class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105"
-                        />
-                        
-                        {/* NOVO: Efeito de lupa no hover */}
-                        <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300">
-                            {/* Ícone de lupa centralizado */}
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-12 h-12 text-white">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-                            </svg>
+            <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                {levino.map((registro) => (
+                    <div 
+                        class="gallery-item cursor-pointer bg-white p-4 rounded-xl shadow-[0_8px_20px_rgba(0,0,0,0.08)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.15)] transform transition hover:-translate-y-1 border border-stone-100 group"
+                        data-src={registro.src}
+                        data-legenda={registro.legenda}
+                        data-fonte={registro.fonte}
+                    >
+                        <div class="relative overflow-hidden rounded-md mb-4 shadow-sm bg-stone-200">
+                            <img 
+                                src={registro.src} 
+                                alt={registro.legenda} 
+                                class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105"
+                            />
+                            
+                            <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-12 h-12 text-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="px-2">
+                            <p class="text-lg font-medium text-stone-800 leading-snug">
+                                {registro.legenda}
+                            </p>
+                            <p class="text-sm text-stone-500 font-serif italic mt-2">
+                                Fonte: {registro.fonte}
+                            </p>
                         </div>
                     </div>
-                    <div class="px-2">
-                        <p class="text-lg font-medium text-stone-800 leading-snug">
-                            {registro.legenda}
-                        </p>
-                        <p class="text-sm text-stone-500 font-serif italic mt-2">
-                            Fonte: {registro.fonte}
-                        </p>
-                    </div>
-                </div>
-            ))}
-        </section>
+                ))}
+            </section>
+        </div>
 
-        
+
+        {/* =========================================
+            SEÇÃO 2: RECORTES DE IMPRENSA (NOVA)
+        ========================================== */}
+        <div>
+            <div class="mb-8 border-l-2 border-red-800/30 pl-4">
+                <h2 class="text-xl md:text-2xl font-semibold text-red-900 font-['Cinzel'] tracking-wide uppercase">
+                    Recortes de Imprensa
+                </h2>
+                <p class="text-lg text-stone-500 font-serif italic mt-0.5">
+                    Notícias, artigos e publicações diversas na mídia impressa catarinense
+                </p>
+            </div>
+
+            <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                {recortesImprensa.map((recorte) => (
+                    <div 
+                        class="gallery-item cursor-pointer bg-white p-4 rounded-xl shadow-[0_8px_20px_rgba(0,0,0,0.08)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.15)] transform transition hover:-translate-y-1 border border-stone-100 group"
+                        data-src={recorte.src}
+                        data-legenda={recorte.legenda}
+                        data-fonte={recorte.fonte}
+                    >
+                        <div class="relative overflow-hidden rounded-md mb-4 shadow-sm bg-stone-200">
+                            <img 
+                                src={recorte.src} 
+                                alt={recorte.legenda} 
+                                class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105"
+                            />
+                            
+                            <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-12 h-12 text-white">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="px-2">
+                            <p class="text-lg font-medium text-stone-800 leading-snug">
+                                {recorte.legenda}
+                            </p>
+                            <p class="text-sm text-stone-500 font-serif italic mt-2">
+                                Fonte: {recorte.fonte}
+                            </p>
+                        </div>
+                    </div>
+                ))}
+            </section>
+        </div>
+
+    </div>
+
     {/* =========================================
         MODAL (A JANELA QUE ABRE A FOTO GRANDE)
     ========================================== */}
