@@ -1,3 +1,175 @@
 ---
 // Importando o seu Layout
 import Layout from '../../layouts/Layout.astro';
+
+// Dados de exemplo para a galeria
+const registrosPagina = [
+    {
+        src: '/images/registros/levino1.avif',
+        legenda: '26 de junho de 1923',
+        fonte: 'Jornal Republica - Florianópolis -'
+    },
+    {
+        src: '/images/registros/levino2.avif',
+        legenda: '22 de março de 1924',
+        fonte: 'jornal O Pharol - Itajaí'
+    },
+    {
+        src: '/images/registros/levino3.avif',
+        legenda: '30 de março de 1924',
+        fonte: 'Jornal Tubaronense - Tubarão'
+    }
+];
+---
+
+<Layout title="Violão Catarinense">
+    
+    <div class="max-w-6xl mx-auto py-16 px-6 space-y-24">
+
+        {/* 1. TÍTULO PRINCIPAL ALINHADO CENTRO */}
+        <div class="flex flex-col items-center text-center border-y-2 border-red-700 py-4">
+        <h1 class="text-4xl md:text-5xl font-bold text-red-800 font-['Cinzel'] uppercase tracking-tight">
+        Registros Históricos
+    </h1>
+    <p class="text-xl text-stone-600 mt-2 font-serif italic">
+        A Trajetória do Violão em Santa Catarina na Década de 1920
+    </p>
+</div>
+
+       <div class="mt-12 mb-4 border-l-2 border-red-800/30 pl-4">
+    <h2 class="text-xl md:text-2xl font-semibold text-red-900 font-['Cinzel'] tracking-wide uppercase">
+        Levino Albano da Conceição
+    </h2>
+    <p class="text-lg text-stone-500 font-serif italic mt-0.5">
+        Levino Albano da Conceição tendo seus recitais comentados por jornais nas cidades de Florianópolis, 
+        Itajaí e Tubarão nos anos de 1923 e 1924
+    </p>
+</div>
+
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+    </div>
+
+        {/* 2. GALERIA DE FOTOS COM SOMBRAS E LEGENDAS */}
+        <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            {registrosPagina.map((registro) => (
+                /* Removido o 'cursor-zoom-in' do item da galeria */
+                <div 
+                    class="gallery-item bg-white p-4 rounded-xl shadow-[0_8px_20px_rgba(0,0,0,0.08)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.15)] transform transition hover:-translate-y-1 border border-stone-100 group"
+                    data-src={registro.src}
+                    data-legenda={registro.legenda}
+                    data-fonte={registro.fonte}
+                >
+                    {/* Contêiner da imagem: adicionado 'relative' para o efeito de lupa */}
+                    <div class="relative overflow-hidden rounded-md mb-4 shadow-sm bg-stone-200">
+                        <img 
+                            src={registro.src} 
+                            alt={registro.legenda} 
+                            class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
+                        
+                        {/* NOVO: Efeito de lupa no hover */}
+                        <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300">
+                            {/* Ícone de lupa centralizado */}
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-12 h-12 text-white">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="px-2">
+                        <p class="text-lg font-medium text-stone-800 leading-snug">
+                            {registro.legenda}
+                        </p>
+                        <p class="text-sm text-stone-500 font-serif italic mt-2">
+                            Fonte: {registro.fonte}
+                        </p>
+                    </div>
+                </div>
+            ))}
+        </section>
+
+        
+    {/* =========================================
+        MODAL (A JANELA QUE ABRE A FOTO GRANDE)
+    ========================================== */}
+    <div id="imageModal" class="fixed inset-0 z-[100] hidden items-center justify-center bg-black/80 backdrop-blur-sm opacity-0 transition-opacity duration-300 p-4">
+        
+        <button id="closeModal" class="absolute top-6 right-6 text-white/70 hover:text-white hover:rotate-90 transition-all duration-300 cursor-pointer p-2 z-[110]">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-10 h-10">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+            </svg>
+        </button>
+
+        <div id="modalContent" class="bg-white p-4 md:p-6 rounded-sm shadow-[0_20px_50px_rgba(0,0,0,0.5)] max-w-5xl max-h-[90vh] flex flex-col items-center transform scale-95 transition-transform duration-300">
+            <img 
+                id="modalImage" 
+                src="" 
+                alt="" 
+                class="max-h-[65vh] w-auto object-contain border border-stone-200 shadow-inner"
+            />
+            <div class="mt-5 text-center px-4">
+                <p id="modalCaption" class="text-xl md:text-2xl font-bold text-stone-900 font-['Cinzel'] tracking-wide"></p>
+                <p id="modalSource" class="text-md text-stone-600 font-serif italic mt-2"></p>
+            </div>
+        </div>
+    </div>
+</Layout>
+
+<style>
+    .custom-scrollbar::-webkit-scrollbar { height: 8px; }
+    .custom-scrollbar::-webkit-scrollbar-track { background: #f5f5f4; border-radius: 10px; }
+    .custom-scrollbar::-webkit-scrollbar-thumb { background: #b91c1c; border-radius: 10px; }
+</style>
+
+<script>
+    const modal = document.getElementById('imageModal');
+    const modalContent = document.getElementById('modalContent');
+    const modalImg = document.getElementById('modalImage') as HTMLImageElement;
+    const modalCaption = document.getElementById('modalCaption');
+    const modalSource = document.getElementById('modalSource');
+    const closeBtn = document.getElementById('closeModal');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+
+    galleryItems.forEach(item => {
+        item.addEventListener('click', () => {
+            const src = item.getAttribute('data-src');
+            const legenda = item.getAttribute('data-legenda');
+            const fonte = item.getAttribute('data-fonte');
+
+            if (modalImg) modalImg.src = src || '';
+            if (modalCaption) modalCaption.textContent = legenda;
+            if (modalSource) modalSource.textContent = `Fonte: ${fonte}`;
+
+            modal?.classList.remove('hidden');
+            modal?.classList.add('flex');
+            
+            requestAnimationFrame(() => {
+                modal?.classList.remove('opacity-0');
+                modalContent?.classList.remove('scale-95');
+                modalContent?.classList.add('scale-100');
+            });
+        });
+    });
+
+    const fecharModal = () => {
+        modal?.classList.add('opacity-0');
+        modalContent?.classList.remove('scale-100');
+        modalContent?.classList.add('scale-95');
+        
+        setTimeout(() => {
+            modal?.classList.add('hidden');
+            modal?.classList.remove('flex');
+        }, 300);
+    };
+
+    closeBtn?.addEventListener('click', fecharModal);
+
+    modal?.addEventListener('click', (e) => {
+        if (e.target === modal) fecharModal();
+    });
+
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && !modal?.classList.contains('hidden')) {
+            fecharModal();
+        }
+    });
+</script>
