@@ -1,17 +1,15 @@
 import { defineConfig } from 'astro/config';
-import netlify from '@astrojs/netlify';
+import vercel from '@astrojs/vercel/serverless'; // Importação mais específica
 import react from '@astrojs/react';
 import tailwindcss from '@tailwindcss/vite';
 
-// https://astro.build/config
 export default defineConfig({
-    vite: {
-        plugins: [tailwindcss()]
-    },
-    integrations: [react()],
-    adapter: netlify({
-        devFeatures: {
-            environmentVariables: true
-        }
-    })
+    output: 'server', 
+    adapter: vercel({
+        webAnalytics: { enabled: true }, // Opcional, mas útil na Vercel
+    }),
+    integrations: [react()],
+    vite: {
+        plugins: [tailwindcss()]
+    }
 });
