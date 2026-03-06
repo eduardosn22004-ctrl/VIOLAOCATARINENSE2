@@ -501,9 +501,39 @@ musicos.sort((a, b) => a.nome.localeCompare(b.nome));
 
 <Layout title="Violão Catarinense">
     
-    <div class="text-center pt-11 mb-16">
-        <h1 class="text-4xl font-bold text-red-700 mb-4">Compositores e Violonistas</h1>
-        <p class="text-xl mb-16 text-stone-800 font-normal px-4">Conheça os artistas que contribuem para o repertório violonístico catarinense.</p>
+ <header class="flex flex-col items-center text-center pt-15 pb-6 mb-20">
+    
+    <script is:inline src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    {/* Bloco Superior: Animação + Título */}
+    <div class="flex flex-col items-center text-center py-4">
+        <h1 class="flex items-center justify-center gap-4 md:gap-6 text-4xl md:text-5xl font-bold text-red-700 font-['Cinzel'] uppercase tracking-tight">
+            
+            {/* Animação do Violão (Mesmo comportamento do ícone de jornal) */}
+            <div class="w-32 h-32 md:w-56 md:h-56 shrink-0 flex items-center justify-center">
+    <lottie-player 
+        src="/animacao-violao.json" 
+        background="transparent" 
+        speed="1" 
+        style="width: 100%; height: 100%;" 
+        loop 
+        autoplay>
+    </lottie-player>
+</div>
+            {/* Texto com a mesma linha de sublinhado do outro título */}
+            <span class="relative after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[2px] after:bg-red-700">
+                Compositores e Violonistas
+            </span>
+        </h1>
+        
+        {/* Descrição centralizada abaixo da linha do título */}
+        <div class="-mt-12 md:-mt-16 ml-32 md:ml-60"> 
+    <p class="text-xl text-stone-600 font-serif italic whitespace-nowrap">
+        Artistas que contribuem para o repertório violonístico catarinense
+    </p>
+</div>
+    </div>
+</header>
 
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-4">
             {musicos.map((musico) => (
