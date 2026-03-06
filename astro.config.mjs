@@ -4,14 +4,15 @@ import tailwindcss from '@tailwindcss/vite';
 import vercel from '@astrojs/vercel/serverless';
 import netlify from '@astrojs/netlify';
 
-// Verifica se está rodando na Vercel
+// Detecta os ambientes
 const isVercel = process.env.VERCEL === '1';
+const isNetlify = process.env.NETLIFY === 'true'; // Detecta se está no build real do Netlify
+const isDev = process.env.NODE_ENV === 'development';
 
 export default defineConfig({
-    // No Astro 5, usamos 'static' (padrão). 
-    // Para rotas dinâmicas, usamos 'export const prerender = false' na própria página.
     output: 'static',
 
+    // Só aplica adaptadores se NÃO estiver em modo dev ou se estiver explicitamente na Vercel/Netlify
     adapter: isVercel 
         ? vercel({
             webAnalytics: { enabled: true },
@@ -21,11 +22,7 @@ export default defineConfig({
                 minimumCacheTTL: 60 * 60 * 24 * 30,
             }
         }) 
-        : netlify({
-            devFeatures: {
-                environmentVariables: true
-            }
-        }),
+        : (isNetlify ? netlify() : undefined), 
 
     integrations: [react()],
 
