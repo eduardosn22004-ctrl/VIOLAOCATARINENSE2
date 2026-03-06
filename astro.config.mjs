@@ -1,30 +1,49 @@
 import { defineConfig } from 'astro/config';
-import vercel from '@astrojs/vercel/serverless';
 import react from '@astrojs/react';
 import tailwindcss from '@tailwindcss/vite';
+import vercel from '@astrojs/vercel/serverless';
+import netlify from '@astrojs/netlify';
+
+// Verifica se está rodando na Vercel
+const isVercel = process.env.VERCEL === '1';
 
 export default defineConfig({
-    // Mudamos para 'hybrid' para que o site seja estático por padrão (mais rápido e gasta menos banda)
-    output: 'hybrid', 
-    
-    adapter: vercel({
-        webAnalytics: { enabled: true },
-        // Configuração para otimizar suas imagens AVIF na infraestrutura da Vercel
-        imagesConfig: {
-            sizes: [320, 640, 1280, 1920],
-            formats: ['image/avif', 'image/webp'],
-            minimumCacheTTL: 60 * 60 * 24 * 30, // 30 dias de cache na CDN para as imagens
-        }
-    }),
+    // Mantemos 'hybrid' para performance, funciona em ambos os ambientes
+    output: 'hybrid',
+
+    // Seleciona o adaptador automaticamente
+    adapter: isVercel 
+        ? vercel({
+            webAnalytics: { enabled: true },
+            imagesConfig: {
+                sizes: [320, 640, 1280, 1920],
+                formats: ['image/avif', 'image/webp'],
+                minimumCacheTTL: 60 * 60 * 24 * 30,
+            }
+        }) 
+        : netlify({
+            devFeatures: {
+                environmentVariables: true
+            }
+        }),
 
     integrations: [react()],
 
     vite: {
         plugins: [tailwindcss()],
         build: {
-            // Minifica o CSS e JS ao máximo para reduzir os 20MB do site
+            // Otimizações de minificação que você pediu
             cssMinify: 'lightningcss',
-            chunkSizeWarningLimit: 500
+            chunkSizeWarningLimit: 500,
+            rollupOptions: {
+                output: {
+                    manualChunks(id) {
+                        if (id.includes('node_modules')) {
+                            return 'vendor';
+                        }
+                    }
+                }
+            }
         }
     }
 });
