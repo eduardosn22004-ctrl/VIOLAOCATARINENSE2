@@ -8,10 +8,10 @@ import netlify from '@astrojs/netlify';
 const isVercel = process.env.VERCEL === '1';
 
 export default defineConfig({
-    // Mantemos 'hybrid' para performance, funciona em ambos os ambientes
-    output: 'hybrid',
+    // No Astro 5, usamos 'static' (padrão). 
+    // Para rotas dinâmicas, usamos 'export const prerender = false' na própria página.
+    output: 'static',
 
-    // Seleciona o adaptador automaticamente
     adapter: isVercel 
         ? vercel({
             webAnalytics: { enabled: true },
@@ -32,18 +32,8 @@ export default defineConfig({
     vite: {
         plugins: [tailwindcss()],
         build: {
-            // Otimizações de minificação que você pediu
             cssMinify: 'lightningcss',
-            chunkSizeWarningLimit: 500,
-            rollupOptions: {
-                output: {
-                    manualChunks(id) {
-                        if (id.includes('node_modules')) {
-                            return 'vendor';
-                        }
-                    }
-                }
-            }
+            chunkSizeWarningLimit: 500
         }
     }
 });
