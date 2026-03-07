@@ -1,8 +1,332 @@
 ---
 import Layout from '../layouts/Layout.astro';
+
+// 1. BANCO DE DADOS DAS BIOGRAFIAS
+const musicos = [
+  {
+    id: "edino-krieger", // ESTE ID DEVE SER IGUAL AO DO CATÁLOGO
+    nome: "Edino Krieger",
+    foto: "/images/pessoas/edino1.avif",
+    bio: `<p>Nascido em Brusque, é um dos mais importantes compositores brasileiros...</p>`,
+    galeria: ["/images/pessoas/vitorgar2.avif"],
+    eh_compositor: true,
+    eh_violonista: true,
+  },
+  {
+    id: "mario-da-silva", // ESTE ID DEVE SER IGUAL AO DO CATÁLOGO
+    nome: "Mário da Silva",
+    foto: "https://via.placeholder.com/300", // Foto de teste
+    bio: `<p>Biografia do Mário da Silva vai aqui...</p>`,
+    galeria: [],
+    eh_compositor: true,
+    eh_violonista: false,
+  }
+];
+
+function obter_atuacao(eh_compositor, eh_violonista) {
+    if (eh_compositor && eh_violonista) return "Compositor e Violonista";
+    if (eh_compositor) return "Compositor";
+    if (eh_violonista) return "Violonista";
+    return "";
+}
+
+// 2. BANCO DE DADOS DO CATÁLOGO
+const catalogo = [
+  {
+    id: "edino-krieger", // LIGAÇÃO COM A BIOGRAFIA DO EDINO
+    compositor: "Edino Krieger",
+    obras: [
+      { titulo: "Ritmata", ano: "1974", formacao: "Violão Solo", linkYoutube: "https://youtube.com/watch?v=exemplo" },
+      { titulo: "Romance", ano: "1953", formacao: "Violão Solo", linkYoutube: "" }
+    ]
+  },
+  {
+    id: "mario-da-silva", // LIGAÇÃO COM A BIOGRAFIA DO MÁRIO
+    compositor: "Mário da Silva",
+    obras: [
+      { titulo: "Valsa Nostálgica", ano: "1998", formacao: "Violão Solo", linkYoutube: "" }
+    ]
+  }
+];
+
+catalogo.sort((a, b) => a.compositor.localeCompare(b.compositor));
 ---
 
-<Layout title="Violão Catarinense">
-    </Layout>
+<Layout title="Catálogo - Violão Catarinense">
+    
+    <div class="min-h-screen px-4 py-16 md:py-24 text-stone-900">
+        
+        <div class="max-w-6xl mx-auto">
+            
+            <header class="text-center mb-12">
+                <h1 class="text-4xl md:text-5xl font-bold text-red-900 font-['Cinzel'] uppercase tracking-widest mb-6 drop-shadow-md">
+                    Catálogo de Obras
+                </h1>
+                <div class="w-32 h-[2px] bg-red-900/40 mx-auto mb-8 shadow-sm"></div>
+                <p class="text-xl font-serif italic text-stone-800 max-w-2xl mx-auto drop-shadow-sm">
+                    Índice completo do acervo histórico e contemporâneo do violão em Santa Catarina.
+                </p>
+            </header>
 
+            <div class="max-w-xl mx-auto mb-10 px-2">
+                <div class="relative group">
+                    <input 
+                        type="text" 
+                        id="buscaCatalogo"
+                        placeholder="Buscar por compositor, obra ou formação..." 
+                        class="w-full px-6 py-3 rounded-full border-2 border-stone-200 focus:border-red-900 focus:outline-none transition-all duration-300 shadow-sm text-lg font-serif italic text-stone-700 bg-white"
+                    />
+                </div>
+            </div>
 
+            <div class="w-full overflow-x-auto pb-8">
+                <table id="tabelaCatalogo" class="w-full text-left border-collapse min-w-[800px]">
+                    <thead>
+                        <tr class="border-b-2 border-red-900/40 text-red-950 font-['Cinzel'] text-lg tracking-wider drop-shadow-sm">
+                            <th class="py-5 px-6 font-bold w-1/4">Compositor</th>
+                            <th class="py-5 px-6 font-bold w-1/3">Obra</th>
+                            <th class="py-5 px-6 font-bold w-24">Ano</th>
+                            <th class="py-5 px-6 font-bold w-1/4">Formação</th>
+                            <th class="py-5 px-6 font-bold text-center w-32">Gravação</th>
+                        </tr>
+                    </thead>
+                    
+                    {catalogo.map((autor) => (
+                        <tbody class="hover:bg-stone-50 transition-colors duration-300 border-b-2 border-stone-800/10 group font-serif text-stone-800 text-lg">
+                            {autor.obras.map((obra, index) => (
+                                <tr class="border-b border-stone-800/5 last:border-0">
+                                    
+                                    {index === 0 && (
+                                        <td class="py-4 px-6 font-bold align-top" rowspan={autor.obras.length}>
+                                            <button 
+                                                onclick={`abrirModal('${autor.id}')`}
+                                                class="text-red-950 hover:text-red-700 transition-colors drop-shadow-sm text-left decoration-dotted underline underline-offset-4 decoration-red-900/30 hover:decoration-red-700 cursor-pointer"
+                                                title={`Ler biografia de ${autor.compositor}`}
+                                            >
+                                                {autor.compositor}
+                                            </button>
+                                        </td>
+                                    )}
+                                    
+                                    <td class="py-4 px-6 italic font-medium drop-shadow-sm">{obra.titulo}</td>
+                                    <td class="py-4 px-6 text-stone-600 drop-shadow-sm">{obra.ano || "—"}</td>
+                                    <td class="py-4 px-6 text-stone-600 drop-shadow-sm">{obra.formacao}</td>
+                                    <td class="py-4 px-6 text-center">
+                                        {obra.linkYoutube ? (
+                                            <a href={obra.linkYoutube} target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center gap-1.5 px-4 py-1.5 border border-red-900/40 text-red-900 text-sm hover:bg-red-900 hover:text-white rounded transition-all duration-300 shadow-sm hover:shadow-md">
+                                                <span class="font-sans font-semibold tracking-wide uppercase text-xs">Ouvir</span>
+                                            </a>
+                                        ) : (
+                                            <span class="text-stone-400/60 italic text-sm font-sans drop-shadow-sm">—</span>
+                                        )}
+                                    </td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    ))}
+                </table>
+            </div>
+        </div>
+    </div>
+
+    {/* DIVS ESCONDIDAS (AQUI FICAM OS DADOS DO MODAL) */}
+    <div id="dados-biografias" class="hidden">
+        {musicos.map((musico) => {
+            const textoAtuacao = obter_atuacao(musico.eh_compositor, musico.eh_violonista);
+            return (
+                <div id={`data-${musico.id}`} data-nome={musico.nome} data-foto={musico.foto} data-galeria={JSON.stringify(musico.galeria || [])} data-atuacao={textoAtuacao}>
+                    <div class="data-bio" set:html={musico.bio}></div>
+                </div>
+            );
+        })}
+    </div>
+
+    {/* ESTRUTURA VISUAL DO MODAL */}
+    <div id="modal-overlay" class="fixed inset-0 z-50 hidden bg-black/30 backdrop-blur-sm flex items-center justify-center p-2 md:p-6 opacity-0 transition-opacity duration-300">
+        <div class="bg-white rounded-3xl w-full max-w-5xl max-h-[92vh] overflow-y-auto shadow-2xl relative transform scale-95 transition-transform duration-300 custom-scrollbar" id="modal-content">
+            <button onclick="fecharModal()" class="absolute top-6 right-6 bg-white/10 hover:bg-white/20 text-white rounded-full p-2.5 transition-colors z-30 border border-white/20">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-6"><path d="M6 18L18 6M6 6l12 12" /></svg>
+            </button>
+            <div class="p-8 md:p-14 flex flex-col md:flex-row items-center gap-10 bg-stone-400 relative overflow-hidden">
+                <div class="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-8 border-stone-400 shadow-2xl flex-shrink-0 z-10">
+                    <img id="modal-header-img" src="" alt="" class="w-full h-full object-cover" />
+                </div>
+                <div class="text-center md:text-left z-10">
+                    <h2 id="modal-title" class="text-4xl md:text-6xl font-black text-red-800 leading-none tracking-tighter drop-shadow-md"></h2>
+                    <span id="modal-atuacao" class="block text-xl text-stone-100 font-serif italic mt-3 drop-shadow-sm"></span>
+                </div>
+            </div>
+            <div class="p-8 md:p-14">
+                <div id="modal-bio" class="text-base text-gray-700 leading-relaxed space-y-6 text-justify"></div>
+            </div>
+            <div id="gallery-section" class="bg-stone-100 p-8 md:p-14 border-t border-gray-100">
+                <div class="relative max-w-4xl mx-auto group/gallery">
+                    <div class="aspect-video bg-stone-300 rounded-3xl overflow-hidden shadow-inner flex items-center justify-center relative border-8 border-white">
+                        <img id="modal-gallery-img" src="" alt="" class="max-w-full max-h-full object-contain transition-opacity duration-300 opacity-100" />
+                    </div>
+                    <div class="absolute inset-0 flex items-center justify-between px-6 pointer-events-none">
+                        <button onclick="mudarFoto(-1)" class="pointer-events-auto p-4 rounded-full bg-white/95 hover:bg-red-700 text-red-700 hover:text-white transition-all opacity-0 group-hover/gallery:opacity-100">◀</button>
+                        <button onclick="mudarFoto(1)" class="pointer-events-auto p-4 rounded-full bg-white/95 hover:bg-red-700 text-red-700 hover:text-white transition-all opacity-0 group-hover/gallery:opacity-100">▶</button>
+                    </div>
+                    <div id="gallery-counter" class="text-center mt-8 text-sm font-black text-gray-400 tracking-widest">1 / 1</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</Layout>
+
+<style>
+    .custom-scrollbar::-webkit-scrollbar { width: 10px; }
+    .custom-scrollbar::-webkit-scrollbar-track { background: #f1f1f1; }
+    .custom-scrollbar::-webkit-scrollbar-thumb { background: #b91c1c; border-radius: 10px; }
+    body.modal-open { overflow: hidden; }
+</style>
+
+<script is:inline>
+    let galeriaAtual = [];
+    let indiceAtual = 0;
+
+    window.abrirModal = function(id) {
+        const dataDiv = document.getElementById(`data-${id}`);
+        
+        // SISTEMA DE SEGURANÇA: Avisa se esquecemos de colocar a biografia no array 'musicos'
+        if (!dataDiv) {
+            alert("A biografia deste compositor ainda não foi cadastrada no banco de dados (array 'musicos').");
+            return;
+        }
+
+        const modalOverlay = document.getElementById('modal-overlay');
+        const modalContent = document.getElementById('modal-content');
+
+        // Puxando os dados
+        galeriaAtual = JSON.parse(dataDiv.getAttribute('data-galeria') || "[]");
+        indiceAtual = 0;
+
+        document.getElementById('modal-title').innerText = dataDiv.getAttribute('data-nome');
+        document.getElementById('modal-atuacao').innerText = dataDiv.getAttribute('data-atuacao');
+        document.getElementById('modal-header-img').src = dataDiv.getAttribute('data-foto');
+        document.getElementById('modal-bio').innerHTML = dataDiv.querySelector('.data-bio').innerHTML;
+        
+        document.getElementById('gallery-section').style.display = galeriaAtual.length > 0 ? 'block' : 'none';
+        atualizarGaleria();
+
+        // Animação de abertura
+        modalOverlay.classList.remove('hidden');
+        document.body.classList.add('modal-open');
+
+        setTimeout(() => {
+            modalOverlay.classList.remove('opacity-0');
+            modalContent.classList.remove('scale-95');
+            modalContent.classList.add('scale-100');
+        }, 10);
+    }
+
+    window.mudarFoto = function(direcao) {
+        if (galeriaAtual.length === 0) return;
+        const galleryImg = document.getElementById('modal-gallery-img');
+        galleryImg.style.opacity = '0';
+        setTimeout(() => {
+            indiceAtual = (indiceAtual + direcao + galeriaAtual.length) % galeriaAtual.length;
+            atualizarGaleria();
+            galleryImg.onload = () => galleryImg.style.opacity = '1';
+        }, 200);
+    }
+
+    window.atualizarGaleria = function() {
+        if (galeriaAtual.length > 0) {
+            document.getElementById('modal-gallery-img').src = galeriaAtual[indiceAtual];
+            document.getElementById('gallery-counter').innerText = `${indiceAtual + 1} / ${galeriaAtual.length}`;
+        }
+    }
+
+    window.fecharModal = function() {
+        const modalOverlay = document.getElementById('modal-overlay');
+        const modalContent = document.getElementById('modal-content');
+        modalOverlay.classList.add('opacity-0');
+        modalContent.classList.remove('scale-100');
+        modalContent.classList.add('scale-95');
+        setTimeout(() => {
+            modalOverlay.classList.add('hidden');
+            document.body.classList.remove('modal-open');
+        }, 300);
+    }
+
+    // Fechar ao clicar fora ou apertar ESC
+    document.addEventListener('click', (e) => { 
+        if (e.target.id === 'modal-overlay') fecharModal(); 
+    });
+    document.addEventListener('keydown', (e) => {
+        const modalOverlay = document.getElementById('modal-overlay');
+        if (e.key === 'Escape' && !modalOverlay.classList.contains('hidden')) fecharModal();
+        if (e.key === 'ArrowRight' && galeriaAtual.length > 1) mudarFoto(1);
+        if (e.key === 'ArrowLeft' && galeriaAtual.length > 1) mudarFoto(-1);
+    });
+</script>
+
+<script is:inline define:vars={{ catalogo }}>
+    document.addEventListener('DOMContentLoaded', () => {
+        const inputBusca = document.getElementById('buscaCatalogo');
+        const tabela = document.getElementById('tabelaCatalogo');
+        
+        const tbodiesOriginais = Array.from(tabela.querySelectorAll('tbody'));
+        const htmlOriginal = tbodiesOriginais.map(tb => tb.outerHTML).join('');
+
+        inputBusca.addEventListener('input', (e) => {
+            const termo = e.target.value.toLowerCase().trim();
+            tabela.querySelectorAll('tbody').forEach(tb => tb.remove());
+
+            if (termo === '') {
+                tabela.insertAdjacentHTML('beforeend', htmlOriginal);
+                return;
+            }
+
+            let htmlFiltrado = '';
+            let encontrouAlgo = false;
+
+            catalogo.forEach(autor => {
+                const obrasFiltradas = autor.obras.filter(obra => 
+                    obra.titulo.toLowerCase().includes(termo) ||
+                    obra.formacao.toLowerCase().includes(termo) ||
+                    autor.compositor.toLowerCase().includes(termo)
+                );
+
+                if (obrasFiltradas.length > 0) {
+                    encontrouAlgo = true;
+                    htmlFiltrado += `<tbody class="hover:bg-stone-50 transition-colors duration-300 border-b-2 border-stone-800/10 font-serif text-stone-800 text-lg">`;
+                    
+                    obrasFiltradas.forEach((obra, index) => {
+                        htmlFiltrado += `<tr class="border-b border-stone-800/5 last:border-0">`;
+                        
+                        if (index === 0) {
+                            htmlFiltrado += `
+                            <td class="py-4 px-6 font-bold align-top" rowspan="${obrasFiltradas.length}">
+                                <button onclick="abrirModal('${autor.id}')" class="text-red-950 hover:text-red-700 transition-colors drop-shadow-sm text-left decoration-dotted underline underline-offset-4 decoration-red-900/30 hover:decoration-red-700 cursor-pointer">
+                                    ${autor.compositor}
+                                </button>
+                            </td>`;
+                        }
+                        
+                        htmlFiltrado += `<td class="py-4 px-6 italic font-medium drop-shadow-sm">${obra.titulo}</td>`;
+                        htmlFiltrado += `<td class="py-4 px-6 text-stone-600 drop-shadow-sm">${obra.ano || "—"}</td>`;
+                        htmlFiltrado += `<td class="py-4 px-6 text-stone-600 drop-shadow-sm">${obra.formacao}</td>`;
+                        htmlFiltrado += `<td class="py-4 px-6 text-center">`;
+                        if (obra.linkYoutube) {
+                            htmlFiltrado += `<a href="${obra.linkYoutube}" target="_blank" class="inline-flex items-center justify-center px-4 py-1.5 border border-red-900/40 text-red-900 text-sm hover:bg-red-900 hover:text-white rounded transition-all shadow-sm">Ouvir</a>`;
+                        } else {
+                            htmlFiltrado += `<span class="text-stone-400/60 italic text-sm">—</span>`;
+                        }
+                        htmlFiltrado += `</td></tr>`;
+                    });
+                    
+                    htmlFiltrado += `</tbody>`;
+                }
+            });
+
+            if (!encontrouAlgo) {
+                htmlFiltrado = `<tbody><tr><td colspan="5" class="py-12 text-center text-stone-500 font-serif italic text-xl">Nenhum resultado encontrado.</td></tr></tbody>`;
+            }
+
+            tabela.insertAdjacentHTML('beforeend', htmlFiltrado);
+        });
+    });
+</script>
