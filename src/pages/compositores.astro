@@ -501,20 +501,32 @@ musicos.sort((a, b) => a.nome.localeCompare(b.nome));
 
 <Layout title="Violão Catarinense">
     
- <header class="flex flex-col items-center text-center pt-0 pb-6 mb-10"> <script is:inline src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-
-    <div class="flex flex-col items-center text-center py-4">
+ <header class="flex flex-col items-center text-center pt-0 pb-6 mb-10">
+    <div class="flex flex-col items-center text-center py-4 w-full">
         <h1 class="flex items-center justify-center gap-4 md:gap-6 text-4xl md:text-5xl font-bold text-red-700 font-['Cinzel'] uppercase tracking-tight">
-            <div class="w-32 h-32 md:w-56 md:h-56 shrink-0 flex items-center justify-center">
-                <lottie-player 
-                    src="/animacao-violao.json" 
-                    background="transparent" 
-                    speed="1" 
-                    style="width: 100%; height: 100%;" 
-                    loop 
-                    autoplay>
-                </lottie-player>
+            
+            <div class="w-32 h-32 pt-15 md:w-56 md:h-56 shrink-0 flex items-center justify-center relative overflow-hidden">
+                <svg viewBox="0 0 100 100" class="w-full h-full text-red-700 drop-shadow-md" xmlns="http://www.w3.org/2000/svg">
+                    <g stroke="#e5e7eb" stroke-width="1.5" fill="none" stroke-linecap="round">
+                        <path d="M 10,40 Q 50,25 90,40" class="animate-pulse" />
+                        <path d="M 10,50 Q 50,35 90,50" class="animate-pulse" style="animation-delay: 0.5s;" />
+                        <path d="M 10,60 Q 50,45 90,60" class="animate-pulse" style="animation-delay: 1s;" />
+                    </g>
+
+                    <g class="animate-note-1" fill="currentColor">
+                        <path d="M45,65 C45,68.3 42.3,71 39,71 C35.7,71 33,68.3 33,65 C33,61.7 35.7,59 39,59 C41,59 42.7,60 43.8,61.4 L44.8,30 L65,25 L65,55 C65,58.3 62.3,61 59,61 C55.7,61 53,58.3 53,55 C53,51.7 55.7,49 59,49 C61,49 62.7,50 63.8,51.4 L63.8,31.5 L46.2,35.8 L45,65 Z"/>
+                    </g>
+                    
+                    <g class="animate-note-2" fill="currentColor">
+                        <path d="M25,80 C25,82.2 23.2,84 21,84 C18.8,84 17,82.2 17,80 C17,77.8 18.8,76 21,76 C22.3,76 23.5,76.7 24.2,77.6 L25,50 L35,47 L35,51.5 L26.5,54 L25,80 Z"/>
+                    </g>
+                    
+                    <g class="animate-note-3" fill="currentColor">
+                        <path d="M85,45 C85,47.2 83.2,49 81,49 C78.8,49 77,47.2 77,45 C77,42.8 78.8,41 81,41 C82.3,41 83.5,41.7 84.2,42.6 L85,15 L95,12 L95,16.5 L86.5,19 L85,45 Z"/>
+                    </g>
+                </svg>
             </div>
+
             <span class="relative after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[2px] after:bg-red-700">
                 Compositores e Violonistas
             </span>
@@ -544,6 +556,28 @@ musicos.sort((a, b) => a.nome.localeCompare(b.nome));
         </div>
     </div>
 </header>
+
+<style>
+    /* Animações das notas musicais subindo e desaparecendo suavemente */
+    .animate-note-1 {
+        animation: float-music 4s ease-in-out infinite;
+    }
+    .animate-note-2 {
+        animation: float-music 5s ease-in-out infinite 1.5s;
+        opacity: 0; /* Começa invisível até a animação rodar */
+    }
+    .animate-note-3 {
+        animation: float-music 6s ease-in-out infinite 0.7s;
+        opacity: 0;
+    }
+
+    @keyframes float-music {
+        0% { transform: translateY(15px) rotate(-10deg) scale(0.8); opacity: 0; }
+        20% { opacity: 0.8; }
+        80% { opacity: 0.8; }
+        100% { transform: translateY(-25px) rotate(15deg) scale(1.1); opacity: 0; }
+    }
+</style>
 
 
         <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-4" id="musicosContainer">
