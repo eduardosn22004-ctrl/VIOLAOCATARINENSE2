@@ -151,12 +151,12 @@ function obter_atuacao(eh_compositor, eh_violonista) {
                     <span id="modal-atuacao" class="block text-xl text-stone-100 font-serif italic mt-3 drop-shadow-sm"></span>
                     
                     <div class="flex flex-wrap justify-center md:justify-start gap-3 mt-6">
-                     <a href="/catalogo" class="no-underline bg-stone-100 hover:bg-white text-red-800 text-sm font-bold uppercase tracking-wider py-2.5 px-6 rounded-full shadow-md transition-transform hover:-translate-y-0.5 border border-transparent hover:border-red-200">
+                     <a id="btn-catalogo-modal" href="/catalogo" class="no-underline bg-stone-100 hover:bg-white text-red-800 text-sm font-bold uppercase tracking-wider py-2.5 px-6 rounded-full shadow-md transition-transform hover:-translate-y-0.5 border border-transparent hover:border-red-200">
                      Catálogo do Site
                      </a>
-                     <a href="/discografia" class="no-underline bg-stone-100 hover:bg-white text-red-800 text-sm font-bold uppercase tracking-wider py-2.5 px-6 rounded-full shadow-md transition-transform hover:-translate-y-0.5 border border-transparent hover:border-red-200">
-                    Discografia
-                   </a>
+                     <a id="btn-discografia-modal" href="/discografia" class="no-underline bg-stone-100 hover:bg-white text-red-800 text-sm font-bold uppercase tracking-wider py-2.5 px-6 rounded-full shadow-md transition-transform hover:-translate-y-0.5 border border-transparent hover:border-red-200">
+                     Discografia
+                    </a>
                     </div>
                 </div>
             </div>
@@ -252,10 +252,20 @@ document.addEventListener('DOMContentLoaded', () => {
         galeriaAtual = JSON.parse(dataDiv.getAttribute('data-galeria'));
         indiceAtual = 0;
 
-        modalTitle.innerText = dataDiv.getAttribute('data-nome');
+        // --- MUDANÇA AQUI: Capturamos o nome para usar nos links ---
+        const nomeArtista = dataDiv.getAttribute('data-nome');
+
+        modalTitle.innerText = nomeArtista;
         // Puxa a atuação e injeta no modal
         modalAtuacao.innerText = dataDiv.getAttribute('data-atuacao');
         
+        // Atualiza os links dinamicamente com o nome do artista
+        const btnCatalogo = document.getElementById('btn-catalogo-modal');
+        if (btnCatalogo) btnCatalogo.href = '/catalogo?busca=' + encodeURIComponent(nomeArtista);
+
+        const btnDiscografia = document.getElementById('btn-discografia-modal');
+        if (btnDiscografia) btnDiscografia.href = '/discografia?busca=' + encodeURIComponent(nomeArtista);
+
         headerImg.src = dataDiv.getAttribute('data-foto');
         modalBio.innerHTML = dataDiv.querySelector('.data-bio').innerHTML;
         
