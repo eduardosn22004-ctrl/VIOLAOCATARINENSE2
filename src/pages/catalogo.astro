@@ -297,5 +297,14 @@ catalogo.sort((a, b) => a.compositor.localeCompare(b.compositor));
 
             tabela.insertAdjacentHTML('beforeend', htmlFiltrado);
         });
+
+        // --- LÓGICA NOVA: LÊ A URL E FILTRA AUTOMATICAMENTE ---
+        const urlParams = new URLSearchParams(window.location.search);
+        const buscaDaUrl = urlParams.get('busca');
+        
+        if (buscaDaUrl) {
+            inputBusca.value = buscaDaUrl; // Preenche o campo visualmente
+            inputBusca.dispatchEvent(new Event('input')); // Dispara o evento de filtro da tabela
+        }
     });
 </script>
