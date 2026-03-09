@@ -392,7 +392,7 @@ vivenciara desde menino. (Fonte: Cedido Pelo Compositor)
   },
 {
     id: "marcosdal",
-    nome: "Marcos Dalmacio",
+    nome: "Marcos Pablo Dalmacio",
     foto: "/images/pessoas/marcosdal1.avif",
     bio: `<p>
 
