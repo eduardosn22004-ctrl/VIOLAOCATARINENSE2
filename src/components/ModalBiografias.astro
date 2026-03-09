@@ -15,8 +15,8 @@
             {/* ADD ID AQUI: div da Imagem de Fundo (o JS vai injetar a imagem correta nela) */}
             <div id="modal-bg-image" class="absolute inset-0 z-0 bg-cover bg-center transition-all duration-500"></div>
             
-            {/* O Desfoque (Blur ajustado para 2px como você pediu no teste) e o Escurecimento */}
-            <div class="absolute inset-0 z-0 bg-stone-900/10 backdrop-blur-[2px]"></div>
+            {/* Escurecimento */}
+            <div class="absolute inset-0 z-0 bg-stone-900/24"></div>
             
             {/* O Conteúdo em si */}
             <div class="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-8 border-stone-200/50 shadow-2xl flex-shrink-0 z-10">
@@ -115,11 +115,11 @@
         const atuacaoLimpa = atuacaoArtista.toLowerCase().trim();
 
         if (atuacaoLimpa === 'compositor e violonista') {
-            urlImagemFundo = '/images/modalfundoeditado.jpg';
+            urlImagemFundo = '/images/fundo-violao.jpg';
         } else if (atuacaoLimpa === 'compositor') {
             urlImagemFundo = '/images/fundo-compositor.jpg';
         } else if (atuacaoLimpa === 'violonista') {
-            urlImagemFundo = '/images/fundo-violonista.jpg';
+            urlImagemFundo = '/images/fundo-violao.jpg';
             posicaoFundo = 'right center'; // Mantém para a direita
             escalaFundo = '85%'; // Escala exclusiva para o violonista (se quiser diferente)
         } else {
