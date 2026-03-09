@@ -4,6 +4,10 @@ import Layout from '../layouts/Layout.astro';
 // --- BANCO DE DADOS DOS MÚSICOS ---
 import { musicos } from '../data/musicos.js';
 
+// --- BANCO DE DADOS PARA VERIFICAÇÃO DOS BOTÕES ---
+import { catalogo } from '../data/catalogo.js';
+import { discografia } from '../data/discografia.js';
+
 
 musicos.sort((a, b) => a.nome.localeCompare(b.nome));
 
@@ -13,6 +17,16 @@ function obter_atuacao(eh_compositor, eh_violonista) {
     if (eh_compositor) return "Compositor";
     if (eh_violonista) return "Violonista";
     return "";
+}
+
+// Funções para verificar se o músico possui registros (usando o ID)
+function verificar_catalogo(id_musico) {
+    return catalogo.some(item => item.id === id_musico); 
+}
+
+// Verifica Discografia pelo NOME (nova lógica!)
+function verificar_discografia(nome_musico) {
+    return discografia.some(item => item.nome.toLowerCase().trim() === nome_musico.toLowerCase().trim());
 }
 ---
 
@@ -113,15 +127,22 @@ function obter_atuacao(eh_compositor, eh_violonista) {
                 {musico.nome}
             </h3>
 
-            {/* AQUI ENTRA A FUNÇÃO DA ATUAÇÃO (Embaixo do nome, em cinza) */}
             {textoAtuacao && (
                 <span class="block text-center text-gray-500 text-sm font-serif italic mt-1 group-hover:text-rose-500 transition-colors">
                     {textoAtuacao}
                 </span>
             )}
             
-            {/* Adicionei data-atuacao na div escondida para puxar pro Modal */}
-            <div id={`data-${musico.id}`} class="hidden" data-nome={musico.nome} data-foto={musico.foto} data-galeria={JSON.stringify(musico.galeria)} data-atuacao={textoAtuacao}>
+            {/* Div atualizada para receber os atributos de verificação */}
+            <div id={`data-${musico.id}`} 
+                 class="hidden" 
+                 data-nome={musico.nome} 
+                 data-foto={musico.foto} 
+                 data-galeria={JSON.stringify(musico.galeria)} 
+                 data-atuacao={textoAtuacao}
+                 data-tem-catalogo={verificar_catalogo(musico.id) ? "true" : "false"}
+                 data-tem-discografia={verificar_discografia(musico.nome) ? "true" : "false"}
+            >
                 <div class="data-bio" set:html={musico.bio}></div>
             </div>
         </div>
@@ -151,10 +172,10 @@ function obter_atuacao(eh_compositor, eh_violonista) {
                     <span id="modal-atuacao" class="block text-xl text-stone-100 font-serif italic mt-3 drop-shadow-sm"></span>
                     
                     <div class="flex flex-wrap justify-center md:justify-start gap-3 mt-6">
-                     <a id="btn-catalogo-modal" href="/catalogo" class="no-underline bg-stone-100 hover:bg-white text-red-800 text-sm font-bold uppercase tracking-wider py-2.5 px-6 rounded-full shadow-md transition-transform hover:-translate-y-0.5 border border-transparent hover:border-red-200">
-                     Catálogo de Obras
+                     <a id="btn-catalogo-modal" href="/catalogo" class="hidden no-underline bg-stone-100 hover:bg-white text-red-800 text-sm font-bold uppercase tracking-wider py-2.5 px-6 rounded-full shadow-md transition-transform hover:-translate-y-0.5 border border-transparent hover:border-red-200">
+                     Catálogo do Site
                      </a>
-                     <a id="btn-discografia-modal" href="/discografia" class="no-underline bg-stone-100 hover:bg-white text-red-800 text-sm font-bold uppercase tracking-wider py-2.5 px-6 rounded-full shadow-md transition-transform hover:-translate-y-0.5 border border-transparent hover:border-red-200">
+                     <a id="btn-discografia-modal" href="/discografia" class="hidden no-underline bg-stone-100 hover:bg-white text-red-800 text-sm font-bold uppercase tracking-wider py-2.5 px-6 rounded-full shadow-md transition-transform hover:-translate-y-0.5 border border-transparent hover:border-red-200">
                      Discografia
                     </a>
                     </div>
@@ -200,9 +221,8 @@ function obter_atuacao(eh_compositor, eh_violonista) {
 </style>
 
 <script is:inline>
-// Lógica da Barra de Pesquisa
 document.addEventListener('DOMContentLoaded', () => {
-    const searchInput = document.getElementById('buscaCatalogo'); // Corrigido o ID aqui baseado no HTML
+    const searchInput = document.getElementById('buscaCatalogo'); 
     const cards = document.querySelectorAll('.musico-card');
     const noResultsCards = document.getElementById('noResultsCards');
 
@@ -222,7 +242,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
 
-            // Mostra ou esconde a mensagem de "não encontrado" nos cards
             if (encontrouQualquer) {
                 noResultsCards.classList.add('hidden');
             } else {
@@ -238,7 +257,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalOverlay = document.getElementById('modal-overlay');
     const modalContent = document.getElementById('modal-content');
     const modalTitle = document.getElementById('modal-title');
-    const modalAtuacao = document.getElementById('modal-atuacao'); // Variável para a Atuação no Modal
+    const modalAtuacao = document.getElementById('modal-atuacao');
     const headerImg = document.getElementById('modal-header-img');
     const galleryImg = document.getElementById('modal-gallery-img');
     const modalBio = document.getElementById('modal-bio');
@@ -252,19 +271,27 @@ document.addEventListener('DOMContentLoaded', () => {
         galeriaAtual = JSON.parse(dataDiv.getAttribute('data-galeria'));
         indiceAtual = 0;
 
-        // --- MUDANÇA AQUI: Capturamos o nome para usar nos links ---
         const nomeArtista = dataDiv.getAttribute('data-nome');
-
         modalTitle.innerText = nomeArtista;
-        // Puxa a atuação e injeta no modal
         modalAtuacao.innerText = dataDiv.getAttribute('data-atuacao');
         
-        // Atualiza os links dinamicamente com o nome do artista
+        // --- LÓGICA DE EXIBIÇÃO DOS BOTÕES ---
+        const temCatalogo = dataDiv.getAttribute('data-tem-catalogo') === 'true';
+        const temDiscografia = dataDiv.getAttribute('data-tem-discografia') === 'true';
+
         const btnCatalogo = document.getElementById('btn-catalogo-modal');
-        if (btnCatalogo) btnCatalogo.href = '/catalogo?busca=' + encodeURIComponent(nomeArtista);
+        if (btnCatalogo) {
+            btnCatalogo.href = '/catalogo?busca=' + encodeURIComponent(nomeArtista);
+            if (temCatalogo) btnCatalogo.classList.remove('hidden');
+            else btnCatalogo.classList.add('hidden');
+        }
 
         const btnDiscografia = document.getElementById('btn-discografia-modal');
-        if (btnDiscografia) btnDiscografia.href = '/discografia?busca=' + encodeURIComponent(nomeArtista);
+        if (btnDiscografia) {
+            btnDiscografia.href = '/discografia?busca=' + encodeURIComponent(nomeArtista);
+            if (temDiscografia) btnDiscografia.classList.remove('hidden');
+            else btnDiscografia.classList.add('hidden');
+        }
 
         headerImg.src = dataDiv.getAttribute('data-foto');
         modalBio.innerHTML = dataDiv.querySelector('.data-bio').innerHTML;
