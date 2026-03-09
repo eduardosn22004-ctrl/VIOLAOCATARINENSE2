@@ -1,4 +1,4 @@
-export const catalogo = [
+export const discografia = [
   {
     nome: "Andrei Uller",
     albuns: [
