@@ -2,26 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 
 // 1. BANCO DE DADOS DAS BIOGRAFIAS
-const musicos = [
-  {
-    id: "edino-krieger", // ESTE ID DEVE SER IGUAL AO DO CATÁLOGO
-    nome: "Edino Krieger",
-    foto: "/images/pessoas/edino1.avif",
-    bio: `<p>Nascido em Brusque, é um dos mais importantes compositores brasileiros...</p>`,
-    galeria: ["/images/pessoas/edino1.avif"],
-    eh_compositor: true,
-    eh_violonista: true,
-  },
-  {
-    id: "villallobos", // ESTE ID DEVE SER IGUAL AO DO CATÁLOGO
-    nome: "Heitor Villa-Lobos",
-    foto: "https://via.placeholder.com/300", // Foto de teste
-    bio: `<p>Biografia vai aqui...</p>`,
-    galeria: [],
-    eh_compositor: true,
-    eh_violonista: false,
-  }
-];
+import { musicos } from '../data/musicos.js';
 
 function obter_atuacao(eh_compositor, eh_violonista) {
     if (eh_compositor && eh_violonista) return "Compositor e Violonista";
