@@ -1,6 +1,5 @@
-
 ---
-//Lógica do Modal das biografias.
+// Este arquivo é um Componente e contém apenas a estrutura e a lógica do Modal.
 ---
 
 <div id="modal-overlay" class="fixed inset-0 z-50 hidden bg-black/30 backdrop-blur-sm flex items-center justify-center p-2 md:p-6 opacity-0 transition-opacity duration-300">
@@ -11,20 +10,28 @@
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-6"><path d="M6 18L18 6M6 6l12 12" /></svg>
         </button>
 
-        <div class="p-8 md:p-14 flex flex-col md:flex-row items-center gap-10 bg-stone-400 relative overflow-hidden">
-            <div class="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-8 border-stone-400 shadow-2xl flex-shrink-0 z-10">
+        <div class="relative p-8 md:p-14 flex flex-col md:flex-row items-center gap-10 overflow-hidden">
+            
+            {/* ADD ID AQUI: div da Imagem de Fundo (o JS vai injetar a imagem correta nela) */}
+            <div id="modal-bg-image" class="absolute inset-0 z-0 bg-cover bg-center transition-all duration-500"></div>
+            
+            {/* O Desfoque (Blur ajustado para 2px como você pediu no teste) e o Escurecimento */}
+            <div class="absolute inset-0 z-0 bg-stone-900/10 backdrop-blur-[2px]"></div>
+            
+            {/* O Conteúdo em si */}
+            <div class="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-8 border-stone-200/50 shadow-2xl flex-shrink-0 z-10">
                 <img id="modal-header-img" src="" alt="" class="w-full h-full object-cover" />
             </div>
             
             <div class="text-center md:text-left z-10">
-                <h2 id="modal-title" class="text-4xl md:text-6xl font-black text-red-800 leading-none tracking-tighter"></h2>
-                <span id="modal-atuacao" class="block text-xl text-stone-100 font-serif italic mt-3 drop-shadow-sm"></span>
+                <h2 id="modal-title" class="text-4xl md:text-6xl font-black text-white drop-shadow-lg leading-none tracking-tighter"></h2>
+                <span id="modal-atuacao" class="block text-xl text-stone-200 font-serif italic mt-3 drop-shadow-md"></span>
                 
                 <div class="flex flex-wrap justify-center md:justify-start gap-3 mt-6">
-                 <a id="btn-catalogo-modal" href="/catalogo" class="hidden no-underline bg-stone-100 hover:bg-white text-red-800 text-sm font-bold uppercase tracking-wider py-2.5 px-6 rounded-full shadow-md transition-transform hover:-translate-y-0.5 border border-transparent hover:border-red-200">
+                 <a id="btn-catalogo-modal" href="/catalogo" class="hidden no-underline bg-white/90 hover:bg-white text-stone-900 text-sm font-bold uppercase tracking-wider py-2.5 px-6 rounded-full shadow-lg transition-transform hover:-translate-y-0.5 border border-transparent">
                  Catálogo do Site
                  </a>
-                 <a id="btn-discografia-modal" href="/discografia" class="hidden no-underline bg-stone-100 hover:bg-white text-red-800 text-sm font-bold uppercase tracking-wider py-2.5 px-6 rounded-full shadow-md transition-transform hover:-translate-y-0.5 border border-transparent hover:border-red-200">
+                 <a id="btn-discografia-modal" href="/discografia" class="hidden no-underline bg-white/90 hover:bg-white text-stone-900 text-sm font-bold uppercase tracking-wider py-2.5 px-6 rounded-full shadow-lg transition-transform hover:-translate-y-0.5 border border-transparent">
                  Discografia
                 </a>
                 </div>
@@ -81,18 +88,42 @@
     const modalBio = document.getElementById('modal-bio');
     const gallerySection = document.getElementById('gallery-section');
     const galleryCounter = document.getElementById('gallery-counter');
+    const modalBgImage = document.getElementById('modal-bg-image'); // Variável para o fundo
 
     window.abrirModal = (id) => {
         const dataDiv = document.getElementById(`data-${id}`);
-        if (!dataDiv) return;
+        
+        if (!dataDiv) {
+            console.warn("A biografia deste compositor ainda não foi cadastrada no banco de dados.");
+            return;
+        }
 
-        galeriaAtual = JSON.parse(dataDiv.getAttribute('data-galeria'));
+        galeriaAtual = JSON.parse(dataDiv.getAttribute('data-galeria') || "[]");
         indiceAtual = 0;
 
         const nomeArtista = dataDiv.getAttribute('data-nome');
+        const atuacaoArtista = dataDiv.getAttribute('data-atuacao');
+
         modalTitle.innerText = nomeArtista;
-        modalAtuacao.innerText = dataDiv.getAttribute('data-atuacao');
+        modalAtuacao.innerText = atuacaoArtista;
         
+        // --- NOVA LÓGICA DE FUNDO DINÂMICO ---
+        let urlImagemFundo = '';
+        
+        if (atuacaoArtista === 'Compositor e Violonista') {
+            urlImagemFundo = '/images/fundo-violonista.jpg';
+        } else if (atuacaoArtista === 'Compositor') {
+            urlImagemFundo = '/images/fundo-violonista.jpg';
+        } else if (atuacaoArtista === 'Violonista') {
+            urlImagemFundo = '/images/fundo-violonista.jpg';
+        } else {
+            urlImagemFundo = '/images/fundo-padrao.jpg'; // Segurança caso o campo venha vazio
+        }
+        
+        // Aplica a imagem na div de fundo
+        modalBgImage.style.backgroundImage = `url('${urlImagemFundo}')`;
+        // --------------------------------------
+
         // --- LÓGICA DE EXIBIÇÃO DOS BOTÕES ---
         const temCatalogo = dataDiv.getAttribute('data-tem-catalogo') === 'true';
         const temDiscografia = dataDiv.getAttribute('data-tem-discografia') === 'true';
@@ -114,7 +145,7 @@
         headerImg.src = dataDiv.getAttribute('data-foto');
         modalBio.innerHTML = dataDiv.querySelector('.data-bio').innerHTML;
         
-        gallerySection.style.display = galeriaAtual.length > 0 ? 'block' : 'none';
+        document.getElementById('gallery-section').style.display = galeriaAtual.length > 0 ? 'block' : 'none';
         atualizarGaleria();
 
         modalOverlay.classList.remove('hidden');
@@ -128,6 +159,8 @@
     }
 
     window.mudarFoto = (direcao) => {
+        if (galeriaAtual.length === 0) return;
+        const galleryImg = document.getElementById('modal-gallery-img');
         galleryImg.style.opacity = '0';
         setTimeout(() => {
             indiceAtual = (indiceAtual + direcao + galeriaAtual.length) % galeriaAtual.length;
@@ -136,12 +169,16 @@
         }, 200);
     }
 
-    function atualizarGaleria() {
-        galleryImg.src = galeriaAtual[indiceAtual];
-        galleryCounter.innerText = `${indiceAtual + 1} / ${galeriaAtual.length}`;
+    window.atualizarGaleria = function() {
+        if (galeriaAtual.length > 0) {
+            document.getElementById('modal-gallery-img').src = galeriaAtual[indiceAtual];
+            document.getElementById('gallery-counter').innerText = `${indiceAtual + 1} / ${galeriaAtual.length}`;
+        }
     }
 
-    window.fecharModal = () => {
+    window.fecharModal = function() {
+        const modalOverlay = document.getElementById('modal-overlay');
+        const modalContent = document.getElementById('modal-content');
         modalOverlay.classList.add('opacity-0');
         modalContent.classList.remove('scale-100');
         modalContent.classList.add('scale-95');
@@ -151,8 +188,11 @@
         }, 300);
     }
 
-    modalOverlay.addEventListener('click', (e) => { if (e.target === modalOverlay) fecharModal(); });
+    document.addEventListener('click', (e) => { 
+        if (e.target.id === 'modal-overlay') fecharModal(); 
+    });
     document.addEventListener('keydown', (e) => {
+        const modalOverlay = document.getElementById('modal-overlay');
         if (e.key === 'Escape' && !modalOverlay.classList.contains('hidden')) fecharModal();
         if (e.key === 'ArrowRight' && galeriaAtual.length > 1) mudarFoto(1);
         if (e.key === 'ArrowLeft' && galeriaAtual.length > 1) mudarFoto(-1);
