@@ -14,7 +14,19 @@ function obter_atuacao(eh_compositor, eh_violonista) {
 // 2. BANCO DE DADOS DO CATÁLOGO
 import { catalogo } from '../data/catalogo.js';
 
+// 3. BANCO DE DADOS DA DISCOGRAFIA (Para verificar os botões)
+import { discografia } from '../data/discografia.js';
+
 catalogo.sort((a, b) => a.compositor.localeCompare(b.compositor));
+
+// Funções para verificar se o músico possui registros
+function verificar_catalogo(id_musico) {
+    return catalogo.some(item => item.id === id_musico); 
+}
+
+function verificar_discografia(nome_musico) {
+    return discografia.some(item => item.nome.toLowerCase().trim() === nome_musico.toLowerCase().trim());
+}
 ---
 
 <Layout title="Violão Catarinense">
@@ -99,7 +111,14 @@ catalogo.sort((a, b) => a.compositor.localeCompare(b.compositor));
         {musicos.map((musico) => {
             const textoAtuacao = obter_atuacao(musico.eh_compositor, musico.eh_violonista);
             return (
-                <div id={`data-${musico.id}`} data-nome={musico.nome} data-foto={musico.foto} data-galeria={JSON.stringify(musico.galeria || [])} data-atuacao={textoAtuacao}>
+                <div id={`data-${musico.id}`} 
+                     data-nome={musico.nome} 
+                     data-foto={musico.foto} 
+                     data-galeria={JSON.stringify(musico.galeria || [])} 
+                     data-atuacao={textoAtuacao}
+                     data-tem-catalogo={verificar_catalogo(musico.id) ? "true" : "false"}
+                     data-tem-discografia={verificar_discografia(musico.nome) ? "true" : "false"}
+                >
                     <div class="data-bio" set:html={musico.bio}></div>
                 </div>
             );
@@ -119,6 +138,15 @@ catalogo.sort((a, b) => a.compositor.localeCompare(b.compositor));
                 <div class="text-center md:text-left z-10">
                     <h2 id="modal-title" class="text-4xl md:text-6xl font-black text-red-800 leading-none tracking-tighter drop-shadow-md"></h2>
                     <span id="modal-atuacao" class="block text-xl text-stone-100 font-serif italic mt-3 drop-shadow-sm"></span>
+                    
+                    <div class="flex flex-wrap justify-center md:justify-start gap-3 mt-6">
+                        <a id="btn-catalogo-modal" href="/catalogo" class="hidden no-underline bg-stone-100 hover:bg-white text-red-800 text-sm font-bold uppercase tracking-wider py-2.5 px-6 rounded-full shadow-md transition-transform hover:-translate-y-0.5 border border-transparent hover:border-red-200">
+                            Catálogo do Site
+                        </a>
+                        <a id="btn-discografia-modal" href="/discografia" class="hidden no-underline bg-stone-100 hover:bg-white text-red-800 text-sm font-bold uppercase tracking-wider py-2.5 px-6 rounded-full shadow-md transition-transform hover:-translate-y-0.5 border border-transparent hover:border-red-200">
+                            Discografia
+                        </a>
+                    </div>
                 </div>
             </div>
             <div class="p-8 md:p-14">
@@ -171,10 +199,30 @@ catalogo.sort((a, b) => a.compositor.localeCompare(b.compositor));
         galeriaAtual = JSON.parse(dataDiv.getAttribute('data-galeria') || "[]");
         indiceAtual = 0;
 
-        document.getElementById('modal-title').innerText = dataDiv.getAttribute('data-nome');
+        const nomeArtista = dataDiv.getAttribute('data-nome');
+
+        document.getElementById('modal-title').innerText = nomeArtista;
         document.getElementById('modal-atuacao').innerText = dataDiv.getAttribute('data-atuacao');
         document.getElementById('modal-header-img').src = dataDiv.getAttribute('data-foto');
         document.getElementById('modal-bio').innerHTML = dataDiv.querySelector('.data-bio').innerHTML;
+        
+        // --- LÓGICA DE EXIBIÇÃO DOS BOTÕES ---
+        const temCatalogo = dataDiv.getAttribute('data-tem-catalogo') === 'true';
+        const temDiscografia = dataDiv.getAttribute('data-tem-discografia') === 'true';
+
+        const btnCatalogo = document.getElementById('btn-catalogo-modal');
+        if (btnCatalogo) {
+            btnCatalogo.href = '/catalogo?busca=' + encodeURIComponent(nomeArtista);
+            if (temCatalogo) btnCatalogo.classList.remove('hidden');
+            else btnCatalogo.classList.add('hidden');
+        }
+
+        const btnDiscografia = document.getElementById('btn-discografia-modal');
+        if (btnDiscografia) {
+            btnDiscografia.href = '/discografia?busca=' + encodeURIComponent(nomeArtista);
+            if (temDiscografia) btnDiscografia.classList.remove('hidden');
+            else btnDiscografia.classList.add('hidden');
+        }
         
         document.getElementById('gallery-section').style.display = galeriaAtual.length > 0 ? 'block' : 'none';
         atualizarGaleria();
