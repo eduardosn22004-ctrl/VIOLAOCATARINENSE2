@@ -97,7 +97,7 @@ Alicante situado na Espanha, obtendo orientações com os mais renomados violoni
 David Russell, Ignacio Rodes, Hopkinson Smith, Roberto Aussel, Manuel Barrueco, Carles Trepat e Nigel North. (Fonte: Cedido Pelo Compositor) 
 </p>`,
     galeria: ["/images/pessoas/andreiu1.avif", "/images/edino.jpg"],
-    eh_compositor: true,
+    eh_compositor: false,
     eh_violonista: true,
   },
 {
@@ -123,7 +123,7 @@ Atualmente é professor de música. Atua nas áreas de: Composição Musical, Ha
 Também leciona os seguintes cursos: violão, baixo, guitarra e pré-vestibular. (Fonte:Currículo Lattes (Alexandre Brandão Pereira)
 </p>`,
     galeria: ["/images/pessoas/alexandrebp1.avif"],
-    eh_compositor: true,
+    eh_compositor: false,
     eh_violonista: true,
   },
 {
@@ -138,7 +138,7 @@ Colégio de Aplicação – Universidade Federal de Santa Catarina - UFSC, Proje
 (Fonte: Cedido Pelo Compositor)
 </p>`,
     galeria: ["/images/pessoas/andrefran1.avif","/images/pessoas/andrefran2.avif","/images/pessoas/andrefran3.avif","/images/pessoas/andrefran4.avif"],
-    eh_compositor: true,
+    eh_compositor: false,
     eh_violonista: true,
   },
 {
@@ -150,7 +150,7 @@ Violonista no Quarteto de Violões de Blumenau, desde 2015, Violonista no Duo Ar
 Contrabaixista na banda de pop rock “Necessidade Humana”, entre 2006 e 2010, Violonista do “Duo Ariel”, duo de violões eruditos, entre 2009 e 2012. (Fonte: Escola Nossocanto/Blumenau - SC)
 </p>`,
     galeria: ["/images/pessoas/danielmue1.avif"],
-    eh_compositor: true,
+    eh_compositor: false,
     eh_violonista: true,
   },
 {
@@ -170,7 +170,7 @@ enciclopédia livre) ​Até abril de 2020, o músico já havia participado de m
 apresentar em diversas orquestras dentro e fora do Brasil, com destaque para a KSU String Orchestra com a qual fez concerto em Atlanta em outubro de 2015. (Fonte: Wikipédia-Felipe Coelho) 
 </p>`,
     galeria: ["/images/pessoas/felipeco1.avif"],
-    eh_compositor: true,
+    eh_compositor: false,
     eh_violonista: true,
   },
 {
@@ -190,7 +190,7 @@ Em fevereiro de 2020 graduou-se na Universidade de Santa Catarina – UDESC no c
 músico solo em recitais, modalidade “voz e violão”, ou ainda em participações com outros músicos nas casas noturnas ou eventos pela região Sul de SC. (Fonte: Cedido Pelo Compositor)
 </p>`,
     galeria: ["/images/pessoas/gilmed1.avif","/images/pessoas/gilmed2.avif"],
-    eh_compositor: true,
+    eh_compositor: false,
     eh_violonista: true,
   },
 {
@@ -243,7 +243,7 @@ Nos anos 1990 a 1994 estudou saxofone e flauta transversal com os mestres Demét
 Fonte: Cedido Pelo Compositor)
 </p>`,
     galeria: ["/images/pessoas/rego1.avif","/images/pessoas/rego2.avif","/images/pessoas/rego3.avif"],
-    eh_compositor: true,
+    eh_compositor: false,
     eh_violonista: true,
   },
 {
@@ -268,7 +268,7 @@ intituladas Moinho e Sonho Dourado. Este evento foi um grande incentivo para que
 Em 2012 Joel Colman apresenta-se no V seminário de Violão de Itajaí, onde também faz um workshop sobre o uso de diferentes técnicas e afinações que ele utiliza até hoje. (Fonte: Cedido Pelo Compositor)
 </p>`,
     galeria: ["/images/pessoas/joelco1.avif","/images/pessoas/joelco2.avif","/images/pessoas/joelco3.avif"],
-    eh_compositor: true,
+    eh_compositor: false,
     eh_violonista: true,
   },
 {
@@ -284,7 +284,7 @@ trilhas sonoras. Dentre sua obra, cabe ressaltar o CD Santa Catarina, gravado pe
 do Departamento Artístico Cultural (DAC/Secarte/UFSC). O curso de violão é uma das oficinas que são oferecidas semestralmente à comunidade. 
 (Fonte: Kleber Alexandre apresenta concerto de violão gratuito em Florianópolis - Ensaio SCultura)</p>`,
     galeria: ["/images/pessoas/kleba1.avif"],
-    eh_compositor: true,
+    eh_compositor: false,
     eh_violonista: true,
   },
 {
@@ -299,7 +299,7 @@ Paralelamente, desenvolve intensa atividade como músico profissional em bandas 
 Seu interesse pela composição surgiu na infância, impulsionado pela curiosidade em compreender os fundamentos do discurso musical e os mecanismos que conferem sentido e expressão à organização dos sons. 
 Sua obra reflete uma abordagem diversificada de influências. (Fonte: Cedido Pelo Compositor)</p>`,   
     galeria: ["/images/pessoas/leanb1.avif","/images/pessoas/leanb2.avif","/images/pessoas/leanb3.avif","/images/pessoas/leanb4.avif"],
-    eh_compositor: true,
+    eh_compositor: false,
     eh_violonista: true,
   },
 {
@@ -316,7 +316,7 @@ Ney também apresenta "Itajahy", seu álbum de violão solo de estreia, que comb
 através de projetos pedagógicos. Ele é o criador da “Oficina de Choro: Patrimônio Cultural”, que explora a rica história do choro, seus compositores e a apreciação musical. (Fonte:neysouza.com)
 </p>`,   
     galeria: ["/images/pessoas/neys2.avif","/images/pessoas/neys4.avif","/images/pessoas/neys5.avif"],
-    eh_compositor: true,
+    eh_compositor: false,
     eh_violonista: true,
   },
 {
@@ -338,7 +338,7 @@ canções em shows no Québec e explorou o universo criativo da improvisação v
 estão gravadas nos CDs Violão Catarinense (Guitar Music from Santa Catarina), volumes I (2012) e II (2019), de Andrei Uller, com obras de Edino Krieger, Ricardo Boppré, entre outros, representando a produção violonística catarinense.  (Fonte: Cedido Pelo Compositor)
 </p>`,   
     galeria: ["/images/pessoas/otar2.avif","/images/pessoas/otar3.avif","/images/pessoas/otar4.avif"],
-    eh_compositor: true,
+    eh_compositor: false,
     eh_violonista: true,
   },
 {
@@ -358,7 +358,7 @@ das duas edições do Seminário de Improvisação Musical Brasileira, e compôs
 primeiro disco em seu nome, que conta com a participação do icônico Hermeto Pascoal. (Fonte: Cedido Pelo Compositor)
 </p>`,   
     galeria: ["/images/pessoas/leandrof2.avif","/images/pessoas/leandrof3.avif","/images/pessoas/leandrof4.avif"],
-    eh_compositor: true,
+    eh_compositor: false,
     eh_violonista: true,
   },
 {
@@ -387,7 +387,7 @@ estudando os rudimentos da bateria com seu pai, inspirados no método de Gene Kr
 vivenciara desde menino. (Fonte: Cedido Pelo Compositor)
 </p>`,   
     galeria: ["/images/pessoas/marcoca2.avif","/images/pessoas/marcoca3.avif","/images/pessoas/marcoca4.avif"],
-    eh_compositor: true,
+    eh_compositor: false,
     eh_violonista: true,
   },
 {
@@ -417,7 +417,7 @@ para realizar os cursos de verão em violão, violino e fenomenologia da música
 Santiago de Compostela (Espanha, 2013) para participar como violonista nos cursos internacionais de música. (Fonte: Cedido Pelo Compositor)
 </p>`,   
     galeria: ["/images/pessoas/marcosdal2.avif","/images/pessoas/marcosdal3.avif","/images/pessoas/marcosdal4.avif"],
-    eh_compositor: true,
+    eh_compositor: false,
     eh_violonista: true,
   },
 {
@@ -434,7 +434,7 @@ regiões, tanto como solista quanto em formações de música de câmara. Como p
 arranjo, seu foco principal é a música de câmara. Estudou composição com Marcos Pablo Dalmacio e Alberto Heller, e aprimorou sua técnica violonística sob a orientação de Renato Mór, Marcos Pablo Dalmacio, Marcus Llerena e Alvaro Henrique. (Fonte: Cedido Pelo Autor)
 </p>`,   
     galeria: ["/images/pessoas/pabloh2.avif","/images/pessoas/pabloh3.avif","/images/pessoas/pabloh4.avif"],
-    eh_compositor: true,
+    eh_compositor: false,
     eh_violonista: true,
   },
 {
@@ -485,7 +485,7 @@ Regional de Amiens, França. Nesse país frequentou ainda diversos eventos forma
 teóricos com os quais estudou estão ainda: Gerardo Núnez, Manolo Sanlúcar, José Antonio Rodriguez, Emilio Maya, Miguel Ochando, Faustino Nuñez, Felix Grande, Hubert Kappel, Badi Assad, Ferenc Snétberguer e Costas Cotsiolis. (Fonte: Cedido Pelo Compositor)
 </p>`,   
     galeria: ["/images/pessoas/rafaelma2.avif","/images/pessoas/rafaelma3.avif","/images/pessoas/rafaelma4.avif","/images/pessoas/rafaelma5.avif"],
-    eh_compositor: true,
+    eh_compositor: false,
     eh_violonista: true,
   },
 {
@@ -505,7 +505,7 @@ Em paralelo a carreira artística desenvolve também carreira docente atuando co
 vem ministrando oficinas, workshops e cursos de violão e prática de choro em importantes instituições e festivais no Brasil, América Latina e Europa. (Fonte:ricardopauletti.com.br)
 </p>`,   
     galeria: ["/images/pessoas/ricardopau2.avif","/images/pessoas/ricardopau3.avif"],
-    eh_compositor: true,
+    eh_compositor: false,
     eh_violonista: true,
   },
 {
@@ -533,7 +533,7 @@ Vitor Garbelotto também se apresentou com o duo Camaradá ao lado do percussion
 Atualmente é professor de música em São Paulo, onde mora. (Fonte: violaobrasileiro.com.br)
 </p>`,   
     galeria: ["/images/pessoas/vitorgar2.avif"],
-    eh_compositor: true,
+    eh_compositor: false,
     eh_violonista: true,
   },
 ];
