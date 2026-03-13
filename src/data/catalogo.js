@@ -498,18 +498,11 @@ export const catalogo = [
       { titulo: "Antonio e Maria", ano: "", formacao: "", linkYoutube: "https://youtu.be/uDtSviK7F4s?si=8Y0HGoMzYzgcVUbS" },
       { titulo: "Ana e os Sonhos de Valsas e Poemas", ano: "", formacao: "", linkYoutube: "https://youtu.be/N1LIjpCe9F8?si=GytAwPX3Qnurimu7" },
       { titulo: "Águas de 1974", ano: "", formacao: "", linkYoutube: "https://youtu.be/cow4c1YzgOU?si=o3imdqEEMcRR0NEl" },
-      { titulo: "O Velinho", ano: "", formacao: "(arranjo)", linkYoutube: "https://youtu.be/c4C3aFmF27M?si=3KJQ0b0cG2YUWzct" },
-      { titulo: "O Holy Night", ano: "", formacao: "(arranjo)", linkYoutube: "https://youtu.be/7faW2fTG9c0?si=hdl72HT8kmLV53GC" },
-      { titulo: "Noite Feliz", ano: "", formacao: "(arranjo)", linkYoutube: "https://youtu.be/JffDw32h7Mo?si=em5Cu6hK2c6jK4UF" },
       { titulo: "Natal Para Jesus", ano: "", formacao: "violão sinos", linkYoutube: "https://youtu.be/kJcl5J_XAJE?si=D99niptuczFsLajl" },
-      { titulo: "Natal das Crianças", ano: "", formacao: "(arranjo)", linkYoutube: "https://youtu.be/7RkakszxvB8?si=qr42HlJdnlAdRFAA" },
       { titulo: "canção com a sequencia de don't cry for me", ano: "2009", formacao: "", linkYoutube: "" },
-      { titulo: "Jingle Bells", ano: "", formacao: "(arranjo)", linkYoutube: "https://youtu.be/HmsZTyzvWHY?si=JbYApNQEv_y4rkgE" },
       { titulo: "os corações de luiza: a resposta", ano: "2009", formacao: "", linkYoutube: "" },
       { titulo: "canção 18", ano: "2009", formacao: "", linkYoutube: "" },
       { titulo: "para todo o sempre", ano: "2009", formacao: "", linkYoutube: "" },
-      { titulo: "Hark the Herald Angels Sing", ano: "", formacao: "(arranjo)", linkYoutube: "https://youtu.be/AfR3JZFI00o?si=QxOIb2tY8oa7E1N-" },
-      { titulo: "Como é Belo o Natal", ano: "", formacao: "(arranjo)", linkYoutube: "https://youtu.be/v--9FExRTF8?si=fASE6NKtfikh8qLW" },
       { titulo: "Silvers Bells", ano: "", formacao: "violão piano", linkYoutube: "https://youtu.be/ngzSrtGvz6E?si=QqtaETQZ4hPZMhH5" },
       { titulo: "A Velha Estação da Tereza Cristina", ano: "", formacao: "", linkYoutube: "https://youtu.be/byMmPBxXuEU?si=z8bdc9psJ_8XdaS7" },
       { titulo: "A Valsa Que Ela Me Pediu Para Compor", ano: "", formacao: "", linkYoutube: "https://youtu.be/htt9myDIbVg?si=TgU7K0sbeAp8R44g" },
@@ -598,7 +591,6 @@ export const catalogo = [
     id: "vitorgar",
     compositor: "Vitor Garbelotto",
     obras: [
-      { titulo: "Radamés Gnattalli", ano: "2010", formacao: "todas peças sao arranjos", linkYoutube: "" },
       { titulo: "Sarau para Radamés", ano: "2015", formacao: "Violão Solo", linkYoutube: "" }
     ]
   }
