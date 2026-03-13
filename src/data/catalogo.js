@@ -36,16 +36,6 @@ export const catalogo = [
     ]
   },
   {
-    id: "darcy-villa-verde",
-    compositor: "Darcy Villa Verde",
-    obras: [
-      { titulo: "Foi ela - Ary Barroso", ano: "", formacao: "todas peças são arranjos", linkYoutube: "" },
-      { titulo: "Eu Sonhei Que Tu Estavas Tão Linda", ano: "", formacao: "f barroso,(faleceu)", linkYoutube: "" },
-      { titulo: "A Felicidade - Tom Jobim", ano: "", formacao: "Darcy Villa Verde / Foi Ela / Eu Sonhei Que Tu Estavas Tão / Felicidade / Se Tu Soubesses", linkYoutube: "" },
-      { titulo: "Se Tu Soubesse - cristóvão de alencar", ano: "", formacao: "VCFZ 89 - Dagoberto Linhares, Darcy Villa Verde (2007)", linkYoutube: "" }
-    ]
-  },
-  {
     id: "danielmue",
     compositor: "Daniel Mueller",
     obras: [
@@ -112,16 +102,16 @@ export const catalogo = [
     id: "gilmed",
     compositor: "Gil Medeiros",
     obras: [
-      { titulo: "Ruínas", ano: "2011", formacao: "Violão Solo", linkYoutube: "Gil Medeiros - Recital de Músicas autorais para Violão solo" },
-      { titulo: "Valsa e Bolero", ano: "2001", formacao: "Violão Solo", linkYoutube: "" },
-      { titulo: "Éden", ano: "2012", formacao: "Violão Solo", linkYoutube: "" },
-      { titulo: "Rush Hour", ano: "2012", formacao: "Violão Solo", linkYoutube: "" },
-      { titulo: "O Diario de Lis", ano: "2007", formacao: "Violão Solo", linkYoutube: "" },
-      { titulo: "O Casarão", ano: "2024", formacao: "Violão Solo", linkYoutube: "" },
-      { titulo: "Endless Glory", ano: "2013", formacao: "Violão Solo", linkYoutube: "" },
-      { titulo: "A Mulecada", ano: "2009", formacao: "Violão Solo", linkYoutube: "" },
-      { titulo: "Aguas", ano: "2001", formacao: "-", linkYoutube: "" },
-      { titulo: "Friends", ano: "2013", formacao: "Violão Solo", linkYoutube: "" }
+      { titulo: "Ruínas", ano: "2011", formacao: "Violão Solo", linkYoutube: "https://youtu.be/7QCzELjAGe8" },
+      { titulo: "Valsa e Bolero", ano: "2001", formacao: "Violão Solo", linkYoutube: "https://youtu.be/7QCzELjAGe8" },
+      { titulo: "Éden", ano: "2012", formacao: "Violão Solo", linkYoutube: "https://youtu.be/7QCzELjAGe8" },
+      { titulo: "Rush Hour", ano: "2012", formacao: "Violão Solo", linkYoutube: "https://youtu.be/7QCzELjAGe8" },
+      { titulo: "O Diario de Lis", ano: "2007", formacao: "Violão Solo", linkYoutube: "https://youtu.be/7QCzELjAGe8" },
+      { titulo: "O Casarão", ano: "2024", formacao: "Violão Solo", linkYoutube: "https://youtu.be/7QCzELjAGe8" },
+      { titulo: "Endless Glory", ano: "2013", formacao: "Violão Solo", linkYoutube: "https://youtu.be/7QCzELjAGe8" },
+      { titulo: "A Mulecada", ano: "2009", formacao: "Violão Solo", linkYoutube: "https://youtu.be/7QCzELjAGe8" },
+      { titulo: "Aguas", ano: "2001", formacao: "-", linkYoutube: "https://youtu.be/7QCzELjAGe8" },
+      { titulo: "Friends", ano: "2013", formacao: "Violão Solo", linkYoutube: "https://youtu.be/7QCzELjAGe8" }
     ]
   },
   {
@@ -197,10 +187,10 @@ export const catalogo = [
     id: "kleba",
     compositor: "Kleber Alexandre",
     obras: [
-      { titulo: "Prelúdio", ano: "", formacao: "Violão Solo", linkYoutube: "Kleber Alexandre - Prelúdio - YouTube" },
+      { titulo: "Prelúdio", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/yX4uinpPXgA" },
       { titulo: "Acordes Chords", ano: "", formacao: "trilha sonora", linkYoutube: "https://www.youtube.com/watch?v=gZ3ZDBaC14c" },
-      { titulo: "Colorida", ano: "1994", formacao: "dois violões", linkYoutube: "Preservação do Jundu - \"Colorida\" - música de Kleber Alexandre 720p - YouTube" },
-      { titulo: "Estudo 1", ano: "", formacao: "Violão Solo", linkYoutube: "Estudo 1 Kleber Alexandre Projeto 12e30 Ufsc - YouTube" }
+      { titulo: "Colorida", ano: "1994", formacao: "dois violões", linkYoutube: "https://youtu.be/H88qsW93lvw" },
+      { titulo: "Estudo 1", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/bR9F0VbOQUA" }
     ]
   },
   {
@@ -315,7 +305,7 @@ export const catalogo = [
     compositor: "Natalia Livramento",
     obras: [
       { titulo: "Cumplicidade", ano: "", formacao: "violão 7 cordas e clarinete", linkYoutube: "https://www.youtube.com/watch?v=1Hq4OIIfLms" },
-      { titulo: "Gratidão, Mestre!", ano: "", formacao: "violão 7 cordas flauta transversal e pandeiro", linkYoutube: "Gratidão, Mestre! // As Boêmias - YouTube" },
+      { titulo: "Gratidão, Mestre!", ano: "", formacao: "violão 7 cordas flauta transversal e pandeiro", linkYoutube: "https://youtu.be/JzDrT9soZho" },
       { titulo: "Amanhecer", ano: "", formacao: "dois violões", linkYoutube: "https://www.youtube.com/watch?v=M4-J0BBOcGU" },
       { titulo: "Sarrafada", ano: "", formacao: "tres violões e flauta transversal", linkYoutube: "https://www.youtube.com/watch?v=RVuXw47wTx8" }
     ]
@@ -324,7 +314,7 @@ export const catalogo = [
     id: "neys",
     compositor: "Ney Souza",
     obras: [
-      { titulo: "Samba de Tempo Feliz", ano: "", formacao: "Violão Solo", linkYoutube: "Samba de Tempo Feliz (Ney Souza)" },
+      { titulo: "Samba de Tempo Feliz", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/N2JIugzAb-g" },
       { titulo: "Kurupí", ano: "", formacao: "Violão Solo", linkYoutube: "https://www.youtube.com/watch?v=U1DuRAjZZ7M" },
       { titulo: "Expectativas (Alessandro Penezzi)", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/b5B0qmK1Ix0" },
       { titulo: "Afro Zorro", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/WQRsMmPmWno?si=R3--kVdPm5A-9UT_" },
@@ -350,24 +340,24 @@ export const catalogo = [
       { titulo: "Suíte Pequeninas", ano: "", formacao: "Violão Solo", linkYoutube: "" },
       { titulo: "Alforria", ano: "", formacao: "Violão Solo", linkYoutube: "" },
       { titulo: "Noronha", ano: "", formacao: "dois violões", linkYoutube: "https://www.youtube.com/watch?v=H_jT1VOObLE" },
-      { titulo: "Betina", ano: "", formacao: "violão violino", linkYoutube: "Betina" },
-      { titulo: "Tapes", ano: "", formacao: "Violão Solo", linkYoutube: "TAPES" },
+      { titulo: "Betina", ano: "", formacao: "violão violino", linkYoutube: "https://youtu.be/EDLvz04yXMQ" },
+      { titulo: "Tapes", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/1Z25PhLocjE" },
       { titulo: "Suíte da Morte e do Renascimento", ano: "", formacao: "Violão Solo", linkYoutube: "https://www.youtube.com/watch?v=YEllXjTV9sI" },
-      { titulo: "Papalesca I", ano: "", formacao: "Violão Solo", linkYoutube: "Soturno - Pablo de Mello Heredia - YouTube" },
-      { titulo: "Papalesca II", ano: "", formacao: "Violão Solo", linkYoutube: "Soturno - Pablo de Mello Heredia - YouTube" },
-      { titulo: "Papalesca III", ano: "", formacao: "Violão Solo", linkYoutube: "Soturno - Pablo de Mello Heredia - YouTube" },
-      { titulo: "Papalesca IV", ano: "", formacao: "Violão Solo", linkYoutube: "Soturno - Pablo de Mello Heredia - YouTube" },
-      { titulo: "Papalesca V", ano: "", formacao: "Violão Solo", linkYoutube: "Soturno - Pablo de Mello Heredia - YouTube" },
-      { titulo: "As Terças", ano: "", formacao: "dois violões", linkYoutube: "Soturno - Pablo de Mello Heredia - YouTube" },
-      { titulo: "Pesar", ano: "", formacao: "dois violões", linkYoutube: "Soturno - Pablo de Mello Heredia - YouTube" },
-      { titulo: "Cigana", ano: "", formacao: "dois violões", linkYoutube: "https://www.youtube.com/watch?v=DUku5hAm-xg" },
-      { titulo: "Ego", ano: "", formacao: "quatro violões", linkYoutube: "https://www.youtube.com/watch?v=ORVkc9Yf2iE" },
-      { titulo: "Norte", ano: "", formacao: "quatro violões", linkYoutube: "https://www.youtube.com/watch?v=BbtJiuefJlM" },
-      { titulo: "Obstinado", ano: "", formacao: "quatro violões", linkYoutube: "https://www.youtube.com/watch?v=8K5fhh6pWwg" },
-      { titulo: "Misteriosa I", ano: "", formacao: "violão sax e cello", linkYoutube: "https://www.youtube.com/watch?v=1KiebDlGPXE" },
-      { titulo: "Misteriosa II", ano: "", formacao: "violão sax e cello", linkYoutube: "Soturno - Pablo de Mello Heredia - YouTube" },
-      { titulo: "Lugar Nenhum I", ano: "", formacao: "violão sax e baixo", linkYoutube: "https://www.youtube.com/watch?v=4ZR8u1gso3E" },
-      { titulo: "LugarNenhum II", ano: "", formacao: "violão sax e cello", linkYoutube: "Soturno - Pablo de Mello Heredia - YouTube" }
+      { titulo: "Papalesca I", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/4ZR8u1gso3E" },
+      { titulo: "Papalesca II", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/4ZR8u1gso3E?t=79" },
+      { titulo: "Papalesca III", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/4ZR8u1gso3E?t=137" },
+      { titulo: "Papalesca IV", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/4ZR8u1gso3E?t=288" },
+      { titulo: "Papalesca V", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/4ZR8u1gso3E?t=451" },
+      { titulo: "As Terças", ano: "", formacao: "dois violões", linkYoutube: "https://youtu.be/4ZR8u1gso3E?t=624" },
+      { titulo: "Pesar", ano: "", formacao: "dois violões", linkYoutube: "https://youtu.be/4ZR8u1gso3E?t=696" },
+      { titulo: "Cigana", ano: "", formacao: "dois violões", linkYoutube: "https://youtu.be/4ZR8u1gso3E?t=782" },
+      { titulo: "Ego", ano: "", formacao: "quatro violões", linkYoutube: "https://youtu.be/4ZR8u1gso3E?t=941" },
+      { titulo: "Norte", ano: "", formacao: "quatro violões", linkYoutube: "https://youtu.be/4ZR8u1gso3E?t=1041" },
+      { titulo: "Obstinado", ano: "", formacao: "quatro violões", linkYoutube: "https://youtu.be/4ZR8u1gso3E?t=1159" },
+      { titulo: "Misteriosa I", ano: "", formacao: "violão sax e cello", linkYoutube: "https://youtu.be/4ZR8u1gso3E?t=1295" },
+      { titulo: "Misteriosa II", ano: "", formacao: "violão sax e cello", linkYoutube: "https://youtu.be/4ZR8u1gso3E?t=1433" },
+      { titulo: "Lugar Nenhum I", ano: "", formacao: "violão sax e baixo", linkYoutube: "https://youtu.be/4ZR8u1gso3E?t=1563" },
+      { titulo: "LugarNenhum II", ano: "", formacao: "violão sax e cello", linkYoutube: "https://youtu.be/4ZR8u1gso3E?t=1677" }
     ]
   },
   {
