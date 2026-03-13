@@ -29,3 +29,4 @@ export const catalogo = [
       { titulo: "Radamés Gnattalli", ano: "2010", formacao: "todas peças sao arranjos", linkYoutube: "" },
     ]
   }
+  ]  
