@@ -113,6 +113,7 @@ const recortesImprensa = [
                 </h2>
                 <p class="text-lg text-stone-500 font-serif italic mt-3 max-w-2xl mx-auto">
                    Notícias, artigos e publicações diversas na mídia impressa catarinense
+                </p>
             </div>
 
             {/* Container com Botões e Rolagem */}
@@ -230,9 +231,9 @@ const recortesImprensa = [
                 ))}
             </section>
         </div>
+        */}
 
     </div>
-*/}
 
 
     {/* =========================================
@@ -315,7 +316,7 @@ const recortesImprensa = [
     // =========================================
     const modal = document.getElementById('imageModal');
     const modalContent = document.getElementById('modalContent');
-    const modalImg = document.getElementById('modalImage') as HTMLImageElement;
+    const modalImg = document.getElementById('modalImage'); // <-- TOTALMENTE CORRIGIDO AQUI (Sem o 'as HTMLImageElement')
     const modalCaption = document.getElementById('modalCaption');
     const modalSource = document.getElementById('modalSource');
     const closeBtn = document.getElementById('closeModal');
