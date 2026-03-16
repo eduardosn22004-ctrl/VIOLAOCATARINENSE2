@@ -142,7 +142,6 @@ export const catalogo = [
     obras: [
       { titulo: "Courtains", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/LEvDwkb_RMs?si=9r5y8LXaWuxSTljS" },
       { titulo: "Tributo a Leo Brower n2", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/ceUwV2-cDh4?si=oPNo2kGJ8Rt7xmnv" },
-      { titulo: "Canção do infinito n5", ano: "", formacao: "Violão Solo", linkYoutube: "" },
       { titulo: "Ballad12-um trilhar soturno", ano: "", formacao: "piano baixo violão e bateria", linkYoutube: "https://youtu.be/mIVlwf35tCA?si=q_ECpPYjW7UvYuPj" },
       { titulo: "Solitude", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/gdynZrQMXLM?si=bam2068YmIMmuvhZ" }
     ]
