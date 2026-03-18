@@ -186,7 +186,7 @@ export const catalogo = [
     obras: [
       { titulo: "Vague Relics", ano: "", formacao: "Violão Solo", linkYoutube: "https://www.youtube.com/watch?v=e1iXZZW4SGM" },
       { titulo: "Quasi una Miniatura", ano: "", formacao: "Violão Solo", linkYoutube: "https://www.youtube.com/watch?v=8_VZsu8ZB6s" },
-      { titulo: "Samui Asa", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/gbYco6a27RM" }
+      { titulo: "Samui Asa", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/gbYco6a27RM" },
       { titulo: "Prelúdio", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/yX4uinpPXgA" },
       { titulo: "Acordes Chords", ano: "", formacao: "trilha sonora", linkYoutube: "https://www.youtube.com/watch?v=gZ3ZDBaC14c" },
       { titulo: "Colorida", ano: "1994", formacao: "Duo violão", linkYoutube: "https://youtu.be/H88qsW93lvw" },
