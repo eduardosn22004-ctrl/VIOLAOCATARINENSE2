@@ -16,7 +16,7 @@
             <div id="modal-bg-image" class="absolute inset-0 z-0 bg-cover bg-center transition-all duration-500"></div>
             
             {/* Escurecimento */}
-            <div class="absolute inset-0 z-0 bg-stone-900/24"></div>
+            <div class="absolute inset-0 z-0 bg-stone-900/15"></div>
             
             {/* O Conteúdo em si */}
             <div class="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-8 border-stone-200/50 shadow-2xl flex-shrink-0 z-10">
@@ -108,29 +108,31 @@
         modalAtuacao.innerText = atuacaoArtista;
         
         // --- NOVA LÓGICA DE FUNDO DINÂMICO (COM ESCALA) ---
-        let urlImagemFundo = '';
-        let posicaoFundo = 'center'; // Padrão é centralizado
-        let escalaFundo = '100%'; // DIMINUI A ESCALA PADRÃO (Ajuste este valor)
+let urlImagemFundo = '';
+let posicaoFundo = 'center'; // Padrão é centralizado
+let escalaFundo = '100%'; // DIMINUI A ESCALA PADRÃO (Ajuste este valor)
 
-        const atuacaoLimpa = atuacaoArtista.toLowerCase().trim();
+const atuacaoLimpa = atuacaoArtista.toLowerCase().trim();
 
-        if (atuacaoLimpa === 'compositor e violonista') {
-            urlImagemFundo = '/images/fundo-violao.jpg';
-        } else if (atuacaoLimpa === 'compositor') {
-            urlImagemFundo = '/images/fundo-compositor.jpg';
-        } else if (atuacaoLimpa === 'violonista') {
-            urlImagemFundo = '/images/fundo-violao.jpg';
-        } else {
-            urlImagemFundo = '/images/fundo-padrao.jpg'; 
-        }
-        
-        // Aplica a imagem, a posição e a escala
-        modalBgImage.style.backgroundImage = `url('${urlImagemFundo}')`;
-        modalBgImage.style.backgroundPosition = posicaoFundo;
-        modalBgImage.style.backgroundSize = escalaFundo; // Aplica a escala
-        modalBgImage.style.backgroundRepeat = 'no-repeat'; // Garante que não repita
-        // --------------------------------------
+if (atuacaoLimpa === 'compositor e violonista') {
+    urlImagemFundo = '/images/fundo-violao.avif';
+} else if (atuacaoLimpa === 'compositor') {
+    urlImagemFundo = '/images/teste.jpg';
+} else if (atuacaoLimpa === 'violonista') {
+    urlImagemFundo = '/images/fundo-violao.avif';
+} else {
+    urlImagemFundo = '/images/fundo-padrao.jpg'; 
+}
 
+// Aplica a imagem, a posição e a escala
+modalBgImage.style.backgroundImage = `url('${urlImagemFundo}')`;
+modalBgImage.style.backgroundPosition = posicaoFundo;
+modalBgImage.style.backgroundSize = escalaFundo; // Aplica a escala
+modalBgImage.style.backgroundRepeat = 'no-repeat'; // Garante que não repita
+
+// Aplica o desfoque (blur) bem pouco
+modalBgImage.style.filter = 'blur(0px)';
+// --------------------------------------
         // --- LÓGICA DE EXIBIÇÃO DOS BOTÕES ---
         const temCatalogo = dataDiv.getAttribute('data-tem-catalogo') === 'true';
         const temDiscografia = dataDiv.getAttribute('data-tem-discografia') === 'true';
