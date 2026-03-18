@@ -200,8 +200,9 @@ export const catalogo = [
     compositor: "Leandro Bastos",
     obras: [
       { titulo: "Tranfiguração", ano: "2017", formacao: "Violão Solo", linkYoutube: "" },
-      { titulo: "Chorinho para o Rian", ano: "2021", formacao: "Violão Solo", linkYoutube: "" },
-      { titulo: "Chorinho para Ravi", ano: "2021", formacao: "Violão Solo", linkYoutube: "" },
+      { titulo: "Chorinho para o Rian", ano: "2021", formacao: "Violão Solo", linkYoutube: "https://youtu.be/rR0qKeaqRos?list=OLAK5uy_kTufZT7tMyUGuqvLzZXONKQMSLhJA9V9o" },
+      { titulo: "Chorinho da Marina", ano: "2021", formacao: "Violão Solo", linkYoutube: "https://youtu.be/tiYaB8-z8Cs?list=OLAK5uy_kTufZT7tMyUGuqvLzZXONKQMSLhJA9V9o" },
+      { titulo: "Chorinho para Ravi", ano: "2021", formacao: "Violão Solo", linkYoutube: "https://youtu.be/NGX8kLIeGfc?list=OLAK5uy_kTufZT7tMyUGuqvLzZXONKQMSLhJA9V9o" },
       { titulo: "Cinco de Janeiro", ano: "2020", formacao: "Violão Solo", linkYoutube: "" },
       { titulo: "Dois de Novembro", ano: "2020", formacao: "Violão Solo", linkYoutube: "" },
       { titulo: "no sangue", ano: "2020", formacao: "Violão, Acordeon e percussão", linkYoutube: "https://youtu.be/1ciAw11Kmx0?si=9DWSDGq6HjH7eA7d" },
@@ -264,16 +265,16 @@ export const catalogo = [
     id: "marcoca",
     compositor: "Marco Cardozo",
     obras: [
-      { titulo: "Harpear", ano: "2010", formacao: "Violão Solo", linkYoutube: "" },
-      { titulo: "Breve Infância", ano: "2010", formacao: "Violão Solo", linkYoutube: "" },
-      { titulo: "Vil Metal", ano: "2013", formacao: "Violão Solo", linkYoutube: "" },
-      { titulo: "Estudo Simplório", ano: "2013", formacao: "Violão Solo", linkYoutube: "" },
+      { titulo: "O Harpear", ano: "2010", formacao: "Violão Solo", linkYoutube: "https://youtu.be/3azXZXuWbPM" },
+      { titulo: "Breve Infância", ano: "2010", formacao: "Violão Solo", linkYoutube: "https://youtu.be/QJTM9HzAUZA?list=RDQJTM9HzAUZA" },
+      { titulo: "Vil Metal", ano: "2013", formacao: "Violão Solo", linkYoutube: "https://youtu.be/UiuZMzibXg8?list=RDUiuZMzibXg8" },
+      { titulo: "Estudo Simplório", ano: "2013", formacao: "Violão Solo", linkYoutube: "https://youtu.be/znKIF8_3QEI?list=RDznKIF8_3QEI" },
       { titulo: "tema para marquinho", ano: "2010", formacao: "violão e bateria", linkYoutube: "https://youtu.be/s3rFnyJPRdg?si=lnv8ySF9d6coAPQX" },
       { titulo: "o fruir (interagindo com o não silencio)", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/FjHrGqDjVvo?si=juMBV77Zoj-28R9k" },
       { titulo: "G point", ano: "", formacao: "violão, guitarra, piano eletrico, orgão e bateria", linkYoutube: "https://youtu.be/L8AS28fKOL4?si=pWeYs-iliEGLQWNo" },
       { titulo: "ouverture", ano: "2018", formacao: "Violão Solo", linkYoutube: "https://youtu.be/8Yc1PihvwTg?si=naWJ4NxcApWzNc0Q" },
       { titulo: "pirão de nylon", ano: "2017", formacao: "Violão Solo", linkYoutube: "" },
-      { titulo: "á breve infancia (2a versão)", ano: "2012", formacao: "Violão Solo", linkYoutube: "" },
+      { titulo: "á breve infancia (2a versão)", ano: "2012", formacao: "Violão Solo", linkYoutube: ""https://youtu.be/4al2DV-qUcI?list=RD4al2DV-qUcI },
       { titulo: "estudo n2", ano: "2020", formacao: "Violão Solo", linkYoutube: "" },
       { titulo: "estudo n3", ano: "2018", formacao: "Violão Solo", linkYoutube: "" },
       { titulo: "estudo n4", ano: "2021", formacao: "Violão Solo", linkYoutube: "" },
@@ -285,7 +286,7 @@ export const catalogo = [
     id: "marcosdal",
     compositor: "Marcos Dalmacio",
     obras: [
-      { titulo: "5 Prelúdios", ano: "2017", formacao: "Violão Solo", linkYoutube: "" },
+      { titulo: "5 Prelúdios", ano: "2017", formacao: "Violão Solo", linkYoutube: "https://youtu.be/2oVZNXb65AE?list=RD2oVZNXb65AE" },
       { titulo: "Dos Fantasías Renacentistas Opus 19", ano: "2017", formacao: "Violão Solo", linkYoutube: "" },
       { titulo: "Fantasía Para Guitarra de 4 Órdenes", ano: "", formacao: "Violão Solo", linkYoutube: "" },
       { titulo: "Sonaian en Ré Mayor Para Guitarra", ano: "", formacao: "Violão Solo", linkYoutube: "" },
@@ -299,7 +300,7 @@ export const catalogo = [
       { titulo: "andante", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/QoO4YlAVRVM?si=wp4_v38-MyDSj87G" },
       { titulo: "preludio canto & danza para guitarra", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/OLmmdlIoVUw?si=H9DRaSi2cMs5wMxh" },
       { titulo: "preludio n3 de impressões poéticas opus 19", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/UgWCu2RLL9Q?si=cYmg8bWHw7paisek" },
-      { titulo: "visiones crepusculares", ano: "2015", formacao: "Violão Solo", linkYoutube: "" }
+      { titulo: "visiones crepusculares", ano: "2015", formacao: "Violão Solo", linkYoutube: "https://youtu.be/LrkH6-BPd7o?list=RDLrkH6-BPd7o" }
     ]
   },
   {
@@ -330,7 +331,7 @@ export const catalogo = [
     id: "otar",
     compositor: "Otávio Rosa",
     obras: [
-      { titulo: "Fazenda Norte", ano: "2000", formacao: "Violão Solo", linkYoutube: "" },
+      { titulo: "Fazenda Norte", ano: "2000", formacao: "Violão Solo", linkYoutube: "https://youtu.be/IADpRe6GlO8?list=RDIADpRe6GlO8" },
       { titulo: "Eucaliptos ao Vento", ano: "2000", formacao: "Violão Solo", linkYoutube: "https://youtu.be/w0V20LGENxs?si=urr2jVINGP0IWewH" },
       { titulo: "Devaneios", ano: "", formacao: "Violão Solo", linkYoutube: "" }
     ]
@@ -522,7 +523,7 @@ export const catalogo = [
     id: "rafaelma",
     compositor: "Rafael Marciniak",
     obras: [
-      { titulo: "Sehnsucht", ano: "2002", formacao: "Violão Solo", linkYoutube: "" }
+      { titulo: "Sehnsucht", ano: "2002", formacao: "Violão Solo", linkYoutube: "https://youtu.be/P-8nY8gkC18?list=RDP-8nY8gkC18" }
     ]
   },
   {
@@ -537,9 +538,9 @@ export const catalogo = [
     id: "ricardopau",
     compositor: "Ricardo Pauletti",
     obras: [
-      { titulo: "Mbarakatu", ano: "", formacao: "Violão Solo", linkYoutube: "" },
-      { titulo: "La Gruta de Los Lobos", ano: "", formacao: "Violão Solo", linkYoutube: "" },
-      { titulo: "10 Peças de Estudo Para Violão Brasileiro", ano: "", formacao: "Violão Solo", linkYoutube: "" },
+      { titulo: "Mbarakatu", ano: "", formacao: "Trio Violão", linkYoutube: "https://youtu.be/5MTdgSLlVZQ?list=RD5MTdgSLlVZQ" },
+      { titulo: "La Gruta de Los Lobos", ano: "", formacao: "Violão e Violoncelo", linkYoutube: "https://youtu.be/XM4zg1LECws?list=RDXM4zg1LECws" },
+      { titulo: "10 Peças de Estudo Para Violão Brasileiro", ano: "https://youtube.com/playlist?list=PLD68BK0kXjR1s6lSRDPYBSjgATRFI_TTe&si=YezuH6O8o3m2QTgA", formacao: "Violão Solo", linkYoutube: "" },
       { titulo: "Ritual das Cordas", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/yTia8i2-KqM?si=RR34Y9aMzegRDp8y" },
       { titulo: "Danças das Segundas", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/eWkxeEfjSHc?si=JUUuVrXSU0Wrtloy" },
       { titulo: "O Voo da Arraia", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/2WjqHFYV5qE?si=xWu8e10nBEbNfhw1" },
