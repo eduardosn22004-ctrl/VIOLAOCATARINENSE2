@@ -22,11 +22,7 @@ export const catalogo = [
       { titulo: "Como é Belo o Natal", ano: "", formacao: "", linkYoutube: "https://youtu.be/v--9FExRTF8?si=fASE6NKtfikh8qLW" },
   ]
   },
-{
-    id: "vitorgar",
-    compositor: "Vitor Garbelotto",
-    obras: [
-      { titulo: "Radamés Gnattalli", ano: "2010", formacao: "", linkYoutube: "" },
-    ]
-  }
+
+
+    
   ]  
