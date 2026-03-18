@@ -33,7 +33,7 @@ export const catalogo = [
     id: "acaciop",
     compositor: "Acácio Piedade",
     obras: [
-      { titulo: "Tres Estudos Para Violão", ano: "2007", formacao: "Violão Solo", linkYoutube: "https://youtu.be/zKNHYSzheS4?si=ujTLi8I2_0IgQNh9" }
+      { titulo: "Tres Estudos Para Violão", ano: "2007", formacao: "Violão Solo", linkYoutube: "https://youtu.be/zKNHYSzheS4?si=ujTLi8I2_0IgQNh9" },
       { titulo: "Devaneio", ano: "2016", formacao: "Violão Solo", linkYoutube: "https://youtu.be/0QZMLevQ91w" }
     ]
   },
@@ -274,7 +274,7 @@ export const catalogo = [
       { titulo: "G point", ano: "", formacao: "violão, guitarra, piano eletrico, orgão e bateria", linkYoutube: "https://youtu.be/L8AS28fKOL4?si=pWeYs-iliEGLQWNo" },
       { titulo: "ouverture", ano: "2018", formacao: "Violão Solo", linkYoutube: "https://youtu.be/8Yc1PihvwTg?si=naWJ4NxcApWzNc0Q" },
       { titulo: "pirão de nylon", ano: "2017", formacao: "Violão Solo", linkYoutube: "" },
-      { titulo: "á breve infancia (2a versão)", ano: "2012", formacao: "Violão Solo", linkYoutube: ""https://youtu.be/4al2DV-qUcI?list=RD4al2DV-qUcI },
+      { titulo: "á breve infancia (2a versão)", ano: "2012", formacao: "Violão Solo", linkYoutube: "https://youtu.be/4al2DV-qUcI?list=RD4al2DV-qUcI" },
       { titulo: "estudo n2", ano: "2020", formacao: "Violão Solo", linkYoutube: "" },
       { titulo: "estudo n3", ano: "2018", formacao: "Violão Solo", linkYoutube: "" },
       { titulo: "estudo n4", ano: "2021", formacao: "Violão Solo", linkYoutube: "" },
@@ -540,7 +540,7 @@ export const catalogo = [
     obras: [
       { titulo: "Mbarakatu", ano: "", formacao: "Trio Violão", linkYoutube: "https://youtu.be/5MTdgSLlVZQ?list=RD5MTdgSLlVZQ" },
       { titulo: "La Gruta de Los Lobos", ano: "", formacao: "Violão e Violoncelo", linkYoutube: "https://youtu.be/XM4zg1LECws?list=RDXM4zg1LECws" },
-      { titulo: "10 Peças de Estudo Para Violão Brasileiro", ano: "https://youtube.com/playlist?list=PLD68BK0kXjR1s6lSRDPYBSjgATRFI_TTe&si=YezuH6O8o3m2QTgA", formacao: "Violão Solo", linkYoutube: "" },
+      { titulo: "10 Peças de Estudo Para Violão Brasileiro", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtube.com/playlist?list=PLD68BK0kXjR1s6lSRDPYBSjgATRFI_TTe&si=YezuH6O8o3m2QTgA" },
       { titulo: "Ritual das Cordas", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/yTia8i2-KqM?si=RR34Y9aMzegRDp8y" },
       { titulo: "Danças das Segundas", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/eWkxeEfjSHc?si=JUUuVrXSU0Wrtloy" },
       { titulo: "O Voo da Arraia", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/2WjqHFYV5qE?si=xWu8e10nBEbNfhw1" },
