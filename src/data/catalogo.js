@@ -338,7 +338,7 @@ export const catalogo = [
     obras: [
       { titulo: "Suíte Pequeninas", ano: "", formacao: "Violão Solo", linkYoutube: "" },
       { titulo: "Alforria", ano: "", formacao: "Violão Solo", linkYoutube: "" },
-      { titulo: "Noronha", ano: "", formacao: "dois violões", linkYoutube: "https://www.youtube.com/watch?v=H_jT1VOObLE" },
+      { titulo: "Noronha", ano: "", formacao: "Duo violão", linkYoutube: "https://www.youtube.com/watch?v=H_jT1VOObLE" },
       { titulo: "Betina", ano: "", formacao: "violão violino", linkYoutube: "https://youtu.be/EDLvz04yXMQ" },
       { titulo: "Tapes", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/1Z25PhLocjE" },
       { titulo: "Suíte da Morte e do Renascimento", ano: "", formacao: "Violão Solo", linkYoutube: "https://www.youtube.com/watch?v=YEllXjTV9sI" },
@@ -586,11 +586,5 @@ export const catalogo = [
       { titulo: "chuva (pai)", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/NhjnlM789-Y?si=LmrVa-sOcdmwh7jL" }
     ]
   },
-  {
-    id: "vitorgar",
-    compositor: "Vitor Garbelotto",
-    obras: [
-      { titulo: "Sarau para Radamés", ano: "2015", formacao: "Violão Solo", linkYoutube: "" }
-    ]
-  }
+  
 ];
