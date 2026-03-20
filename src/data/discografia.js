@@ -395,10 +395,23 @@ export const discografia = [
         capa: "/images/capa/handmade.avif",
         faixas: ["Tânia", "Feito a Mão", "Cumbanchero - Rafael Hernández", "Inconsciente Coletivo - Alegre Corrêa", "Infância - Alegre Corrêa", "Sandandes do Sol - Joe Valentin", "Estilo Consagrado", "Festa do Barão - Alegre Corrêa", 
 "Viena - Alegre Corrêa", "Encore - Alegre Corrêa"]
-      }
-      
+      }   
     ]
   },
+{
+    nome: "Rafael Marciniak",
+    albuns: [
+      {
+        id: "hifi",
+        titulo: "HI-FI",
+        ano: "2019",
+        capa: "/images/capa/hifi.avif",
+        faixas: ["Prólogo", "Ábaco", "(Quilombo) Terral", "(Quilombo) Quebra-Côco", "(Quilombo) Réquiem", "Estásimo", "(Sehnsucht) Prelúdio I: Spiegelraum", "(Sehnsucht) Prelúdio II: Spiegelungen",
+                 "(Sehnsucht) Ária", "(Sehnsucht) Llanto", "(Sehnsucht) Despertar", "Silence (Epílogo)"]
+      },     
+    ]
+  },  
+  
   
   
 
