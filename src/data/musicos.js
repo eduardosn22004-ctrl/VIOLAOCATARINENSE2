@@ -537,7 +537,7 @@ Atualmente é professor de música em São Paulo, onde mora. (Fonte: violaobrasi
     eh_violonista: true,
   },
 {
-    id: "wilpof"",
+    id: "wilpof",
     nome: "William Pofhal",
     foto: "/images/pessoas/wilpof1.avif",
     bio: `<p>
