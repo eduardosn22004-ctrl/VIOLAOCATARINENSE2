@@ -536,4 +536,26 @@ Atualmente é professor de música em São Paulo, onde mora. (Fonte: violaobrasi
     eh_compositor: false,
     eh_violonista: true,
   },
+{
+    id: "wilpof"",
+    nome: "William Pofhal",
+    foto: "/images/pessoas/wilpof1.avif",
+    bio: `<p>
+William Pofahl é violonista e professor, graduado em Música pela Universidade Regional de Blumenau (FURB) e mestre em Violão pela Universidade de Alicante, Espanha. Possui vivência como solista e com música de câmara, tendo atuado 
+no Quarteto de Violões de Blumenau, e em duo com o violinista Daniele Girardello. Apresentou-se em diversas cidades do estado de Santa Catarina e nas cidades espanholas de Alicante e Orihuela. Com o Quarteto de Violões de Blumenau, gravou o álbum Música Brasileira, 
+interpretando música dos compositores Francisco Mignone, Heitor Villa-Lobos e Camargo Guarnieri. Cursou o Master in Classical Guitar Performance na Universidade de Alicante, Espanha, onde estudou com renomados violonistas como Manuel Barrueco, Pepe Romero, 
+David Russell, Paul O’Dette e Sergio Assad. Atualmente é integrante do Duo Girardello & Pofahl, formado por violão e violino. Como professor de violão, William tem se dedicado ao ensino coletivo de instrumento musical, 
+experiência que tem resultado na criação de arranjos e na elaboração de materiais didáticos. (Fonte:Cedido pelo músico)
+</p>`,   
+    galeria: ["/images/pessoas/wilpof1.avif","/images/pessoas/wilpof2.avif"],
+    eh_compositor: false,
+    eh_violonista: true,
+  },  
+
+
+
+
+
+
+  
 ];
