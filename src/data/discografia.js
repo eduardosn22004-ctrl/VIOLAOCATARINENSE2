@@ -360,14 +360,7 @@ export const discografia = [
         capa: "/images/capa/beijomanga.jpg",
         faixas: ["Beijo Manga", "Quebraceira", "Omelete", "Rose-Cheia-De-Pose", "Romance - Nei Lisboa", "Beira Mar", "Sons da Infância", "Zé da Zilda", "Ironildo", "Samba Pra Inglês Vê", "Ligadinho"]
       },
-{
-        id: "Handmade",
-        titulo: "Handmade",
-        ano: "1999",
-        capa: "/images/capa/handmade.avif",
-        faixas: ["Tânia", "Feito a Mão", "Cumbanchero - Rafael Hernández", "Inconsciente Coletivo - Alegre Corrêa", "Infância - Alegre Corrêa", "Sandandes do Sol - Joe Valentin", "Estilo Consagrado", "Festa do Barão - Alegre Corrêa", 
-"Viena - Alegre Corrêa", "Encore - Alegre Corrêa"]
-      }
+
     ]
   },
   {
@@ -391,7 +384,23 @@ export const discografia = [
 "Improviso II - Mozart Camargo Guarnieri", "Brincadeira - Villa-Lobos", "Saltando Como Um Saci - Villa-Lobos", "New York Skyline - Villa-Lobos", "Valsa n. 8 - Mozart Camargo Guarnieri", "Lenda Sertaneja n. 8 - Francisco Mignone", "Congada - Francisco Mignone"]
       }
     ]
-  }
+  },  
+    {
+    nome: "Formações Diversas",
+    albuns: [
+      {
+        id: "Handmade",
+        titulo: "Handmade",
+        ano: "1999",
+        capa: "/images/capa/handmade.avif",
+        faixas: ["Tânia", "Feito a Mão", "Cumbanchero - Rafael Hernández", "Inconsciente Coletivo - Alegre Corrêa", "Infância - Alegre Corrêa", "Sandandes do Sol - Joe Valentin", "Estilo Consagrado", "Festa do Barão - Alegre Corrêa", 
+"Viena - Alegre Corrêa", "Encore - Alegre Corrêa"]
+      }
+      
+    ]
+  },
+  
+  
 
 
 ];
