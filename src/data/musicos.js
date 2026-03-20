@@ -550,6 +550,26 @@ experiência que tem resultado na criação de arranjos e na elaboração de mat
     galeria: ["/images/pessoas/wilpof1.avif","/images/pessoas/wilpof2.avif"],
     eh_compositor: false,
     eh_violonista: true,
+  },
+  {
+    id: "darcy-villa-verde",
+    nome: "Darcy Villa Verde",
+    foto: "/images/pessoas/darcy1.avif",
+    bio: `<p>
+Darcy Villa Verde (1934–2019) foi um virtuoso do violão brasileiro. Reconhecido pela crítica como um "monstro" do instrumento. Tendo aulas com Monina Távora e oswaldo soares, Darcy alcançou o ápice de sua técnica na década de 1960. 
+Um marco fundamental foi sua passagem por Paris, onde conquistou o troféu hors-concours no prestigiado Concurso Internacional de Violão. Durante sua residência na França, teve o privilégio de ter aulas com a lendária violonista Ida Presti, 
+o que refinou ainda mais seu estilo. Essa fase abriu as portas dos grandes palcos europeus e norte-americanos. Darcy apresentou-se em locais icônicos como a Georgetown University e o célebre Carnegie Hall, em Nova York, além de realizar turnês pela Rússia. Embora 
+tenha tido uma carreira longa e aclamada nos palcos, Darcy deixou poucos registros fonográficos. Sua única gravação comercial conhecida é um compacto duplo de música popular de 1962. Segundo o violonista Fábio Zanon, esse disco é "um modelo", 
+pois antecipou o estilo de violonistas contemporâneos ao combinar uma técnica cristalina com uma interpretação vigorosa e brasileira. A relação de Darcy com o Norte Catarinense começou em setembro de 1973, com um concerto memorável 
+na Sociedade Harmonia Lyra, em Joinville. Na época, a imprensa local destacou seu "invejável talento" logo após seu retorno dos Estados Unidos e da consagração em Paris. Em abril de 1993, buscando a tranquilidade que o Rio de Janeiro já não oferecia,
+Darcy fixou residência definitiva em Joinville para ficar próximo de sua mãe, Diva. Viveu quase uma década na cidade e Morou nos bairros Glória e Iririú. Diferente de muitos músicos que tocam até o fim da vida, Darcy Villa Verde 
+tomou a decisão consciente de parar. Em abril de 2000, durante o aniversário de um amigo em Joinville, ele tocou seu violão profissionalmente pela última vez. Após essa data, "pendurou o instrumento" para sempre, encerrando um ciclo de décadas de dedicação 
+absoluta à música. Darcy faleceu em 2019, mas sua memória é preservada por meio de acervos históricos e do reconhecimento de grandes nomes da música atual. Ele é lembrado não apenas como um concertista de técnica impecável, 
+mas como um desbravador que levou o violão erudito aos rincões do Brasil e aos palcos mais exigentes do mundo, sempre mantendo a alma e a "raça" da sonoridade brasileira. (Fonte:https://darcyvillaverde.com.br/)
+</p>`,   
+    galeria: ["/images/pessoas/darcy2.avif","/images/pessoas/darcy3.avif","/images/pessoas/darcy4.avif","/images/pessoas/darcy1.avif"],
+    eh_compositor: false,
+    eh_violonista: true,
   },  
 
 
