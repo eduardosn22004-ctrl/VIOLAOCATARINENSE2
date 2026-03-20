@@ -5,7 +5,7 @@ import Layout from '../layouts/Layout.astro';
 import { discografia } from '../data/discografia.js';
 
 // --- NOVA LÓGICA DE ORDENAÇÃO ---
-const secoesEspeciaisNomes = ["Violonistas diversos", "Duos", "Quartetos"];
+const secoesEspeciaisNomes = ["Violonistas diversos", "Duos", "Quartetos", "Formações Diversas"];
 
 // 1. Separa o que é artista comum do que é seção especial
 const artistasComuns = discografia.filter(a => !secoesEspeciaisNomes.includes(a.nome));
