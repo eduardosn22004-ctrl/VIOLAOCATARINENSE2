@@ -22,6 +22,18 @@ export const catalogo = [
       { titulo: "Como é Belo o Natal", ano: "", formacao: "", linkYoutube: "https://youtu.be/v--9FExRTF8?si=fASE6NKtfikh8qLW" },
   ]
   },
+{
+    id: "wilpof",
+    compositor: "William Pofhal",
+    obras: [
+      { titulo: "Valsa Romântica - Heitor Villa-Lobos", ano: "2016", formacao: "Violão Solo", linkYoutube: "" },
+      { titulo: "Valsa Brasileira - Edu Lobo e Chico Buarque", ano: "2020", formacao: "Violão Solo", linkYoutube: "" },
+      { titulo: "Cadê a Marreca? - Arismar do Espírito Santo", ano: "2008", formacao: "Quarteto violão", linkYoutube: "" },
+      { titulo: "Canta, Canta Mais - Tom Jobim e Vinícius de Moraes", ano: "2007", formacao: "Quarteto violão", linkYoutube: "" },
+      
+  ]
+  },    
+    
 
 
     
