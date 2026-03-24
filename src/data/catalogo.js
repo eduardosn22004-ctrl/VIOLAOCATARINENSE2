@@ -590,5 +590,23 @@ export const catalogo = [
       { titulo: "chuva (pai)", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/NhjnlM789-Y?si=LmrVa-sOcdmwh7jL" }
     ]
   },
+   {
+    id: "antoniocgj",
+    compositor: "Antonio Carlos Gonçalves Junior",
+    obras: [
+      {titulo: "Valsinha", ano: "", formacao: "Violão Solo", linkYoutube: "https://www.youtube.com/watch?v=-SQM47Sdg0U" },
+{ titulo: "Caipirinha", ano: "", formacao: "Violão Solo", linkYoutube: "https://www.youtube.com/watch?v=Xv16e5sgifQ" },
+{ titulo: "Labirinto", ano: "", formacao: "Violão Solo", linkYoutube: "https://www.youtube.com/watch?v=rITAJPCY09o" },
+{ titulo: "Prelúdio para a Alma", ano: "", formacao: "Violão Solo", linkYoutube: "https://www.youtube.com/watch?v=DK1WwOIG6OQ" },
+{ titulo: "Choro Simplório", ano: "", formacao: "Violão Solo", linkYoutube: "https://www.youtube.com/watch?v=NJJzXlxZ29I" },
+{ titulo: "Guarânia de Caiçara", ano: "", formacao: "Violão Solo", linkYoutube: "https://www.youtube.com/watch?v=hhCl17-JXBI" },
+{ titulo: "A Ilha dos Carijós", ano: "", formacao: "Violão Solo", linkYoutube: "https://www.youtube.com/watch?v=YU-IGgCE5Zs" },
+{ titulo: "Barraquinho do Majorca", ano: "", formacao: "Violão Solo", linkYoutube: "https://www.youtube.com/watch?v=F7-y4ZEuRPo" },
+{ titulo: "NPN", ano: "", formacao: "Violão Solo", linkYoutube: "https://www.youtube.com/watch?v=_d2ebAQT0po" },
+{ titulo: "Súplica", ano: "", formacao: "Violão Solo", linkYoutube: "https://www.youtube.com/watch?v=KuXqe1L5j7A" },
+{ titulo: "O Ateu", ano: "", formacao: "Violão Solo", linkYoutube: "https://www.youtube.com/watch?v=NeOHMIbVW4Y" }
+     
+    ]
+  },
   
 ];
