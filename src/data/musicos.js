@@ -570,6 +570,44 @@ mas como um desbravador que levou o violão erudito aos rincões do Brasil e aos
     galeria: ["/images/pessoas/darcy2.avif","/images/pessoas/darcy3.avif","/images/pessoas/darcy4.avif","/images/pessoas/darcy1.avif"],
     eh_compositor: false,
     eh_violonista: true,
+  },
+  {
+    id: "antoniocgj",
+    nome: "Antonio Carlos Gonçalves Junior",
+    foto: "/images/pessoas/antoniocgj1.avif",
+    bio: `<p> Antônio Carlos Gonçalves Junior, nasceu em São Francisco do Sul-SC, no dia 12 de julho de 1970. Seu interesse pelo violão e guitarra elétrica iniciou quando 
+    criança através de seu pai que ouvia muitas músicas que davam ênfase a estes instrumentos sendo que o pai também tocava violão como hobby. Um fato curioso e "engraçado" 
+    (chamaremos assim) foi que, neste tempo de criança, seu pai contratou um professor de violão para dar aulas à irmã mais velha e Antônio ficava assistindo com muita atenção todas 
+    as explicações. Após a finalização das aulas, ele "corria" para pegar o violão do pai e treinava tudo o que a irmã havia aprendido naquele dia. Mas, foi somente quando adulto que 
+    Antônio procurou uma escola de ensino fundamental em música para compreender os assuntos relacionados à teoria básica e violão solo na sua escrita, porque em todo o período anterior,
+    seu pouco aprendizado foi baseado no "olhar alguém tocando" e "tentar tirar músicas de ouvido". Pouco tempo após sua passagem pela escola, resolveu ingressar na faculdade para 
+    cursar Licenciatura em Artes e, sequencialmente, Pós Graduação em Metodologia do Ensino de Música. Atualmente (09/25), Antônio não leciona e exerce o cargo de Operador de Forno 
+    para um curso de cerâmica na cidade de Joinville-SC, mas aguarda a nomeação para ocupar o cargo de Professor de Artes ao qual prestou concurso e foi aprovado na cidade de 
+    Araquari - SC. Nos anos de 2007 e 2008 trabalhou como "instrutor musical" em São Francisco do Sul-SC no Projeto Pontos de Cultura, projeto este de caráter sócio cultural do 
+    Governo Federal em parceria com o município. Em seguida, no ano de 2009, foi chamado para trabalhar, ainda na mesma cidade, no Projeto Caminhando e Cantando junto à Secretaria de 
+    Bem Estar Social, sendo ofertado no Centro de Referência da Assistência Social (CRAS), e executado na mesma localidade onde reside, Majorca. No final dos anos 80, Antônio foi 
+    convidado para tocar guitarra elétrica na banda de heavy metal "Necropsia", uma das precursoras do gênero na cidade de Joinville-SC. Posteriormente, tocou nas bandas Vomit,
+    Virgo Sacrum e Impuro. Até que em 1999 fundou a Luciferiano, banda que está na ativa até o momento (2025), tendo 3 discos lançados através de gravadoras brasileiras especializadas
+    no gênero. Além da Luciferiano, também faz parte na atualidade da Apócrifos e Delírio, cada uma já tendo lançado 1 disco, ressaltando que a Delírio é um projeto experimental que
+    realiza junto com sua companheira, Patrícia Regina da Cunha (Bia Cunha), com quem tem se apresentando com certa frequência em algumas regiões do Brasil. Em junho de 2015 quando
+    Antônio e Bia retornavam de um evento, sofreram um gravíssimo acidente de automóvel que os incapacitoram por um longo período. O processo de reabilitação foi longo e durante uma 
+    das inúmeras consultas com médicos ortopedistas, surgiu a indicação médica para que tivesse como alternativa terapêutica, algo que lhe desse fôlego para suportar tudo o que ainda 
+    viria, desta forma, mesmo com limitações motoras diversas e dificuldades para exercer o que mais lhe dava prazer (a música), Antônio, estando professor de guitarra e violão à época,
+    aliou sua experiência às necessidades, dando noções básicas e incentivando Bia a tocar violão, firmando assim uma parceria que culminaria em futuras produções (Apócrifos, 
+    Luciferiano, Delírio). Nos momentos de folga, Antônio tem a fotografia como um passatempo agradável no qual uma de suas imagens foi premiada no concurso 
+    internacional "Brazilia Photo Show" edição 2016/2017. Destacando que, com todas estas atividades puramente artísticas, sempre sobra um tempinho diário para dar umas arranhadas 
+    no violão. Ao longo da vida compôs pouco mais de 20 peças para violão solo e algumas para violão e flauta. Antônio considera um número pequeno de composições, 
+    devido à falta de tempo que lhe sobra do no dia a dia, levando em consideração que a maioria das composições musicais que faz, são para às bandas que tocou no passado e 
+    também as que toca atualmente, nas quais é o compositor principal, tendo inclusive composto de forma individualizada, o álbum de estreia da Luciferiano (A Face do Cão) lançado 
+    em 2006 pela gravadora Sonic Blaster Music Label. Ainda em 2006, gravou no Estúdio Mug em Joinville-SC um material independente intitulado "Refletindo" contendo estudos simples
+    de grandes violonistas da nossa história, mais algumas peças autorais. Grande parte de suas composições para violão foram feitas numa única tonalidade explorando elementos básicos 
+    e, a que foge completamente da regra, é uma peça chamada "Violão Voodoo". Peça esta feita na época que cursou História da Música, quando estudou sobre o "Diabolus In Música",
+    banida na Idade Média. 
+
+</p>`,   
+    galeria: ["/images/pessoas/antoniocgj1.avif",],
+    eh_compositor: false,
+    eh_violonista: true,
   },  
 
 
