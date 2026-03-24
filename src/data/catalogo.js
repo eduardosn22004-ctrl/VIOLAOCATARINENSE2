@@ -604,7 +604,13 @@ export const catalogo = [
 { titulo: "Barraquinho do Majorca", ano: "", formacao: "Violão Solo", linkYoutube: "https://www.youtube.com/watch?v=F7-y4ZEuRPo" },
 { titulo: "NPN", ano: "", formacao: "Violão Solo", linkYoutube: "https://www.youtube.com/watch?v=_d2ebAQT0po" },
 { titulo: "Súplica", ano: "", formacao: "Violão Solo", linkYoutube: "https://www.youtube.com/watch?v=KuXqe1L5j7A" },
-{ titulo: "O Ateu", ano: "", formacao: "Violão Solo", linkYoutube: "https://www.youtube.com/watch?v=NeOHMIbVW4Y" }
+{ titulo: "O Ateu", ano: "", formacao: "Violão Solo", linkYoutube: "https://www.youtube.com/watch?v=NeOHMIbVW4Y" },
+{ titulo: "Tocando Mágoas", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/zLZWhk7UDVU" },
+{ titulo: "Refletindo", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/6rK8dhtpmXk" },
+{ titulo: "São Francisco do Sul", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/TE5hkrtXvns" },
+{ titulo: "Lembranças ", ano: "", formacao: "Violão e flauta", linkYoutube: "https://youtu.be/Zjjx2lrVrNM" },
+{ titulo: "Violão Voodoo", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/M6j5Nb_rawU" },
+{ titulo: "Solidão", ano: "", formacao: "Violão Solo", linkYoutube: "https://youtu.be/J51E8sVlyCM" },      
      
     ]
   },
