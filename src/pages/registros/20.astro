@@ -49,12 +49,12 @@ const recortesImprensa = [
 
 <Layout title="Violão Catarinense">
     
-    <div class="max-w-6xl mx-auto py-16 px-6 space-y-24">
+    <div class="max-w-6xl mx-auto py-16 px-4 md:px-6 space-y-24">
 
 {/* =========================================
     CABEÇALHO PRINCIPAL
 ========================================== */}
-<div class="flex items-center justify-center gap-4 md:gap-6 py-4">
+<div class="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6 py-4 text-center md:text-left">
     
     {/* Ícone Estático: Pilha de Jornais */}
     <svg viewBox="0 0 100 100" class="newspaper-icon shrink-0">
@@ -104,14 +104,14 @@ const recortesImprensa = [
     </svg>
     
     {/* Bloco de Texto (Título + Subtítulo agrupados) */}
-    <div class="flex flex-col items-start">
-        <h1 class="text-4xl md:text-5xl font-bold text-red-700 font-['Cinzel'] uppercase tracking-tight mb-0">
-            <span class="relative after:absolute after:bottom-2 after:left-0 after:w-full after:h-[2px] after:bg-red-700">
+    <div class="flex flex-col items-center md:items-start">
+        <h1 class="text-3xl md:text-5xl font-bold text-red-700 font-['Cinzel'] uppercase tracking-tight mb-0">
+            <span class="relative pb-1 md:pb-0 after:absolute after:bottom-0 md:after:bottom-2 after:left-0 after:w-full after:h-[2px] after:bg-red-700 block md:inline">
              Registros Históricos
             </span>
         </h1>
         
-        <p class="text-xl text-stone-600 mt-1 font-serif italic text-left max-w-lg leading-snug">
+        <p class="text-lg md:text-xl text-stone-600 mt-2 font-serif italic text-center md:text-left max-w-lg leading-snug">
             Recortes da Trajetória do Violão em Santa Catarina nas Décadas de 1920 a 1950
         </p>
     </div>
@@ -124,28 +124,28 @@ const recortesImprensa = [
         ========================================== */}
         <div>
             <div class="mb-10 text-center">
-                <h2 class="flex items-center gap-4 text-xl md:text-2xl font-semibold text-red-700 font-['Cinzel'] tracking-wide uppercase">
+                <h2 class="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 text-xl md:text-2xl font-semibold text-red-700 font-['Cinzel'] tracking-wide uppercase">
                     
-                    {/* Linha da esquerda (gradiente de transparente para vermelho) */}
-                    <span class="h-px flex-1 bg-gradient-to-r from-transparent to-red-700"></span>
+                    {/* Linha da esquerda (gradiente de transparente para vermelho) - Oculta no mobile */}
+                    <span class="hidden md:block h-px flex-1 bg-gradient-to-r from-transparent to-red-700"></span>
                     
-                    {/* Texto centralizado */}
-                    <span class="drop-shadow-[0_2px_2px_rgba(0,0,0,0.25)] whitespace-nowrap">
+                    {/* Texto centralizado com quebra permitida no mobile */}
+                    <span class="drop-shadow-[0_2px_2px_rgba(0,0,0,0.25)] whitespace-normal md:whitespace-nowrap px-4 border-b-2 border-red-700/30 md:border-0 pb-2 md:pb-0">
                         Levino Albano da Conceição
                     </span>
                     
-                    {/* Linha da direita (gradiente de vermelho para transparente) */}
-                    <span class="h-px flex-1 bg-gradient-to-l from-transparent to-red-700"></span>
+                    {/* Linha da direita (gradiente de vermelho para transparente) - Oculta no mobile */}
+                    <span class="hidden md:block h-px flex-1 bg-gradient-to-l from-transparent to-red-700"></span>
                 </h2>
                 
                 {/* Adicionei mx-auto e max-w-2xl para o texto não ficar muito esticado ao ser centralizado */}
-                <p class="text-lg text-stone-500 font-serif italic mt-3 max-w-2xl mx-auto">
+                <p class="text-base md:text-lg text-stone-500 font-serif italic mt-4 md:mt-3 max-w-2xl mx-auto px-2">
                     Levino Albano da Conceição tendo seus recitais comentados por jornais nas cidades de Florianópolis, 
                     Itajaí e Tubarão
                 </p>
             </div>
 
-            <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10">
                 {levino.map((registro) => (
                     <div 
                         class="gallery-item cursor-pointer bg-white p-4 rounded-xl shadow-[0_8px_20px_rgba(0,0,0,0.08)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.15)] transform transition hover:-translate-y-1 border border-stone-100 group"
@@ -157,20 +157,21 @@ const recortesImprensa = [
                             <img 
                                 src={registro.src} 
                                 alt={registro.legenda} 
-                                class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105"
+                                class="w-full h-56 md:h-64 object-cover transition-transform duration-500 group-hover:scale-105"
+                                loading="lazy"
                             />
                             
                             <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-12 h-12 text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-10 h-10 md:w-12 md:h-12 text-white">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                                 </svg>
                             </div>
                         </div>
                         <div class="px-2">
-                            <p class="text-lg font-medium text-stone-800 leading-snug">
+                            <p class="text-base md:text-lg font-medium text-stone-800 leading-snug">
                                 {registro.legenda}
                             </p>
-                            <p class="text-sm text-stone-500 font-serif italic mt-2">
+                            <p class="text-xs md:text-sm text-stone-500 font-serif italic mt-2">
                                 Fonte: {registro.fonte}
                             </p>
                         </div>
@@ -185,21 +186,21 @@ const recortesImprensa = [
         ========================================== */}
         <div class="mt-16">
             <div class="mb-10 text-center">
-                <h2 class="flex items-center gap-4 text-xl md:text-2xl font-semibold text-red-700 font-['Cinzel'] tracking-wide uppercase">
-                    <span class="h-px flex-1 bg-gradient-to-r from-transparent to-red-700"></span>
+                <h2 class="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-4 text-xl md:text-2xl font-semibold text-red-700 font-['Cinzel'] tracking-wide uppercase">
+                    <span class="hidden md:block h-px flex-1 bg-gradient-to-r from-transparent to-red-700"></span>
                     
-                    <span class="drop-shadow-[0_2px_2px_rgba(0,0,0,0.25)] whitespace-nowrap">
+                    <span class="drop-shadow-[0_2px_2px_rgba(0,0,0,0.25)] whitespace-normal md:whitespace-nowrap px-4 border-b-2 border-red-700/30 md:border-0 pb-2 md:pb-0">
                         Recortes de Imprensa
                     </span>
                     
-                    <span class="h-px flex-1 bg-gradient-to-l from-transparent to-red-700"></span>
+                    <span class="hidden md:block h-px flex-1 bg-gradient-to-l from-transparent to-red-700"></span>
                 </h2>
-                <p class="text-lg text-stone-500 font-serif italic mt-3 max-w-2xl mx-auto">
+                <p class="text-base md:text-lg text-stone-500 font-serif italic mt-4 md:mt-3 max-w-2xl mx-auto px-2">
                     Notícias, artigos e publicações diversas na mídia impressa catarinense
                 </p>
             </div>
 
-            <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+            <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10">
                 {recortesImprensa.map((recorte) => (
                     <div 
                         class="gallery-item cursor-pointer bg-white p-4 rounded-xl shadow-[0_8px_20px_rgba(0,0,0,0.08)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.15)] transform transition hover:-translate-y-1 border border-stone-100 group"
@@ -211,20 +212,21 @@ const recortesImprensa = [
                             <img 
                                 src={recorte.src} 
                                 alt={recorte.legenda} 
-                                class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105"
+                                class="w-full h-56 md:h-64 object-cover transition-transform duration-500 group-hover:scale-105"
+                                loading="lazy"
                             />
                             
                             <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-12 h-12 text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-10 h-10 md:w-12 md:h-12 text-white">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                                 </svg>
                             </div>
                         </div>
                         <div class="px-2">
-                            <p class="text-lg font-medium text-stone-800 leading-snug">
+                            <p class="text-base md:text-lg font-medium text-stone-800 leading-snug">
                                 {recorte.legenda}
                             </p>
-                            <p class="text-sm text-stone-500 font-serif italic mt-2">
+                            <p class="text-xs md:text-sm text-stone-500 font-serif italic mt-2">
                                 Fonte: {recorte.fonte}
                             </p>
                         </div>
@@ -240,22 +242,24 @@ const recortesImprensa = [
     ========================================== */}
     <div id="imageModal" class="fixed inset-0 z-[100] hidden items-center justify-center bg-black/80 backdrop-blur-sm opacity-0 transition-opacity duration-300 p-4">
         
-        <button id="closeModal" class="absolute top-6 right-6 text-white/70 hover:text-white hover:rotate-90 transition-all duration-300 cursor-pointer p-2 z-[110]">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-10 h-10">
+        {/* Hitbox aumentada para o botão fechar no mobile */}
+        <button id="closeModal" class="absolute top-4 right-4 md:top-6 md:right-6 text-white/70 hover:text-white hover:rotate-90 transition-all duration-300 cursor-pointer p-2 z-[110]">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-8 h-8 md:w-10 md:h-10">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
             </svg>
         </button>
 
-        <div id="modalContent" class="bg-white p-4 md:p-6 rounded-sm shadow-[0_20px_50px_rgba(0,0,0,0.5)] max-w-5xl max-h-[90vh] flex flex-col items-center transform scale-95 transition-transform duration-300">
+        <div id="modalContent" class="bg-white p-4 md:p-6 rounded-sm shadow-[0_20px_50px_rgba(0,0,0,0.5)] max-w-5xl max-h-[90vh] flex flex-col items-center transform scale-95 transition-transform duration-300 w-full md:w-auto">
             <img 
                 id="modalImage" 
                 src="" 
                 alt="" 
-                class="max-h-[65vh] w-auto object-contain border border-stone-200 shadow-inner"
+                class="max-h-[50vh] md:max-h-[65vh] w-auto object-contain border border-stone-200 shadow-inner"
             />
-            <div class="mt-5 text-center px-4">
-                <p id="modalCaption" class="text-xl md:text-2xl font-bold text-stone-900 font-['Cinzel'] tracking-wide"></p>
-                <p id="modalSource" class="text-md text-stone-600 font-serif italic mt-2"></p>
+            {/* Adicionado overflow-y-auto e maxHeight limitando o texto no mobile para evitar quebra do modal */}
+            <div class="mt-4 md:mt-5 text-center px-2 md:px-4 overflow-y-auto max-h-[25vh] w-full">
+                <p id="modalCaption" class="text-lg md:text-2xl font-bold text-stone-900 font-['Cinzel'] tracking-wide leading-tight"></p>
+                <p id="modalSource" class="text-sm md:text-md text-stone-600 font-serif italic mt-2"></p>
             </div>
         </div>
     </div>
