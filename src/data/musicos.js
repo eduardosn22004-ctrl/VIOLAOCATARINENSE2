@@ -602,7 +602,7 @@ mas como um desbravador que levou o violão erudito aos rincões do Brasil e aos
     em 2006 pela gravadora Sonic Blaster Music Label. Ainda em 2006, gravou no Estúdio Mug em Joinville-SC um material independente intitulado "Refletindo" contendo estudos simples
     de grandes violonistas da nossa história, mais algumas peças autorais. Grande parte de suas composições para violão foram feitas numa única tonalidade explorando elementos básicos 
     e, a que foge completamente da regra, é uma peça chamada "Violão Voodoo". Peça esta feita na época que cursou História da Música, quando estudou sobre o "Diabolus In Música",
-    banida na Idade Média. 
+    banida na Idade Média. (Fonte: Cedido pelo músico)
 
 </p>`,   
     galeria: ["/images/pessoas/antoniocgj1.avif",],
