@@ -61,7 +61,7 @@ const navItems = [
     <nav class="relative z-20 bg-black/30 border-t border-white/10 py-3">
         <ul class="flex flex-wrap items-center justify-center gap-x-2 md:gap-x-6 gap-y-2 max-w-full mx-auto px-4">
             {navItems.map((item) => (
-                <li class="relative group">
+                <li class={`relative group ${item.subItems ? 'has-dropdown' : ''}`}>
                     <a 
                         href={item.href} 
                         class="text-white text-[10px] md:text-xs lg:text-sm font-bold no-underline uppercase tracking-widest hover:bg-white hover:text-red-700 px-3 py-2 rounded transition-all duration-300 border border-transparent hover:border-white/20 inline-flex items-center gap-1.5"
@@ -83,7 +83,7 @@ const navItems = [
 
                     {/* MENU DAS DÉCADAS */}
                     {item.subItems && (
-                        <div class="absolute left-1/2 -translate-x-1/2 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
+                        <div class="submenu-container absolute left-1/2 -translate-x-1/2 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
                             {/* Fundo com leve transparência (bg-red-900/90), sem blur */}
                             <ul class="w-48 bg-red-900/90 border border-white/20 rounded-md shadow-2xl flex flex-col divide-y divide-white/20 overflow-hidden">
                                 {item.subItems.map((subItem) => (
@@ -105,3 +105,50 @@ const navItems = [
         </ul>
     </nav>
 </header>
+
+<style>
+    /* Classes de controle para mobile */
+    .menu-aberto .submenu-container {
+        opacity: 1 !important;
+        visibility: visible !important;
+    }
+    .menu-aberto > a svg {
+        transform: rotate(180deg);
+    }
+</style>
+
+<script is:inline>
+    document.addEventListener('DOMContentLoaded', () => {
+        const dropdowns = document.querySelectorAll('.has-dropdown');
+        
+        dropdowns.forEach(dropdown => {
+            const link = dropdown.querySelector('a');
+            
+            link.addEventListener('click', function(e) {
+                // Verifica se está em uma tela pequena ou possui recurso de toque
+                const isMobile = window.matchMedia('(max-width: 1024px)').matches || ('ontouchstart' in window);
+                
+                if (isMobile) {
+                    // Se não estiver aberto, previne a navegação e abre o menu
+                    if (!dropdown.classList.contains('menu-aberto')) {
+                        e.preventDefault(); 
+                        
+                        // Fecha os outros
+                        dropdowns.forEach(d => d.classList.remove('menu-aberto'));
+                        
+                        // Abre o atual
+                        dropdown.classList.add('menu-aberto');
+                    }
+                    // O segundo clique na aba já aberta seguirá o link normalmente
+                }
+            });
+        });
+
+        // Clicar fora do menu fecha tudo no mobile
+        document.addEventListener('click', function(e) {
+            if (!e.target.closest('.has-dropdown')) {
+                dropdowns.forEach(d => d.classList.remove('menu-aberto'));
+            }
+        });
+    });
+</script>
