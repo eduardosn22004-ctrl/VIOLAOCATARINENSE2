@@ -39,13 +39,15 @@ const destaques = [
 
 <Layout title="Violão Catarinense">
     
-    <div class="max-w-7xl mx-auto py-7 px-6">
+    <div class="max-w-7xl mx-auto py-7 px-4 md:px-6">
 
         {/* =========================================
             CABEÇALHO PRINCIPAL
         ========================================== */}
         <div class="flex flex-col items-center text-center py-4">
-            <h1 class="flex items-center justify-center gap-4 md:gap-6 text-4xl md:text-5xl font-bold text-red-700 font-['Cinzel'] uppercase tracking-tight">
+            
+            {/* Título alterado para empilhar no mobile (flex-col) e manter lado a lado no desktop (md:flex-row) */}
+            <h1 class="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-6 text-3xl md:text-5xl font-bold text-red-700 font-['Cinzel'] uppercase tracking-tight text-center">
                 
                 {/* Ícone Estático: Pilha de Jornais */}
                 <svg viewBox="0 0 100 100" class="newspaper-icon shrink-0">
@@ -93,27 +95,32 @@ const destaques = [
                     </g>
                 </svg>
                 
-                <span class="relative after:absolute after:-bottom-2 after:left-0 after:w-full after:h-[2px] after:bg-red-700">
+                <span class="relative pb-1 md:pb-0 after:absolute after:-bottom-1 md:after:-bottom-2 after:left-0 after:w-full after:h-[2px] after:bg-red-700">
                     Registros Históricos
                 </span>
             </h1>
             
-            <p class="text-xl text-stone-600 -mt-2 ml-27 font-serif italic">
-                Recortes da Trajetória do Violão em Santa Catarina
-            </p>
-            <p class="text-xl text-left text-stone-600 ml-14 font-serif italic">
-               Os registros foram encontrados em consulta à <br /> Hemeroteca Digital Catarinense.
-            </p>
+            {/* Margens negativas restauradas no desktop e textos centralizados no mobile */}
+            <div class="mt-4 md:-mt-2 ml-0 md:ml-27 px-2">
+                <p class="text-lg md:text-xl text-stone-600 font-serif italic text-center md:text-left">
+                    Recortes da Trajetória do Violão em Santa Catarina
+                </p>
+            </div>
+            <div class="mt-2 md:mt-0 ml-0 md:ml-14 px-2">
+                <p class="text-lg md:text-xl text-stone-600 font-serif italic text-center md:text-left">
+                    Os registros foram encontrados em consulta à <br class="hidden md:block" /> Hemeroteca Digital Catarinense.
+                </p>
+            </div>
         </div>
 
         {/* =========================================
             SESSÃO DE CONTEÚDO (Menu + Carrossel)
         ========================================== */}
-        <div class="mt-16 flex flex-col md:flex-row gap-12">
+        <div class="mt-12 md:mt-16 flex flex-col md:flex-row gap-10 md:gap-12">
             
             {/* LADO ESQUERDO: MENU DE DÉCADAS */}
-            <aside class="w-full md:w-1/3 max-w-sm shrink-0">
-                <h2 class="text-2xl font-bold font-['Cinzel'] text-red-800 mb-6 border-b-2 border-red-700/20 pb-2">
+            <aside class="w-full md:w-1/3 max-w-sm shrink-0 mx-auto md:mx-0">
+                <h2 class="text-2xl font-bold font-['Cinzel'] text-red-800 text-center md:text-left mb-6 border-b-2 border-red-700/20 pb-2">
                     Selecione uma Década
                 </h2>
                 
@@ -140,13 +147,13 @@ const destaques = [
             {/* LADO DIREITO: DESTAQUES (Carrossel) */}
             <main class="w-full md:w-2/3 flex flex-col">
                 
-                {/* Título com linha ajustada para o tamanho do carrossel */}
-                <h2 class="text-2xl font-bold font-['Cinzel'] text-red-800 text-right mb-6 border-b-2 border-red-700/20 pb-2 max-w-xl ml-auto w-full">
+                {/* Título com alinhamento flexível (centro mobile, direita desktop) */}
+                <h2 class="text-2xl font-bold font-['Cinzel'] text-red-800 text-center md:text-right mb-6 border-b-2 border-red-700/20 pb-2 max-w-xl mx-auto md:ml-auto md:mr-0 w-full">
                     Destaques do Acervo
                 </h2>
                 
-                {/* Contêiner principal alinhado à direita (ml-auto mr-0) */}
-                <div class="relative bg-white rounded-xl shadow-md border border-stone-200 p-3 md:p-4 overflow-hidden flex-1 flex items-center group max-w-xl ml-auto mr-0 w-full">
+                {/* Contêiner principal centrado no mobile e alinhado à direita no desktop (mx-auto md:ml-auto md:mr-0) */}
+                <div class="relative bg-white rounded-xl shadow-md border border-stone-200 p-3 md:p-4 overflow-hidden flex-1 flex items-center group max-w-xl mx-auto md:ml-auto md:mr-0 w-full">
                     
                     {/* Botão Anterior */}
                     <button id="btn-prev" class="absolute left-1 z-20 bg-white/90 hover:bg-red-700 text-stone-800 hover:text-white p-1.5 rounded-full shadow-lg transition-colors duration-300 focus:outline-none hidden md:flex">
@@ -170,6 +177,7 @@ const destaques = [
                                         src={item.src} 
                                         alt={item.legenda} 
                                         class="w-full h-full object-cover object-center transition-transform duration-700 group-hover/img:scale-105"
+                                        loading="lazy"
                                     />
                                     {/* Overlay escuro com lupa */}
                                     <div class="absolute inset-0 bg-black/50 opacity-0 group-hover/img:opacity-100 flex items-center justify-center transition-opacity duration-300">
@@ -200,8 +208,8 @@ const destaques = [
 
                 </div>
                 
-                {/* Indicadores alinhados com o carrossel (ajustado com max-w-xl e ml-auto) */}
-                <div class="flex justify-center gap-1.5 mt-3 max-w-xl ml-auto mr-0 w-full" id="carousel-indicators">
+                {/* Indicadores alinhados com o carrossel */}
+                <div class="flex justify-center gap-1.5 mt-3 max-w-xl mx-auto md:ml-auto md:mr-0 w-full" id="carousel-indicators">
                     {destaques.map((_, i) => (
                         <button class={`w-1.5 h-1.5 rounded-full transition-all duration-300 ${i === 0 ? 'bg-red-700 w-4' : 'bg-stone-300 hover:bg-red-400'}`} data-index={i} aria-label={`Ir para o slide ${i + 1}`}></button>
                     ))}
@@ -217,8 +225,9 @@ const destaques = [
     ========================================== */}
     <div id="imageModal" class="fixed inset-0 z-[100] hidden items-center justify-center bg-black/80 backdrop-blur-sm opacity-0 transition-opacity duration-300 p-4">
         
-        <button id="closeModal" class="absolute top-6 right-6 text-white/70 hover:text-white hover:rotate-90 transition-all duration-300 cursor-pointer p-2 z-[110]">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-10 h-10">
+        {/* Botão de Fechar com hit-box maior e posicionado mais ao centro em telas pequenas */}
+        <button id="closeModal" class="absolute top-4 right-4 md:top-6 md:right-6 text-white/70 hover:text-white hover:rotate-90 transition-all duration-300 cursor-pointer p-2 z-[110]">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-8 h-8 md:w-10 md:h-10">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
             </svg>
         </button>
@@ -228,11 +237,11 @@ const destaques = [
                 id="modalImage" 
                 src="" 
                 alt="" 
-                class="max-h-[65vh] w-auto object-contain border border-stone-200 shadow-inner"
+                class="max-h-[60vh] md:max-h-[65vh] w-auto object-contain border border-stone-200 shadow-inner"
             />
-            <div class="mt-5 text-center px-4 max-w-3xl">
-                <p id="modalDate" class="text-sm text-red-700 font-bold tracking-widest uppercase mb-1"></p>
-                <h3 id="modalCaption" class="text-xl md:text-2xl font-serif text-stone-900 leading-snug"></h3>
+            <div class="mt-4 md:mt-5 text-center px-2 md:px-4 max-w-3xl overflow-y-auto max-h-[25vh]">
+                <p id="modalDate" class="text-xs md:text-sm text-red-700 font-bold tracking-widest uppercase mb-1"></p>
+                <h3 id="modalCaption" class="text-lg md:text-2xl font-serif text-stone-900 leading-snug"></h3>
             </div>
         </div>
     </div>
