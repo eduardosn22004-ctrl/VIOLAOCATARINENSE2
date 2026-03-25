@@ -1,30 +1,75 @@
 ---
+// 1. Lógica para detectar idioma pela URL
+const url = new URL(Astro.request.url);
+const pathSegments = url.pathname.split('/').filter(Boolean);
+const currentLang = pathSegments[0] === 'en' ? 'en' : 'pt';
+
+// 2. Dicionário de traduções para o Header
+const translations = {
+    pt: {
+        apresentacao: 'Apresentação',
+        compositores: 'Compositores e Violonistas',
+        catalogo: 'Catálogo',
+        composicoes: 'Composições',
+        arranjos: 'Arranjos',
+        discografia: 'Discografia',
+        referencias: 'Referências',
+        registros: 'Registros Históricos',
+        participe: 'Participe Conosco',
+        subtitle: 'A música para violão em Santa Catarina',
+        flagImg: "https://flagcdn.com/w40/gb.png", // Bandeira do Reino Unido (Inglês)
+        alt: 'Mudar para Inglês'
+    },
+    en: {
+        apresentacao: 'Presentation',
+        compositores: 'Composers & Guitarists',
+        catalogo: 'Catalog',
+        composicoes: 'Compositions',
+        arranjos: 'Arrangements',
+        discografia: 'Discography',
+        referencias: 'References',
+        registros: 'Historical Records',
+        participe: 'Join Us',
+        subtitle: 'Guitar music from Santa Catarina',
+        flagImg: "https://flagcdn.com/w40/br.png", // Bandeira do Brasil (Português)
+        alt: 'Switch to Portuguese'
+    }
+};
+
+const t = translations[currentLang];
+
+// 3. Itens de navegação com prefixo de idioma /pt/ ou /en/
 const navItems = [
-    { linkText: 'Apresentação', href: '/' },
-    { linkText: 'Compositores e Violonistas', href: '/compositores' },
+    { linkText: t.apresentacao, href: `/${currentLang}/` },
+    { linkText: t.compositores, href: `/${currentLang}/compositores` },
     { 
-        linkText: 'Catálogo', 
-        href: '/catalogo',
+        linkText: t.catalogo, 
+        href: `/${currentLang}/catalogo`,
         subItems: [
-            { linkText: 'Composições', href: '/catalogo' },
-            { linkText: 'Arranjos', href: '/arranjo' },
+            { linkText: t.composicoes, href: `/${currentLang}/catalogo` },
+            { linkText: t.arranjos, href: `/${currentLang}/arranjo` },
         ]
     },
-    { linkText: 'Discografia', href: '/discografia' },
-    { linkText: 'Referências', href: '/referencias' },
+    { linkText: t.discografia, href: `/${currentLang}/discografia` },
+    { linkText: t.referencias, href: `/${currentLang}/referencias` },
     { 
-        linkText: 'Registros Históricos', 
-        href: '/registros',
+        linkText: t.registros, 
+        href: `/${currentLang}/registros`,
         subItems: [
-            { linkText: 'Décadas de 20 a 50', href: '/registros/20' },
-            { linkText: 'Década de 60', href: '/registros/60' },
-            { linkText: 'Década de 70', href: '/registros/70' },
-            { linkText: 'Décadas de 80 e 90', href: '/registros/80' },
-            { linkText: 'Anos 2000 - Presente', href: '/registros/2000' },
+            { linkText: '20s - 50s', href: `/${currentLang}/registros/20` },
+            { linkText: '60s', href: `/${currentLang}/registros/60` },
+            { linkText: '70s', href: `/${currentLang}/registros/70` },
+            { linkText: '80s - 90s', href: `/${currentLang}/registros/80` },
+            { linkText: '2000s - Present', href: `/${currentLang}/registros/2000` },
         ]
     },
-    { linkText: 'Participe Conosco', href: '/participe' }
+    { linkText: t.participe, href: `/${currentLang}/participe` }
 ];
+
+// 4. Lógica para o botão de troca de idioma (troca /pt por /en na URL atual)
+const otherLang = currentLang === 'pt' ? 'en' : 'pt';
+const cleanPath = url.pathname.replace(/^\/(pt|en)/, ''); 
+const toggleLangHref = `/${otherLang}${cleanPath === '' ? '/' : cleanPath}`;
 ---
 
 <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -46,13 +91,12 @@ const navItems = [
 
     {/* TÍTULO E SUBTÍTULO */}
     <div class="relative z-10 w-full h-56 md:h-78 flex items-center justify-center pointer-events-none">
-        {/* Este flex-col garante o empilhamento vertical */}
         <div class="flex flex-col items-center">
             <h1 class="text-white text-4xl md:text-7xl font-['Cinzel'] font-bold tracking-wider text-center uppercase drop-shadow-[0_4px_4px_rgba(0,0,0,0.8)] px-4 pointer-events-auto">
                 VIOLÃO CATARINENSE
             </h1>
             <span class="text-white/90 text-[10px] md:text-sm font-['Cinzel'] font-medium tracking-[0.4em] text-center uppercase drop-shadow-md pointer-events-auto mt-1 md:mt-2">
-                Guitar music from Santa Catarina
+                {t.subtitle}
             </span>
         </div>
     </div>
@@ -81,16 +125,13 @@ const navItems = [
                         )}
                     </a>
 
-                    {/* MENU DAS DÉCADAS */}
                     {item.subItems && (
                         <div class="submenu-container absolute left-1/2 -translate-x-1/2 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
-                            {/* Fundo com leve transparência (bg-red-900/90), sem blur */}
                             <ul class="w-48 bg-red-900/90 border border-white/20 rounded-md shadow-2xl flex flex-col divide-y divide-white/20 overflow-hidden">
                                 {item.subItems.map((subItem) => (
                                     <li>
                                         <a 
                                             href={subItem.href} 
-                                            /* Texto limpo, sem sombras, 100% sólido */
                                             class="block px-4 py-3 text-center text-[10px] md:text-[11px] text-white font-bold no-underline uppercase tracking-widest hover:bg-black/60 transition-all duration-300"
                                         >
                                             {subItem.linkText}
@@ -102,12 +143,23 @@ const navItems = [
                     )}
                 </li>
             ))}
+
+            {/* BOTÃO DE BANDEIRA (Switch de Idioma) */}
+            <li class="flex items-center ml-2 border-l border-white/20 pl-4">
+                <a href={toggleLangHref} title={t.alt} class="hover:scale-110 transition-transform duration-300 block">
+                    <img 
+                        src={t.flagImg} 
+                        alt={t.alt}
+                        class="w-6 h-auto rounded shadow-sm border border-white/10"
+                    />
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
 
 <style>
-    /* Classes de controle para mobile */
+    /* Suas classes de controle para mobile permanecem iguais */
     .menu-aberto .submenu-container {
         opacity: 1 !important;
         visibility: visible !important;
@@ -118,6 +170,7 @@ const navItems = [
 </style>
 
 <script is:inline>
+    // Seu script de dropdown permanece o mesmo
     document.addEventListener('DOMContentLoaded', () => {
         const dropdowns = document.querySelectorAll('.has-dropdown');
         
@@ -125,26 +178,18 @@ const navItems = [
             const link = dropdown.querySelector('a');
             
             link.addEventListener('click', function(e) {
-                // Verifica se está em uma tela pequena ou possui recurso de toque
                 const isMobile = window.matchMedia('(max-width: 1024px)').matches || ('ontouchstart' in window);
                 
                 if (isMobile) {
-                    // Se não estiver aberto, previne a navegação e abre o menu
                     if (!dropdown.classList.contains('menu-aberto')) {
                         e.preventDefault(); 
-                        
-                        // Fecha os outros
                         dropdowns.forEach(d => d.classList.remove('menu-aberto'));
-                        
-                        // Abre o atual
                         dropdown.classList.add('menu-aberto');
                     }
-                    // O segundo clique na aba já aberta seguirá o link normalmente
                 }
             });
         });
 
-        // Clicar fora do menu fecha tudo no mobile
         document.addEventListener('click', function(e) {
             if (!e.target.closest('.has-dropdown')) {
                 dropdowns.forEach(d => d.classList.remove('menu-aberto'));
