@@ -44,11 +44,17 @@ const navItems = [
         </div>
     </div>
 
-    {/* TÍTULO */}
-    <div class="relative z-10 w-full h-56 md:h-72 flex items-center justify-center pointer-events-none">
-        <h1 class="text-white text-4xl md:text-7xl font-['Cinzel'] font-bold tracking-wider text-center uppercase drop-shadow-[0_4px_4px_rgba(0,0,0,0.8)] px-4 pointer-events-auto">
-            VIOLÃO CATARINENSE
-        </h1>
+    {/* TÍTULO E SUBTÍTULO */}
+    <div class="relative z-10 w-full h-56 md:h-78 flex items-center justify-center pointer-events-none">
+        {/* Este flex-col garante o empilhamento vertical */}
+        <div class="flex flex-col items-center">
+            <h1 class="text-white text-4xl md:text-7xl font-['Cinzel'] font-bold tracking-wider text-center uppercase drop-shadow-[0_4px_4px_rgba(0,0,0,0.8)] px-4 pointer-events-auto">
+                VIOLÃO CATARINENSE
+            </h1>
+            <span class="text-white/90 text-[10px] md:text-sm font-['Cinzel'] font-medium tracking-[0.4em] text-center uppercase drop-shadow-md pointer-events-auto mt-1 md:mt-2">
+                Guitar music from Santa Catarina
+            </span>
+        </div>
     </div>
 
     {/* NAVEGAÇÃO */}
