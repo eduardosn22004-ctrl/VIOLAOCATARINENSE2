@@ -609,7 +609,23 @@ mas como um desbravador que levou o violão erudito aos rincões do Brasil e aos
     eh_compositor: false,
     eh_violonista: true,
   },  
+{
+    id: "mailonbug",
+    nome: "Mailon Bugmann",
+    foto: "/images/pessoas/mailonbug1.avif",
+    bio: `<p>
+A trajetória artística e pedagógica de Mailon Bugmann é marcada por uma profunda dedicação ao violão clássico e à educação musical em Santa Catarina, caminhos que começaram a se cruzar quando ele deu seus primeiros passos no instrumento aos 11 anos de idade. Sua formação acadêmica sólida teve início em 1999, ao ingressar na Universidade Regional de Blumenau (FURB), onde se graduou em 2003 no curso de Artes com Habilitação em Música. Durante esse período e nos anos subsequentes, Bugmann buscou um aperfeiçoamento técnico rigoroso, estudando flauta transversal com Leandro Gaertner e consolidando sua técnica violonística sob a orientação de Renato Mor no prestigiado Teatro Carlos Gomes, além de receber tutorias do renomado violonista Marcus Llerena, em Joinville. Sua busca por excelência o levou a participar de diversos cursos e masterclasses com figuras exponenciais do cenário mundial, como Marco Pereira, Luis Mantovani, Ulisses Rocha e os internacionais Carlos Perez, Enric Madriguera e Juan Francisco Ortiz, experiências que moldaram sua identidade como intérprete e educador.
 
+No âmbito da performance, sua atuação em grupos de câmara foi fundamental para a cena cultural regional, integrando a Camerata de Violões da FURB por sete anos e o Quarteto Blumenauense de Violões, com o qual lançou em 2016 o CD "Música Brasileira". Este álbum, que contou com a direção de Tadeu do Amaral — integrante do premiado Brazilian Guitar Quartet — e apoio do Fundo Municipal de Apoio à Cultura de Blumenau, tornou-se um registro importante de sua maturidade artística. Além do quarteto, Mailon colaborou em diversos projetos em duo com William Pofahl e participou da Orquestra Seis por Oito de Violões em Joinville. Sua versatilidade artística também se estendeu às artes cênicas, onde atuou como diretor musical de teatro, sendo reconhecido com diversos prêmios nacionais de sonoplastia por sua capacidade de traduzir narrativas dramáticas em texturas sonoras.
+
+Paralelamente à sua carreira nos palcos, Mailon Bugmann construiu um legado significativo no ensino da música, atividade que exerce ininterruptamente desde 2001. Sua experiência docente abrange instituições de relevância, incluindo passagens pela Fundação Cultural 
+de Blumenau, pela Secretaria Municipal de Educação e por escolas como a FreeStudio e a Monteiro Lobato. Notavelmente, dedicou doze anos de sua carreira ao Sesc Blumenau, entre 2008 e 2020, consolidando-se como uma peça-chave na formação de novos músicos e na
+difusão do violão clássico na região. Sua biografia é, portanto, o retrato de um músico que une o rigor da técnica clássica à sensibilidade da música brasileira, sempre comprometido com a democratização do saber musical.(Fonte:https://teatrocarlosgomes.com.br/team/mailon-bugmann/)
+</p>`,   
+    galeria: ["/images/pessoas/mailonbug1.avif"],
+    eh_compositor: false,
+    eh_violonista: true,
+  },
 
 
 
