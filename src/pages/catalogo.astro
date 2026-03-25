@@ -32,76 +32,82 @@ function verificar_discografia(nome_musico) {
 
 <Layout title="Violão Catarinense">
     
-    <div class="min-h-screen md: px-0 py-16 md:py-10 text-stone-900">
+    {/* Corrigido o erro de sintaxe 'md: px-0' e adicionado padding lateral no mobile */}
+    <div class="min-h-screen px-4 md:px-0 py-16 md:py-10 text-stone-900">
         
         <div class="max-w-6xl mx-auto">
             
-            <header class="flex flex-col items-center text-center pt-0 pb-0 mb-10 -translate-x-4 md:-translate-x-12">
-    <div class="flex flex-col items-center text-center w-full">
-          
-        <h1 class="flex items-center justify-center gap-6 md:gap-8 text-4xl md:text-5xl font-bold text-red-700 font-['Cinzel'] uppercase tracking-tight mb-4">                    
-            
-            <svg viewBox="0 0 100 100" class="text-red-700 w-20 h-20 md:w-24 md:h-24 shrink-0 translate-y-6" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <style is:inline>
-                @keyframes float-music-notes {
-                  0% { opacity: 0; transform: translateY(8px); }
-                  20% { opacity: 1; transform: translateY(0px); }
-                  80% { opacity: 1; transform: translateY(-10px); }
-                  100% { opacity: 0; transform: translateY(-18px); }
-                }
-                .pauta-linha { stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; }
-                .nota-animada { animation: float-music-notes 3.5s ease-in-out infinite; fill: currentColor; }
-                .nota-haste { stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
-                .nota-bandeirola { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
-                .delay-1 { animation-delay: 0s; }
-                .delay-2 { animation-delay: 1.2s; }
-                .delay-3 { animation-delay: 2.4s; }
-              </style>
-              
-              <line class="pauta-linha" x1="5" y1="30" x2="95" y2="30"/>
-              <line class="pauta-linha" x1="5" y1="40" x2="95" y2="40"/>
-              <line class="pauta-linha" x1="5" y1="50" x2="95" y2="50"/>
-              <line class="pauta-linha" x1="5" y1="60" x2="95" y2="60"/>
-              <line class="pauta-linha" x1="5" y1="70" x2="95" y2="70"/>
-              
-              <g transform="translate(25, 60)">
-                  <g class="nota-animada delay-1">
-                      <ellipse cx="0" cy="0" rx="4.5" ry="3.5" transform="rotate(-20)"/>
-                      <line class="nota-haste" x1="4" y1="0" x2="4" y2="-22"/>
-                      <path class="nota-bandeirola" d="M4 -22 C 12 -18, 14 -8, 10 -2"/>
-                  </g>
-              </g>
-              
-              <g transform="translate(50, 70)">
-                  <g class="nota-animada delay-2">
-                      <ellipse cx="0" cy="0" rx="4.5" ry="3.5" transform="rotate(-20)"/>
-                      <line class="nota-haste" x1="4" y1="0" x2="4" y2="-22"/>
-                      <path class="nota-bandeirola" d="M4 -22 C 12 -18, 14 -8, 10 -2"/>
-                  </g>
-              </g>
-              
-              <g transform="translate(75, 50)">
-                  <g class="nota-animada delay-3">
-                      <ellipse cx="0" cy="0" rx="4.5" ry="3.5" transform="rotate(-20)"/>
-                      <line class="nota-haste" x1="4" y1="0" x2="4" y2="-22"/>
-                      <path class="nota-bandeirola" d="M4 -22 C 12 -18, 14 -8, 10 -2"/>
-                  </g>
-              </g>
-            </svg>
+            {/* Margens e desvios negativos aplicados apenas no desktop (md:) */}
+            <header class="flex flex-col items-center text-center pt-0 pb-0 mb-10 translate-x-0 md:-translate-x-12">
+                <div class="flex flex-col items-center text-center w-full">
+                    
+                    {/* Alterado para stackar o ícone e o texto no mobile (flex-col md:flex-row) */}
+                    <h1 class="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-8 text-3xl md:text-5xl font-bold text-red-700 font-['Cinzel'] uppercase tracking-tight mb-4">                    
+                        
+                        {/* Tamanho e posição do ícone reajustados para mobile */}
+                        <svg viewBox="0 0 100 100" class="text-red-700 w-20 h-20 md:w-24 md:h-24 shrink-0 translate-y-0 md:translate-y-6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <style is:inline>
+                                @keyframes float-music-notes {
+                                    0% { opacity: 0; transform: translateY(8px); }
+                                    20% { opacity: 1; transform: translateY(0px); }
+                                    80% { opacity: 1; transform: translateY(-10px); }
+                                    100% { opacity: 0; transform: translateY(-18px); }
+                                }
+                                .pauta-linha { stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; }
+                                .nota-animada { animation: float-music-notes 3.5s ease-in-out infinite; fill: currentColor; }
+                                .nota-haste { stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+                                .nota-bandeirola { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; }
+                                .delay-1 { animation-delay: 0s; }
+                                .delay-2 { animation-delay: 1.2s; }
+                                .delay-3 { animation-delay: 2.4s; }
+                            </style>
+                            
+                            <line class="pauta-linha" x1="5" y1="30" x2="95" y2="30"/>
+                            <line class="pauta-linha" x1="5" y1="40" x2="95" y2="40"/>
+                            <line class="pauta-linha" x1="5" y1="50" x2="95" y2="50"/>
+                            <line class="pauta-linha" x1="5" y1="60" x2="95" y2="60"/>
+                            <line class="pauta-linha" x1="5" y1="70" x2="95" y2="70"/>
+                            
+                            <g transform="translate(25, 60)">
+                                <g class="nota-animada delay-1">
+                                    <ellipse cx="0" cy="0" rx="4.5" ry="3.5" transform="rotate(-20)"/>
+                                    <line class="nota-haste" x1="4" y1="0" x2="4" y2="-22"/>
+                                    <path class="nota-bandeirola" d="M4 -22 C 12 -18, 14 -8, 10 -2"/>
+                                </g>
+                            </g>
+                            
+                            <g transform="translate(50, 70)">
+                                <g class="nota-animada delay-2">
+                                    <ellipse cx="0" cy="0" rx="4.5" ry="3.5" transform="rotate(-20)"/>
+                                    <line class="nota-haste" x1="4" y1="0" x2="4" y2="-22"/>
+                                    <path class="nota-bandeirola" d="M4 -22 C 12 -18, 14 -8, 10 -2"/>
+                                </g>
+                            </g>
+                            
+                            <g transform="translate(75, 50)">
+                                <g class="nota-animada delay-3">
+                                    <ellipse cx="0" cy="0" rx="4.5" ry="3.5" transform="rotate(-20)"/>
+                                    <line class="nota-haste" x1="4" y1="0" x2="4" y2="-22"/>
+                                    <path class="nota-bandeirola" d="M4 -22 C 12 -18, 14 -8, 10 -2"/>
+                                </g>
+                            </g>
+                        </svg>
 
-            <span class="relative whitespace-nowrap after:absolute after:-bottom-0 after:left-[0%] after:w-[110%] after:h-[2px] after:bg-red-700">
-                Catálogo de Obras
-            </span>
-        </h1>
-        
-    <div class="-mt-8 ml-10 md:ml-65 mb-0"> 
-    <p class="text-xl text-stone-600 font-serif italic text-left">
-        Registro de composições que contribuem para o repertório <br /> violonístico catarinense e brasileiro
-    </p>
-</div>
-        </header>
+                        <span class="relative whitespace-nowrap after:absolute after:-bottom-0 md:after:left-[0%] after:left-0 after:w-full md:after:w-[110%] after:h-[2px] after:bg-red-700">
+                            Catálogo de Obras
+                        </span>
+                    </h1>
+                    
+                    {/* Recuo do texto aplicado apenas no desktop (md:-mt-8, md:ml-65) */}
+                    <div class="mt-4 md:-mt-8 ml-0 md:ml-65 mb-0 px-2 md:px-0"> 
+                        <p class="text-lg md:text-xl text-stone-600 font-serif italic text-center md:text-left">
+                            Registro de composições que contribuem para o repertório <br class="hidden md:block" /> violonístico catarinense e brasileiro
+                        </p>
+                    </div>
+                </div>
+            </header>
 
-            <div class="max-w-xl mx-auto mb-10 px-2">
+            <div class="max-w-xl mx-auto mb-10 w-full">
                 <div class="relative group">
                     <input 
                         type="text" 
@@ -112,7 +118,8 @@ function verificar_discografia(nome_musico) {
                 </div>
             </div>
 
-            <div class="w-full overflow-x-auto pb-8">
+            {/* A tabela rolará lateralmente em telas menores automaticamente */}
+            <div class="w-full overflow-x-auto pb-8 rounded-lg shadow-sm md:shadow-none bg-white md:bg-transparent px-2 md:px-0">
                 <table id="tabelaCatalogo" class="w-full text-left border-collapse min-w-[800px]">
                     <thead>
                         <tr class="border-b-2 border-red-900/40 text-red-950 font-['Cinzel'] text-lg tracking-wider drop-shadow-sm">
