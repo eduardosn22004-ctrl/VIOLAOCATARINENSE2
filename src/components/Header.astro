@@ -15,6 +15,12 @@ const translations = {
         discografia: 'Discografia',
         referencias: 'Referências',
         registros: 'Registros Históricos',
+        // Textos originais em português para as décadas
+        reg_20: 'Décadas de 20 a 50',
+        reg_60: 'Década de 60',
+        reg_70: 'Década de 70',
+        reg_80: 'Décadas de 80 e 90',
+        reg_2000: 'Anos 2000 - Presente',
         participe: 'Participe Conosco',
         subtitle: 'Guitar music from Santa Catarina',
         flagImg: "https://flagcdn.com/w40/gb.png", // Bandeira do Reino Unido (Inglês)
@@ -29,6 +35,12 @@ const translations = {
         discografia: 'Discography',
         referencias: 'References',
         registros: 'Historical Records',
+        // Textos em inglês para as décadas
+        reg_20: '20s - 50s',
+        reg_60: '60s',
+        reg_70: '70s',
+        reg_80: '80s - 90s',
+        reg_2000: '2000s - Present',
         participe: 'Join Us',
         subtitle: 'Guitar music from Santa Catarina',
         flagImg: "https://flagcdn.com/w40/br.png", // Bandeira do Brasil (Português)
@@ -56,11 +68,11 @@ const navItems = [
         linkText: t.registros, 
         href: `/${currentLang}/registros`,
         subItems: [
-            { linkText: '20s - 50s', href: `/${currentLang}/registros/20` },
-            { linkText: '60s', href: `/${currentLang}/registros/60` },
-            { linkText: '70s', href: `/${currentLang}/registros/70` },
-            { linkText: '80s - 90s', href: `/${currentLang}/registros/80` },
-            { linkText: '2000s - Present', href: `/${currentLang}/registros/2000` },
+            { linkText: t.reg_20, href: `/${currentLang}/registros/20` },
+            { linkText: t.reg_60, href: `/${currentLang}/registros/60` },
+            { linkText: t.reg_70, href: `/${currentLang}/registros/70` },
+            { linkText: t.reg_80, href: `/${currentLang}/registros/80` },
+            { linkText: t.reg_2000, href: `/${currentLang}/registros/2000` },
         ]
     },
     { linkText: t.participe, href: `/${currentLang}/participe` }
