@@ -612,7 +612,7 @@ mas como um desbravador que levou o violão erudito aos rincões do Brasil e aos
 {
     id: "mailonbug",
     nome: "Mailon Bugmann",
-    foto: "/images/pessoas/mailonbug1.avif",
+    foto: "/images/pessoas/mailonbug2.avif",
     bio: `<p>
 A trajetória artística e pedagógica de Mailon Bugmann é marcada por uma profunda dedicação ao violão clássico e à educação musical em Santa Catarina, caminhos que começaram a se cruzar quando ele deu seus primeiros passos no instrumento aos 11 anos de idade. Sua formação acadêmica sólida teve início em 1999, ao ingressar na Universidade Regional de Blumenau (FURB), onde se graduou em 2003 no curso de Artes com Habilitação em Música. Durante esse período e nos anos subsequentes, Bugmann buscou um aperfeiçoamento técnico rigoroso, estudando flauta transversal com Leandro Gaertner e consolidando sua técnica violonística sob a orientação de Renato Mor no prestigiado Teatro Carlos Gomes, além de receber tutorias do renomado violonista Marcus Llerena, em Joinville. Sua busca por excelência o levou a participar de diversos cursos e masterclasses com figuras exponenciais do cenário mundial, como Marco Pereira, Luis Mantovani, Ulisses Rocha e os internacionais Carlos Perez, Enric Madriguera e Juan Francisco Ortiz, experiências que moldaram sua identidade como intérprete e educador.
 
