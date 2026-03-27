@@ -1,35 +1,39 @@
 ---
 // Importando o seu Layout
-import Layout from '../../layouts/Layout.astro';
+import Layout from '../../../layouts/Layout.astro';
 
 // 1. DADOS: Galeria do Otacilio
 const levino = [
     {
         src: '/images/registros/otacilio1.avif',
-        legenda: '26 de junho de 1962',
-        fonte: 'Jornal A Nação - Blumenau'
+        legenda: 'June 26, 1962',
+        fonte: 'Newspaper A Nação - Blumenau'
     },
     {
         src: '/images/registros/otacilio2.avif',
-        legenda: '1 de julho de 1962',
-        fonte: 'Jornal A Nação - Blumenau'
+        legenda: 'July 1, 1962',
+        fonte: 'Newspaper A Nação - Blumenau'
     },
     {
         src: '/images/registros/otacilio3.avif',
-        legenda: '12 de dezembro de 1967',
-        fonte: 'Jornal A Nação - Blumenau'
+        legenda: 'December 12, 1967',
+        fonte: 'Newspaper A Nação - Blumenau'
     }
 ];
 
-// 2. DADOS: Nova galeria de Recortes de Imprensa
+{/*
+// SEÇÃO 2 EXEMPLO
 const recortesImprensa = [
     {
         src: '/images/registros/olgapra.avif', // Substitua pelos seus caminhos reais
         legenda: 'Olga Praguer Coelho, uma virtuose violonista natural de Manaus, tocou um concerto em Laguna no Clube Blondin no ano de 1944.',
         fonte: 'Jornal Correio do Sul - Laguna - 8 de outubro de 1944'
     },
+    ];
+
+  */}  
     
-];
+
 ---
 
 <Layout title="Violão Catarinense">
@@ -92,12 +96,12 @@ const recortesImprensa = [
     <div class="flex flex-col items-start">
         <h1 class="text-4xl md:text-5xl font-bold text-red-700 font-['Cinzel'] uppercase tracking-tight mb-0">
             <span class="relative after:absolute after:bottom-2 after:left-0 after:w-full after:h-[2px] after:bg-red-700">
-             Registros Históricos
+             Historical Records
             </span>
         </h1>
         
         <p class="text-xl text-stone-600 mt-1 font-serif italic text-left max-w-lg leading-snug">
-            Recortes da Trajetória do Violão em Santa Catarina na Década de 1960
+            Excerpts from the History of the Guitar in Santa Catarina from the 1960s
         </p>
     </div>
 
@@ -124,7 +128,7 @@ const recortesImprensa = [
                 
                 {/* Adicionei mx-auto e max-w-2xl para o texto não ficar muito esticado ao ser centralizado */}
                 <p class="text-lg text-stone-500 font-serif italic mt-3 max-w-2xl mx-auto">
-                    Otacilio Amaral sendo comentado em jornais na cidade de Blumenau
+                    Otacílio Amaral’s recitals reviewed by newspapers in the city of Blumenau
                 </p>
             </div>
 
