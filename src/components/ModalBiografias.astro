@@ -110,7 +110,7 @@ let escalaFundo = '100%'; // DIMINUI A ESCALA PADRÃO (Ajuste este valor)
 
 const atuacaoLimpa = atuacaoArtista.toLowerCase().trim();
 
-if (atuacaoLimpa === 'compositor e violonista') {
+if (atuacaoLimpa === 'compositor e violonista'|| atuacaoLimpa === 'composer and guitarist') {
     urlImagemFundo = '/images/fundo-violao2.avif';
 } else if (atuacaoLimpa === 'compositor') {
     urlImagemFundo = '/images/teste.jpg';
@@ -120,17 +120,6 @@ if (atuacaoLimpa === 'compositor e violonista') {
     urlImagemFundo = '/images/fundo-padrao.jpg'; 
 }
 
-//EM INGLÊS
-
-if (atuacaoLimpa === 'composer and guitarist') {
-    urlImagemFundo = '/images/fundo-violao2.avif';
-} else if (atuacaoLimpa === 'composer') {
-    urlImagemFundo = '/images/teste.jpg';
-} else if (atuacaoLimpa === 'guitarist') {
-    urlImagemFundo = '/images/fundo-violao2.avif';
-} else {
-    urlImagemFundo = '/images/fundo-padrao.jpg'; 
-}
 
 
 
