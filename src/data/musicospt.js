@@ -19,18 +19,18 @@ export const musicos =[
       <p class="mt-4 font-bold text-red-600 uppercase">Cargos</p>
       <p>Retornando ao Brasil em 1950, iniciou uma atividade permanente como produtor de programas musicais para a Rádio Ministério da Educação, 
       onde exerceu a função de diretor musical e organizou a Orquestra Sinfônica Nacional. De 1950 a 1952 exerceu a crítica musical do
-       jornal "Tribuna da Imprensa".  Em 1969 e 1970 organizou e dirigiu os Festivais de Música da Guanabara, dos quais se originaram, 
+       jornal "Tribuna da Imprensa". Em 1969 e 1970 organizou e dirigiu os Festivais de Música da Guanabara, dos quais se originaram, 
        a partir de 1975, as Bienais de Música Brasileira Contemporânea.  Dirigiu a divisão de música clássica da "Rádio Jornal do Brasil" e 
        exerceu a crítica musical no "Jornal do Brasil". Em 1976 assumiu a direção artística da FUNTERJ - Fundação de Teatros do Rio de Janeiro, e
         nessa função organizou a temporada de reabertura do Theatro Municipal e o Centro de Produções Teatrais de Inhaúma. Em 1979 criou o 
         Projeto Memória Musical Brasileira/PRO-MEMUS, junto ao Instituto Nacional de Arte da FUNARTE - Fundação Nacional de Arte, 
         do Ministério da Cultura.  De 1981 a 1989 exerceu a direção do Instituto Nacional de Música. Em 1989 assumiu a presidência da FUNARTE.
          De 2003 a 2006 exerceu a presidência da Fundação Museu da Imagem e do Som do Rio de Janeiro. É membro da Comissão Internacional para a 
-         Difusão da Cultura Catalã, de Barcelona, Espanha.Foi  membro do Conselho Estadual de Cultura do Rio de Janeiro. Foi eleito, em 1998,
+         Difusão da Cultura Catalã, de Barcelona, Espanha. Foi membro do Conselho Estadual de Cultura do Rio de Janeiro. Foi eleito, em 1998,
           presidente da Academia Brasileira de Música.  </p>
       
       <p class="mt-4 font-bold text-red-600 uppercase">Características estéticas</p>
-      <p>Sua evolução estética parte do impressionismo do Improviso para flauta, de 1944, para alcançar o serialismo com oTrio de Sopros, 
+      <p>Sua evolução estética parte do impressionismo do Improviso para flauta, de 1944, para alcançar o serialismo com o Trio de Sopros, 
       de 1945. Em 1952 abandona o serialismo em favor de uma experimentação mais profunda das formas e linguagens tradicionais e da temática musical
        de caráter brasileiro. Em 1965, com as Variações Elementares, inicia uma síntese de suas experiências anteriores, passando a utilizar recursos
         de vanguarda e tradicionais, juntamente com elementos absorvidos da cultura musical brasileira</p>
@@ -40,19 +40,19 @@ export const musicos =[
       ao lado de Koellreutter, Claudio Santoro, Guerra-Peixe e Eunice Catunda. passando então a integrar o Grupo Música Viva de compositores de vanguarda,
        ao lado de Koellreutter, Claudio Santoro, Guerra-Peixe e Eunice Catunda. Em 1955 obteve o Prêmio Internacional da Paz do Festival de Varsóvia e o
         Prêmio da Fundação Rottelini de Roma Em 1959 obteve o primeiro prêmio no I Concurso Nacional de Composição instituído pelo Ministério da Educação,
-         com o Divertimento para Cordas, e recebeu Medalha de Honra do Cinquentenário do Theatro Municipal do Rio de Janeiro.  Em 1961 seu 
+         com o Divertimento para Cordas, e recebeu Medalha de Honra do Cinquentenário do Theatro Municipal do Rio de Janeiro. Em 1961 seu 
          Quarteto de Cordas nº  1 obteve o Prêmio Nacional do Disco. Em 1966 e 1967 obteve Medalha de Ouro nos Festivais Internacionais da Canção,
-          no Rio de Janeiro. Em 1969 e 1988 recebeu o Troféu Golfinho de Ouro pelo conjunto de sua obra. 1977- titular do Troféu Barriga-Verde 1997- 
-          Medalha do Mérito Cultural Cruz e Souza, conferida pelo Conselho Estadual de Cultura de Santa Catarina 1986- 
-          Medalha do Mérito Cultural Anita Garibaldi, atribuída pelo Estado de Santa Catarina. No ano anterior recebeu a Comenda da ordem cultural
-           do Ministério da Cultura e Belas Artes da Polônia. Em Tóquio, recebeu uma semana de homenagens, realizando seis palestras e tendo suas músicas
+          no Rio de Janeiro. Em 1969 e 1988 recebeu o Troféu Golfinho de Ouro pelo conjunto de sua obra. Recebeu ainda em: 1977- titular do Troféu Barriga-Verde 
+          1985- Comenda da ordem cultural do Ministério da Cultura e Belas Artes da Polônia.
+          1986- Medalha do Mérito Cultural Anita Garibaldi, atribuída pelo Estado de Santa Catarina,  1994 - Prêmio Nacional da Música do Ministério da Cultura. 
+          1997- Medalha do Mérito Cultural Cruz e Souza, conferida pelo Conselho Estadual de Cultura de Santa Catarina 
+          1998 - Medalha Pedro Ernesto, maior honraria concedida pela cidade do Rio de Janeiro
+             para personalidades do meio cultural. Em Tóquio, recebeu uma semana de homenagens, realizando seis palestras e tendo suas músicas
            , tanto as de câmara quanto sinfônicas, tocadas por músicos japoneses. Tem atuado também como regente, principalmente de suas próprias obras. 
-            1994 - Prêmio Nacional da Música do Ministério da Cultura. 1998 - Medalha Pedro Ernesto, maior honraria concedida pela cidade do Rio de Janeiro
-             a personalidades do meio cultural. Recentemente (08/12/2011) recebeu o título de Doutor Honoris Causa da 
-             Universidade Federal de Santa Catarina.</p>
+           Recentemente (08/12/2011) recebeu o título de Doutor Honoris Causa da Universidade Federal de Santa Catarina.</p>
       
       <p class="mt-4 font-bold text-red-600 uppercase">Características das obras </p>
-      <p>eu catálogo inclui obras para orquestra sinfônica e de câmara, oratórios, música de câmara, 
+      <p>Seu catálogo inclui obras para orquestra sinfônica e de câmara, oratórios, música de câmara, 
       obras para coro e para vozes e instrumentos solistas, alem de partituras incidentais para teatro e cinema. 
       Suas composições têm sido executadas com frequência no Brasil e no exterior, 
       inclusive por orquestras do Rio de Janeiro, São Paulo, Porto Alegre, Recife, Bahia, Belo Horizonte, Liege, Bruxelas, Paris, Londres, Munique, 
