@@ -120,10 +120,6 @@ if (atuacaoLimpa === 'compositor e violonista'|| atuacaoLimpa === 'composer and 
     urlImagemFundo = '/images/fundo-padrao.jpg'; 
 }
 
-
-
-
-
 // Aplica a imagem, a posição e a escala
 modalBgImage.style.backgroundImage = `url('${urlImagemFundo}')`;
 modalBgImage.style.backgroundPosition = posicaoFundo;
@@ -137,18 +133,28 @@ modalBgImage.style.filter = 'blur(0px)';
         const temCatalogo = dataDiv.getAttribute('data-tem-catalogo') === 'true';
         const temDiscografia = dataDiv.getAttribute('data-tem-discografia') === 'true';
 
+        // Verifica se a URL contém "/en" ou se o idioma da página é inglês
+        const isEnglish = window.location.pathname.includes('/en') || document.documentElement.lang === 'en';
+
         const btnCatalogo = document.getElementById('btn-catalogo-modal');
         if (btnCatalogo) {
-            btnCatalogo.href = '/catalogo?busca=' + encodeURIComponent(nomeArtista);
+            btnCatalogo.href = (isEnglish ? '/en/catalogo?busca=' : '/catalogo?busca=') + encodeURIComponent(nomeArtista);
+            btnCatalogo.innerText = isEnglish ? 'Site Catalog' : 'Catálogo do Site';
             if (temCatalogo) btnCatalogo.classList.remove('hidden');
             else btnCatalogo.classList.add('hidden');
         }
 
         const btnDiscografia = document.getElementById('btn-discografia-modal');
         if (btnDiscografia) {
-            btnDiscografia.href = '/discografia?busca=' + encodeURIComponent(nomeArtista);
+            btnDiscografia.href = (isEnglish ? '/en/discografia?busca=' : '/discografia?busca=') + encodeURIComponent(nomeArtista);
+            btnDiscografia.innerText = isEnglish ? 'Discography' : 'Discografia';
             if (temDiscografia) btnDiscografia.classList.remove('hidden');
             else btnDiscografia.classList.add('hidden');
+        }
+
+        const tituloGaleria = document.querySelector('#gallery-section h3');
+        if (tituloGaleria) {
+            tituloGaleria.innerText = isEnglish ? 'Image Gallery' : 'Galeria de Imagens';
         }
 
         headerImg.src = dataDiv.getAttribute('data-foto');
