@@ -138,7 +138,7 @@ modalBgImage.style.filter = 'blur(0px)';
 
         const btnCatalogo = document.getElementById('btn-catalogo-modal');
         if (btnCatalogo) {
-            btnCatalogo.href = (isEnglish ? '/en/catalogo?busca=' : '/catalogo?busca=') + encodeURIComponent(nomeArtista);
+            btnCatalogo.href = (isEnglish ? '/en/catalogo?busca=' : '/pt/catalogo?busca=') + encodeURIComponent(nomeArtista);
             btnCatalogo.innerText = isEnglish ? 'Site Catalog' : 'Catálogo do Site';
             if (temCatalogo) btnCatalogo.classList.remove('hidden');
             else btnCatalogo.classList.add('hidden');
