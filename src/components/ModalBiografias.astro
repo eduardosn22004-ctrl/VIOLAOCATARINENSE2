@@ -120,6 +120,21 @@ if (atuacaoLimpa === 'compositor e violonista') {
     urlImagemFundo = '/images/fundo-padrao.jpg'; 
 }
 
+//EM INGLÊS
+
+if (atuacaoLimpa === 'Composer and Guitarist') {
+    urlImagemFundo = '/images/fundo-violao2.avif';
+} else if (atuacaoLimpa === 'Composer') {
+    urlImagemFundo = '/images/teste.jpg';
+} else if (atuacaoLimpa === 'Guitarist') {
+    urlImagemFundo = '/images/fundo-violao2.avif';
+} else {
+    urlImagemFundo = '/images/fundo-padrao.jpg'; 
+}
+
+
+
+
 // Aplica a imagem, a posição e a escala
 modalBgImage.style.backgroundImage = `url('${urlImagemFundo}')`;
 modalBgImage.style.backgroundPosition = posicaoFundo;
