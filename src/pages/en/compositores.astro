@@ -13,9 +13,9 @@ musicos.sort((a, b) => a.nome.localeCompare(b.nome));
 
 // Função para gerar o texto de atuação
 function obter_atuacao(eh_compositor, eh_violonista) {
-    if (eh_compositor && eh_violonista) return "Compositor e Violonista";
-    if (eh_compositor) return "Compositor";
-    if (eh_violonista) return "Violonista";
+    if (eh_compositor && eh_violonista) return "Composer and Guitarist";
+    if (eh_compositor) return "Composer";
+    if (eh_violonista) return "Guitarist";
     return "";
 }
 
