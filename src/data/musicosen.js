@@ -75,10 +75,9 @@ In Brussels, Belgium, as a guest, they attended the European premiere of their C
     id: "andreiu",
     nome: "Andrei Uller",
     foto: "/images/pessoas/andreiu1.avif",
-    bio: `<p>Doutor em Música pela Universidade do Sul do Mississippi - USM. Durante o período nos Estados Unidos esteve na condição de assistente 
-de graduação na função de docente. Em 2013 foi um dos 13 violonistas selecionados para cursar o I Master en Interpretación de Guitarra Clásica de 
-Alicante situado na Espanha, obtendo orientações com os mais renomados violonistas da atualidade:
-David Russell, Ignacio Rodes, Hopkinson Smith, Roberto Aussel, Manuel Barrueco, Carles Trepat e Nigel North. (Fonte: Cedido Pelo Compositor) 
+    bio: `<p>PhD in Music from the University of Southern Mississippi (USM). During his time in the United States, he served as a graduate assistant in a teaching capacity. In 2013, he was one of 13 guitarists selected 
+    to attend the I Master en Interpretación de Guitarra Clásica in Alicante, Spain, where he received guidance from the most renowned guitarists of today: David Russell, Ignacio Rodes, Hopkinson Smith, Roberto Aussel, 
+    Manuel Barrueco, Carles Trepat, and Nigel North.(Source: Provided by the musician) 
 </p>`,
     galeria: ["/images/pessoas/andreiu1.avif", "/images/edino.jpg"],
     eh_compositor: false,
@@ -101,10 +100,9 @@ David Russell, Ignacio Rodes, Hopkinson Smith, Roberto Aussel, Manuel Barrueco, 
     id: "alexandrebp",
     nome: "Alexandre Brandão Pereira",
     foto: "/images/pessoas/alexandrebp1.avif",
-    bio: `<p>Possui graduação em Fisioterapia e em Licenciatura em Música, ambos pela Universidade do Estado de Santa Catarina. 
-Também é Bacharel em Composição e Regência pela Universidade Estadual do Paraná e possui pós graduação em Ciências Humanas pela Pontifícia Universidade Católica do Rio Grande do Sul. 
-Atualmente é professor de música. Atua nas áreas de: Composição Musical, Harmonia, Improvisação, História da Música, Arranjo, Análise musical, Intérprete (violão solo brasileiro). 
-Também leciona os seguintes cursos: violão, baixo, guitarra e pré-vestibular. (Fonte:Currículo Lattes (Alexandre Brandão Pereira)
+    bio: `<p>He holds degrees in Physiotherapy and a Licentiate in Music, both from the State University of Santa Catarina (UDESC). He also holds a Bachelor’s degree in Composition and Conducting from the State University of Paraná (UNESPAR) 
+    and a postgraduate degree in Humanities from the Pontifical Catholic University of Rio Grande do Sul (PUCRS). He is currently a music professor, working in the areas of Musical Composition, Harmony, Improvisation, Music History, Arrangement, 
+    Musical Analysis, and Performance (solo Brazilian guitar). He also teaches courses in acoustic guitar, bass, electric guitar, and college entrance exam preparation. (Source: Lattes Curriculum)
 </p>`,
     galeria: ["/images/pessoas/alexandrebp1.avif"],
     eh_compositor: false,
@@ -114,12 +112,11 @@ Também leciona os seguintes cursos: violão, baixo, guitarra e pré-vestibular.
     id: "andrefran",
     nome: "André Franzoni",
     foto: "/images/pessoas/andrefran1.avif",
-    bio: `<p>André é Licenciado em Educação Artística – Música, Bacharel em Violão e Mestre em Musicologia pela Universidade do Estado de Santa Catarina - UDESC. 
-Especialista em Regência Coral pelo Centro Universitário Adventista de São Paulo - UNASP. Como violonista atuou nas noites de Florianópolis com repertório de música popular; 
-recebeu o Prêmio Elisabete Anderle de Incentivo à Cultura com o Duo Soler de violino e violão e abriu o show do Duo Siqueira Lima no Seminário de violão de Itajaí. Como regente dirigiu diversos grupos entre eles: 
-Coral dos Bancários, Coral dos Correios de Santa Catarina (Clave Sul), Coro Lírico Catarinense e Coro Municipal de Angelina. Como professor atuou em diversas escolas e projetos sociais, tais como: Escola Vivência, Colégio Sarapiquá, 
-Colégio de Aplicação – Universidade Federal de Santa Catarina - UFSC, Projeto MUSICAÇÃO – Fundação BADESC, ONG Gente Amiga (Morro do Horácio) e CEAFIS (Chico Mendes). Desde 2016 é Prof. EBTT do Instituto Federal Catarinense - IFC. 
-(Fonte: Cedido Pelo Compositor)
+    bio: `<p>André holds a Licentiate degree in Arts Education – Music, a Bachelor’s degree in Classical Guitar, and a Master’s degree in Musicology from the State University of Santa Catarina (UDESC). He is a specialist in Choral Conducting from the 
+    Adventist University Center of São Paulo (UNASP). As a guitarist, he has performed in the nightlife of Florianópolis with a popular music repertoire; he received the Elisabete Anderle Cultural Incentive Award with the violin and guitar Duo Soler 
+    and opened for Duo Siqueira Lima at the Itajaí Guitar Seminar. As a conductor, he has directed various groups, including: the Bankers' Choir, the Santa Catarina Postal Service Choir (Clave Sul), the Catarinense Lyric Choir, and the Angelina Municipal 
+    Choir. As a teacher, he has worked in several schools and social projects, such as: Escola Vivência, Colégio Sarapiquá, the Application College – Federal University of Santa Catarina (UFSC), the MUSICAÇÃO Project – BADESC Foundation, ONG Gente Amiga 
+    (Morro do Horácio), and CEAFIS (Chico Mendes). Since 2016, he has been a Professor of Basic, Technical, and Technological Education (EBTT) at the Catarinense Federal Institute (IFC). (Source: Provided by the Composer)
 </p>`,
     galeria: ["/images/pessoas/andrefran1.avif","/images/pessoas/andrefran2.avif","/images/pessoas/andrefran3.avif","/images/pessoas/andrefran4.avif"],
     eh_compositor: false,
@@ -130,8 +127,8 @@ Colégio de Aplicação – Universidade Federal de Santa Catarina - UFSC, Proje
     nome: "Daniel Mueller",
     foto: "/images/pessoas/danielmue1.avif",
     bio: `<p>
-Violonista no Quarteto de Violões de Blumenau, desde 2015, Violonista no Duo Arcanum, desde 2016, Contrabaixista na banda de Heavy Metal “Venus Attack”, desde 2009, 
-Contrabaixista na banda de pop rock “Necessidade Humana”, entre 2006 e 2010, Violonista do “Duo Ariel”, duo de violões eruditos, entre 2009 e 2012. (Fonte: Escola Nossocanto/Blumenau - SC)
+Guitarist in the Blumenau Guitar Quartet since 2015; Guitarist in the Duo Arcanum since 2016; Bassist in the Heavy Metal band “Venus Attack” since 2009; Bassist in the pop-rock band “Necessidade Humana” between 2006 and 2010; 
+and Guitarist in “Duo Ariel,” a classical guitar duo, between 2009 and 2012. (Source: Escola Nossocanto. Blumenau - SC)
 </p>`,
     galeria: ["/images/pessoas/danielmue1.avif"],
     eh_compositor: false,
@@ -142,16 +139,14 @@ Contrabaixista na banda de pop rock “Necessidade Humana”, entre 2006 e 2010,
     nome: "Felipe Coelho",
     foto: "/images/pessoas/felipeco1.avif",
     bio: `<p>
-Teve seu primeiro contato com o violão aos seis anos de idade. Em 1997, enquanto fazia intercâmbio nos Estados Unidos, recebeu o prêmio Most Outstanding Jazz Soloist do Grissom State High School Jazz Festival, em Huntsville, 
-obtendo a oportunidade de cursar o Jamey Aerbersold National Jazz Workshop, na Elmhurst University, em Chicago. Permaneceu nos Estados Unidos até obter, aos 23 anos, o título de Mestre em Música pela Georgia State University, como bolsista integral. 
-Foi professor assistente na mesma instituição acadêmica e ainda teve a oportunidade de conduzir e compor para a GSU Bigband, com a qual realizou excursões no sul do país. Possui uma pluralidade de influências culturalmente diversas, 
-carregando nas suas composições características do flamenco (em especial Paco de Lucía), o gypsy jazz e as tradições da música oriental de Anoushka Shankar, Zakir Hussain e Avishai Cohen, mas percorrendo também suas raízes brasileiras na sua aproximação com o 
-choro e a influência de Yamandu Costa, outro grande violonista brasileiro. Seu álbum lançado em 2020, Uanamasi, trouxe à sua amálgama de estilos o nujazz, o hip-hop, o rap e a soul music, incorporando o uso de samples e vocais, algo não presente em seus 
-lançamentos anteriores. Felipe Coelho foi agraciado com o Prêmio Elisabete Anderle em 2009 da Fundação Catarinense de Cultura, o Prêmio Circuito Funarte de Música Popular em 2010, o segundo lugar no Festival Nacional de Composição, que ocorreu em Vinhedo, em 2012, 
-e vencedor da categoria de Melhor Instrumentista Catarinense pelo Prêmio Música SC em 2014. Até abril de 2020, o músico já havia participado de mais de 40 festivais de música e realizado doze turnês com seus trabalhos autorais, já tendo se apresentado em 
-Chicago, Nova Iorque, Xangai e Buenos Aires. Foi também convidado a se apresentar em diversas orquestras dentro e fora do Brasil, com destaque para a KSU String Orchestra com a qual fez concerto em Atlanta em outubro de 2015. (Felipe Coelho – Wikipédia, a 
-enciclopédia livre) ​Até abril de 2020, o músico já havia participado de mais de 40 festivais de música e realizado doze turnês com seus trabalhos autorais, já tendo se apresentado em Chicago, Nova Iorque, Xangai e Buenos Aires. Foi também convidado a se
-apresentar em diversas orquestras dentro e fora do Brasil, com destaque para a KSU String Orchestra com a qual fez concerto em Atlanta em outubro de 2015. (Fonte: Wikipédia-Felipe Coelho) 
+He had his first contact with the guitar at six years old. In 1997, while on an exchange program in the United States, he received the Most Outstanding Jazz Soloist award at the Grissom State High School Jazz Festival in Huntsville, earning the opportunity 
+to attend the Jamey Aebersold National Jazz Workshop at Elmhurst University in Chicago. He remained in the United States until, at age 23, he obtained a Master’s degree in Music from Georgia State University (GSU) as a full scholarship recipient.
+He served as a teaching assistant at the same institution and also had the opportunity to conduct and compose for the GSU Big Band, with which he toured the southern part of the country. He possesses a plurality of culturally diverse influences, carrying in his
+compositions characteristics of flamenco (especially Paco de Lucía), gypsy jazz, and the Eastern music traditions of Anoushka Shankar, Zakir Hussain, and Avishai Cohen, while also traversing his Brazilian roots through his approach to choro and the influence of
+Yamandu Costa, another great Brazilian guitarist. His album released in 2020, Uanamasi, brought nu-jazz, hip-hop, rap, and soul music to his amalgam of styles, incorporating the use of samples and vocals—elements not present in his previous releases. 
+Felipe Coelho was honored with the Elisabete Anderle Prize in 2009 by the Santa Catarina Cultural Foundation, the Funarte Popular Music Circuit Prize in 2010, second place in the National Composition Festival in Vinhedo in 2012, and was the winner of the 
+Best Instrumentalist from Santa Catarina category at the Music SC Awards in 2014. As of April 2020, the musician had participated in over 40 music festivals and completed twelve tours with his original works, having performed in Chicago, New York, Shanghai, 
+and Buenos Aires. He has also been invited to perform with various orchestras inside and outside Brazil, most notably the KSU String Orchestra, with which he performed a concert in Atlanta in October 2015. (Source: Wikipedia – Felipe Coelho)
 </p>`,
     galeria: ["/images/pessoas/felipeco1.avif"],
     eh_compositor: false,
@@ -162,16 +157,13 @@ apresentar em diversas orquestras dentro e fora do Brasil, com destaque para a K
     nome: "Gil Medeiros",
     foto: "/images/pessoas/gilmed1.avif",
     bio: `<p>
-Natural de Tubarão (SC), começou seus estudos de violão com seu pai aos sete anos de idade. Frequentou durante seis anos as aulas de violão erudito do professor Manoel Sipriano, discípulo de Isaías Savio, 
-enquanto se dedicava aos estudos de violão popular por conta própria. Embora tenha se tornado Bacharel em Ciências contábeis em 1985, permaneceu por pouco tempo nesta área. Passou a dar aulas de violão e guitarra e 
-fundou uma escola de música na cidade de Tubarão que esteve ativa de 1994 a 96. 
-
-Elaborou um sistema rítmico para violão que consiste em representações gráficas de ritmos populares para a mão direita. Formou-se em Teoria Musical pelo Conservatório Lagunense de Música onde foi professor de violão popular e erudito de 1987 a 2006. 
-Em 2001 foi convidado a participar do Projeto “Seis Cordas” que contava coma participação de compositores violonistas catarinenses e culminou coma a gravação de um CD produzido por Renato Pimentel e patrocinado pela Fundação Catarinense de Cultura.
-Fizeram parte deste projeto duas de suas composições intituladas Valsa e Bolero e “Adagio. Este evento foi um grande incentivo para que continuasse compondo. 
-
-Em fevereiro de 2020 graduou-se na Universidade de Santa Catarina – UDESC no curso de Música Bacharelado habilitação em violão. Atualmente além de dar aulas de violão popular e erudito, atua em diversos eventos musicais como 
-músico solo em recitais, modalidade “voz e violão”, ou ainda em participações com outros músicos nas casas noturnas ou eventos pela região Sul de SC. (Fonte: Cedido Pelo Compositor)
+Born in Tubarão (SC), he began his guitar studies with his father at the age of seven. For six years, he attended classical guitar lessons with Professor Manoel Sipriano, a disciple of Isaías Savio, while teaching himself popular guitar. 
+Although he earned a Bachelor’s degree in Accounting in 1985, he spent little time in that field. He began teaching acoustic and electric guitar and founded a music school in the city of Tubarão, which was active from 1994 to 1996. He developed a rhythmic 
+system for the guitar consisting of graphic representations of popular rhythms for the right hand. He graduated in Music Theory from the Lagunense Conservatory of Music, where he taught popular and classical guitar from 1987 to 2006. In 2001, he was invited 
+to participate in the "Seis Cordas" (Six Strings) Project, which featured Santa Catarina's guitarist-composers and culminated in the recording of a CD produced by Renato Pimentel and sponsored by the Santa Catarina Cultural Foundation. Two of his compositions,
+titled Valsa e Bolero and Adagio, were part of this project. This event served as a major incentive for him to continue composing. In February 2020, he graduated from the State University of Santa Catarina (UDESC) with a Bachelor’s degree in Music, specializing 
+in guitar. Currently, in addition to teaching popular and classical guitar, he performs in various musical events as a solo musician in recitals, in the "voice and guitar" format, or collaborating with other musicians in night clubs and events throughout the 
+southern region of Santa Catarina. (Source: Provided by the musician)
 </p>`,
     galeria: ["/images/pessoas/gilmed1.avif","/images/pessoas/gilmed2.avif"],
     eh_compositor: false,
@@ -182,30 +174,17 @@ músico solo em recitais, modalidade “voz e violão”, ou ainda em participa�
     nome: "Guinha Ramirez",
     foto: "/images/pessoas/guira1.avif",
     bio: `<p>
-Guinha Ramires é músico multi-instrumentista, violonista, compositor, arranjador, mora em Florianópolis desde 1982. É uma das personalidades culturais mais conhecidas e reconhecidas entre os apreciadores e produtores artísticos/ musicais do sul do Brasil. 
-
-Guinha integrou a banda de Renato Borghetti durante dez anos. Neste período participou de turnês pelo Brasil, Europa e Estados Unidos. Participou da gravação de vários discos, alguns incluindo composições suas. 
-Com a cantor Elisa foram dois CDs gravados como o Diabo Gosta e Beijo Manga (este último gravado em Viena) e turnês pelo Brasil e Europa. 
-
-A convite de Alegre Corrêa, embarca para Viena, onde morou por oito meses. Guinha e Alegre gravam o CD Handmade, lançado na Europa. 
-
-Retornando ao Brasil, é formada a banda Doutor Cipó. A banda faz apresentações em festivais de música pelo Brasil e turnês pelo SESC em São Paulo e interior. A Banda é convidada para fazer o show de lançamento do 
-livro Calendário do Som, de Hermeto Pascoal. Oportunidade na qual dividiram o palco com o “Mestre” pela primeira vez. 
-
-Integrou a Orquestra Sinfônica de Santa Catarina, OSCA, como violonista e coordenador da banda de base. 
-
-Guinha saiu em turnê pela Europa a convite da cantora Isabel Padovani, vencedora do prêmio Visa 2005. 
-
-Dirigiu e arranjou as três edições do Acústico Brognoli, que foram realizados no teatro do CIC (Centro Integrado de Cultura). Na primeira edição (2005), o destaque foi para os artistas da ilha. 
-Na segunda edição (2006), a cantora Elza Soares foi a convidada especial (documentado em DVD). Na terceira edição (2007), além de uma banda com doze integrantes, teve a participação especial de João Bosco e 
-Yamandú Costa (documentado em DVD). Todas as edições foram sucesso de crítica e público. 
-
-Yamandú Costa grava música de Guinha chamada Simpatia, no CD Tal lançado no Japão. 
-
-Em 2008 duas turnês são realizadas na Europa com o CD LAÇADOR, (Guinha Ramires, Alegre Corrêa, Alessandro Kramer), sendo a primeira em maio e abril e a outra em dezembro. Os shows foram realizados na Áustria, Alemanha e Itália. 
-
-Contemplado com o Edital Elizabete Anderle da Fundação Catarinense de Cultura grava seu primeiro CD solo VINDOURA com oito temas próprios, sendo um em parceria com Alegre Corrêa e outro com Alessandro Kramer (Bêbe). 
-VINDOURA foi lançado em Florianópolis no Teatro Álvaro de Carvalho em 2011. (Fonte: Biografia do site do Guinha Ramires)
+Guinha Ramires is a multi-instrumentalist, guitarist, composer, and arranger who has lived in Florianópolis since 1982. He is one of the most well-known and recognized cultural figures among art and music enthusiasts and producers in southern Brazil.
+Guinha was a member of Renato Borghetti's band for ten years. During this period, he participated in tours across Brazil, Europe, and the United States, and contributed to several recordings, some of which included his own compositions.
+With the singer Elisa, he recorded two CDs, Como o Diabo Gosta and Beijo Manga (the latter recorded in Vienna), and toured Brazil and Europe. At the invitation of Alegre Corrêa, he moved to Vienna, where he lived for eight months. 
+Together, Guinha and Alegre recorded the CD Handmade, released in Europe. Upon returning to Brazil, the band Doutor Cipó was formed. The band performed at music festivals throughout Brazil and toured the SESC circuit in São Paulo and the countryside.
+The band was invited to perform at the launch of Hermeto Pascoal's book Calendário do Som, an occasion where they shared the stage with the "Maestro" for the first time. He was a member of the Santa Catarina Symphony Orchestra (OSCA), serving as a guitarist 
+and coordinator of the rhythm section. Guinha toured Europe at the invitation of singer Isabel Padovani, winner of the 2005 Visa Award. He directed and arranged three editions of the Acústico Brognoli, held at the CIC Theater 
+(Centro Integrado de Cultura). The first edition (2005) highlighted artists from the island. In the second edition (2006), singer Elza Soares was the special guest (documented on DVD). The third edition (2007) featured a twelve-member band and 
+special appearances by João Bosco and Yamandu Costa (documented on DVD). All editions were critical and public successes. Yamandu Costa recorded Guinha's song "Simpatia" on the CD Tal, released in Japan.
+In 2008, two tours were conducted in Europe for the CD LAÇADOR (Guinha Ramires, Alegre Corrêa, Alessandro Kramer), the first in April and May and the second in December. Performances were held in Austria, Germany, and Italy.
+Awarded the Elisabete Anderle Grant from the Santa Catarina Cultural Foundation, he recorded his first solo CD, VINDOURA, featuring eight original themes—one in partnership with Alegre Corrêa and another 
+with Alessandro Kramer (Bêbe). VINDOURA was launched in Florianópolis at the Álvaro de Carvalho Theater in 2011. (Source: guinharamires1.wixsite.com/guinharamires)
 </p>`,
     galeria: ["/images/pessoas/guira2.avif","/images/pessoas/guira3.avif","/images/pessoas/guira4.avif","/images/pessoas/guira5.avif"],
     eh_compositor: true,
@@ -216,15 +195,12 @@ VINDOURA foi lançado em Florianópolis no Teatro Álvaro de Carvalho em 2011. (
     nome: "Jeasir Rego",
     foto: "/images/pessoas/rego1.avif",
     bio: `<p>
-Compositor, arranjador, músico com Mestrado em Música pelo Programa de pós-graduação em Música da Universidade do Estado de Santa Catarina/UDESC, Licenciatura em Música também pela UDESC, 
-Bacharel em saxofone pela Universidade Livre de Música (ULMSP) de São Paulo.  
-Nos anos de 1980 a 1986 estudou Harmonia e Contraponto com o mestre Ricardo Rizek (Faculdade de Artes Alcântara Machado – FAAM - São Paulo). Transitando entre a música popular e a chamada “música erudita”, 
-sempre procurou destituir tais rótulos, uma vez que ambas trouxeram imensa qualidade técnica, estética e filosófica para a música. Atuou em diversos grupos de música popular como também em parcerias em recitais 
-para flauta e violão, ou pequenos grupos de câmara. 
-
-Nos anos 1990 a 1994 estudou saxofone e flauta transversal com os mestres Demétrio Lima (Jazz sinfônica) e Eduardo Pecci (Orquestra Municipal de São Paulo, OSM), período em que participou da Big Band da ULMSP. 
-É autodidata em violão , instrumento ao qual se dedica desde 1980 e a partir dos anos 2000 com exclusividade, passando a compor para este, assim como para diversos outros instrumentos e diversas formações. (
-Fonte: Cedido Pelo Compositor)
+Composer, arranger, and musician with a Master’s degree in Music from the Graduate Program in Music at the State University of Santa Catarina (UDESC), as well as a Licentiate degree in Music from the same institution. 
+He holds a Bachelor’s degree in Saxophone from the Free University of Music (ULMSP) in São Paulo. From 1980 to 1986, he studied Harmony and Counterpoint under Maestro Ricardo Rizek (Alcântara Machado Faculty of Arts – FAAM - São Paulo). 
+Moving between popular music and so-called "classical music," he has always sought to dismantle such labels, as both have contributed immense technical, aesthetic, and philosophical quality to music. He has performed in various popular music groups
+as well as in partnerships for flute and guitar recitals or small chamber ensembles. Between 1990 and 1994, he studied saxophone and transverse flute with masters Demétrio Lima (Jazz Sinfônica) and Eduardo Pecci (Municipal Orchestra of São Paulo – OSM), 
+during which time he participated in the ULMSP Big Band. He is a self-taught guitarist—an instrument to which he has been dedicated since 1980 and exclusively since the 2000s—composing for the guitar as well as for various other instruments and ensembles.
+(Source: Provided by the musician)
 </p>`,
     galeria: ["/images/pessoas/rego1.avif","/images/pessoas/rego2.avif","/images/pessoas/rego3.avif"],
     eh_compositor: false,
@@ -235,21 +211,15 @@ Fonte: Cedido Pelo Compositor)
     nome: "Joel Colman",
     foto: "/images/pessoas/joelco1.avif",
     bio: `<p>
-Estilo, técnica e melodia. Este é Joel Colman. Seu estilo é uma mescla de New Age, World Music, Celtic Music, passeando por sonoridades brasileiras, utilizando técnicas como hammer-on, tappings, harmônicos artificiais e afinações não convencionais no violão. 
-
-Desde 1996 dedica-se ao estudo das afinações alternativas, com forte influência de Michael Hedges, Preston Reed, Don Ross, Justin king e dos brasileiros André Geraissati, Egberto Gismonti. Em afinações alternativas explora, inicialmente, as afinações DGDGBD e DADF#AD. 
-As afinações mais utilizadas por ele atualmente são DADGAD, EADEAE e CGDGAC. 
-
-Estudando a afinação DADGAD, Joel Colman se depara com um novo universo musical, a música celta. Deste universo sonoro são os violonistas Pierre Bensusan, Tony Mcmanus, Peter Ratzenbeck e El Mcmeen, influências técnicas e melódicas visíveis em seu trabalho. 
-
-Em 1997 grava o cd demonstrativo Terraguar e, em 2001, participa do CD SEIS CORDAS, produzido por Renato Pimentel, com as músicas SONHO DOURADO, na afinação CGDEbBbEb e MOINHO, na afinação G#A#GA#D# (da sexta para a primeira corda). 
-Reconhecido por Peter Ratzenbeck como um dos mais talentosos músicos da nova geração no Brasil, o músico gaúcho Joel Colman, tem muita história para contar...  
-
-Dedicou-se também a estudar e dar aulas particulares de guitarra e violão e passou a fazer apresentações solo ou com grupos musicais de sua região. Em 2001 foi convidado a participar do Projeto "SEIS CORDAS" que contava com a 
-participação de compositores violonistas catarinenses e culminou na gravação de um CD produzido por Renato Pimentel do estúdio The Magic Place,  e patrocinado pela Fundação Catarinense de Cultura. Fizeram parte deste projeto duas composições suas 
-intituladas Moinho e Sonho Dourado. Este evento foi um grande incentivo para que continuasse compondo. 
-
-Em 2012 Joel Colman apresenta-se no V seminário de Violão de Itajaí, onde também faz um workshop sobre o uso de diferentes técnicas e afinações que ele utiliza até hoje. (Fonte: Cedido Pelo Compositor)
+Style, technique, and melody. This is Joel Colman. His style is a blend of New Age, World Music, and Celtic Music, traversing Brazilian sounds while utilizing techniques such as hammer-ons, tappings, artificial harmonics, and unconventional 
+guitar tunings.Since 1996, he has dedicated himself to the study of alternative tunings, heavily influenced by Michael Hedges, Preston Reed, Don Ross, Justin King, and Brazilians André Geraissati and Egberto Gismonti. In exploring alternative tunings, 
+he initially worked with $DGDGBD$ and $DADF^\sharp AD$. The tunings he most frequently uses today are $DADGAD$, $EADEAE$, and $CGDGAC$.While studying the $DADGAD$ tuning, Joel Colman encountered a new musical universe: Celtic music. From this sonic 
+landscape come guitarists Pierre Bensusan, Tony McManus, Peter Ratzenbeck, and El McMeen, whose technical and melodic influences are visible in his work.In 1997, he recorded the demo CD Terraguar, and in 2001, he participated in the CD SEIS CORDAS, 
+produced by Renato Pimentel, with the songs "Sonho Dourado" in $CGDE\flat B\flat E\flat$ tuning and "Moinho" in $G^\sharp A^\sharp GA^\sharp D^\sharp$ tuning (from the sixth to the first string). Recognized by Peter Ratzenbeck as one of the most talented 
+musicians of the new generation in Brazil, the Rio Grande do Sul-born musician Joel Colman has a wealth of history to share.He has also dedicated himself to studying and giving private lessons in electric and acoustic guitar, performing solo or with musical 
+groups in his region. In 2001, he was invited to participate in the "SEIS CORDAS" Project, which featured guitarist-composers from Santa Catarina and culminated in the recording of a CD produced by Renato Pimentel of The Magic Place studio and sponsored by 
+the Santa Catarina Cultural Foundation. Two of his compositions, titled "Moinho" and "Sonho Dourado," were part of this project. This event served as a major incentive for him to continue composing.In 2012, Joel Colman performed at the V Itajaí Guitar Seminar, 
+where he also conducted a workshop on the use of different techniques and tunings that he still utilizes today.(Source: Provided by the musician)
 </p>`,
     galeria: ["/images/pessoas/joelco1.avif","/images/pessoas/joelco2.avif","/images/pessoas/joelco3.avif"],
     eh_compositor: false,
@@ -260,13 +230,12 @@ Em 2012 Joel Colman apresenta-se no V seminário de Violão de Itajaí, onde tam
     nome: "Kleber Alexandre",
     foto: "/images/pessoas/kleba1.avif",
     bio: `<p>
-Kleber Alexandre é bacharel em composição e regência pela Universidade Estadual Paulista Júlio de Mesquita Filho (Unesp), onde teve aulas com Villani-Côrtes, Sérgio de Vasconcellos Corrêa, 
-Nilson Lombardi, Edson Zampronha, Flo Meneses, entre outros. Estudou violão na Escola Municipal de Música de São Paulo (EMMSP), onde teve aulas com Edelton Gloeden e Everton Gloeden. Estudou também 
-improvisação e arranjo com Ulisses Rocha e choro com Francisco Araújo. As composições de Kleber Alexandre já foram executadas por diversos concertistas no Brasil e no exterior. Dentre elas, Preludio faz 
-parte do CD Music for Guitar by Brazilian Young Composers, gravado pelo concertista Gilson Antunes. Além de composições para violão e diversos outros instrumentos, Kleber Alexandre compõe também canções e 
-trilhas sonoras. Dentre sua obra, cabe ressaltar o CD Santa Catarina, gravado pela Camerata Florianópolis com suas composições para orquestra de cordas.   O músico é instrutor de violão nas oficinas de arte 
-do Departamento Artístico Cultural (DAC/Secarte/UFSC). O curso de violão é uma das oficinas que são oferecidas semestralmente à comunidade. 
-(Fonte: Kleber Alexandre apresenta concerto de violão gratuito em Florianópolis - Ensaio SCultura)</p>`,
+Kleber Alexandre holds a Bachelor’s degree in Composition and Conducting from the São Paulo State University (Unesp), where he studied under Villani-Côrtes, Sérgio de Vasconcellos Corrêa, Nilson Lombardi, Edson Zampronha, and Flo Meneses, 
+among others. He studied guitar at the Municipal Music School of São Paulo (EMMSP) with Edelton Gloeden and Everton Gloeden. He also studied improvisation and arrangement with Ulisses Rocha and choro with Francisco Araújo.
+Kleber Alexandre's compositions have been performed by various concert artists in Brazil and abroad. Among them, Prelúdio is featured on the CD Music for Guitar by Brazilian Young Composers, recorded by concert guitarist Gilson Antunes. 
+In addition to compositions for guitar and various other instruments, Kleber Alexandre also composes songs and soundtracks. Notable among his works is the CD Santa Catarina, recorded by the Camerata Florianópolis, featuring his compositions for string orchestra.
+The musician is a guitar instructor at the art workshops of the Department of Artistic Culture (DAC/Secarte/UFSC). The guitar course is one of the workshops offered semiannually to the community. (Source: https://ensaioscultura.com.br/kleber-alexandre/)
+</p>`,
     galeria: ["/images/pessoas/kleba1.avif"],
     eh_compositor: false,
     eh_violonista: true,
@@ -276,12 +245,12 @@ do Departamento Artístico Cultural (DAC/Secarte/UFSC). O curso de violão é um
     nome: "Leandro Bastos",
     foto: "/images/pessoas/leanb1.avif",
     bio: `<p>
-É professor, violonista, guitarrista, arranjador e compositor. Iniciou seus estudos de violão clássico aos 16 anos sob a orientação do professor Rove Bichels e, em 2004, 
-licenciou-se em Música pela Universidade do Estado de Santa Catarina (UDESC).  Desde 2011, atua como professor efetivo no Programa de Educação Musical de Palhoça, onde ministra aulas de canto coral e violão. 
-Atualmente, é regente do Coral Municipal da Rede de Ensino de Palhoça (COMEP), da Orquestra de Violões da Rede Municipal de Ensino de Palhoça (OVMEP) e da Orquestra Sinfônica da Rede Municipal de Ensino de Palhoça (OSMEP).
-Paralelamente, desenvolve intensa atividade como músico profissional em bandas na região da Grande Florianópolis, destacando-se seu trabalho autoral com a banda “Miragem de Júpiter".  
-Seu interesse pela composição surgiu na infância, impulsionado pela curiosidade em compreender os fundamentos do discurso musical e os mecanismos que conferem sentido e expressão à organização dos sons. 
-Sua obra reflete uma abordagem diversificada de influências. (Fonte: Cedido Pelo Compositor)</p>`,   
+He is a teacher, classical and electric guitarist, arranger, and composer. He began his classical guitar studies at the age of 16 under the guidance of Professor Rove Bichels and, in 2004, earned a Licentiate degree in Music from the State 
+University of Santa Catarina (UDESC). Since 2011, he has served as a tenured professor in the Music Education Program of Palhoça, where he teaches choral singing and guitar. Currently, he is the conductor of the Palhoça Municipal School System Choir 
+(COMEP), the Palhoça Municipal School System Guitar Orchestra (OVMEP), and the Palhoça Municipal School System Symphony Orchestra (OSMEP). Parallel to these roles, he maintains an intense schedule as a professional musician in bands across the Greater 
+Florianópolis region, with a particular focus on his original work with the band "Miragem de Júpiter." His interest in composition emerged in childhood, driven by a curiosity to understand the fundamentals of musical discourse and the mechanisms that 
+provide meaning and expression to the organization of sounds. His work reflects a diverse range of influences.(Source: Provided by the musician)
+</p>`,   
     galeria: ["/images/pessoas/leanb1.avif","/images/pessoas/leanb2.avif","/images/pessoas/leanb3.avif","/images/pessoas/leanb4.avif"],
     eh_compositor: false,
     eh_violonista: true,
@@ -291,13 +260,11 @@ Sua obra reflete uma abordagem diversificada de influências. (Fonte: Cedido Pel
     nome: "Ney Souza",
     foto: "/images/pessoas/neys1.avif",
     bio: `<p>
-Ney Souza é violonista, arranjador e compositor catarinense. Há 15 anos atua dentro do universo da música instrumental brasileira, no qual se apresentou por diversas regiões do Brasil e do mundo como músico 
-acompanhador e solista. Atua como diretor musical em projetos autorais em Santa Catarina, colabora com artistas de renome e se apresenta ao lado de grandes instrumentistas. Entre eles: Yamandú Costa, Iara Ferreira, 
-Caetano Brasil, Arismar do Espírito Santo, Maurício Carrilho e Alessandro Penezzi.  
-
-Em 2024 lança seu projeto “Aconcagua”, ao lado da cantora peruana Nicole Ruju, com um repertório que celebra a riqueza da música latino-americana e está disponível em todas as plataformas digitais. 
-Ney também apresenta "Itajahy", seu álbum de violão solo de estreia, que combina composições autorais com uma experiência visual única, retratando a cidade de Itajaí. O músico ainda se dedica à educação musical 
-através de projetos pedagógicos. Ele é o criador da “Oficina de Choro: Patrimônio Cultural”, que explora a rica história do choro, seus compositores e a apreciação musical. (Fonte:neysouza.com)
+Ney Souza is a guitarist, arranger, and composer from Santa Catarina. For 15 years, he has been active in the universe of Brazilian instrumental music, performing across various regions of Brazil and the world as both an accompanist and soloist. 
+He serves as a musical director for original projects in Santa Catarina, collaborates with renowned artists, and performs alongside great instrumentalists, including Yamandu Costa, Iara Ferreira, Caetano Brasil, Arismar do Espírito Santo, Maurício Carrilho, 
+and Alessandro Penezzi. In 2024, he launched his project “Aconcagua” alongside Peruvian singer Nicole Ruju, featuring a repertoire that celebrates the richness of Latin American music, available on all digital platforms. 
+Ney also presents Itajahy, his debut solo guitar album, which combines original compositions with a unique visual experience portraying the city of Itajaí. Furthermore, the musician dedicates himself to music education through pedagogical projects. 
+He is the creator of the “Oficina de Choro: Patrimônio Cultural” (Choro Workshop: Cultural Heritage), which explores the rich history of choro, its composers, and musical appreciation. (Source: neysouza.com)
 </p>`,   
     galeria: ["/images/pessoas/neys2.avif","/images/pessoas/neys4.avif","/images/pessoas/neys5.avif"],
     eh_compositor: false,
@@ -308,18 +275,18 @@ através de projetos pedagógicos. Ele é o criador da “Oficina de Choro: Patr
     nome: "Otávio Rosa",
     foto: "/images/pessoas/otar1.avif",
     bio: `<p>
-Compositor, instrumentista e cantor, iniciou seus estudos de violão clássico com Artur Battisti Filho no Centro Integrado de Cultura em Florianópolis (1989-90). Em seguida, teve aulas de violão e harmonia com Roberto Resende (1991-93). 
-
-Em 1992 foi premiado em violão clássico, no Concurso Jovens Intérpretes em Curitiba-PR. Participou de diversas oficinas e masterclasses e é graduado em música (Bacharelado em Violão) pela UDESC, 
-onde estudou de 2006 a 2009 sob a orientação de André Moura. Fundou o Terra Brasilis duo ao lado de Edson Castel em 1996 com o qual participou do projeto “SEIS CORDAS”, uma coletânea representativa da produção violonística catarinense (2000), 
-recebeu o primeiro prêmio do Festival MPB Londrina 2001 na categoria Música Instrumental com a composição Cristal, lançou, unindo o duo ao cantor e compositor Jorge Gibbon, o CD Caminhos Cruzados em 2003, participou como 
-concertista do IV Seminário de Violão de Itajaí em 2011, abrindo o concerto do duo Paulo Bellinati e Weber Lopes.    Integrando o grupo Cravo-da-Terra, lançou o CD homônimo em 2005 e gravou e lançou o CD Infinito Som em 2007 e 2008, 
-participou como convidado do projeto Prata da Casa do SESC Pompéia, realizou uma Turnê pelo Brasil em 2006, em cidades como Rio de Janeiro, São Paulo, Salvador e Brasília, participou do Rumos Itaú Cultural – edição 2007/2009, 
-programa que selecionou 58 trabalhos musicais de todo o Brasil, traçando um rico mapa da produção musical das regiões do país, do Acorde Brasileiro (Encontro Nacional das Músicas Regionais) em 2008 e muitos outros eventos. Com Isabelle Quimper, 
-cantora e compositora canadense (Québec), criou o espetáculo de canções poéticas Fille Faille en deux mouvements, participou do I Festival de Música da UFSC, com gravação ao vivo para CD e DVD, apresentou músicas do Québec no museu Rodin, 
-em Salvador, Bahia, a convite da ABECAN (Associação Brasileira de Estudos Canadenses) e, por mais de 10 anos, apresentou Canções Francesas e do Québec pelo Brasil e Canadá. Como cantor, participou de corais, missas e madrigais, apresentou suas 
-canções em shows no Québec e explorou o universo criativo da improvisação vocal, ministrando oficinas de canto espontâneo e Circle Singing. Otávio Rosa tem um repertório autoral para violão solo e duas de suas composições, Fazenda Norte e Eucaliptos ao Vento, 
-estão gravadas nos CDs Violão Catarinense (Guitar Music from Santa Catarina), volumes I (2012) e II (2019), de Andrei Uller, com obras de Edino Krieger, Ricardo Boppré, entre outros, representando a produção violonística catarinense.  (Fonte: Cedido Pelo Compositor)
+Composer, instrumentalist, and singer, he began his classical guitar studies with Artur Battisti Filho at the Centro Integrado de Cultura in Florianópolis (1989-90). Subsequently, he took guitar and harmony lessons with Roberto Resende (1991-1993).
+In 1992, he was awarded in classical guitar at the Concurso Jovens Intérpretes in Curitiba-PR. He has participated in several workshops and masterclasses and holds a degree in music (Bachelor’s in Guitar) from UDESC, where he studied from 2006 to 2009 
+under the guidance of André Moura. He founded the Terra Brasilis duo alongside Edson Castel in 1996, with whom he participated in the "SEIS CORDAS" project—a representative collection of guitar production from Santa Catarina (2000). He received the first 
+prize at the 2001 MPB Londrina Festival in the Instrumental Music category with the composition Cristal. In 2003, joining the duo with singer-songwriter Jorge Gibbon, he released the CD Caminhos Cruzados. In 2011, he performed as a concert artist at the 
+IV Itajaí Guitar Seminar, opening the concert for the duo Paulo Bellinati and Weber Lopes. As a member of the group Cravo-da-Terra, he released a self-titled CD in 2005 and recorded and released the CD Infinito Som in 2007 and 2008. He participated as a guest
+in the Prata da Casa project at SESC Pompéia and completed a tour across Brazil in 2006, performing in cities such as Rio de Janeiro, São Paulo, Salvador, and Brasília. He was also part of the Rumos Itaú Cultural (2007/2009 edition)—a program that selected 
+58 musical works from across Brazil to map the country's regional musical production—as well as the Acorde Brasileiro (National Meeting of Regional Music) in 2008, among many other events. With Isabelle Quimper, a Canadian singer-songwriter from Québec, 
+he created the poetic song performance Fille Faille en deux mouvements. He participated in the I UFSC Music Festival, with a live CD and DVD recording, and presented music from Québec at the Rodin Museum in Salvador, Bahia, at the invitation of ABECAN 
+(Brazilian Association of Canadian Studies). For over 10 years, he has performed French and Québécois songs across Brazil and Canada. As a singer, he has participated in choirs, masses, and madrigals, performed his original songs in Québec, and explored the 
+creative universe of vocal improvisation, conducting workshops on spontaneous singing and Circle Singing. Otávio Rosa has an original repertoire for solo guitar, and two of his compositions, Fazenda Norte and Eucaliptos ao Vento, are recorded on the CDs Violão 
+Catarinense (Guitar Music from Santa Catarina), volumes I (2012) and II (2019), by Andrei Uller, featuring works by Edino Krieger, Ricardo Boppré, and others, representing the guitar production of Santa Catarina.
+(Source: Provided by the musician)
 </p>`,   
     galeria: ["/images/pessoas/otar2.avif","/images/pessoas/otar3.avif","/images/pessoas/otar4.avif"],
     eh_compositor: false,
