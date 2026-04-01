@@ -4,83 +4,66 @@ export const musicos =[
     nome: "Edino Krieger",
     foto: "/images/pessoas/edino1.avif",
      bio: `
-     <p class="mt-4 font-bold text-red-600 uppercase">Vida</p>
-      <p>Nascido em Brusque (SC), a 17 de março de 1928.  Iniciou aos 7 anos estudos de violino com seu pai, Aldo Krieger, violinista, 
-      compositor, regente e fundador do Conservatório de Música local. Realizou recitais de violino em diversas cidades a partir dos 9 anos 
-      e aos 15 transferiu-se para o Rio de Janeiro, com bolsa de estudos do governo do estado, para prosseguir seus estudos no 
-      Conservatório Brasileiro de Música, onde iniciou estudos de contraponto, harmonia e composição com H. J. Koellreutter, compositor e 
-      professor alemão chegado ao Brasil no período da 2ª Guerra Mundial. Em 1948 foi escolhido em concurso para estudar com Aaron Copland, 
-      no Berkshire Music Center de Massachussets, Estados Unidos, onde assistiu também aulas de Darius Milhaud. Em seguida estagiou por um ano na 
-      Juilliard School of Music de Nova Iorque, na classe de composição de Peter Mennin.  Estudou também violino com William Nowinsky, 
-      assistente de Ivan  Galamian, na Henry Street Settlement School of Music.  Representou a Juilliard no Simpósio de Compositores dos Estados Unidos
-       e Canadá realizado em Boston, e atuou como violinista da Mozart Orchestra de Nova Iorque. Em 1952 realizou estudos com Ernst Krenek no
-        III Curso Internacional de Verão de Teresópolis, RJ. Como bolsista do Conselho Britânico, estudou em Londres durante um ano com Lennox Berkeley, 
-        da Royal Academy of Music.</p>
+     <p class="mt-4 font-bold text-red-600 uppercase">Life</p>
+      <p>Born in Brusque (SC) on March 17, 1928, he began his violin studies at the age of seven with his father, Aldo Krieger—a violinist, composer, conductor, and founder of the local Music Conservatory. He performed violin recitals in various cities starting at 
+      age nine. At 15, he moved to Rio de Janeiro on a state government scholarship to continue his studies at the Conservatório Brasileiro de Música. There, he began studying counterpoint, harmony, and composition with H. J. Koellreutter, the German composer and 
+      teacher who arrived in Brazil during World War II. In 1948, he was selected through a competition to study with Aaron Copland at the Berkshire Music Center in Massachusetts, USA, where he also attended classes by Darius Milhaud. Subsequently, 
+      he spent a year at the Juilliard School of Music in New York, in Peter Mennin's composition class. He also studied violin with William Nowinsky, assistant to Ivan Galamian, at the Henry Street Settlement School of Music. He represented Juilliard at the 
+      Symposium of Composers of the United States and Canada held in Boston and performed as a violinist with the Mozart Orchestra of New York. In 1952, he studied with Ernst Krenek at the III International Summer Course in Teresópolis, RJ. As a British Council 
+      scholar, he studied in London for a year with Lennox Berkeley at the Royal Academy of Music.</p>
       
-      <p class="mt-4 font-bold text-red-600 uppercase">Cargos</p>
-      <p>Retornando ao Brasil em 1950, iniciou uma atividade permanente como produtor de programas musicais para a Rádio Ministério da Educação, 
-      onde exerceu a função de diretor musical e organizou a Orquestra Sinfônica Nacional. De 1950 a 1952 exerceu a crítica musical do
-       jornal "Tribuna da Imprensa". Em 1969 e 1970 organizou e dirigiu os Festivais de Música da Guanabara, dos quais se originaram, 
-       a partir de 1975, as Bienais de Música Brasileira Contemporânea.  Dirigiu a divisão de música clássica da "Rádio Jornal do Brasil" e 
-       exerceu a crítica musical no "Jornal do Brasil". Em 1976 assumiu a direção artística da FUNTERJ - Fundação de Teatros do Rio de Janeiro, e
-        nessa função organizou a temporada de reabertura do Theatro Municipal e o Centro de Produções Teatrais de Inhaúma. Em 1979 criou o 
-        Projeto Memória Musical Brasileira/PRO-MEMUS, junto ao Instituto Nacional de Arte da FUNARTE - Fundação Nacional de Arte, 
-        do Ministério da Cultura.  De 1981 a 1989 exerceu a direção do Instituto Nacional de Música. Em 1989 assumiu a presidência da FUNARTE.
-         De 2003 a 2006 exerceu a presidência da Fundação Museu da Imagem e do Som do Rio de Janeiro. É membro da Comissão Internacional para a 
-         Difusão da Cultura Catalã, de Barcelona, Espanha. Foi membro do Conselho Estadual de Cultura do Rio de Janeiro. Foi eleito, em 1998,
-          presidente da Academia Brasileira de Música.  </p>
+      <p class="mt-4 font-bold text-red-600 uppercase">Positions</p>
+      <p>Upon returning to Brazil in 1950, he began a long-term career as a producer of musical programs for Rádio Ministério da Educação, where he served as musical director and organized the Orquestra Sinfônica Nacional (National Symphony Orchestra). 
+      From 1950 to 1952, he worked as a music critic for the newspaper Tribuna da Imprensa. In 1969 and 1970, he organized and directed the Guanabara Music Festivals, which gave rise to the Biennials of Contemporary Brazilian Music starting in 1975. He directed the 
+      classical music division of Rádio Jornal do Brasil and served as a music critic for the newspaper Jornal do Brasil. In 1976, he took over the artistic direction of FUNTERJ (Rio de Janeiro Theater Foundation), where he organized the reopening season of the 
+      Theatro Municipal and the Inhaúma Theater Production Center. In 1979, he created the Brazilian Musical Memory Project (PRO-MEMUS) within the National Institute of Art of FUNARTE (National Foundation of Arts) under the Ministry of Culture. From 1981 to 1989, he 
+      served as the director of the National Institute of Music, and in 1989, he assumed the presidency of FUNARTE. From 2003 to 2006, he served as the president of the Museum of Image and Sound Foundation of Rio de Janeiro. He is a member of the International 
+      Commission for the Dissemination of Catalan Culture in Barcelona, Spain, and was a member of the Rio de Janeiro State Council of Culture. In 1998, he was elected president of the Brazilian Academy of Music. </p>
       
-      <p class="mt-4 font-bold text-red-600 uppercase">Características estéticas</p>
-      <p>Sua evolução estética parte do impressionismo do Improviso para flauta, de 1944, para alcançar o serialismo com o Trio de Sopros, 
-      de 1945. Em 1952 abandona o serialismo em favor de uma experimentação mais profunda das formas e linguagens tradicionais e da temática musical
-       de caráter brasileiro. Em 1965, com as Variações Elementares, inicia uma síntese de suas experiências anteriores, passando a utilizar recursos
-        de vanguarda e tradicionais, juntamente com elementos absorvidos da cultura musical brasileira</p>
+      <p class="mt-4 font-bold text-red-600 uppercase">Aesthetic features</p>
+      <p>His aesthetic evolution moves from the Impressionism of the Improviso for flute (1944) to Serialism with the Trio de Sopros (1945). In 1952, he abandoned Serialism in favor of a deeper exploration of traditional forms and languages, 
+      as well as musical themes of a Brazilian character. In 1965, with Variações Elementares, he began a synthesis of his previous experiences, incorporating avant-garde and traditional resources alongside elements absorbed from Brazilian musical culture.</p>
       
-      <p class="mt-4 font-bold text-red-600 uppercase">Premiações</p>
-      <p>1945 recebeu o Prêmio Música Viva por seu Trio de Sopros, passando então a integrar o Grupo Música Viva de compositores de vanguarda, 
-      ao lado de Koellreutter, Claudio Santoro, Guerra-Peixe e Eunice Catunda. passando então a integrar o Grupo Música Viva de compositores de vanguarda,
-       ao lado de Koellreutter, Claudio Santoro, Guerra-Peixe e Eunice Catunda. Em 1955 obteve o Prêmio Internacional da Paz do Festival de Varsóvia e o
-        Prêmio da Fundação Rottelini de Roma Em 1959 obteve o primeiro prêmio no I Concurso Nacional de Composição instituído pelo Ministério da Educação,
-         com o Divertimento para Cordas, e recebeu Medalha de Honra do Cinquentenário do Theatro Municipal do Rio de Janeiro. Em 1961 seu 
-         Quarteto de Cordas nº  1 obteve o Prêmio Nacional do Disco. Em 1966 e 1967 obteve Medalha de Ouro nos Festivais Internacionais da Canção,
-          no Rio de Janeiro. Em 1969 e 1988 recebeu o Troféu Golfinho de Ouro pelo conjunto de sua obra. Recebeu ainda em: 1977- titular do Troféu Barriga-Verde 
-          1985- Comenda da ordem cultural do Ministério da Cultura e Belas Artes da Polônia.
-          1986- Medalha do Mérito Cultural Anita Garibaldi, atribuída pelo Estado de Santa Catarina,  1994 - Prêmio Nacional da Música do Ministério da Cultura. 
-          1997- Medalha do Mérito Cultural Cruz e Souza, conferida pelo Conselho Estadual de Cultura de Santa Catarina 
-          1998 - Medalha Pedro Ernesto, maior honraria concedida pela cidade do Rio de Janeiro
-             para personalidades do meio cultural. Em Tóquio, recebeu uma semana de homenagens, realizando seis palestras e tendo suas músicas
-           , tanto as de câmara quanto sinfônicas, tocadas por músicos japoneses. Tem atuado também como regente, principalmente de suas próprias obras. 
-           Recentemente (08/12/2011) recebeu o título de Doutor Honoris Causa da Universidade Federal de Santa Catarina.</p>
+      <p class="mt-4 font-bold text-red-600 uppercase">Awards</p>
+      <p>In 1945, they received the Música Viva Prize for their Woodwind Trio, subsequently joining the Música Viva Group of avant-garde composers alongside Koellreutter, Claudio Santoro, Guerra-Peixe, and Eunice Catunda. In 1955, they obtained the
+      International Peace Prize from the Warsaw Festival and the Rottelini Foundation Prize in Rome. In 1959, they won first prize in the I National Composition Competition established by the Ministry of Education with the Divertimento for Strings, 
+      and received the Medal of Honor for the Fiftieth Anniversary of the Theatro Municipal of Rio de Janeiro.
+
+In 1961, their String Quartet No. 1 won the National Record Prize. In 1966 and 1967, they obtained Gold Medals at the International Song Festivals in Rio de Janeiro. In 1969 and 1988, they received the Golfinho de Ouro (Golden Dolphin) Trophy for their body of work. They also received:
+
+1977: Holder of the Barriga-Verde Trophy.
+
+1985: Commendation of the Cultural Order from the Ministry of Culture and Fine Arts of Poland.
+
+1986: Anita Garibaldi Cultural Merit Medal, awarded by the State of Santa Catarina.
+
+1994: National Music Prize from the Ministry of Culture.
+
+1997: Cruz e Souza Cultural Merit Medal, conferred by the State Council of Culture of Santa Catarina.
+
+1998: Pedro Ernesto Medal, the highest honor granted by the city of Rio de Janeiro to cultural personalities.
+
+In Tokyo, they were honored with a week of tributes, delivering six lectures and having their music—both chamber and symphonic—performed by Japanese musicians. They have also been active as a conductor, primarily of 
+their own works. On December 8, 2011, they received the title of Doctor Honoris Causa from the Federal University of Santa Catarina.</p>
       
-      <p class="mt-4 font-bold text-red-600 uppercase">Características das obras </p>
-      <p>Seu catálogo inclui obras para orquestra sinfônica e de câmara, oratórios, música de câmara, 
-      obras para coro e para vozes e instrumentos solistas, alem de partituras incidentais para teatro e cinema. 
-      Suas composições têm sido executadas com frequência no Brasil e no exterior, 
-      inclusive por orquestras do Rio de Janeiro, São Paulo, Porto Alegre, Recife, Bahia, Belo Horizonte, Liege, Bruxelas, Paris, Londres, Munique, 
-      Buenos Aires, Cordoba, Nova Iorque, Filadelfia, Washington, Colônia, Tóquio e outras.</p>
+      <p class="mt-4 font-bold text-red-600 uppercase">Characteristics of the works </p>
+      <p>Their catalog includes works for symphonic and chamber orchestra, oratorios, chamber music, works for choir and for solo voices and instruments, as well as incidental scores for theater and cinema. Their compositions have 
+      been performed frequently in Brazil and abroad, including by orchestras from Rio de Janeiro, São Paulo, Porto Alegre, Recife, Bahia, Belo Horizonte, Liège, Brussels, Paris, London, Munich, Buenos Aires, Córdoba, New York, Philadelphia, 
+      Washington, Cologne, Tokyo, and others.</p>
              
-      <p class="mt-4 font-bold text-red-600 uppercase">Obras Principais</p>
-      <p>Sua produção inclui as 3 Imagens de Nova Friburgo (1988), para cordas e cravo, o Romance de Santa Cecilia (1989), 
-      para narrador, soprano, coro infantil e orquestra, a Camerata (1991), para 6 instrumentos, o Concerto para dois violões e cordas (1994),
-       as Telas Sonoras (1997) para quarteto de cordas, o Te Deum Puerorum Brasiliae (1997), para coro infantil, coro juvenil,
-        coro gregoriano, metais e percussão, elaborado com a utilização simultânea de 3 sistemas modais que contribuíram para a 
-        formação da cultura musical brasileira - o gregoriano, o indígena e o nordestino -, composto para as comemorações oficiais da 
-        visita de S.S. o Papa João Paulo II ao Rio de Janeiro, em 1997. , a Abertura Solene, comemorativa dos 200 anos da chegada ao
-         Brasil da família real portuguesa, a Passacalha para o novo milênio, para orquestra (encomenda da OSESP – 1999 ); 
-         Terra Brasilis, painel sinfônico, encomenda do Ministério da Cultura para as comemorações dos 500 anos do Descobrimento,
-          Passacalha para Fred Schneiter, para violão (2002), Momentos, para cravo (2002), Pequena Seresta para Bach, para violoncelo solo,
-           encomenda de Antonio Meneses ( 2004 ), Variações carnavalescas, para marimba ( 2004 ), Fanfarras modulares, para orquestra ( 2005 ),
-            Concerto para violoncelo e orquestra ( 2005, dedicado a Antonio Meneses ), Suíte Concertante, para violão e orquestra (2005,
-             dedicada a Turíbio Santos ) – as duas últimas compostas com apoio das Bolsas Vitae de Artes, 4 Imagens de Santa Catarina,
-              para orquestra de cordas ( 2006 , encomenda da Camerata Florianópolis ), Ritmetrias, para orquestra 
-              ( 2006, encomenda do Festival  Internacional de Música de Campos do Jordão, onde atuou com o compositor residente. 
-               Sua produção mais recente inclui Histórias da Ilha , musical infantil ( 2010, e Trio Tocata ( 2011 )
-                para piano, violino e violoncelo, dedicado ao Trio Aquárius e estreado na Bienal de Música Brasileira Contemporânea de 2011.    
-                Em 1965 suas Variações Elementares foram estreadas no III Festival Interamericano de Música de Washington, 
-                e no ano seguinte seu Ludus Symphonicus era estreado pela Orquestra de Filadelfia no III Festival de Música de Caracas, Venezuela. 
-                 Em Bruxelas, Bélgica, como convidado, assistiu a estréia  européia de seu Concerto para dois violões 
-                 e orquestra de cordas, pelo Duo Assad, e em Colonia, Alemanha, regeu a Orquestra Südwstfalen Philharmonie 
-                 na execução de seu Canticum Naturale. 
+      <p class="mt-4 font-bold text-red-600 uppercase">Main Works</p>
+      <p>Their production includes the 3 Imagens de Nova Friburgo (1988), for strings and harpsichord; the Romance de Santa Cecilia (1989), for narrator, soprano, children's choir, and orchestra; the Camerata (1991), for 6 instruments; the Concerto for two 
+      guitars and strings (1994); the Telas Sonoras (1997) for string quartet; and the Te Deum Puerorum Brasiliae (1997), for children's choir, youth choir, Gregorian choir, brass, and percussion. This last piece was developed using the simultaneous application of 
+      three modal systems that contributed to the formation of Brazilian musical culture—Gregorian, Indigenous, and Northeastern—and was composed for the official celebrations of Pope John Paul II's visit to Rio de Janeiro in 1997.
+
+The catalog also features the Abertura Solene, commemorating the 200th anniversary of the Portuguese Royal Family's arrival in Brazil; the Passacalha para o novo milênio for orchestra (commissioned by OSESP – 1999); Terra Brasilis, a symphonic panel commissioned by 
+the Ministry of Culture for the 500th anniversary of the Discovery; Passacalha para Fred Schneiter for guitar (2002); Momentos for harpsichord (2002); Pequena Seresta para Bach for solo cello, commissioned by Antonio Meneses (2004); Variações carnavalescas for 
+marimba (2004); Fanfarras modulares for orchestra (2005); Concerto for cello and orchestra (2005, dedicated to Antonio Meneses); and the Suíte Concertante for guitar and orchestra (2005, dedicated to Turíbio Santos)—the latter two composed with the support of the 
+Vitae Arts Fellowships.
+Furthermore, they composed 4 Imagens de Santa Catarina for string orchestra (2006, commissioned by the Camerata Florianópolis) and Ritmetrias for orchestra (2006, commissioned by the Campos do Jordão International Music Festival, where they served as resident composer).
+Their most recent production includes Histórias da Ilha, a children's musical (2010), and Trio Tocata (2011) for piano, violin, and cello, dedicated to Trio Aquarius and premiered at the 2011 Biennial of Contemporary Brazilian Music.
+In 1965, their Variações Elementares premiered at the III Inter-American Music Festival in Washington, and the following year, their Ludus Symphonicus was premiered by the Philadelphia Orchestra at the III Music Festival of Caracas, Venezuela. 
+In Brussels, Belgium, as a guest, they attended the European premiere of their Concerto for two guitars and string orchestra performed by the Duo Assad, and in Cologne, Germany, they conducted the Südwestfalen Philharmonie in a performance of their Canticum Naturale.
 
 </p>
     `,
