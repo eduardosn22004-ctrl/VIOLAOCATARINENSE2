@@ -88,10 +88,10 @@ David Russell, Ignacio Rodes, Hopkinson Smith, Roberto Aussel, Manuel Barrueco, 
     id: "acaciop",
     nome: "Acácio Piedade",
     foto: "/images/pessoas/acaciop1.avif",
-    bio: `<p>Acácio Piedade é um compositor brasileiro-português nascido no Brasil em 1961. Estudou com Almeida Prado, Damiano Cozzella, Conrado Silva e Hans-Joachim Koellreutter e 
-é bacharel em composição. É doutor em Antropologia com suas pesquisas sobre a música dos povos indígenas da Amazônia. Realizou pesquisas de pós-doutorado na Universidade Paris Sorbonne 
-e na Hochschule für Musik Franz Liszt – Weimar. Acácio Piedade é um compositor premiado e suas obras têm sido executadas em concertos e festivais em toda a América Latina e Europa por intérpretes, 
-ensembles e orquestras de renome. É professor titular aposentado do Departamento de Música da Universidade do Estado de Santa Catarina e atualmente mora em Lisboa. (Fonte: Bio do site - ACÁCIO PIEDADE)
+    bio: `<p>Acácio Piedade is a Brazilian-Portuguese composer born in Brazil in 1961. He studied with Almeida Prado, Damiano Cozzella, Conrado Silva and Hans-Joachim Koellreutter and holds a bachelor’s degree in composition. He has a PhD in Anthropology 
+    with his research into the music of the Indigenous peoples of the Amazon. He carried out post-doctoral researches at the Paris Sorbonne University and at the Hochschule für Musik Franz Liszt – Weimar. Acácio Piedade is an award-winning composer and his 
+    works have been performed at concerts and festivals throughout Latin America and Europe by leading performers, ensembles and orchestras. He is a retired full professor of the Music Department of the State University of Santa Catarina and currently 
+    lives in France.(Source: acaciopiedade.com)
 </p>`,
     galeria: ["/images/pessoas/acaciop1.avif","/images/pessoas/acaciop2.avif"],
     eh_compositor: true,
