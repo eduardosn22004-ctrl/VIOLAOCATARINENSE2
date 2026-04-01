@@ -67,7 +67,7 @@ In Brussels, Belgium, as a guest, they attended the European premiere of their C
 
 </p>
     `,
-    galeria: ["/images/pessoas/edino1.avif","/images/pessoas/edino2.avif","/images/pessoas/edino3.avif","/images/pessoas/edino4.avif", "/images/edino.jpg"],
+    galeria: ["/images/pessoas/edino2.avif","/images/pessoas/edino3.avif","/images/pessoas/edino4.avif", "/images/edino.jpg"],
     eh_compositor: true,
     eh_violonista: false,
   },
