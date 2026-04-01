@@ -37,7 +37,7 @@ export const musicos =[
         de vanguarda e tradicionais, juntamente com elementos absorvidos da cultura musical brasileira</p>
       
       <p class="mt-4 font-bold text-red-600 uppercase">Premiações</p>
-      <p>1945 recebeu o Prêmio Música Viva por seu Trio de Sopros, passando então a integrar o Grupo Música Viva de compositores de vanguarda, 
+      <p>Em 1945 recebeu o Prêmio Música Viva por seu Trio de Sopros, passando então a integrar o Grupo Música Viva de compositores de vanguarda, 
       ao lado de Koellreutter, Claudio Santoro, Guerra-Peixe e Eunice Catunda. passando então a integrar o Grupo Música Viva de compositores de vanguarda,
        ao lado de Koellreutter, Claudio Santoro, Guerra-Peixe e Eunice Catunda. Em 1955 obteve o Prêmio Internacional da Paz do Festival de Varsóvia e o
         Prêmio da Fundação Rottelini de Roma Em 1959 obteve o primeiro prêmio no I Concurso Nacional de Composição instituído pelo Ministério da Educação,
