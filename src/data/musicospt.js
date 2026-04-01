@@ -50,7 +50,7 @@ export const musicos =[
           1998 - Medalha Pedro Ernesto, maior honraria concedida pela cidade do Rio de Janeiro
              para personalidades do meio cultural. Em Tóquio, recebeu uma semana de homenagens, realizando seis palestras e tendo suas músicas
            , tanto as de câmara quanto sinfônicas, tocadas por músicos japoneses. Tem atuado também como regente, principalmente de suas próprias obras. 
-           Recentemente (08/12/2011) recebeu o título de Doutor Honoris Causa da Universidade Federal de Santa Catarina.</p>
+           Em 08/12/2011 recebeu o título de Doutor Honoris Causa da Universidade Federal de Santa Catarina.</p>
       
       <p class="mt-4 font-bold text-red-600 uppercase">Características das obras </p>
       <p>Seu catálogo inclui obras para orquestra sinfônica e de câmara, oratórios, música de câmara, 
