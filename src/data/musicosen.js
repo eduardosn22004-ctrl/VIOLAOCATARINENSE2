@@ -79,7 +79,7 @@ In Brussels, Belgium, as a guest, they attended the European premiere of their C
     to attend the I Master en Interpretación de Guitarra Clásica in Alicante, Spain, where he received guidance from the most renowned guitarists of today: David Russell, Ignacio Rodes, Hopkinson Smith, Roberto Aussel, 
     Manuel Barrueco, Carles Trepat, and Nigel North.(Source: Provided by the musician) 
 </p>`,
-    galeria: ["/images/pessoas/andreiu1.avif", "/images/edino.jpg"],
+    galeria: ["/images/pessoas/andreiu2.avif", "/images/edino.avif"],
     eh_compositor: false,
     eh_violonista: true,
   },
