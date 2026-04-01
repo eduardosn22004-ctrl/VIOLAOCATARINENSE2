@@ -84,7 +84,7 @@ export const musicos =[
 
 </p>
     `,
-    galeria: ["/images/pessoas/edino1.avif","/images/pessoas/edino2.avif","/images/pessoas/edino3.avif","/images/pessoas/edino4.avif", "/images/edino.jpg"],
+    galeria: ["/images/pessoas/edino2.avif","/images/pessoas/edino3.avif","/images/pessoas/edino4.avif", "/images/edino.jpg"],
     eh_compositor: true,
     eh_violonista: false,
   },
