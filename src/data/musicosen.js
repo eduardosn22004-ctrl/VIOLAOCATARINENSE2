@@ -297,16 +297,15 @@ Catarinense (Guitar Music from Santa Catarina), volumes I (2012) and II (2019), 
     nome: "Leandro Fortes",
     foto: "/images/pessoas/leandrof1.avif",
     bio: `<p>
-Leandro Fortes é natural de Criciúma (SC) e se mudou para a capital catarinense em 2001, para estudar na Universidade do Estado de Santa Catarina, onde graduou-se em Licenciatura em Música no ano de 2007. Vem atuando como instrumentista, 
-compositor e educador há mais de 20 anos, e atualmente reside na capital de São Paulo, onde vem se apresentando ao lado de artistas como Rogério Bottermaio, Adriana Godoy, Nathanael Sousa, Carlos Ribeiro, Janayna Pereira, Vera Figueiredo, 
-Daniel Pezin, entre outros. Durante sua trajetória já dividiu o palco com grandes nomes da música, entre eles: Vinícius Dorin, André Mehmari, Izabel Padovani, Gabriel Grossi, Davy Mooney, Gina Roche e o lendário Les Paul. Recebeu diversas 
-premiações, como Rumos Itaú Cultural, FUNARTE, MINC e Elizabete Anderle. 
-Recentemente lançou seu segundo trabalho autoral intitulado Diagonal o qual foi selecionado no Circuito SESC de Música 2019, e que segundo o pianista Fábio Torres, “alcançou uma rara maturidade, e criou sonoridades originais explorando timbres 
-e contrapontos.” No ano de 2019, apresentou workshops de improvisação na Universidade Federal de São João Del Rei e na Universidade de São Paulo (no campus de Ribeirão Preto). Durante 5 anos atuou como diretor musical do grupo de dança Cia Trupe Toe,
-com o qual se apresentou no Museum of Contemporary Art Chicago. Teve cinco composições estreadas e gravadas pela Orquestra Acadêmica UDESC. 
-Em 2015 realizou uma turnê com o projeto “Afetos, Música e Poesia”, ao lado do Quinteto de Cordas Catarinense e da soprano Marília Oliveira, que interpretou suas composições sobre os poemas de Cruz e Souza. Realizou a coordenação artística
-das duas edições do Seminário de Improvisação Musical Brasileira, e compôs 3 trilhas sonoras para documentários e espetáculos de dança. Fortes já se apresentou nas cidades de Nova Iorque, Philadelphia, Chicago, Lima, e em 2012 gravou seu 
-primeiro disco em seu nome, que conta com a participação do icônico Hermeto Pascoal. (Fonte: Cedido Pelo Compositor)
+Leandro Fortes was born in Criciúma (SC) and moved to the capital of Santa Catarina in 2001 to study at the State University of Santa Catarina (UDESC), where he graduated with a Licentiate degree in Music in 2007. 
+He has been active as an instrumentalist, composer, and educator for over 20 years and currently resides in the capital of São Paulo, where he performs alongside artists such as Rogério Bottermaio, Adriana Godoy, Nathanael Sousa, Carlos Ribeiro, 
+Janayna Pereira, Vera Figueiredo, and Daniel Pezin, among others. Throughout his career, he has shared the stage with great names in music, including Vinícius Dorin, André Mehmari, Izabel Padovani, Gabriel Grossi, Davy Mooney, Gina Roche, and the 
+legendary Les Paul. He has received several awards, such as Rumos Itaú Cultural, FUNARTE, MINC, and Elisabete Anderle. Recently, he released his second original work titled Diagonal, which was selected for the 2019 SESC Music Circuit and which, 
+according to pianist Fábio Torres, "attained a rare maturity and created original sounds by exploring timbres and counterpoints." In 2019, he presented improvisation workshops at the Federal University of São João Del Rei and the University of São Paulo
+(Ribeirão Preto campus). For five years, he served as the musical director for the dance group Cia Trupe Toe, with whom he performed at the Museum of Contemporary Art Chicago. He had five compositions premiered and recorded by the UDESC Academic Orchestra. 
+In 2015, he toured with the project "Afetos, Música e Poesia" (Affections, Music, and Poetry) alongside the Santa Catarina String Quintet and soprano Marília Oliveira, who performed his compositions based on the poems of Cruz e Souza. He served as the artistic 
+coordinator for both editions of the Brazilian Musical Improvisation Seminar and composed three soundtracks for documentaries and dance performances. Fortes has performed in the cities of New York, Philadelphia, Chicago, and Lima, and in 2012, he recorded his 
+first album under his own name, which features a participation by the iconic Hermeto Pascoal. (Source: Provided by the musician)
 </p>`,   
     galeria: ["/images/pessoas/leandrof2.avif","/images/pessoas/leandrof3.avif","/images/pessoas/leandrof4.avif"],
     eh_compositor: false,
@@ -317,25 +316,23 @@ primeiro disco em seu nome, que conta com a participação do icônico Hermeto P
     nome: "Marco Cardozo",
     foto: "/images/pessoas/marcoca1.avif",
     bio: `<p>
-Marco Antonio Cardozo Jr nasceu na cidade de São Paulo – SP no ano de 1970 e aos nove anos mudou-se com a sua família para São José-SC cidade aonde reside até hoje. Marco Cardozo trabalha há 29 anos como musico profissional tendo tocado e 
-gravado com bandas de vários estilos e também atuando na área de produção artístico musical. Atualmente tem feito workshops sobre a guitarra e a evolução da eletrônica, e tem se dedicado ao estudo da bateria e a composições para guitarra elétrica 
-estilo blues, e viabiliza futuro registro de algumas peças em compactos simples, assim como a continuidade das composições para violão. As suas atividades musicais também incluem o ensino de violão e guitarra elétrica.  
-As suas influências musicais são bastante amplas e incluem um pouco do repertório do violão de concerto, violão popular brasileiro, e da guitarra elétrica blues, jazz e rock. E como principal objetivo a composição de estudos para o desenvolvimento técnico, 
-resultando em uma compilação de peças exclusivas para o instrumento, representando algumas características e influências de peças curtas e/ou minimalistas sem a utilização de formas tradicionais como estrutura composicional. E outra faceta do 
-repertório autoral, dezenas de canções e peças instrumentais para violão de aço e guitarra elétrica, nos estilos blues e surf music. Algumas peças são utilizadas em aulas, em cursos de violão e guitarra elétrica, oportunizados por ele na escola em que dirige. 
-Marco frequentou alguns cursos de música, dentre eles o de Guitarra Blues com Cristiano Ferreira, na Escola de Música Fábrica de Sons, em São José, Violão Clássico com Flavio Apro, via skype, curso Fundamentos da Técnica Violonística com André de Moura–Udesc, 
-Repertório do Violão com André Franzoni na Escola de Música Fábrica de Sons, em São José, Violão Clássico com Kleber Alexandre, em Florianópolis, Harmonia Funcional com Glauco Valença, em São José, Saxofone Soprano, na Sociedade Musical Filarmônica 
-de Florianópolis com maestro Daniel, em Florianópolis e Teoria Musical na Ordem dos Músicos do Brasil, em Florianópolis. 
-Foi no período em que Marco tocou com seu pai, Marquinho “Paulista”, que começou a compor canções, estudos, sendo algumas tocadas pelo próprio compositor em recital e shows populares. Existem casos de canções como “Boogie da T.P.M. versão No. 2” 
-interpretada pelo cantor Duda Wagenführ, coautor da segunda parte da letra, e a canção “Se toque”, escrita para a banda de rock Da Caverna, e a instrumental “Passando a guarda” escrita para o projeto surf music Los Pedreiros Surfers, de seus alunos de música, 
-além das peças gravadas pelo concertista Andrei Uller. Marco veio a gravar uma Fita k-7 Demo com quatro peças em experimentos com afinações abertas como a instrumental “Dedo no gargalo” com seu pai na bateria e seu irmão Adriano no contrabaixo elétrico. 
-Apresentou-se profissionalmente, com seu pai, tocando na banda de baile Via Brazil, e nas bandas de rock Grande Pássaro, e Duda Wagenführ & Cia do Rock. E começa a lecionar música. 
-Marco iniciou os seus estudos musicais na Escola Funcional de Música (com o pianista Dalner Barbi, aluno de violão de Ricardo Boppré), em Florianópolis, aonde se dedicou por quatro anos ao estudo do violão clássico. Também teve aulas particulares com
-Dalner Barbi. Durante esse período, além de estudar o violão, Marco começou a aprender guitarra elétrica de maneira autodidata, apoiado pelo livro The Guitar Handbook de Ralph Denyer lançado no brasil, e pesquisando o repertório de rock e blues, 
-bastante influenciado por um amigo de seu pai, o Daniel Mazza, e praticava as músicas que aprendia junto com seus irmãos que também são músicos. 
-Tendo crescido em uma família de músicos, a música sempre fez parte de sua vida. Ainda criança Marco acompanhava seu pai (que era baterista profissional) em ensaios, shows e gravações. Foi com a bateria que teve o seu primeiro contato com a música, 
-estudando os rudimentos da bateria com seu pai, inspirados no método de Gene Krupa, do fim da década de 30 (cujo pai era fã), mas com quatorze anos Marco decidiu que queria aprender guitarra e fazer parte do universo musical que 
-vivenciara desde menino. (Fonte: Cedido Pelo Compositor)
+Marco Antonio Cardozo Jr. was born in the city of São Paulo (SP) in 1970, and at the age of nine, moved with his family to São José (SC), the city where he resides to this day. He has worked as a professional musician for 29 years, 
+having performed and recorded with bands of various styles, as well as working in musical and artistic production. Currently, he conducts workshops on the guitar and the evolution of electronics, dedicates himself to studying the drums and composing for 
+electric guitar in the blues style, and is planning the future recording of several pieces as singles, alongside his continued compositions for the acoustic guitar. His musical activities also include teaching both acoustic and electric guitar. His musical 
+influences are quite broad, encompassing the repertoire of the concert guitar, Brazilian popular guitar, and blues, jazz, and rock electric guitar. His primary objective is the composition of studies for technical development, resulting in a compilation of 
+exclusive pieces for the instrument that feature characteristics of short and/or minimalist pieces without the use of traditional forms as a compositional structure. Another facet of his original repertoire includes dozens of songs and instrumental pieces 
+for steel-string and electric guitar in blues and surf music styles. Some of these pieces are utilized in his guitar and electric guitar lessons at the school he directs. Marco attended several music courses, including: Blues Guitar with Cristiano Ferreira at
+the Fábrica de Sons Music School in São José; Classical Guitar with Flavio Apro (via Skype); the "Fundamentals of Guitar Technique" course with André de Moura (UDESC); Guitar Repertoire with André Franzoni at the Fábrica de Sons Music School; Classical Guitar 
+with Kleber Alexandre in Florianópolis; Functional Harmony with Glauco Valença in São José; Soprano Saxophone at the Philharmonic Musical Society of Florianópolis with Maestro Daniel; and Musical Theory at the Order of Musicians of Brazil (OMB) in Florianópolis.
+It was during the period when Marco performed with his father, Marquinho “Paulista,” that he began composing songs and studies, some of which were performed by the composer himself in recitals and popular shows. Notable works include the song “Boogie da T.P.M. 
+versão No. 2,” performed by singer Duda Wagenführ (who co-authored the second part of the lyrics); the song “Se toque,” written for the rock band Da Caverna; and the instrumental piece “Passando a guarda,” written for the surf music project Los Pedreiros Surfers 
+(formed by his music students), in addition to pieces recorded by concert guitarist Andrei Uller. Marco also recorded a demo cassette tape featuring four experimental pieces using open tunings, such as the instrumental “Dedo no gargalo,” featuring his father on drums
+and his brother Adriano on electric bass. Professionally, he performed with his father in the ballroom band Via Brazil, as well as in the rock bands Grande Pássaro and Duda Wagenführ & Cia do Rock, eventually beginning his career as a music teacher. Marco began his 
+musical studies at the Escola Funcional de Música in Florianópolis (studying under pianist Dalner Barbi, a guitar student of Ricardo Boppré), where he dedicated four years to the study of classical guitar. He also took private lessons with Dalner Barbi. During this 
+period, in addition to studying the guitar, Marco began teaching himself the electric guitar, supported by Ralph Denyer's The Guitar Handbook and researching rock and blues repertoire—heavily influenced by Daniel Mazza, a friend of his father—and practiced the music 
+he learned with his brothers, who are also musicians. Having grown up in a family of musicians, music has always been part of his life. As a child, Marco accompanied his father (a professional drummer) to rehearsals, shows, and recordings. Drums provided his 
+first contact with music; he studied drum rudiments with his father, inspired by the Gene Krupa method from the late 1930s (of which his father was a fan). However, at fourteen, Marco decided he wanted to learn the guitar and become part of the musical universe 
+he had experienced since boyhood. (Source: Provided by the musician)
 </p>`,   
     galeria: ["/images/pessoas/marcoca2.avif","/images/pessoas/marcoca3.avif","/images/pessoas/marcoca4.avif"],
     eh_compositor: false,
@@ -346,26 +343,24 @@ vivenciara desde menino. (Fonte: Cedido Pelo Compositor)
     nome: "Marcos Pablo Dalmacio",
     foto: "/images/pessoas/marcosdal1.avif",
     bio: `<p>
-
-Multi-instrumentista e compositor, desde cedo mostrou interesse por diversos aspectos da prática musical o que o levou a dedicar-se com igual energia ao violão, violino e viola, composição, 
-pesquisa musicológica, regência orquestral e à interpretação de música antiga com instrumentos de época (vihuela, guitarra renascentista, alaúde, guitarra barroca, guitarra clássico-romântica, terz guitar e mandolina). 
-Como solista tem se apresentado em numerosas cidades de vários estados do Brasil, Argentina, Uruguai, Paraguai, Peru, Espanha, Portugal e França, oferecendo recitais, masterclass e palestras em festivais, seminários, 
-séries de concerto, conservatórios e universidades, especialmente requisitado pelas suas performances de música do século XIX com guitarra romântica. Tem atuado também como solista junto a orquestras, quartetos e quintetos de corda, conjuntos de música de 
-câmara e corais do Brasil e da Argentina.   Dalmacio tem estreado diversas obras, incluindo composições de sua própria autoria, e tem estabelecido uma frequente colaboração com o compositor Jaime Zenamon, de quem interpretou numerosas obras para violão e 
-orquestra e conjuntos instrumentais, além de comissionar e estrear obras a ele dedicadas como Dakarai, Opus 185, para violão e quinteto de cordas; To Brazil and Bach, Opus 193, para violão e cravo, entre outras. Também ativo como compositor, conta com várias 
-obras estreadas em diversos países, além da realização de concertos integralmente dedicados a suas obras de música de câmara. Sua produção abrange desde obras para instrumentos solistas, passando por música de câmara para diversas combinações, 
-obras corais e orquestrais, ademais de numerosas orquestrações e arranjos para diversas formações. Como pesquisador e escritor tem publicado resenhas e artigos, destacando-se especialmente seu livro A sonata para violão na Viena de Beethoven e
-Schubert, baseado na sua dissertação de mestrado, livro considerado pela crítica como uma referência fundamental no tema, com prefácio de violonista de reconhecimento internacional Fabio Zanon. No âmbito da música de câmara conforma o Duo Cor dos Ventos com o 
-flautista Cristian Faig; ademais do repertório tradicional para a combinação utilizam instrumentos históricos para a interpretação de música antiga. Na sua discografia conta com o disco Cordas de Acordo, gravado pelo Duo Brar (2008); a estreia mundial e
-primeira gravação em CD da Symphony of Good do compositor brasileiro Jean Goldenbaum, realizada em São Paulo (2010); seu primeiro CD solista, Ricercare (2015) no qual interpreta cinco séculos da história da música com sete instrumentos diferentes; e
-Hidden Masterpieces (2018) gravado pelo Duo Cor dos Ventos, dedicado a música de câmara do século XIX para flauta, guitarra, violino e trompa. Além destes trabalhos tem produzido um vasto corpus de gravações em formato digital, disponíveis nas
-diversas plataformas de streaming.   É Diretor Artístico e violinista da Orquestra de Cordas da Ilha (Florianópolis, Santa Catarina, Brasil) há mais de dez anos, conjunto que tem ganhado reconhecimento nacional pelo seu aporte cultural, apresentando programas 
-dedicados principalmente ao resgate de compositores pouco conhecidos da história da música desde o período barroco até os dias de hoje, tendo sido responsáveis por numerosas estreias e primeiras audições no Brasil. Dalmacio também é Diretor Artístico do Festival 
-Internacional de Violão de Balneário Camboriú, e fundador, Maestro e Diretor Artístico da Orquestra Andante, de Balneário Camboriú, com qual tem realizado ciclos de concertos no teatro de dita cidade desde 2022. Marcos Pablo Dalmacio é natural da Argentina e
-está radicado no Brasil desde 2005. É Mestre em Música pela Universidade do Estado de Santa Catarina (UDESC) na área de musicologia com a dissertação “A sonata para guitarra na Viena de Beethoven e Schubert”. Possui os títulos de Professor de Violão pelo 
-Conservatório Isaías Orbe de Tandil e de Professor Superior de Violão pelo Conservatório Luis Gi-anneo de Mar del Plata, ambos da província de Buenos Aires, Argentina. Foi contemplado com diversas bolsas de estudos: Santa María de la Armonía(Mar del Plata)
-para realizar os cursos de verão em violão, violino e fenomenologia da música; Fundación Antorchas (Buenos Aires) para aperfeiçoamento em música antiga com Miguel de Olaso; a bolsa CAPES (Brasil) durante a pós-graduação, e uma bolsa da Universidad de
-Santiago de Compostela (Espanha, 2013) para participar como violonista nos cursos internacionais de música. (Fonte: Cedido Pelo Compositor)
+Multi-instrumentalist and composer, he demonstrated an early interest in various aspects of musical practice, leading him to dedicate himself with equal energy to the guitar, violin and viola, composition, musicological research, 
+orchestral conducting, and the performance of early music on period instruments (vihuela, Renaissance guitar, lute, Baroque guitar, early Romantic guitar, terz guitar, and mandolin). As a soloist, he has performed in numerous cities across several 
+Brazilian states, Argentina, Uruguay, Paraguay, Peru, Spain, Portugal, and France, offering recitals, masterclasses, and lectures at festivals, seminars, concert series, conservatories, and universities—being especially sought after for his performances 
+of 19th-century music on the Romantic guitar. He has also performed as a soloist with orchestras, string quartets and quintets, chamber music ensembles, and choirs in Brazil and Argentina. Dalmacio has premiered several works, including his own compositions, 
+and has established a frequent collaboration with composer Jaime Zenamon, whose numerous works for guitar and orchestra or instrumental ensembles he has performed. He has also commissioned and premiered works dedicated to him, such as Dakarai, Opus 185, for 
+guitar and string quintet, and To Brazil and Bach, Opus 193, for guitar and harpsichord, among others. Also active as a composer, he has had several works premiered in various countries, in addition to performing concerts entirely dedicated to his chamber music. 
+His production ranges from works for solo instruments to chamber music for various combinations, choral and orchestral works, as well as numerous orchestrations and arrangements for different ensembles. As a researcher and writer, he has published reviews and 
+articles, most notably his book A sonata para violão na Viena de Beethoven e Schubert (The Guitar Sonata in the Vienna of Beethoven and Schubert), based on his master's thesis. The book is considered by critics to be a fundamental reference on the subject and 
+features a preface by the internationally renowned guitarist Fabio Zanon. In the field of chamber music, he forms the Duo Cor dos Ventos with flutist Cristian Faig; in addition to the traditional repertoire for this combination, they utilize historical instruments 
+for the interpretation of early music. His discography includes the album Cordas de Acordo, recorded by Duo Brar (2008); the world premiere and first CD recording of Symphony of Good by Brazilian composer Jean Goldenbaum, recorded in São Paulo (2010); 
+his first solo CD, Ricercare (2015), in which he interprets five centuries of music history using seven different instruments; and Hidden Masterpieces (2018), recorded by Duo Cor dos Ventos, dedicated to 19th-century chamber music for flute, guitar, violin, 
+and horn. In addition to these works, he has produced a vast corpus of digital recordings available on various streaming platforms. He has been the Artistic Director and violinist of the Orquestra de Cordas da Ilha (Florianópolis, Santa Catarina, Brazil) 
+for over ten years, an ensemble that has gained national recognition for its cultural contribution, presenting programs dedicated primarily to the revival of little-known composers from the Baroque period to the present day, and responsible for numerous premieres
+and first auditions in Brazil. Dalmacio is also the Artistic Director of the Balneário Camboriú International Guitar Festival and the founder, Conductor, and Artistic Director of the Orquestra Andante in Balneário Camboriú, with which he has performed concert 
+cycles at the city's theater since 2022. Marcos Pablo Dalmacio was born in Argentina and has been based in Brazil since 2005. He holds a Master’s degree in Music from the State University of Santa Catarina (UDESC) in the field of musicology, with the thesis 
+"The guitar sonata in the Vienna of Beethoven and Schubert." He holds the titles of Professor of Guitar from the Conservatório Isaías Orbe de Tandil and Superior Professor of Guitar from the Conservatório Luis Gianneo de Mar del Plata, both in the province of 
+Buenos Aires, Argentina. He has been awarded several scholarships: Santa María de la Armonía (Mar del Plata) for summer courses in guitar, violin, and musical phenomenology; Fundación Antorchas (Buenos Aires) for advanced studies in early music with Miguel 
+de Olaso; the CAPES scholarship (Brazil) during his graduate studies; and a scholarship from the Universidad de Santiago de Compostela (Spain, 2013) to participate as a guitarist in international music courses. (Source: Provided by the Musician)
 </p>`,   
     galeria: ["/images/pessoas/marcosdal2.avif","/images/pessoas/marcosdal3.avif","/images/pessoas/marcosdal4.avif"],
     eh_compositor: false,
@@ -376,13 +371,13 @@ Santiago de Compostela (Espanha, 2013) para participar como violonista nos curso
     nome: "Pablo Heredia",
     foto: "/images/pessoas/pabloh1.avif",
     bio: `<p>
-Pablo de Mello Heredia é maestro, violonista, compositor e professor, com uma trajetória dedicada à música clássica e popular. Iniciou seus estudos de violão clássico aos 10 anos de idade, tendo aulas particulares. Aos 16 anos,
-ingressou no curso de Licenciatura em Música da FURB, onde integrou a Camerata de Violões e participou da gravação de um álbum em 2010. Em 2015, lançou Soturno, um álbum autoral com peças para violão solo e outras formações, realizado graças à
-premiação no edital LIC de Balneário Camboriú. Seguindo sua produção autoral, lançou os singles Suíte da Morte e do Renascimento (2019) e Betina (2020). Em 2024, lançou o álbum Alforria e Outras Liberdades, também contemplado pelo edital LIC de 
-Balneário Camboriú. Em 2018, fundou a Camerata de Violões de Camboriú, atualmente conhecida como Camerata de Violões Rio Allegro, onde atua como maestro, professor e regente. Em 2023, concluiu a pós-graduação em Regência pela FACEC. No ano seguinte,
-em 2024, cofundou o Círculo Violonístico Catarinense, ao lado de Marcos Pablo Dalmacio e Cristo Miguel de la Cruz, com o objetivo de promover o intercâmbio musical e o desenvolvimento do violão no estado. Como concertista, tem se apresentado em diversas
-regiões, tanto como solista quanto em formações de música de câmara. Como professor, ministra aulas de violão clássico e popular, além de atuar no ensino de práticas em conjunto, formações camerísticas, clássicas e bandas populares. Na composição e 
-arranjo, seu foco principal é a música de câmara. Estudou composição com Marcos Pablo Dalmacio e Alberto Heller, e aprimorou sua técnica violonística sob a orientação de Renato Mór, Marcos Pablo Dalmacio, Marcus Llerena e Alvaro Henrique. (Fonte: Cedido Pelo Autor)
+Pablo de Mello Heredia is a conductor, guitarist, composer, and teacher with a career dedicated to both classical and popular music. He began his classical guitar studies at the age of 10 through private lessons. At 16, he enrolled in the
+Licentiate in Music program at FURB, where he joined the Guitar Camerata and participated in an album recording in 2010. In 2015, he released Soturno, an original album featuring pieces for solo guitar and other ensembles, made possible by an award from the LIC
+grant in Balneário Camboriú. Continuing his original production, he released the singles Suíte da Morte e do Renascimento (2019) and Betina (2020). In 2024, he released the album Alforria e Outras Liberdades, also supported by the LIC grant of Balneário Camboriú.
+In 2018, he founded the Balneário Camboriú Guitar Camerata, currently known as the Camerata de Violões Rio Allegro, where he serves as a teacher and conductor. In 2023, he completed a postgraduate degree in Conducting from FACEC. The following year, in 2024, 
+he co-founded the Círculo Violonístico Catarinense alongside Marcos Pablo Dalmacio and Cristo Miguel de la Cruz, with the goal of promoting musical exchange and the development of the guitar within the state. As a concert artist, he has performed in various 
+regions, both as a soloist and in chamber music ensembles. As a teacher, he gives lessons in classical and popular guitar, in addition to teaching ensemble practices, chamber music, and popular bands. In composition and arrangement, his primary focus is 
+chamber music. He studied composition with Marcos Pablo Dalmacio and Alberto Heller, and refined his guitar technique under the guidance of Renato Mór, Marcos Pablo Dalmacio, Marcus Llerena, and Alvaro Henrique. (Source: Provided by the musician)
 </p>`,   
     galeria: ["/images/pessoas/pabloh2.avif","/images/pessoas/pabloh3.avif","/images/pessoas/pabloh4.avif"],
     eh_compositor: false,
@@ -393,22 +388,17 @@ arranjo, seu foco principal é a música de câmara. Estudou composição com Ma
     nome: "Ricardo Boppré",
     foto: "/images/pessoas/ricardob1.avif",
     bio: `<p>
-Nascido em Tubarão - Santa Catarina, em 05 de fevereiro de 1953, desde cedo dedicou-se à arte do violão. Com apenas 13 anos já demonstrava interesse por serenatas e partituras de violão. Com 18 anos radicou-se na capital do estado onde 
-ingressou na Associação Coral de Florianópolis. Formado em Pedagogia e Direito, Ricardo sempre encontrou espaço para expressar-se musicalmente.   
-
-Autodidata por excelência procurou, nos seus estudos violonísticos, ser o mais eclético possível no que concerne à escolha de seu repertório, procurando abranger músicas de Beethoven, Chopin, Bach, Ernesto Nazareth, 
-Pixinguinha, Tom Jobim e muitos outros. Com isso procura demonstrar que o violão está presente em todos os estilos, tanto erudito como no popular.   
-
-Em 1980, sagrou-se vencedor do Primeiro Concurso Universitário para Violão e, igualmente, do Programa de Incentivo à Criação de Pequenos Conjuntos Musicais, os quais lhe proporcionaram a gravação do primeiro
-LP “O Violão em Duas Dimensões”. Foi o primeiro violonista catarinense a ter o seu trabalho gravado em vinil. Naquele mesmo ano fundou o curso de violão na Universidade Federal de Santa Catarina, onde formou inúmeros alunos. 
-Em 1985 instituiu o mesmo curso na Fundação Catarinense de Cultura.   
-
-Em 1982, o seu segundo LP, “Violão, Violão & Violão”, introduziu a sua arte, definitivamente, no cenário musical catarinense. Em 1985, com o seu terceiro LP, “O Universo do Violão”, consagrou ainda mais a sua atividade musical. 
-Aliado a isto, sempre se apresentou em teatros e TV, tendo ajudado a formar, a par de toda a atividade musical, muitos alunos nos cursos de violão que ministrou na Universidade Federal e no Centro Integrado de Cultura da Fundação Catarinense de Cultura.  
-
-Atualmente, no amadurecimento de sua arte e técnica, dedica-se também a composição musical e arranjo de músicas populares brasileiras e clássicas para violão e piano. Este trabalho consiste na utilização de software de editoração de 
-partituras para este objetivo. Na plenitude desta atividade artística, criou um site em que todo o acervo está disponibilizado aos internautas. A par de exercer a composição musical, alguns de seus trabalhos foram gravados tanto pelo próprio 
-compositor como outros intérpretes. Suas obras abrangem os mais variados gêneros musicais, peças como boleros, sambas, sambas-canção, xotes, baiões, várias séries de estudos para violão, entre tantas outras. (Fonte: Cedido Pelo Compositor)
+Born in Tubarão, Santa Catarina, on February 5, 1953, he dedicated himself to the art of the guitar from an early age. By age 13, he was already showing an interest in serenades and guitar scores. At 18, he moved to the state capital, where he 
+joined the Florianópolis Choral Association. Having graduated in Pedagogy and Law, Ricardo always found space to express himself musically. Self-taught by excellence, he sought to be as eclectic as possible in his guitar studies regarding the choice of
+repertoire, aiming to encompass music by Beethoven, Chopin, Bach, Ernesto Nazareth, Pixinguinha, Tom Jobim, and many others. Through this, he seeks to demonstrate that the guitar is present in all styles, from classical to popular. In 1980, he was crowned winner
+of the I Concurso Universitário para Violão (I University Guitar Competition) and also of the Programa de Incentivo à Criação de Pequenos Conjuntos Musicais (Incentive Program for the Creation of Small Musical Ensembles), both of which led to the recording of
+his first LP, O Violão em Duas Dimensões (The Guitar in Two Dimensions). He was the first guitarist from Santa Catarina to have his work recorded on vinyl. That same year, he founded the guitar course at the Federal University of Santa Catarina (UFSC), where
+he trained numerous students. In 1985, he established the same course at the Santa Catarina Cultural Foundation (FCC). In 1982, his second LP, Violão, Violão & Violão, definitively introduced his art to the musical scene of Santa Catarina. In 1985, 
+his third LP, O Universo do Violão (The Universe of the Guitar), further consolidated his musical career. Alongside this, he has consistently performed in theaters and on television, while helping to train many students through the guitar courses he 
+taught at the Federal University and the Centro Integrado de Cultura (CIC) of the Santa Catarina Cultural Foundation. Currently, in the maturity of his art and technique, he also dedicates himself to musical composition and the arrangement of Brazilian popular 
+and classical music for guitar and piano. This work involves the use of music notation software for this purpose. In the fullness of this artistic activity, he created a website where his entire collection is available to internet users. In addition to his work 
+as a composer, some of his pieces have been recorded by the composer himself as well as by other performers. His works cover a wide variety of musical genres, including pieces such as boleros, sambas, sambas-canção, xotes, baiões, and several series of guitar 
+studies, among many others. (Source: Provided by the musician)
 </p>`,   
     galeria: ["/images/pessoas/ricardob2.avif","/images/pessoas/ricardob3.avif"],
     eh_compositor: true,
@@ -419,21 +409,20 @@ compositor como outros intérpretes. Suas obras abrangem os mais variados gêner
     nome: "Rafael Marciniak",
     foto: "/images/pessoas/rafaelma1.avif",
     bio: `<p>
-Natural de Blumenau (1980) Rafael Maciniak é concertista e pesquisador. Situa seu atual trabalho autoral na Música Instrumental Brasileira, fortemente inspirada em traços estéticos contemporâneos da sua região de origem, faceta esta que
-combina com a de intérprete, amparada em um seleto repertório para Guitarra Flamenca, entre outros estilos. Nessa especialidade, graduou-se em Música com especialização em Flamenco - Guitarra Flamenca, pelo Conservatório Superior de 
-Música Rafael Orozco de Córdoba. Pouco mais tarde, ainda na Espanha, alcançou pela ESMUC (Barcelona) o mestrado em Etnomusicologia igualmente orientado ao Flamenco. Em 2023, sua pesquisa foi uma das doze selecionadas para inclusão na 
-programação do evento “CIUTAT FLAMENCO” – V Congreso Internacional de Flamencología y Pedagogía Flamenca” (Barcelona), um dos principais acontecimentos do segmento, repetindo o feito em 2025 para o VII° ISMMS (Sevilla, Espanha). 
-Ganhador do I°Prêmio Herbert Holetz (FCBLU, 2019), realizou com esta sua primeira obra autoral, intitulada “Hi-Fi” (2020), despertando interesse e menções positivas junto a público e crítica especializada. Em 2020 seu recital 
-“Guitarra Flamenca” foi um dos quatro concertos selecionados para o Festival FIK (Ceart/Udesc – Florianópolis, SC), ocasião em que protagonizou o recital de abertura do evento. No mesmo ano recebeu também, em duas ocasiões, o Prêmio por 
-Trajetória Artística através da lei de Incentivo à cultura “Aldir Blanc”. Trabalha profissionalmente como músico há mais de duas décadas, atuando como solista e intérprete de Guitarra Flamenca e música para violão, além de ter integrado
-grupos musicais e companhias de dança no Brasil e na Espanha. Exerceu ainda como Instrutor (Instituto Cervantes e Assoc. Cultural Arte.Dança, Florianópolis-SC) e Pesquisador, participando como colaborador do site flamencópolis.com, organizado
-pelo excepcional musicólogo espanhol Faustino Nuñez. Em sua música busca um formato sóbrio e intimista no qual fica evidente seu gosto pela música de alta performance para instrumento solista, além de um cuidado com a qualidade, fidelidade e a
-pureza sonora naturais do instrumento. Como autor, submete as características naturais da Guitarra Flamenca às necessidades expressivas de seu próprio trabalho. Já como intérprete, destaca-se por versões inspiradas de obras dos principais 
-expoentes da música flamenca como Gerardo Nuñez, Manolo Sanlúcar, Cañizares, Vicente Amigo, Paco Peña, Sabicas, Ramón Montoya, Niño Ricardo ou Juan Ramón Caro. Passou a inclinar-se seriamente pelo estudo da música violonística aos 13 anos. 
-Pouco mais tarde se tornou aluno bolsista no Teatro Carlos Gomes (Violão Clássico, sob orientação do professor Renato Mor-UFRS), estudando ainda Canto, Harmonia e contraponto. Estabeleceu-se na Europa em 1999, residindo em diversos países como 
-Alemanha, França, Hungria, Romênia e Espanha - países aos quais imigrou interessado por suas  músicas autóctonas e como se relacionam com as expressões ciganas. Possui formação em "Jazz Combo/Big Band e Músicas Atuais" pelo Conservatório Nacional 
-Regional de Amiens, França. Nesse país frequentou ainda diversos eventos formativos na célebre Escola ATLA (Paris), como aulas particulares e workshops com Sylvain Luc, Romane, Claude Worms, Alain Faucher e Roland Dyens. Entre outros músicos e 
-teóricos com os quais estudou estão ainda: Gerardo Núnez, Manolo Sanlúcar, José Antonio Rodriguez, Emilio Maya, Miguel Ochando, Faustino Nuñez, Felix Grande, Hubert Kappel, Badi Assad, Ferenc Snétberguer e Costas Cotsiolis. (Fonte: Cedido Pelo Compositor)
+Born in Blumenau (1980), Rafael Marciniak is a concert artist and researcher. He situates his current original work within Brazilian Instrumental Music, strongly inspired by contemporary aesthetic traits of his region of origin—a facet he combines
+with his role as a performer supported by a select repertoire for Flamenco Guitar, among other styles. In this specialty, he graduated in Music with a specialization in Flamenco (Flamenco Guitar) from the Conservatório Superior de Música Rafael Orozco de Córdoba. 
+Shortly thereafter, while still in Spain, he earned a Master’s degree in Ethnomusicology, also focused on Flamenco, from ESMUC (Barcelona). In 2023, his research was one of twelve selected for the program of "CIUTAT FLAMENCO – V Congreso Internacional de
+Flamencología y Pedagogía Flamenca" (Barcelona), one of the segment's premier events, a feat he repeated in 2025 for the VII° ISMMS (Seville, Spain). Winner of the I° Prêmio Herbert Holetz (FCBLU, 2019), he produced his first original work titled Hi-Fi (2020), 
+which garnered interest and positive mentions from both the public and specialized critics. In 2020, his recital Guitarra Flamenca was one of four concerts selected for the FIK Festival (Ceart/UDESC – Florianópolis, SC), where he performed the opening recital. 
+That same year, he twice received the Artistic Career Award through the "Aldir Blanc" Cultural Incentive Law. He has worked professionally as a musician for over two decades, performing as a soloist and interpreter of Flamenco Guitar and guitar music, in addition
+to having integrated musical groups and dance companies in Brazil and Spain. He has also served as an Instructor (Instituto Cervantes and Assoc. Cultural Arte.Dança, Florianópolis-SC) and Researcher, contributing to the website flamencópolis.com, organized by
+the exceptional Spanish musicologist Faustino Nuñez. In his music, he seeks a sober and intimate format that highlights his taste for high-performance solo instrumentation, along with a dedication to quality, fidelity, and the natural sonic purity of the instrument. 
+As a composer, he subjects the natural characteristics of the Flamenco Guitar to the expressive needs of his own work. As a performer, he is noted for inspired versions of works by leading exponents of flamenco music such as Gerardo Nuñez, Manolo Sanlúcar,
+Cañizares, Vicente Amigo, Paco Peña, Sabicas, Ramón Montoya, Niño Ricardo, and Juan Ramón Caro. He began to seriously pursue the study of guitar music at age 13. Shortly after, he became a scholarship student at the Teatro Carlos Gomes 
+(Classical Guitar, under the guidance of Professor Renato Mor-UFRGS), also studying Singing, Harmony, and Counterpoint. He settled in Europe in 1999, residing in several countries including Germany, France, Hungary, Romania, and Spain—countries to which he 
+immigrated out of interest in their indigenous music and how it relates to Romani expressions. He holds a background in "Jazz Combo/Big Band and Contemporary Music" from the Conservatoire à Rayonnement Régional d'Amiens, France. In that country, he also 
+attended various training events at the celebrated ATLA School (Paris), including private lessons and workshops with Sylvain Luc, Romane, Claude Worms, Alain Faucher, and Roland Dyens. Other musicians and theorists with whom he has studied include 
+Gerardo Núnez, Manolo Sanlúcar, José Antonio Rodriguez, Emilio Maya, Miguel Ochando, Faustino Nuñez, Felix Grande, Hubert Kappel, Badi Assad, Ferenc Snétberguer, and Costas Cotsiolis. (Source: Provided by the musician)
 </p>`,   
     galeria: ["/images/pessoas/rafaelma2.avif","/images/pessoas/rafaelma3.avif","/images/pessoas/rafaelma4.avif","/images/pessoas/rafaelma5.avif"],
     eh_compositor: false,
@@ -444,16 +433,16 @@ teóricos com os quais estudou estão ainda: Gerardo Núnez, Manolo Sanlúcar, J
     nome: "Ricardo Pauletti",
     foto: "/images/pessoas/ricardopau1.avif",
     bio: `<p>
-Ricardo Pauletti é violonista, compositor e pesquisador. Estudou violão erudito no Brasil e na Espanha e posteriormente passou a se dedicar ao choro e ao violão de 7 cordas, atuando sem fronteiras entre o popular e o erudito. 
-É graduado em música pela UNIVALI (Universidade do Vale do Itajaí) e mestre em música pela UDESC (Universidade do Estado de Santa Catarina), onde atualmente está concluindo seu doutorado em processos criativos. Tem em sua discografia 
-Variações Brasileiras (2011), Choro de Faia (2014), Ricardo Pauletti Trio (2015), Palavra da Canção (2018), Ritual das Cordas (2021) e 10 Peças de Estudo para Violão Brasileiro (2021). Com o álbum Choro de Faia recebeu o prêmio Melhores da
-Música Brasileira 2014 na categoria Melhores Instrumentistas e foi finalista do Prêmio da Música Catarinense 2015. Com o álbum Ritual das Cordas foi finalista do Prêmio da Música Brasileira 2023.  
-Pauletti já se apresentou em diversas cidades do Brasil, América Latina e Europa, em importantes salas, instituições e festivais como Club du Choro de Paris (França, 2013 e 2014), Semana do Choro de Bordeaux (França, 2014), Teatro La Casa Del Poeta 
-(Argentina, 2014), Festival de Violão de São Bento do Sul (Brasil, 2014), Seminário de Violão de Itajaí (2014 e 2016), Swan Jazz Club Paris (França, 2014), Jazz at Caillou Bordeaux (França, 2014), Teatro Cendas (Argentina, 2015), Festival de Música de Itajaí 
-(Brasil, 2015, 2021 e 2022), Festival Internacional de Guitarra Entrecuerdas (Chile 2016 e 2019), Seminário de Violão de Navegantes (Brasil, 2017), Festival Internacional de Guitarra Cuerdas Al Aire (Peru, 2017), Encuentro Internacional de Guitarra Salamanca
-(México, 2018), Festival Internacional de Violão do ICPNA (Peru, 2019), Festival de Violão de Jaraguá do Sul (Brasil, 2019), Cúpula Ibero-americana de Violão (Espanha, 2021), Seminário Internacional de Cordas Dedilhadas (Brasil, 2019, 2022 e 2023), dentre outros.  
-Em paralelo a carreira artística desenvolve também carreira docente atuando como Professor no Conservatório de Música Popular de Itajaí desde 2009 e como Coordenador Pedagógico desde 2017. Ao longo da carreira como professor, 
-vem ministrando oficinas, workshops e cursos de violão e prática de choro em importantes instituições e festivais no Brasil, América Latina e Europa. (Fonte:ricardopauletti.com.br)
+Ricardo Pauletti is a guitarist, composer, and researcher. He studied classical guitar in Brazil and Spain and later began dedicating himself to choro and the 7-string guitar, working across the boundaries between popular and classical music.
+He holds a degree in Music from UNIVALI (University of the Vale do Itajaí) and a Master’s degree in Music from UDESC (State University of Santa Catarina), where he is currently completing his Doctorate in creative processes.
+His discography includes Variações Brasileiras (2011), Choro de Faia (2014), Ricardo Pauletti Trio (2015), Palavra da Canção (2018), Ritual das Cordas (2021), and 10 Peças de Estudo para Violão Brasileiro (2021). With the album Choro de Faia, 
+he received the Best of Brazilian Music 2014 award in the Best Instrumentalists category and was a finalist for the 2015 Santa Catarina Music Awards. With the album Ritual das Cordas, he was a finalist for the 2023 Brazilian Music Awards.
+Pauletti has performed in various cities across Brazil, Latin America, and Europe, in prominent venues, institutions, and festivals such as the Club du Choro de Paris (France, 2013 and 2014), Bordeaux Choro Week (France, 2014), 
+Teatro La Casa Del Poeta (Argentina, 2014), São Bento do Sul Guitar Festival (Brazil, 2014), Itajaí Guitar Seminar (2014 and 2016), Swan Jazz Club Paris (France, 2014), Jazz at Caillou Bordeaux (France, 2014), Teatro Cendas (Argentina, 2015), 
+Itajaí Music Festival (Brazil, 2015, 2021, and 2022), Entrecuerdas International Guitar Festival (Chile, 2016 and 2019), Navegantes Guitar Seminar (Brazil, 2017), Cuerdas Al Aire International Guitar Festival (Peru, 2017), Salamanca International 
+Guitar Encounter (Mexico, 2018), ICPNA International Guitar Festival (Peru, 2019), Jaraguá do Sul Guitar Festival (Brazil, 2019), Ibero-American Guitar Summit (Spain, 2021), and the International Plucked Strings Seminar (Brazil, 2019, 2022, and 2023), among others.
+In parallel with his artistic career, he also pursues a teaching career, serving as a Professor at the Conservatório de Música Popular de Itajaí since 2009 and as Pedagogical Coordinator since 2017. Throughout his career as an educator, 
+he has conducted workshops and courses on guitar and choro practice at major institutions and festivals in Brazil, Latin America, and Europe. (Source: ricardopauletti.com.br)
 </p>`,   
     galeria: ["/images/pessoas/ricardopau2.avif","/images/pessoas/ricardopau3.avif"],
     eh_compositor: false,
@@ -464,24 +453,21 @@ vem ministrando oficinas, workshops e cursos de violão e prática de choro em i
     nome: "Vitor Garbelotto",
     foto: "/images/pessoas/vitorgar1.avif",
     bio: `<p>
-Ganhou reconhecimento nacional ao se sagrar vencedor do Prêmio Revelação no Prêmio APCA de 2010 e de ter sido finalista do Prêmio da Música Brasileira, com o CD de estreia que continha a obra integral para violão solo de Radamés Gnattali, 
-além do recital especial chamado Sarau para Radamés.
-Filho de Valvitor Garbelotto e Mariléia D'Altoé Garbelotto, Vitor iniciou os estudos musicais em Criciúma, ainda na infância de forma autodidata, influenciado pelo irmão mais velho que tocava violão. 
-Entre os 12 e os 15 anos de idade estudou com os professores Fábio Batista e Vladimir Matos; e, aos 18, cursou medicina por curto período na Faculdade de Santa Catarina.  
-Em seguida entrou para o curso de bacharelado em música popular na Unicamp (Universidade de Campinas), onde teve como professor de violão Ulisses Rocha – o que mudaria a vida de Vitor Garbelotto para sempre. Ao ouvir Yamandu Costa solar a Brasilianas 13, 
-de Radamés Gnattali, se apaixonou pela obra do compositor. Começou então um trabalho de pesquisa com partituras, livros e contatos musicais por meio dos festivais de violão voltados à obra de quem considerava o mestre.
-Em 2003 e 2004, participou de um concurso de interpretação de violão em Guaratinguetá (interior de São Paulo). Tocou obras de Dilermando Reis, e obteve a segunda colocação. Dois anos depois, foi semifinalista do programa Prelúdio, da TV Cultura de São Paulo, 
-quando apresentou pela primeira vez na televisão o primeiro e o terceiro movimentos do Concertino n.2 para Violão e Orquestra, de Radamés Gnattali.
-Em 2007, venceu seu primeiro concurso: o I Festival Regional de Música Instrumental em Campinas (São Paulo). Dois anos depois participou de três concursos, sendo premiado em todos: Menção Honrosa no VIII Prêmio Nabor Pires Camargo, em Indaiatuba (São Paulo), 
-terceiro lugar no IV Concurso Nacional de Violão Fred Schneiter, no Rio de Janeiro e, finalmente, a primeira colocação no IV Concurso de Violão FITO, em Osasco, São Paulo, na categoria violão popular. Em 2010, venceu o IX Concurso Nabor Pires Camargo.
-Vitor Garbelotto aprimorou estudos de violão com o professor Paulo Martelli, em São Paulo. Também teve aulas  aulas com Daniel Wolff, Gisela Nogueira e Henrique Pinto, Mariza Ramires e Fábio Zanon. Ao mesmo tempo, continuava a pesquisar as obras de
-Radamés Gnattali – um dos seus discos preferidos era o que o mestre gravou em parceria com Raphael Rabello. Essa preferência o levou a gravar pela primeira vez a obra integral do compositor em CD. Produzido pelo ex-professor da Unicamp Ulisses Rocha, 
-com o patrocínio do Fundo de Investimentos Culturais de Campinas, com texto de Hermínio Bello de Carvalho, Radamés Gnattali: Integral para Violão Solo foi gravado em 2010. No mesmo ano, recebeu o Prêmio Revelação da Associação Paulista dos Críticos de Arte (APCA).
-Garbelotto começou então a realizar recitais, todos com excelente aceitação do público e da crítica. Em Sarau para Radamés, reuniu não apenas obras do compositor gaúcho radicado no Rio de Janeiro, mas também de autores que tiveram contato com a vida e obra do homenageado.
-Esse espetáculo abriu perspectivas para Garbelotto explorar uma série de obras-primas da música brasileira, por meio de arranjos ou obras originais. Tal projeto foi contemplado pelo Proac (Projeto de Ação Cultural) de São Paulo – e lhe deu a 
-oportunidade de excursionar pelo interior do Estado.
-Vitor Garbelotto também se apresentou com o duo Camaradá ao lado do percussionista Lê dos Santos e teve um arranjo de autoria dele publicado por uma das principais revistas brasileiras de violão dos anos 2000: Violão Pro, n.16.
-Atualmente é professor de música em São Paulo, onde mora. (Fonte: violaobrasileiro.com.br)
+He gained national recognition after winning the Breakthrough Artist Award at the 2010 APCA Awards and being a finalist for the Brazilian Music Awards with his debut CD, which featured the complete works for solo guitar by Radamés Gnattali, 
+in addition to a special recital titled Sarau para Radamés. The son of Valvitor Garbelotto and Mariléia D'Altoé Garbelotto, Vitor began his musical studies in Criciúma during his childhood as a self-taught musician, influenced by his older brother. 
+Between the ages of 12 and 15, he studied with professors Fábio Batista and Vladimir Matos; at 18, he briefly studied medicine at a faculty in Santa Catarina. Shortly after, he enrolled in the Bachelor of Popular Music program at Unicamp (University of Campinas), 
+where he studied guitar under Ulisses Rocha—an experience that would change his life forever. Upon hearing Yamandu Costa perform Brasilianas No. 13 by Radamés Gnattali, he fell in love with the composer's work. He then began a research project involving scores,
+books, and musical networking through guitar festivals dedicated to the work of the man he considered his master. In 2003 and 2004, he participated in a guitar interpretation competition in Guaratinguetá (São Paulo countryside).
+He performed works by Dilermando Reis and secured second place. Two years later, he was a semi-finalist on the program Prelúdio (TV Cultura, São Paulo), marking his first television performance of the first and third movements of Radamés Gnattali's Concertino 
+No. 2 for Guitar and Orchestra. In 2007, he won his first competition: the I Festival Regional de Música Instrumental in Campinas. Two years later, he participated in three competitions and was awarded in all of them: an Honorable Mention at the
+VIII Prêmio Nabor Pires Camargo (Indaiatuba); third place at the IV Concurso Nacional de Violão Fred Schneiter (Rio de Janeiro); and first place at the IV Concurso de Violão FITO (Osasco) in the popular guitar category. In 2010, he won the 
+IX Concurso Nabor Pires Camargo. Vitor Garbelotto refined his guitar studies with Professor Paulo Martelli in São Paulo. He also took lessons with Daniel Wolff, Gisela Nogueira, Henrique Pinto, Mariza Ramires, and Fabio Zanon. Simultaneously, 
+he continued researching the works of Radamés Gnattali—one of his favorite albums being the one the master recorded in partnership with Raphael Rabello. This preference led him to record the composer's complete works for the first time on CD.
+Produced by his former Unicamp professor Ulisses Rocha, sponsored by the Campinas Cultural Investment Fund, and featuring text by Hermínio Bello de Carvalho, Radamés Gnattali: Integral para Violão Solo was recorded in 2010. That same year, he
+received the Breakthrough Artist Award from the São Paulo Association of Art Critics (APCA). Garbelotto then began performing recitals, all met with excellent reception from both the public and critics. In Sarau para Radamés, he gathered not only
+works by the Rio-based Gaucho composer but also by authors who had connections to the honoree's life and work. This show opened perspectives for Garbelotto to explore a series of Brazilian musical masterpieces through arrangements or original works. 
+This project was supported by the Proac (Cultural Action Project) of São Paulo, granting him the opportunity to tour the state's interior. Vitor Garbelotto also performed with the Duo Camaradá alongside percussionist Lê dos Santos and had one of his 
+arrangements published by one of the leading Brazilian guitar magazines of the 2000s: Violão Pro, issue No. 16. He is currently a music teacher in São Paulo, where he resides. (Source: violaobrasileiro.com.br)
 </p>`,   
     galeria: ["/images/pessoas/vitorgar2.avif"],
     eh_compositor: false,
@@ -492,11 +478,11 @@ Atualmente é professor de música em São Paulo, onde mora. (Fonte: violaobrasi
     nome: "William Pofhal",
     foto: "/images/pessoas/wilpof1.avif",
     bio: `<p>
-William Pofahl é violonista e professor, graduado em Música pela Universidade Regional de Blumenau (FURB) e mestre em Violão pela Universidade de Alicante, Espanha. Possui vivência como solista e com música de câmara, tendo atuado 
-no Quarteto de Violões de Blumenau, e em duo com o violinista Daniele Girardello. Apresentou-se em diversas cidades do estado de Santa Catarina e nas cidades espanholas de Alicante e Orihuela. Com o Quarteto de Violões de Blumenau, gravou o álbum Música Brasileira, 
-interpretando música dos compositores Francisco Mignone, Heitor Villa-Lobos e Camargo Guarnieri. Cursou o Master in Classical Guitar Performance na Universidade de Alicante, Espanha, onde estudou com renomados violonistas como Manuel Barrueco, Pepe Romero, 
-David Russell, Paul O’Dette e Sergio Assad. Atualmente é integrante do Duo Girardello & Pofahl, formado por violão e violino. Como professor de violão, William tem se dedicado ao ensino coletivo de instrumento musical, 
-experiência que tem resultado na criação de arranjos e na elaboração de materiais didáticos. (Fonte:Cedido pelo músico)
+William Pofahl is a guitarist and professor, holding a degree in Music from the Regional University of Blumenau (FURB) and a Master’s degree in Guitar from the University of Alicante, Spain. He has experience as a soloist and in chamber music, 
+having performed with the Blumenau Guitar Quartet and in a duo with violinist Daniele Girardello. He has performed in several cities across the state of Santa Catarina and in the Spanish cities of Alicante and Orihuela. With the Blumenau Guitar Quartet,
+he recorded the album Música Brasileira, performing works by composers Francisco Mignone, Heitor Villa-Lobos, and Camargo Guarnieri. He completed the Master in Classical Guitar Performance at the University of Alicante, Spain, where he studied under renowned 
+guitarists such as Manuel Barrueco, Pepe Romero, David Russell, Paul O’Dette, and Sergio Assad. Currently, he is a member of the Duo Girardello & Pofahl, composed of guitar and violin. As a guitar teacher, William has dedicated himself to collective instrument 
+instruction, an experience that has resulted in the creation of arrangements and the development of pedagogical materials. (Source: Provided by the musician)
 </p>`,   
     galeria: ["/images/pessoas/wilpof1.avif","/images/pessoas/wilpof2.avif"],
     eh_compositor: false,
@@ -507,16 +493,16 @@ experiência que tem resultado na criação de arranjos e na elaboração de mat
     nome: "Darcy Villa Verde",
     foto: "/images/pessoas/darcy1.avif",
     bio: `<p>
-Darcy Villa Verde (1934–2019) foi um virtuoso do violão brasileiro. Reconhecido pela crítica como um "monstro" do instrumento. Tendo aulas com Monina Távora e oswaldo soares, Darcy alcançou o ápice de sua técnica na década de 1960. 
-Um marco fundamental foi sua passagem por Paris, onde conquistou o troféu hors-concours no prestigiado Concurso Internacional de Violão. Durante sua residência na França, teve o privilégio de ter aulas com a lendária violonista Ida Presti, 
-o que refinou ainda mais seu estilo. Essa fase abriu as portas dos grandes palcos europeus e norte-americanos. Darcy apresentou-se em locais icônicos como a Georgetown University e o célebre Carnegie Hall, em Nova York, além de realizar turnês pela Rússia. Embora 
-tenha tido uma carreira longa e aclamada nos palcos, Darcy deixou poucos registros fonográficos. Sua única gravação comercial conhecida é um compacto duplo de música popular de 1962. Segundo o violonista Fábio Zanon, esse disco é "um modelo", 
-pois antecipou o estilo de violonistas contemporâneos ao combinar uma técnica cristalina com uma interpretação vigorosa e brasileira. A relação de Darcy com o Norte Catarinense começou em setembro de 1973, com um concerto memorável 
-na Sociedade Harmonia Lyra, em Joinville. Na época, a imprensa local destacou seu "invejável talento" logo após seu retorno dos Estados Unidos e da consagração em Paris. Em abril de 1993, buscando a tranquilidade que o Rio de Janeiro já não oferecia,
-Darcy fixou residência definitiva em Joinville para ficar próximo de sua mãe, Diva. Viveu quase uma década na cidade e Morou nos bairros Glória e Iririú. Diferente de muitos músicos que tocam até o fim da vida, Darcy Villa Verde 
-tomou a decisão consciente de parar. Em abril de 2000, durante o aniversário de um amigo em Joinville, ele tocou seu violão profissionalmente pela última vez. Após essa data, "pendurou o instrumento" para sempre, encerrando um ciclo de décadas de dedicação 
-absoluta à música. Darcy faleceu em 2019, mas sua memória é preservada por meio de acervos históricos e do reconhecimento de grandes nomes da música atual. Ele é lembrado não apenas como um concertista de técnica impecável, 
-mas como um desbravador que levou o violão erudito aos rincões do Brasil e aos palcos mais exigentes do mundo, sempre mantendo a alma e a "raça" da sonoridade brasileira. (Fonte:https://darcyvillaverde.com.br/)
+Darcy Villa Verde (1934–2019) was a virtuoso of the Brazilian guitar, recognized by critics as a "behemoth" of the instrument. Having studied under Monina Távora and Oswaldo Soares, Darcy reached the pinnacle of his technique in the 1960s. 
+A fundamental milestone was his time in Paris, where he won the hors-concours trophy at the prestigious International Guitar Competition. During his residence in France, he had the privilege of taking lessons with the legendary guitarist Ida Presti,
+further refining his style. This phase opened the doors to major European and North American stages; Darcy performed at iconic venues such as Georgetown University and the celebrated Carnegie Hall in New York, in addition to touring Russia. Although he had a 
+long and acclaimed stage career, Darcy left few phonographic records. His only known commercial recording is a 1962 extended play (EP) of popular music. According to guitarist Fábio Zanon, this record is "a model," as it anticipated the style of contemporary
+guitarists by combining crystalline technique with a vigorous and Brazilian interpretation. Darcy's relationship with Northern Santa Catarina began in September 1973, with a memorable concert at the Sociedade Harmonia Lyra in Joinville. At the time, 
+the local press highlighted his "enviable talent" shortly after his return from the United States and his acclaim in Paris. In April 1993, seeking the tranquility that Rio de Janeiro no longer offered, Darcy took up permanent residence in Joinville to be 
+near his mother, Diva. He lived in the city for nearly a decade, residing in the Glória and Iririú neighborhoods. Unlike many musicians who play until the end of their lives, Darcy Villa Verde made the conscious decision to stop. In April 2000,
+during a friend's birthday in Joinville, he played his guitar professionally for the last time. After that date, he "hung up the instrument" forever, closing a cycle of decades of absolute dedication to music. Darcy passed away in 2019, but his 
+memory is preserved through historical archives and the recognition of great names in music today. He is remembered not only as a concert artist of impeccable technique but as a trailblazer who brought the classical guitar to the far reaches of Brazil
+and to the most demanding stages in the world, always maintaining the soul of the Brazilian sound. (Source: https://darcyvillaverde.com.br/)
 </p>`,   
     galeria: ["/images/pessoas/darcy2.avif","/images/pessoas/darcy3.avif","/images/pessoas/darcy4.avif","/images/pessoas/darcy1.avif"],
     eh_compositor: false,
@@ -526,34 +512,21 @@ mas como um desbravador que levou o violão erudito aos rincões do Brasil e aos
     id: "antoniocgj",
     nome: "Antonio Carlos Gonçalves Junior",
     foto: "/images/pessoas/antoniocgj1.avif",
-    bio: `<p> Antônio Carlos Gonçalves Junior, nasceu em São Francisco do Sul-SC, no dia 12 de julho de 1970. Seu interesse pelo violão e guitarra elétrica iniciou quando 
-    criança através de seu pai que ouvia muitas músicas que davam ênfase a estes instrumentos sendo que o pai também tocava violão como hobby. Um fato curioso e "engraçado" 
-    (chamaremos assim) foi que, neste tempo de criança, seu pai contratou um professor de violão para dar aulas à irmã mais velha e Antônio ficava assistindo com muita atenção todas 
-    as explicações. Após a finalização das aulas, ele "corria" para pegar o violão do pai e treinava tudo o que a irmã havia aprendido naquele dia. Mas, foi somente quando adulto que 
-    Antônio procurou uma escola de ensino fundamental em música para compreender os assuntos relacionados à teoria básica e violão solo na sua escrita, porque em todo o período anterior,
-    seu pouco aprendizado foi baseado no "olhar alguém tocando" e "tentar tirar músicas de ouvido". Pouco tempo após sua passagem pela escola, resolveu ingressar na faculdade para 
-    cursar Licenciatura em Artes e, sequencialmente, Pós Graduação em Metodologia do Ensino de Música. Atualmente (09/25), Antônio não leciona e exerce o cargo de Operador de Forno 
-    para um curso de cerâmica na cidade de Joinville-SC, mas aguarda a nomeação para ocupar o cargo de Professor de Artes ao qual prestou concurso e foi aprovado na cidade de 
-    Araquari - SC. Nos anos de 2007 e 2008 trabalhou como "instrutor musical" em São Francisco do Sul-SC no Projeto Pontos de Cultura, projeto este de caráter sócio cultural do 
-    Governo Federal em parceria com o município. Em seguida, no ano de 2009, foi chamado para trabalhar, ainda na mesma cidade, no Projeto Caminhando e Cantando junto à Secretaria de 
-    Bem Estar Social, sendo ofertado no Centro de Referência da Assistência Social (CRAS), e executado na mesma localidade onde reside, Majorca. No final dos anos 80, Antônio foi 
-    convidado para tocar guitarra elétrica na banda de heavy metal "Necropsia", uma das precursoras do gênero na cidade de Joinville-SC. Posteriormente, tocou nas bandas Vomit,
-    Virgo Sacrum e Impuro. Até que em 1999 fundou a Luciferiano, banda que está na ativa até o momento (2025), tendo 3 discos lançados através de gravadoras brasileiras especializadas
-    no gênero. Além da Luciferiano, também faz parte na atualidade da Apócrifos e Delírio, cada uma já tendo lançado 1 disco, ressaltando que a Delírio é um projeto experimental que
-    realiza junto com sua companheira, Patrícia Regina da Cunha (Bia Cunha), com quem tem se apresentando com certa frequência em algumas regiões do Brasil. Em junho de 2015 quando
-    Antônio e Bia retornavam de um evento, sofreram um gravíssimo acidente de automóvel que os incapacitoram por um longo período. O processo de reabilitação foi longo e durante uma 
-    das inúmeras consultas com médicos ortopedistas, surgiu a indicação médica para que tivesse como alternativa terapêutica, algo que lhe desse fôlego para suportar tudo o que ainda 
-    viria, desta forma, mesmo com limitações motoras diversas e dificuldades para exercer o que mais lhe dava prazer (a música), Antônio, estando professor de guitarra e violão à época,
-    aliou sua experiência às necessidades, dando noções básicas e incentivando Bia a tocar violão, firmando assim uma parceria que culminaria em futuras produções (Apócrifos, 
-    Luciferiano, Delírio). Nos momentos de folga, Antônio tem a fotografia como um passatempo agradável no qual uma de suas imagens foi premiada no concurso 
-    internacional "Brazilia Photo Show" edição 2016/2017. Destacando que, com todas estas atividades puramente artísticas, sempre sobra um tempinho diário para dar umas arranhadas 
-    no violão. Ao longo da vida compôs pouco mais de 20 peças para violão solo e algumas para violão e flauta. Antônio considera um número pequeno de composições, 
-    devido à falta de tempo que lhe sobra do no dia a dia, levando em consideração que a maioria das composições musicais que faz, são para às bandas que tocou no passado e 
-    também as que toca atualmente, nas quais é o compositor principal, tendo inclusive composto de forma individualizada, o álbum de estreia da Luciferiano (A Face do Cão) lançado 
-    em 2006 pela gravadora Sonic Blaster Music Label. Ainda em 2006, gravou no Estúdio Mug em Joinville-SC um material independente intitulado "Refletindo" contendo estudos simples
-    de grandes violonistas da nossa história, mais algumas peças autorais. Grande parte de suas composições para violão foram feitas numa única tonalidade explorando elementos básicos 
-    e, a que foge completamente da regra, é uma peça chamada "Violão Voodoo". Peça esta feita na época que cursou História da Música, quando estudou sobre o "Diabolus In Música",
-    banida na Idade Média. (Fonte: Cedido pelo músico)
+    bio: `<p> Antônio Carlos Gonçalves Junior was born in São Francisco do Sul (SC) on July 12, 1970. His interest in the acoustic and electric guitar began as a child, influenced by his father, who listened to music that emphasized these instruments 
+    and played the guitar as a hobby. In a curious anecdote from his childhood, his father hired a guitar teacher for his older sister; Antônio would watch the lessons with great attention and, once they were over, "run" to grab his father’s guitar
+    to practice everything his sister had learned that day. However, it was only as an adult that Antônio sought formal music education to understand music theory and classical guitar notation. Previously, his learning had been based on observing others
+    and playing by ear. Shortly after his time at music school, he earned a Licentiate degree in Arts, followed by a postgraduate degree in Music Education Methodology. As of late 2025, Antônio is not teaching; he works as a Kiln Operator for a ceramics
+    course in Joinville (SC) while awaiting his appointment as an Arts Professor in Araquari (SC), having recently passed the civil service entrance examination. In 2007 and 2008, he worked as a "musical instructor" in São Francisco do Sul for the Pontos
+    de Cultura project, a socio-cultural initiative of the Federal Government. In 2009, he worked for the Caminhando e Cantando project at the Social Welfare Secretariat, held at the Social Assistance Reference Center (CRAS) in his local neighborhood, Majorca. 
+    In the late 1980s, Antônio was invited to play electric guitar for the heavy metal band Necropsia, one of the genre's pioneers in Joinville. He later played in the bands Vomit, Virgo Sacrum, and Impuro. In 1999, he founded Luciferiano, a band that remains
+    active (2025) with three albums released through specialized Brazilian labels. He is also currently a member of Apócrifos and Delírio, both of which have released one album. Delírio is an experimental project with his partner, Patrícia Regina da Cunha 
+    (Bia Cunha), with whom he performs frequently across Brazil. In June 2015, Antônio and Bia suffered a severe car accident that incapacitated them for a long period. During the rehabilitation process, an orthopedic surgeon suggested music 
+    as a therapeutic alternative to help him cope with the recovery. Despite various motor limitations and difficulties in playing, Antônio—who was a guitar teacher at the time—used his experience to teach Bia the basics of the instrument. 
+    This partnership eventually led to their joint musical productions. In his spare time, Antônio enjoys photography; one of his images was awarded in the international Brasília Photo Show (2016/2017 edition). Throughout his life, 
+    he has composed just over 20 pieces for solo guitar and some for guitar and flute. He considers this a small number, as most of his compositional work is dedicated to his past and current bands, where he serves as the primary composer. 
+    Notably, he individually composed the debut album for Luciferiano, A Face do Cão (2006). That same year, he recorded an independent material titled Refletindo at Estúdio Mug in Joinville, containing simple studies by great historical
+    guitarists along with some original pieces. Most of his guitar compositions explore basic elements in a single key, with the exception of the piece "Violão Voodoo," composed while he was studying the history of the "Diabolus in Musica" 
+    (the tritone) banned in the Middle Ages. (Source: Provided by the musician)
 
 </p>`,   
     galeria: ["/images/pessoas/antoniocgj1.avif",],
@@ -565,13 +538,18 @@ mas como um desbravador que levou o violão erudito aos rincões do Brasil e aos
     nome: "Mailon Bugmann",
     foto: "/images/pessoas/mailonbug2.avif",
     bio: `<p>
-A trajetória artística e pedagógica de Mailon Bugmann é marcada por uma profunda dedicação ao violão clássico e à educação musical em Santa Catarina, caminhos que começaram a se cruzar quando ele deu seus primeiros passos no instrumento aos 11 anos de idade. Sua formação acadêmica sólida teve início em 1999, ao ingressar na Universidade Regional de Blumenau (FURB), onde se graduou em 2003 no curso de Artes com Habilitação em Música. Durante esse período e nos anos subsequentes, Bugmann buscou um aperfeiçoamento técnico rigoroso, estudando flauta transversal com Leandro Gaertner e consolidando sua técnica violonística sob a orientação de Renato Mor no prestigiado Teatro Carlos Gomes, além de receber tutorias do renomado violonista Marcus Llerena, em Joinville. Sua busca por excelência o levou a participar de diversos cursos e masterclasses com figuras exponenciais do cenário mundial, como Marco Pereira, Luis Mantovani, Ulisses Rocha e os internacionais Carlos Perez, Enric Madriguera e Juan Francisco Ortiz, experiências que moldaram sua identidade como intérprete e educador.
-
-No âmbito da performance, sua atuação em grupos de câmara foi fundamental para a cena cultural regional, integrando a Camerata de Violões da FURB por sete anos e o Quarteto Blumenauense de Violões, com o qual lançou em 2016 o CD "Música Brasileira". Este álbum, que contou com a direção de Tadeu do Amaral — integrante do premiado Brazilian Guitar Quartet — e apoio do Fundo Municipal de Apoio à Cultura de Blumenau, tornou-se um registro importante de sua maturidade artística. Além do quarteto, Mailon colaborou em diversos projetos em duo com William Pofahl e participou da Orquestra Seis por Oito de Violões em Joinville. Sua versatilidade artística também se estendeu às artes cênicas, onde atuou como diretor musical de teatro, sendo reconhecido com diversos prêmios nacionais de sonoplastia por sua capacidade de traduzir narrativas dramáticas em texturas sonoras.
-
-Paralelamente à sua carreira nos palcos, Mailon Bugmann construiu um legado significativo no ensino da música, atividade que exerce ininterruptamente desde 2001. Sua experiência docente abrange instituições de relevância, incluindo passagens pela Fundação Cultural 
-de Blumenau, pela Secretaria Municipal de Educação e por escolas como a FreeStudio e a Monteiro Lobato. Notavelmente, dedicou doze anos de sua carreira ao Sesc Blumenau, entre 2008 e 2020, consolidando-se como uma peça-chave na formação de novos músicos e na
-difusão do violão clássico na região. Sua biografia é, portanto, o retrato de um músico que une o rigor da técnica clássica à sensibilidade da música brasileira, sempre comprometido com a democratização do saber musical.(Fonte:https://teatrocarlosgomes.com.br/team/mailon-bugmann/)
+Mailon Bugmann’s artistic and pedagogical trajectory is marked by a deep dedication to the classical guitar and music education in Santa Catarina—paths that began to cross when he took his first steps with the instrument at age 11.
+His solid academic background began in 1999 when he entered the Regional University of Blumenau (FURB), graduating in 2003 with a degree in Arts specializing in Music. During this period and in subsequent years, Bugmann sought rigorous 
+technical improvement, studying transverse flute with Leandro Gaertner and consolidating his guitar technique under the guidance of Renato Mor at the prestigious Carlos Gomes Theater, in addition to receiving tutoring from the renowned
+guitarist Marcus Llerena in Joinville. His pursuit of excellence led him to participate in various courses and masterclasses with leading figures on the world stage, such as Marco Pereira, Luis Mantovani, Ulisses Rocha, and international 
+artists Carlos Perez, Enric Madriguera, and Juan Francisco Ortiz—experiences that shaped his identity as both a performer and educator. In the realm of performance, his work in chamber groups was fundamental to the regional cultural scene; he was a member
+of the FURB Guitar Camerata for seven years and the Quarteto Blumenauense de Violões, with whom he released the CD Música Brasileira in 2016. This album, directed by Tadeu do Amaral—a member of the award-winning Brazilian Guitar Quartet—and supported by 
+the Blumenau Municipal Cultural Support Fund, became an important record of his artistic maturity. Beyond the quartet, Mailon collaborated on various duo projects with William Pofahl and participated in the Orquestra Seis por Oito de Violões in Joinville. 
+His artistic versatility also extended to the performing arts, where he served as a musical director for theater, receiving several national awards for sound design for his ability to translate dramatic narratives into sonic textures.
+Parallel to his stage career, Mailon Bugmann has built a significant legacy in music education, an activity he has practiced uninterruptedly since 2001. His teaching experience spans relevant institutions, including stints at the Blumenau Cultural Foundation, 
+the Municipal Secretariat of Education, and schools such as FreeStudio and Monteiro Lobato. Notably, he dedicated twelve years of his career to Sesc Blumenau between 2008 and 2020, establishing himself as a key figure in the training of new musicians and the 
+dissemination of the classical guitar in the region. His biography is, therefore, a portrait of a musician who unites the rigor of classical technique with the sensitivity of Brazilian music, always committed to the democratization of musical knowledge.
+(Source: https://teatrocarlosgomes.com.br/team/mailon-bugmann/)
 </p>`,   
     galeria: ["/images/pessoas/mailonbug1.avif"],
     eh_compositor: false,
