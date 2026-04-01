@@ -4,6 +4,7 @@ export const musicos =[
     nome: "Edino Krieger",
     foto: "/images/pessoas/edino1.avif",
      bio: `
+     <p class="mt-4 font-bold text-red-600 uppercase">Vida</p>
       <p>Nascido em Brusque (SC), a 17 de março de 1928.  Iniciou aos 7 anos estudos de violino com seu pai, Aldo Krieger, violinista, 
       compositor, regente e fundador do Conservatório de Música local. Realizou recitais de violino em diversas cidades a partir dos 9 anos 
       e aos 15 transferiu-se para o Rio de Janeiro, com bolsa de estudos do governo do estado, para prosseguir seus estudos no 
