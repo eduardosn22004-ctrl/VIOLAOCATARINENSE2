@@ -97,7 +97,7 @@ de graduação na função de docente. Em 2013 foi um dos 13 violonistas selecio
 Alicante situado na Espanha, obtendo orientações com os mais renomados violonistas da atualidade:
 David Russell, Ignacio Rodes, Hopkinson Smith, Roberto Aussel, Manuel Barrueco, Carles Trepat e Nigel North. (Fonte: Cedido Pelo Compositor) 
 </p>`,
-    galeria: ["/images/pessoas/andreiu1.avif", "/images/edino.jpg"],
+    galeria: ["/images/pessoas/andreiu2.avif", "/images/edino.avif"],
     eh_compositor: false,
     eh_violonista: true,
   },
