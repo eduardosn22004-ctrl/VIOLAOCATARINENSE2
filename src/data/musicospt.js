@@ -95,7 +95,7 @@ export const musicos =[
     bio: `<p>Doutor em Música pela Universidade do Sul do Mississippi - USM. Durante o período nos Estados Unidos esteve na condição de assistente 
 de graduação na função de docente. Em 2013 foi um dos 13 violonistas selecionados para cursar o I Master en Interpretación de Guitarra Clásica de 
 Alicante situado na Espanha, obtendo orientações com os mais renomados violonistas da atualidade:
-David Russell, Ignacio Rodes, Hopkinson Smith, Roberto Aussel, Manuel Barrueco, Carles Trepat e Nigel North. (Fonte: Cedido Pelo Compositor) 
+David Russell, Ignacio Rodes, Hopkinson Smith, Roberto Aussel, Manuel Barrueco, Carles Trepat e Nigel North. (Fonte: Cedido pelo músico) 
 </p>`,
     galeria: ["/images/pessoas/andreiu2.avif", "/images/edino.avif"],
     eh_compositor: false,
@@ -108,7 +108,7 @@ David Russell, Ignacio Rodes, Hopkinson Smith, Roberto Aussel, Manuel Barrueco, 
     bio: `<p>Acácio Piedade é um compositor brasileiro-português nascido no Brasil em 1961. Estudou com Almeida Prado, Damiano Cozzella, Conrado Silva e Hans-Joachim Koellreutter e 
 é bacharel em composição. É doutor em Antropologia com suas pesquisas sobre a música dos povos indígenas da Amazônia. Realizou pesquisas de pós-doutorado na Universidade Paris Sorbonne 
 e na Hochschule für Musik Franz Liszt – Weimar. Acácio Piedade é um compositor premiado e suas obras têm sido executadas em concertos e festivais em toda a América Latina e Europa por intérpretes, 
-ensembles e orquestras de renome. É professor titular aposentado do Departamento de Música da Universidade do Estado de Santa Catarina e atualmente mora em Lisboa. (Fonte: Bio do site - ACÁCIO PIEDADE)
+ensembles e orquestras de renome. É professor titular aposentado do Departamento de Música da Universidade do Estado de Santa Catarina e atualmente mora em Lisboa. (Fonte: https://acaciopiedade.com/)
 </p>`,
     galeria: ["/images/pessoas/acaciop1.avif","/images/pessoas/acaciop2.avif"],
     eh_compositor: true,
@@ -121,7 +121,7 @@ ensembles e orquestras de renome. É professor titular aposentado do Departament
     bio: `<p>Possui graduação em Fisioterapia e em Licenciatura em Música, ambos pela Universidade do Estado de Santa Catarina. 
 Também é Bacharel em Composição e Regência pela Universidade Estadual do Paraná e possui pós graduação em Ciências Humanas pela Pontifícia Universidade Católica do Rio Grande do Sul. 
 Atualmente é professor de música. Atua nas áreas de: Composição Musical, Harmonia, Improvisação, História da Música, Arranjo, Análise musical, Intérprete (violão solo brasileiro). 
-Também leciona os seguintes cursos: violão, baixo, guitarra e pré-vestibular. (Fonte:Currículo Lattes (Alexandre Brandão Pereira)
+Também leciona os seguintes cursos: violão, baixo, guitarra e pré-vestibular. (Fonte:Currículo Lattes)
 </p>`,
     galeria: ["/images/pessoas/alexandrebp1.avif"],
     eh_compositor: false,
