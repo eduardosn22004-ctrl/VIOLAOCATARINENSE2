@@ -658,7 +658,7 @@ gravação da integral para violão solo do compositor brasileiro Almeida Prado,
 Mantem intensa carreira como concertista e pesquisador, com abordagens que envolve o repertório solo e de música de câmera, tendo se apresentado em diversos estados brasileiros. Atuou como convidado em diversos festivais, realizando concertos,
 palestras e masterclasses. Destaca-se a participação como membro do júri do Concurso do Koblenz International Guitar Festival na Alemanha em 2018, 2019, 2023, 2024 e 2025, onde ministrou ainda palestras e masterclass. Atualmente é professor da Escola de
 Música e Belas Artes do Paraná (Universidade Estadual do Paraná), em Curitiba, ministrando aulas e orientações na graduação e na pós-graduação (Mestrado em Música). É também professor colaborador no Programa de Pós-graduação em Música da
-UNICAMP, orientando trabalhos de Doutorado.
+UNICAMP, orientando trabalhos de Doutorado. (Fonte: Cedido pelo músico)
 </p>`,   
     galeria: ["/images/pessoas/fabioscar2.avif","/images/pessoas/fabioscar3.avif"],
     eh_compositor: false,
