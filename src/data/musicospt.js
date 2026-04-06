@@ -627,6 +627,28 @@ difusão do violão clássico na região. Sua biografia é, portanto, o retrato 
     eh_compositor: false,
     eh_violonista: true,
   },
+  {
+    id: "brunoma",
+    nome: "Bruno Madeira",
+    foto: "/images/pessoas/brunoma1.avif",
+    bio: `<p>
+Premiado em festivais e concursos no Brasil, Itália, Estados Unidos, Estônia, Panamá, Finlândia, Albânia, Kosovo, Bulgária, Romênia e Lituânia, o músico catarinense Bruno Madeira vem se destacando nos últimos anos como solista, professor e pesquisador. Bacharel, 
+Mestre e Doutor em Música pela Universidade Estadual de Campinas, Bruno se apresentou em mostras, seminários, festivais, salas e séries de concertos do Brasil e exterior. Destacam-se os recitais no Centro Cultural São Paulo e SESC Vila Mariana (São Paulo/SP), 
+Quartas Clássicas - BNDES (Rio de Janeiro/RJ), Palcos Musicais (Londrina/PR), Casa da Música (Porto Alegre/RS), Casa Thomas Jefferson (Brasília/DF), SESC Paço da Liberdade e Museu Guido Viaro (Curitiba/PR), Festival de Música de Ponta Grossa (PR),
+Seminário de Violão de Itajaí (SC) e Festival de Música Erudita do Espírito Santo (Vitória/ES). Apresentou-se internacionalmente como solista na Argentina, Alemanha, Equador, República Tcheca e Eslováquia.
+Bruno também se apresentou como camerista em diversas formações, com Lucas Madeira (flauta), Ana Carolina Sacco (soprano), Leonardo Feichas (violino) e Samuel Pontes (piano). Com esses duos, apresentou-se nas séries SESI Música (São Paulo), SESI Música
+Erudita (São Paulo), SESC Sonoro (Paraná), SESC Caiçuma das Artes (Acre), além de concertos em Campinas, Vinhedo, Taubaté, Bananal, São José dos Campos (SP), Florianópolis, Itajaí (SC), Itajubá (MG), Buenos Aires e La Plata (Argentina).
+Em 2022 lançou seu primeiro álbum, “Colunas” (ProAC/SP), com música latino-americana para violão solo, e em 2025 lançará “Arabescos” (ADS), dedicado à música renascentista, barroca, clássica e romântica. Foi vencedor de prêmios de interpretação musical
+em concursos nacionais e internacionais, entre eles os de Florença (Itália), Tampere (Finlândia), Rhode Island (Estados Unidos), Ciudad de Panamá (Panamá), Tallinn (Estônia), Cluj-Napoca (Romênia), Plovdiv e Pleven (Bulgária), Tirana (Albânia) e 
+Birštonas (Lituânia). Destacam-se ainda as premiações de Melhor Intérprete de Villa-Lobos no Concurso Nacional Villa-Lobos, e primeiros lugares nos concursos J. S. Bach (São Paulo), Tatuí, Mauríciode Oliveira (Vitória), e Fred Schneiter (Rio de Janeiro).
+Tem artigos publicados em respeitados congressos e revistas nacionais e internacionais, dos quais se destacam as pesquisas sobre aspectos técnicos do violão e o gesto corporal na performance. Foi professor da Universidade do Estado de Santa Catarina e
+da Universidade Federal de São Carlos, e é regularmente convidado para realizar concertos, oficinas, palestras e masterclasses em festivais, universidades e conservatórios. (Fonte: Cedido pelo músico)
+</p>`,   
+    galeria: ["/images/pessoas/brunoma2.avif"],
+    eh_compositor: false,
+    eh_violonista: true,
+  },
+
 
 
 
