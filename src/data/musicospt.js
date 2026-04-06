@@ -438,7 +438,10 @@ arranjo, seu foco principal é a música de câmara. Estudou composição com Ma
     eh_compositor: false,
     eh_violonista: true,
   },
-{
+
+  //Revisei até aqui
+  
+  {
     id: "ricardob",
     nome: "Ricardo Boppré",
     foto: "/images/pessoas/ricardob1.avif",
