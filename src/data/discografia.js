@@ -410,6 +410,27 @@ export const discografia = [
                  "(Sehnsucht) Ária", "(Sehnsucht) Llanto", "(Sehnsucht) Despertar", "Silence (Epílogo)"]
       },     
     ]
+  },
+  {
+    nome: "Fabio Scarduelli",
+    albuns: [
+      {
+        id: "mpau",
+        titulo: "Música Paulista para Violão",
+        ano: "2012",
+        capa: "/images/capa/mpau.avif",
+        faixas: ["Vigoroso", "Interlúdio(chorinho)", "Cantiga", "Toccata-Rondó", "Poesilúdio nº1", "Visage Intérieur", "Visage Extérieur", "Discurso", "Meditação", "Memória", "Valsa Choro", "Ponteio", "Pequena Fantasia de Esquina nº1", 
+                  "Pequena Fantasia de Esquina nº2", "Pequena Fantasia de Esquina nº3","Pequena Fantasia de Esquina nº4","Pequena Fantasia de Esquina nº5","Serenata para a Lua Cheia"]
+      },
+       {
+        id: "obrabr",
+        titulo: "Obras Brasileiras para Violão",
+        ano: "2020",
+        capa: "/images/capa/obrabr.avif",
+        faixas: ["Alegre e Deciso", "Lento", "Cateretê", "Página Solta (Valsa)", "Minueto", "Noturno (em ré menor)", "Ponteio e Toccatina", "Melancoli(r)a", "Allegro","Lento Ostinato",
+"Rondo Allegro" ]
+      },     
+    ]
   },  
   
   
