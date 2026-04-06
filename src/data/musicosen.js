@@ -555,6 +555,28 @@ dissemination of the classical guitar in the region. His biography is, therefore
     eh_compositor: false,
     eh_violonista: true,
   },
+   {
+    id: "brunoma",
+    nome: "Bruno Madeira",
+    foto: "/images/pessoas/brunoma1.avif",
+    bio: `<p>
+Award-winning in festivals and competitions in Brazil, Italy, United States, Estonia, Panama, Finland, Albania, Kosovo, Bulgaria, Romania and Lithuania, the musician from Santa Catarina Bruno Madeira has stood out in recent years as a soloist, teacher and researcher. 
+Bachelor, Master and Doctor of Music from the State University of Campinas, Bruno has performed in exhibitions, seminars, festivals, halls and concert series in Brazil and abroad. Highlights include recitals at Centro Cultural São Paulo and SESC Vila Mariana 
+(São Paulo/SP), Quartas Clássicas - BNDES (Rio de Janeiro/RJ), Palcos Musicais (Londrina/PR), Casa da Música (Porto Alegre/RS), Casa Thomas Jefferson (Brasília/DF), SESC Paço da Liberdade and Museu Guido Viaro (Curitiba/PR), Festival de Música de Ponta Grossa (PR), 
+Seminário de Violão de Itajaí (SC) and Festival de Música Erudita do Espírito Santo (Vitória/ES). He has performed internationally as a soloist in Argentina, Germany, Ecuador, Czech Republic and Slovakia.
+Bruno has also performed as a chamber musician in various formations, with Lucas Madeira (flute), Ana Carolina Sacco (soprano), Leonardo Feichas (violin) and Samuel Pontes (piano). With these duos, he has performed in the series SESI Música (São Paulo), 
+SESI Música Erudita (São Paulo), SESC Sonoro (Paraná), SESC Caiçuma das Artes (Acre), as well as concerts in Campinas, Vinhedo, Taubaté, Bananal, São José dos Campos (SP), Florianópolis, Itajaí (SC), Itajubá (MG), Buenos Aires and La Plata (Argentina).
+In 2022 he released his first album, “Colunas” (ProAC/SP), with Latin American music for solo guitar, and in 2025 he will release “Arabescos” (ADS), dedicated to Renaissance, Baroque, Classical and Romantic music. He was the winner of musical interpretation prizes 
+in national and international competitions, among them those of Florence (Italy), Tampere (Finland), Rhode Island (United States), Ciudad de Panamá (Panama), Tallinn (Estonia), Cluj-Napoca (Romania), Plovdiv and Pleven (Bulgaria), Tirana (Albania) and
+Birštonas (Lithuania). Other highlights include the awards for Best Villa-Lobos Interpreter at the Villa-Lobos National Competition, and first places in the J. S. Bach (São Paulo), Tatuí, Maurício de Oliveira (Vitória), and Fred Schneiter (Rio de Janeiro) competitions.
+He has articles published in respected national and international congresses and journals, notably research on technical aspects of the guitar and bodily gesture in performance. He was a professor at the State University of Santa Catarina and the 
+Federal University of São Carlos, and is regularly invited to perform concerts, workshops, lectures and masterclasses in festivals, universities and conservatories. (Source: Provided by the musician)
+</p>`,   
+    galeria: ["/images/pessoas/brunoma2.avif"],
+    eh_compositor: false,
+    eh_violonista: true,
+  },
+
 
 
 
