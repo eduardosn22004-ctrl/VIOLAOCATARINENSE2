@@ -576,6 +576,22 @@ Federal University of São Carlos, and is regularly invited to perform concerts,
     eh_compositor: false,
     eh_violonista: true,
   },
+   {
+    id: "fabioscar",
+    nome: "Fabio Scarduelli",
+    foto: "/images/pessoas/fabioscar1.avif",
+    bio: `<p>
+Classical Guitarist, professor, and researcher; Master and PhD in Music from UNICAMP, an institution where he also served as a professor and completed his post-doctoral fellowship. He has recorded two solo albums, the first titled Música Paulista para Violão, 
+featuring the premiere recording of the complete works for solo guitar by Brazilian composer Almeida Prado, and the most recent Obras Brasileiras para Violão, premiering works by Sérgio Vasconcellos Corrêa, Milton Nunes, Felipe de Almeida Ribeiro, and Pedro Cameron.
+He maintains an intense career as a concert artist and researcher, with approaches involving solo and chamber music repertoire, having performed in several Brazilian states. He has acted as a guest at various festivals, conducting concerts, lectures, 
+and masterclasses. Noteworthy is his participation as a jury member for the Koblenz International Guitar Festival Competition in Germany in 2018, 2019, 2023, 2024, and 2025, where he also gave lectures and masterclasses. Currently, he is a professor 
+at the School of Music and Fine Arts of Paraná (State University of Paraná) in Curitiba, teaching and supervising at both undergraduate and graduate levels (Master of Music). He is also a collaborating professor in the Graduate Program in Music at UNICAMP, 
+supervising doctoral research.
+</p>`,   
+    galeria: ["/images/pessoas/fabioscar2.avif","/images/pessoas/fabioscar3.avif"],
+    eh_compositor: false,
+    eh_violonista: true,
+  },
 
 
 
