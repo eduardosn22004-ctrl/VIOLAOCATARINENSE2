@@ -136,7 +136,7 @@ Especialista em Regência Coral pelo Centro Universitário Adventista de São Pa
 recebeu o Prêmio Elisabete Anderle de Incentivo à Cultura com o Duo Soler de violino e violão e abriu o show do Duo Siqueira Lima no Seminário de violão de Itajaí. Como regente dirigiu diversos grupos entre eles: 
 Coral dos Bancários, Coral dos Correios de Santa Catarina (Clave Sul), Coro Lírico Catarinense e Coro Municipal de Angelina. Como professor atuou em diversas escolas e projetos sociais, tais como: Escola Vivência, Colégio Sarapiquá, 
 Colégio de Aplicação – Universidade Federal de Santa Catarina - UFSC, Projeto MUSICAÇÃO – Fundação BADESC, ONG Gente Amiga (Morro do Horácio) e CEAFIS (Chico Mendes). Desde 2016 é Prof. EBTT do Instituto Federal Catarinense - IFC. 
-(Fonte: Cedido Pelo Compositor)
+(Fonte: Cedido pelo músico)
 </p>`,
     galeria: ["/images/pessoas/andrefran1.avif","/images/pessoas/andrefran2.avif","/images/pessoas/andrefran3.avif","/images/pessoas/andrefran4.avif"],
     eh_compositor: false,
@@ -147,8 +147,8 @@ Colégio de Aplicação – Universidade Federal de Santa Catarina - UFSC, Proje
     nome: "Daniel Mueller",
     foto: "/images/pessoas/danielmue1.avif",
     bio: `<p>
-Violonista no Quarteto de Violões de Blumenau, desde 2015, Violonista no Duo Arcanum, desde 2016, Contrabaixista na banda de Heavy Metal “Venus Attack”, desde 2009, 
-Contrabaixista na banda de pop rock “Necessidade Humana”, entre 2006 e 2010, Violonista do “Duo Ariel”, duo de violões eruditos, entre 2009 e 2012. (Fonte: Escola Nossocanto/Blumenau - SC)
+Violonista no Quarteto de Violões de Blumenau, desde 2015, no Duo Arcanum, desde 2016, e no Duo Ariel entre 2009 e 2012 .Contrabaixista na banda de Heavy Metal “Venus Attack”, desde 2009, 
+na banda de pop rock “Necessidade Humana”, entre 2006 e 2010. (Fonte: Escola Nossocanto/Blumenau - SC)
 </p>`,
     galeria: ["/images/pessoas/danielmue1.avif"],
     eh_compositor: false,
@@ -166,8 +166,8 @@ carregando nas suas composições características do flamenco (em especial Paco
 choro e a influência de Yamandu Costa, outro grande violonista brasileiro. Seu álbum lançado em 2020, Uanamasi, trouxe à sua amálgama de estilos o nujazz, o hip-hop, o rap e a soul music, incorporando o uso de samples e vocais, algo não presente em seus 
 lançamentos anteriores. Felipe Coelho foi agraciado com o Prêmio Elisabete Anderle em 2009 da Fundação Catarinense de Cultura, o Prêmio Circuito Funarte de Música Popular em 2010, o segundo lugar no Festival Nacional de Composição, que ocorreu em Vinhedo, em 2012, 
 e vencedor da categoria de Melhor Instrumentista Catarinense pelo Prêmio Música SC em 2014. Até abril de 2020, o músico já havia participado de mais de 40 festivais de música e realizado doze turnês com seus trabalhos autorais, já tendo se apresentado em 
-Chicago, Nova Iorque, Xangai e Buenos Aires. Foi também convidado a se apresentar em diversas orquestras dentro e fora do Brasil, com destaque para a KSU String Orchestra com a qual fez concerto em Atlanta em outubro de 2015. (Felipe Coelho – Wikipédia, a 
-enciclopédia livre) ​Até abril de 2020, o músico já havia participado de mais de 40 festivais de música e realizado doze turnês com seus trabalhos autorais, já tendo se apresentado em Chicago, Nova Iorque, Xangai e Buenos Aires. Foi também convidado a se
+Chicago, Nova Iorque, Xangai e Buenos Aires. Foi também convidado a se apresentar em diversas orquestras dentro e fora do Brasil, com destaque para a KSU String Orchestra com a qual fez concerto em Atlanta em outubro de 2015. Até abril de 2020, 
+o músico já havia participado de mais de 40 festivais de música e realizado doze turnês com seus trabalhos autorais, já tendo se apresentado em Chicago, Nova Iorque, Xangai e Buenos Aires. Foi também convidado a se
 apresentar em diversas orquestras dentro e fora do Brasil, com destaque para a KSU String Orchestra com a qual fez concerto em Atlanta em outubro de 2015. (Fonte: Wikipédia-Felipe Coelho) 
 </p>`,
     galeria: ["/images/pessoas/felipeco1.avif"],
@@ -181,14 +181,14 @@ apresentar em diversas orquestras dentro e fora do Brasil, com destaque para a K
     bio: `<p>
 Natural de Tubarão (SC), começou seus estudos de violão com seu pai aos sete anos de idade. Frequentou durante seis anos as aulas de violão erudito do professor Manoel Sipriano, discípulo de Isaías Savio, 
 enquanto se dedicava aos estudos de violão popular por conta própria. Embora tenha se tornado Bacharel em Ciências contábeis em 1985, permaneceu por pouco tempo nesta área. Passou a dar aulas de violão e guitarra e 
-fundou uma escola de música na cidade de Tubarão que esteve ativa de 1994 a 96. 
+fundou uma escola de música na cidade de Tubarão que esteve ativa de 1994 a 1996. 
 
 Elaborou um sistema rítmico para violão que consiste em representações gráficas de ritmos populares para a mão direita. Formou-se em Teoria Musical pelo Conservatório Lagunense de Música onde foi professor de violão popular e erudito de 1987 a 2006. 
 Em 2001 foi convidado a participar do Projeto “Seis Cordas” que contava coma participação de compositores violonistas catarinenses e culminou coma a gravação de um CD produzido por Renato Pimentel e patrocinado pela Fundação Catarinense de Cultura.
-Fizeram parte deste projeto duas de suas composições intituladas Valsa e Bolero e “Adagio. Este evento foi um grande incentivo para que continuasse compondo. 
+Fizeram parte deste projeto duas de suas composições intituladas "Valsa e Bolero" e "Adagio". Este evento foi um grande incentivo para que continuasse compondo. 
 
 Em fevereiro de 2020 graduou-se na Universidade de Santa Catarina – UDESC no curso de Música Bacharelado habilitação em violão. Atualmente além de dar aulas de violão popular e erudito, atua em diversos eventos musicais como 
-músico solo em recitais, modalidade “voz e violão”, ou ainda em participações com outros músicos nas casas noturnas ou eventos pela região Sul de SC. (Fonte: Cedido Pelo Compositor)
+músico solo em recitais, modalidade “voz e violão”, ou ainda em participações com outros músicos nas casas noturnas ou eventos pela região Sul de SC. (Fonte: Cedido pelo músico)
 </p>`,
     galeria: ["/images/pessoas/gilmed1.avif","/images/pessoas/gilmed2.avif"],
     eh_compositor: false,
@@ -199,10 +199,10 @@ músico solo em recitais, modalidade “voz e violão”, ou ainda em participa�
     nome: "Guinha Ramirez",
     foto: "/images/pessoas/guira1.avif",
     bio: `<p>
-Guinha Ramires é músico multi-instrumentista, violonista, compositor, arranjador, mora em Florianópolis desde 1982. É uma das personalidades culturais mais conhecidas e reconhecidas entre os apreciadores e produtores artísticos/ musicais do sul do Brasil. 
+Guinha Ramires é músico multi-instrumentista, violonista, compositor, arranjador que mora em Florianópolis desde 1982. É uma das personalidades culturais mais conhecidas e reconhecidas entre os apreciadores e produtores artísticos do sul do Brasil. 
 
 Guinha integrou a banda de Renato Borghetti durante dez anos. Neste período participou de turnês pelo Brasil, Europa e Estados Unidos. Participou da gravação de vários discos, alguns incluindo composições suas. 
-Com a cantor Elisa foram dois CDs gravados como o Diabo Gosta e Beijo Manga (este último gravado em Viena) e turnês pelo Brasil e Europa. 
+Com a cantora Elisa foram dois CDs gravados como o Diabo Gosta e Beijo Manga (este último gravado em Viena) e turnês pelo Brasil e Europa. 
 
 A convite de Alegre Corrêa, embarca para Viena, onde morou por oito meses. Guinha e Alegre gravam o CD Handmade, lançado na Europa. 
 
@@ -217,12 +217,12 @@ Dirigiu e arranjou as três edições do Acústico Brognoli, que foram realizado
 Na segunda edição (2006), a cantora Elza Soares foi a convidada especial (documentado em DVD). Na terceira edição (2007), além de uma banda com doze integrantes, teve a participação especial de João Bosco e 
 Yamandú Costa (documentado em DVD). Todas as edições foram sucesso de crítica e público. 
 
-Yamandú Costa grava música de Guinha chamada Simpatia, no CD Tal lançado no Japão. 
+Yamandú Costa grava música de Guinha chamada Simpatia, no CD "Tal", lançado no Japão. 
 
-Em 2008 duas turnês são realizadas na Europa com o CD LAÇADOR, (Guinha Ramires, Alegre Corrêa, Alessandro Kramer), sendo a primeira em maio e abril e a outra em dezembro. Os shows foram realizados na Áustria, Alemanha e Itália. 
+Em 2008 duas turnês são realizadas na Europa com o CD "Laçador" (Guinha Ramires, Alegre Corrêa, Alessandro Kramer), sendo a primeira em maio e abril e a outra em dezembro. Os shows foram realizados na Áustria, Alemanha e Itália. 
 
-Contemplado com o Edital Elizabete Anderle da Fundação Catarinense de Cultura grava seu primeiro CD solo VINDOURA com oito temas próprios, sendo um em parceria com Alegre Corrêa e outro com Alessandro Kramer (Bêbe). 
-VINDOURA foi lançado em Florianópolis no Teatro Álvaro de Carvalho em 2011. (Fonte: Biografia do site do Guinha Ramires)
+Contemplado com o Edital Elizabete Anderle da Fundação Catarinense de Cultura grava seu primeiro CD solo "Vindoura" com oito temas próprios, sendo um em parceria com Alegre Corrêa e outro com Alessandro Kramer (Bêbe). 
+Vindoura foi lançado em Florianópolis no Teatro Álvaro de Carvalho em 2011. (Fonte: Biografia do site do Guinha Ramires)
 </p>`,
     galeria: ["/images/pessoas/guira2.avif","/images/pessoas/guira3.avif","/images/pessoas/guira4.avif","/images/pessoas/guira5.avif"],
     eh_compositor: true,
@@ -233,15 +233,15 @@ VINDOURA foi lançado em Florianópolis no Teatro Álvaro de Carvalho em 2011. (
     nome: "Jeasir Rego",
     foto: "/images/pessoas/rego1.avif",
     bio: `<p>
-Compositor, arranjador, músico com Mestrado em Música pelo Programa de pós-graduação em Música da Universidade do Estado de Santa Catarina/UDESC, Licenciatura em Música também pela UDESC, 
+Compositor, arranjador, músico com Mestrado em Música pelo Programa de pós-graduação em Música da Universidade do Estado de Santa Catarina (UDESC), Licenciatura em Música também pela UDESC, 
 Bacharel em saxofone pela Universidade Livre de Música (ULMSP) de São Paulo.  
 Nos anos de 1980 a 1986 estudou Harmonia e Contraponto com o mestre Ricardo Rizek (Faculdade de Artes Alcântara Machado – FAAM - São Paulo). Transitando entre a música popular e a chamada “música erudita”, 
 sempre procurou destituir tais rótulos, uma vez que ambas trouxeram imensa qualidade técnica, estética e filosófica para a música. Atuou em diversos grupos de música popular como também em parcerias em recitais 
 para flauta e violão, ou pequenos grupos de câmara. 
 
 Nos anos 1990 a 1994 estudou saxofone e flauta transversal com os mestres Demétrio Lima (Jazz sinfônica) e Eduardo Pecci (Orquestra Municipal de São Paulo, OSM), período em que participou da Big Band da ULMSP. 
-É autodidata em violão , instrumento ao qual se dedica desde 1980 e a partir dos anos 2000 com exclusividade, passando a compor para este, assim como para diversos outros instrumentos e diversas formações. (
-Fonte: Cedido Pelo Compositor)
+É autodidata em violão , instrumento ao qual se dedica desde 1980 e a partir dos anos 2000 com exclusividade, passando a compor para este, assim como para diversos outros instrumentos e diversas formações.
+(Fonte: Cedido pelo músico)
 </p>`,
     galeria: ["/images/pessoas/rego1.avif","/images/pessoas/rego2.avif","/images/pessoas/rego3.avif"],
     eh_compositor: false,
@@ -266,7 +266,7 @@ Dedicou-se também a estudar e dar aulas particulares de guitarra e violão e pa
 participação de compositores violonistas catarinenses e culminou na gravação de um CD produzido por Renato Pimentel do estúdio The Magic Place,  e patrocinado pela Fundação Catarinense de Cultura. Fizeram parte deste projeto duas composições suas 
 intituladas Moinho e Sonho Dourado. Este evento foi um grande incentivo para que continuasse compondo. 
 
-Em 2012 Joel Colman apresenta-se no V seminário de Violão de Itajaí, onde também faz um workshop sobre o uso de diferentes técnicas e afinações que ele utiliza até hoje. (Fonte: Cedido Pelo Compositor)
+Em 2012 Joel Colman apresenta-se no V seminário de Violão de Itajaí, onde também faz um workshop sobre o uso de diferentes técnicas e afinações que ele utiliza até hoje. (Fonte: Cedido pelo músico)
 </p>`,
     galeria: ["/images/pessoas/joelco1.avif","/images/pessoas/joelco2.avif","/images/pessoas/joelco3.avif"],
     eh_compositor: false,
@@ -281,9 +281,9 @@ Kleber Alexandre é bacharel em composição e regência pela Universidade Estad
 Nilson Lombardi, Edson Zampronha, Flo Meneses, entre outros. Estudou violão na Escola Municipal de Música de São Paulo (EMMSP), onde teve aulas com Edelton Gloeden e Everton Gloeden. Estudou também 
 improvisação e arranjo com Ulisses Rocha e choro com Francisco Araújo. As composições de Kleber Alexandre já foram executadas por diversos concertistas no Brasil e no exterior. Dentre elas, Preludio faz 
 parte do CD Music for Guitar by Brazilian Young Composers, gravado pelo concertista Gilson Antunes. Além de composições para violão e diversos outros instrumentos, Kleber Alexandre compõe também canções e 
-trilhas sonoras. Dentre sua obra, cabe ressaltar o CD Santa Catarina, gravado pela Camerata Florianópolis com suas composições para orquestra de cordas.   O músico é instrutor de violão nas oficinas de arte 
+trilhas sonoras. Dentre sua obra, cabe ressaltar o CD Santa Catarina, gravado pela Camerata Florianópolis com suas composições para orquestra de cordas. O músico é instrutor de violão nas oficinas de arte 
 do Departamento Artístico Cultural (DAC/Secarte/UFSC). O curso de violão é uma das oficinas que são oferecidas semestralmente à comunidade. 
-(Fonte: Kleber Alexandre apresenta concerto de violão gratuito em Florianópolis - Ensaio SCultura)</p>`,
+(Fonte: Ensaio SCultura)</p>`,
     galeria: ["/images/pessoas/kleba1.avif"],
     eh_compositor: false,
     eh_violonista: true,
@@ -325,18 +325,18 @@ através de projetos pedagógicos. Ele é o criador da “Oficina de Choro: Patr
     nome: "Otávio Rosa",
     foto: "/images/pessoas/otar1.avif",
     bio: `<p>
-Compositor, instrumentista e cantor, iniciou seus estudos de violão clássico com Artur Battisti Filho no Centro Integrado de Cultura em Florianópolis (1989-90). Em seguida, teve aulas de violão e harmonia com Roberto Resende (1991-93). 
+Compositor, instrumentista e cantor, iniciou seus estudos de violão clássico com Artur Battisti Filho no Centro Integrado de Cultura em Florianópolis (1989-1990). Em seguida, teve aulas de violão e harmonia com Roberto Resende (1991-1993). 
 
-Em 1992 foi premiado em violão clássico, no Concurso Jovens Intérpretes em Curitiba-PR. Participou de diversas oficinas e masterclasses e é graduado em música (Bacharelado em Violão) pela UDESC, 
+Em 1992 foi premiado em violão clássico, no Concurso Jovens Intérpretes em Curitiba-PR. Participou de diversas oficinas e masterclasses e é graduado em música (Bacharelado em Violão) pela Universidade do Estado de Santa Catarina (UDESC), 
 onde estudou de 2006 a 2009 sob a orientação de André Moura. Fundou o Terra Brasilis duo ao lado de Edson Castel em 1996 com o qual participou do projeto “SEIS CORDAS”, uma coletânea representativa da produção violonística catarinense (2000), 
 recebeu o primeiro prêmio do Festival MPB Londrina 2001 na categoria Música Instrumental com a composição Cristal, lançou, unindo o duo ao cantor e compositor Jorge Gibbon, o CD Caminhos Cruzados em 2003, participou como 
-concertista do IV Seminário de Violão de Itajaí em 2011, abrindo o concerto do duo Paulo Bellinati e Weber Lopes.    Integrando o grupo Cravo-da-Terra, lançou o CD homônimo em 2005 e gravou e lançou o CD Infinito Som em 2007 e 2008, 
+concertista do IV Seminário de Violão de Itajaí em 2011, abrindo o concerto do duo Paulo Bellinati e Weber Lopes. Integrando o grupo Cravo-da-Terra, lançou o CD homônimo em 2005 e gravou e lançou o CD Infinito Som em 2007 e 2008, 
 participou como convidado do projeto Prata da Casa do SESC Pompéia, realizou uma Turnê pelo Brasil em 2006, em cidades como Rio de Janeiro, São Paulo, Salvador e Brasília, participou do Rumos Itaú Cultural – edição 2007/2009, 
 programa que selecionou 58 trabalhos musicais de todo o Brasil, traçando um rico mapa da produção musical das regiões do país, do Acorde Brasileiro (Encontro Nacional das Músicas Regionais) em 2008 e muitos outros eventos. Com Isabelle Quimper, 
 cantora e compositora canadense (Québec), criou o espetáculo de canções poéticas Fille Faille en deux mouvements, participou do I Festival de Música da UFSC, com gravação ao vivo para CD e DVD, apresentou músicas do Québec no museu Rodin, 
 em Salvador, Bahia, a convite da ABECAN (Associação Brasileira de Estudos Canadenses) e, por mais de 10 anos, apresentou Canções Francesas e do Québec pelo Brasil e Canadá. Como cantor, participou de corais, missas e madrigais, apresentou suas 
 canções em shows no Québec e explorou o universo criativo da improvisação vocal, ministrando oficinas de canto espontâneo e Circle Singing. Otávio Rosa tem um repertório autoral para violão solo e duas de suas composições, Fazenda Norte e Eucaliptos ao Vento, 
-estão gravadas nos CDs Violão Catarinense (Guitar Music from Santa Catarina), volumes I (2012) e II (2019), de Andrei Uller, com obras de Edino Krieger, Ricardo Boppré, entre outros, representando a produção violonística catarinense.  (Fonte: Cedido Pelo Compositor)
+estão gravadas nos CDs Violão Catarinense (Guitar Music from Santa Catarina), volumes I (2012) e II (2019), de Andrei Uller, com obras de Edino Krieger, Ricardo Boppré, entre outros, representando a produção violonística catarinense.  (Fonte: Cedido pelo músico)
 </p>`,   
     galeria: ["/images/pessoas/otar2.avif","/images/pessoas/otar3.avif","/images/pessoas/otar4.avif"],
     eh_compositor: false,
@@ -347,7 +347,7 @@ estão gravadas nos CDs Violão Catarinense (Guitar Music from Santa Catarina), 
     nome: "Leandro Fortes",
     foto: "/images/pessoas/leandrof1.avif",
     bio: `<p>
-Leandro Fortes é natural de Criciúma (SC) e se mudou para a capital catarinense em 2001, para estudar na Universidade do Estado de Santa Catarina, onde graduou-se em Licenciatura em Música no ano de 2007. Vem atuando como instrumentista, 
+Leandro Fortes é natural de Criciúma (SC) e se mudou para a capital catarinense em 2001, para estudar na Universidade do Estado de Santa Catarina (UDESC), onde graduou-se em Licenciatura em Música no ano de 2007. Vem atuando como instrumentista, 
 compositor e educador há mais de 20 anos, e atualmente reside na capital de São Paulo, onde vem se apresentando ao lado de artistas como Rogério Bottermaio, Adriana Godoy, Nathanael Sousa, Carlos Ribeiro, Janayna Pereira, Vera Figueiredo, 
 Daniel Pezin, entre outros. Durante sua trajetória já dividiu o palco com grandes nomes da música, entre eles: Vinícius Dorin, André Mehmari, Izabel Padovani, Gabriel Grossi, Davy Mooney, Gina Roche e o lendário Les Paul. Recebeu diversas 
 premiações, como Rumos Itaú Cultural, FUNARTE, MINC e Elizabete Anderle. 
@@ -356,7 +356,7 @@ e contrapontos.” No ano de 2019, apresentou workshops de improvisação na Uni
 com o qual se apresentou no Museum of Contemporary Art Chicago. Teve cinco composições estreadas e gravadas pela Orquestra Acadêmica UDESC. 
 Em 2015 realizou uma turnê com o projeto “Afetos, Música e Poesia”, ao lado do Quinteto de Cordas Catarinense e da soprano Marília Oliveira, que interpretou suas composições sobre os poemas de Cruz e Souza. Realizou a coordenação artística
 das duas edições do Seminário de Improvisação Musical Brasileira, e compôs 3 trilhas sonoras para documentários e espetáculos de dança. Fortes já se apresentou nas cidades de Nova Iorque, Philadelphia, Chicago, Lima, e em 2012 gravou seu 
-primeiro disco em seu nome, que conta com a participação do icônico Hermeto Pascoal. (Fonte: Cedido Pelo Compositor)
+primeiro disco em seu nome, que conta com a participação do icônico Hermeto Pascoal. (Fonte: Cedido pelo músico)
 </p>`,   
     galeria: ["/images/pessoas/leandrof2.avif","/images/pessoas/leandrof3.avif","/images/pessoas/leandrof4.avif"],
     eh_compositor: false,
@@ -367,25 +367,25 @@ primeiro disco em seu nome, que conta com a participação do icônico Hermeto P
     nome: "Marco Cardozo",
     foto: "/images/pessoas/marcoca1.avif",
     bio: `<p>
-Marco Antonio Cardozo Jr nasceu na cidade de São Paulo – SP no ano de 1970 e aos nove anos mudou-se com a sua família para São José-SC cidade aonde reside até hoje. Marco Cardozo trabalha há 29 anos como musico profissional tendo tocado e 
+Marco Antonio Cardozo Jr nasceu na cidade de São Paulo – SP no ano de 1970 e aos nove anos mudou-se com a sua família para São José-SC cidade onde reside até hoje. Marco Cardozo trabalha há 29 anos como musico profissional tendo tocado e 
 gravado com bandas de vários estilos e também atuando na área de produção artístico musical. Atualmente tem feito workshops sobre a guitarra e a evolução da eletrônica, e tem se dedicado ao estudo da bateria e a composições para guitarra elétrica 
 estilo blues, e viabiliza futuro registro de algumas peças em compactos simples, assim como a continuidade das composições para violão. As suas atividades musicais também incluem o ensino de violão e guitarra elétrica.  
 As suas influências musicais são bastante amplas e incluem um pouco do repertório do violão de concerto, violão popular brasileiro, e da guitarra elétrica blues, jazz e rock. E como principal objetivo a composição de estudos para o desenvolvimento técnico, 
-resultando em uma compilação de peças exclusivas para o instrumento, representando algumas características e influências de peças curtas e/ou minimalistas sem a utilização de formas tradicionais como estrutura composicional. E outra faceta do 
+resultando em uma compilação de peças exclusivas para o instrumento, representando algumas características e influências de peças curtas e minimalistas sem a utilização de formas tradicionais como estrutura composicional. E outra faceta do 
 repertório autoral, dezenas de canções e peças instrumentais para violão de aço e guitarra elétrica, nos estilos blues e surf music. Algumas peças são utilizadas em aulas, em cursos de violão e guitarra elétrica, oportunizados por ele na escola em que dirige. 
-Marco frequentou alguns cursos de música, dentre eles o de Guitarra Blues com Cristiano Ferreira, na Escola de Música Fábrica de Sons, em São José, Violão Clássico com Flavio Apro, via skype, curso Fundamentos da Técnica Violonística com André de Moura–Udesc, 
+Marco frequentou alguns cursos de música, dentre eles o de Guitarra Blues com Cristiano Ferreira, na Escola de Música Fábrica de Sons, em São José, Violão Clássico com Flavio Apro, via skype, curso Fundamentos da Técnica Violonística com André de Moura – UDESC, 
 Repertório do Violão com André Franzoni na Escola de Música Fábrica de Sons, em São José, Violão Clássico com Kleber Alexandre, em Florianópolis, Harmonia Funcional com Glauco Valença, em São José, Saxofone Soprano, na Sociedade Musical Filarmônica 
 de Florianópolis com maestro Daniel, em Florianópolis e Teoria Musical na Ordem dos Músicos do Brasil, em Florianópolis. 
 Foi no período em que Marco tocou com seu pai, Marquinho “Paulista”, que começou a compor canções, estudos, sendo algumas tocadas pelo próprio compositor em recital e shows populares. Existem casos de canções como “Boogie da T.P.M. versão No. 2” 
 interpretada pelo cantor Duda Wagenführ, coautor da segunda parte da letra, e a canção “Se toque”, escrita para a banda de rock Da Caverna, e a instrumental “Passando a guarda” escrita para o projeto surf music Los Pedreiros Surfers, de seus alunos de música, 
 além das peças gravadas pelo concertista Andrei Uller. Marco veio a gravar uma Fita k-7 Demo com quatro peças em experimentos com afinações abertas como a instrumental “Dedo no gargalo” com seu pai na bateria e seu irmão Adriano no contrabaixo elétrico. 
-Apresentou-se profissionalmente, com seu pai, tocando na banda de baile Via Brazil, e nas bandas de rock Grande Pássaro, e Duda Wagenführ & Cia do Rock. E começa a lecionar música. 
-Marco iniciou os seus estudos musicais na Escola Funcional de Música (com o pianista Dalner Barbi, aluno de violão de Ricardo Boppré), em Florianópolis, aonde se dedicou por quatro anos ao estudo do violão clássico. Também teve aulas particulares com
+Apresentou-se profissionalmente, com seu pai, tocando na banda de baile Via Brazil, e nas bandas de rock Grande Pássaro, e Duda Wagenführ & Cia do Rock.
+Marco iniciou os seus estudos musicais na Escola Funcional de Música (com o pianista Dalner Barbi, aluno de violão de Ricardo Boppré), em Florianópolis, onde se dedicou por quatro anos ao estudo do violão clássico. Também teve aulas particulares com
 Dalner Barbi. Durante esse período, além de estudar o violão, Marco começou a aprender guitarra elétrica de maneira autodidata, apoiado pelo livro The Guitar Handbook de Ralph Denyer lançado no brasil, e pesquisando o repertório de rock e blues, 
 bastante influenciado por um amigo de seu pai, o Daniel Mazza, e praticava as músicas que aprendia junto com seus irmãos que também são músicos. 
 Tendo crescido em uma família de músicos, a música sempre fez parte de sua vida. Ainda criança Marco acompanhava seu pai (que era baterista profissional) em ensaios, shows e gravações. Foi com a bateria que teve o seu primeiro contato com a música, 
-estudando os rudimentos da bateria com seu pai, inspirados no método de Gene Krupa, do fim da década de 30 (cujo pai era fã), mas com quatorze anos Marco decidiu que queria aprender guitarra e fazer parte do universo musical que 
-vivenciara desde menino. (Fonte: Cedido Pelo Compositor)
+estudando os rudimentos da bateria com seu pai, inspirados no método de Gene Krupa, do fim da década de 30 (cujo pai era fã). Com quatorze anos Marco decidiu que queria aprender guitarra e fazer parte do universo musical que 
+vivenciara desde menino. (Fonte: Cedido pelo músico)
 </p>`,   
     galeria: ["/images/pessoas/marcoca2.avif","/images/pessoas/marcoca3.avif","/images/pessoas/marcoca4.avif"],
     eh_compositor: false,
@@ -399,13 +399,13 @@ vivenciara desde menino. (Fonte: Cedido Pelo Compositor)
 
 Multi-instrumentista e compositor, desde cedo mostrou interesse por diversos aspectos da prática musical o que o levou a dedicar-se com igual energia ao violão, violino e viola, composição, 
 pesquisa musicológica, regência orquestral e à interpretação de música antiga com instrumentos de época (vihuela, guitarra renascentista, alaúde, guitarra barroca, guitarra clássico-romântica, terz guitar e mandolina). 
-Como solista tem se apresentado em numerosas cidades de vários estados do Brasil, Argentina, Uruguai, Paraguai, Peru, Espanha, Portugal e França, oferecendo recitais, masterclass e palestras em festivais, seminários, 
+Como solista tem se apresentado em Argentina, Uruguai, Paraguai, Peru, Espanha, Portugal, França e numerosas cidades de vários estados do Brasil,  oferecendo recitais, masterclass e palestras em festivais, seminários, 
 séries de concerto, conservatórios e universidades, especialmente requisitado pelas suas performances de música do século XIX com guitarra romântica. Tem atuado também como solista junto a orquestras, quartetos e quintetos de corda, conjuntos de música de 
-câmara e corais do Brasil e da Argentina.   Dalmacio tem estreado diversas obras, incluindo composições de sua própria autoria, e tem estabelecido uma frequente colaboração com o compositor Jaime Zenamon, de quem interpretou numerosas obras para violão e 
+câmara e corais do Brasil e da Argentina. Dalmacio tem estreado diversas obras, incluindo composições de sua própria autoria, e tem estabelecido uma frequente colaboração com o compositor Jaime Zenamon, de quem interpretou numerosas obras para violão e 
 orquestra e conjuntos instrumentais, além de comissionar e estrear obras a ele dedicadas como Dakarai, Opus 185, para violão e quinteto de cordas; To Brazil and Bach, Opus 193, para violão e cravo, entre outras. Também ativo como compositor, conta com várias 
 obras estreadas em diversos países, além da realização de concertos integralmente dedicados a suas obras de música de câmara. Sua produção abrange desde obras para instrumentos solistas, passando por música de câmara para diversas combinações, 
 obras corais e orquestrais, ademais de numerosas orquestrações e arranjos para diversas formações. Como pesquisador e escritor tem publicado resenhas e artigos, destacando-se especialmente seu livro A sonata para violão na Viena de Beethoven e
-Schubert, baseado na sua dissertação de mestrado, livro considerado pela crítica como uma referência fundamental no tema, com prefácio de violonista de reconhecimento internacional Fabio Zanon. No âmbito da música de câmara conforma o Duo Cor dos Ventos com o 
+Schubert, baseado na sua dissertação de mestrado, livro considerado pela crítica como uma referência fundamental no tema, com prefácio de violonista de reconhecimento internacional Fabio Zanon. No âmbito da música de câmara coforma o Duo Cor dos Ventos com o 
 flautista Cristian Faig; ademais do repertório tradicional para a combinação utilizam instrumentos históricos para a interpretação de música antiga. Na sua discografia conta com o disco Cordas de Acordo, gravado pelo Duo Brar (2008); a estreia mundial e
 primeira gravação em CD da Symphony of Good do compositor brasileiro Jean Goldenbaum, realizada em São Paulo (2010); seu primeiro CD solista, Ricercare (2015) no qual interpreta cinco séculos da história da música com sete instrumentos diferentes; e
 Hidden Masterpieces (2018) gravado pelo Duo Cor dos Ventos, dedicado a música de câmara do século XIX para flauta, guitarra, violino e trompa. Além destes trabalhos tem produzido um vasto corpus de gravações em formato digital, disponíveis nas
@@ -415,7 +415,7 @@ Internacional de Violão de Balneário Camboriú, e fundador, Maestro e Diretor 
 está radicado no Brasil desde 2005. É Mestre em Música pela Universidade do Estado de Santa Catarina (UDESC) na área de musicologia com a dissertação “A sonata para guitarra na Viena de Beethoven e Schubert”. Possui os títulos de Professor de Violão pelo 
 Conservatório Isaías Orbe de Tandil e de Professor Superior de Violão pelo Conservatório Luis Gi-anneo de Mar del Plata, ambos da província de Buenos Aires, Argentina. Foi contemplado com diversas bolsas de estudos: Santa María de la Armonía(Mar del Plata)
 para realizar os cursos de verão em violão, violino e fenomenologia da música; Fundación Antorchas (Buenos Aires) para aperfeiçoamento em música antiga com Miguel de Olaso; a bolsa CAPES (Brasil) durante a pós-graduação, e uma bolsa da Universidad de
-Santiago de Compostela (Espanha, 2013) para participar como violonista nos cursos internacionais de música. (Fonte: Cedido Pelo Compositor)
+Santiago de Compostela (Espanha, 2013) para participar como violonista nos cursos internacionais de música. (Fonte: Cedido pelo músico)
 </p>`,   
     galeria: ["/images/pessoas/marcosdal2.avif","/images/pessoas/marcosdal3.avif","/images/pessoas/marcosdal4.avif"],
     eh_compositor: false,
@@ -432,7 +432,7 @@ premiação no edital LIC de Balneário Camboriú. Seguindo sua produção autor
 Balneário Camboriú. Em 2018, fundou a Camerata de Violões de Camboriú, atualmente conhecida como Camerata de Violões Rio Allegro, onde atua como maestro, professor e regente. Em 2023, concluiu a pós-graduação em Regência pela FACEC. No ano seguinte,
 em 2024, cofundou o Círculo Violonístico Catarinense, ao lado de Marcos Pablo Dalmacio e Cristo Miguel de la Cruz, com o objetivo de promover o intercâmbio musical e o desenvolvimento do violão no estado. Como concertista, tem se apresentado em diversas
 regiões, tanto como solista quanto em formações de música de câmara. Como professor, ministra aulas de violão clássico e popular, além de atuar no ensino de práticas em conjunto, formações camerísticas, clássicas e bandas populares. Na composição e 
-arranjo, seu foco principal é a música de câmara. Estudou composição com Marcos Pablo Dalmacio e Alberto Heller, e aprimorou sua técnica violonística sob a orientação de Renato Mór, Marcos Pablo Dalmacio, Marcus Llerena e Alvaro Henrique. (Fonte: Cedido Pelo Autor)
+arranjo, seu foco principal é a música de câmara. Estudou composição com Marcos Pablo Dalmacio e Alberto Heller, e aprimorou sua técnica violonística sob a orientação de Renato Mór, Marcos Pablo Dalmacio, Marcus Llerena e Alvaro Henrique. (Fonte: Cedido pelo músico)
 </p>`,   
     galeria: ["/images/pessoas/pabloh2.avif","/images/pessoas/pabloh3.avif","/images/pessoas/pabloh4.avif"],
     eh_compositor: false,
