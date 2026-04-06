@@ -648,6 +648,23 @@ da Universidade Federal de São Carlos, e é regularmente convidado para realiza
     eh_compositor: false,
     eh_violonista: true,
   },
+  {
+    id: "fabioscar",
+    nome: "Fabio Scarduelli",
+    foto: "/images/pessoas/fabioscar1.avif",
+    bio: `<p>
+Violonista, professor e pesquisador; Mestre e Doutor em Música pela UNICAMP, instituição na qual foi ainda professor e onde realizou seu pós-doutorado. Gravou dois discos solo, sendo o primeiro intitulado Música Paulista para Violão com a primeira
+gravação da integral para violão solo do compositor brasileiro Almeida Prado, e o mais recente Obras Brasileiras para Violão estreando obras de Sérgio Vasconcellos Corrêa, Milton Nunes, Felipe de Almeida Ribeiro e Pedro Cameron.
+Mantem intensa carreira como concertista e pesquisador, com abordagens que envolve o repertório solo e de música de câmera, tendo se apresentado em diversos estados brasileiros. Atuou como convidado em diversos festivais, realizando concertos,
+palestras e masterclasses. Destaca-se a participação como membro do júri do Concurso do Koblenz International Guitar Festival na Alemanha em 2018, 2019, 2023, 2024 e 2025, onde ministrou ainda palestras e masterclass. Atualmente é professor da Escola de
+Música e Belas Artes do Paraná (Universidade Estadual do Paraná), em Curitiba, ministrando aulas e orientações na graduação e na pós-graduação (Mestrado em Música). É também professor colaborador no Programa de Pós-graduação em Música da
+UNICAMP, orientando trabalhos de Doutorado.
+</p>`,   
+    galeria: ["/images/pessoas/fabioscar2.avif","/images/pessoas/fabioscar3.avif"],
+    eh_compositor: false,
+    eh_violonista: true,
+  },
+
 
 
 
