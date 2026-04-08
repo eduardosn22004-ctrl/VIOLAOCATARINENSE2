@@ -432,9 +432,26 @@ export const discografia = [
       },     
     ]
   },  
+  {
+    nome: "Bruno Madeira",
+    albuns: [
+      {
+        id: "bcolunas",
+        titulo: "Colunas",
+        ano: "2012",
+        capa: "/images/capa/bcolunas.avif",
+        faixas: ["La Ciudad de Las Columnas - Introducción", "La Ciudad de las Columnas - Pieza sin título n. 1: Andar La Habana", "La Ciudad de Las Columnas - Paseo", "La Ciudad de Las Columnas - La Ceiba Y El Colibrí", 
+                 "La Ciudad de Las Columnas - Convento de San Francisco", "La Ciudad de las Columnas - Segundo paseo", "La Ciudad de las Columnas - Por la Calle del Obispo", "La Ciudad de Las Columnas - Amanecer En El Morro",
+                 "La Ciudad de las Columnas - Toque en la Plaza de Armas", "Desterro - Noite", "Desterro - Dia", "Whirler of the Dance - Prelude", "Whirler of the Dance - Evocation", "Whirler of the Dance - Dance", "Sonatina Meridional - Campo", 
+                 "Sonatina Meridional - Copla", "Sonatina Meridional - Fiesta"]
+      },
+      {
+        id: "barabescos",
+        titulo: "Arabescos",
+        ano: "2025",
+        capa: "/images/capa/barabescos.avif",
+        faixas: ["A Fantasie (P1a)", "Suite pour la luth (BWV 995) Prelude", "Suite pour la luth (BWV 995) Allemande", "Suite pour la luth (BWV 995) Courante", "Suite pour la luth (BWV 995) Sarabande", 
+                 "Suite pour la luth (BWV 995) Gavotte I & Gavotte II en rondeau", "Suite pour la luth (BWV 995) Gigue", "Grande Ouverture (opus 61)", "Bardenklange (opus 13) Unruhe", "Bardenklange (opus 13) An die Entfernte"]
+      },   
   
-  
-  
-
-
-];
+  ];
