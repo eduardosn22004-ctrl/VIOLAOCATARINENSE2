@@ -35,8 +35,11 @@
         </div>
 
         <div class="p-8 md:p-14">
+            {/* Título da biografia sem sombra, com fonte menor e na cor cinza escuro */}
+            <h2 id="modal-bio-title" class="text-center text-2xl md:text-3xl font-black text-vine-600 uppercase leading-none tracking-tighter mb-8">Biografia</h2>
+            
             <div id="modal-bio" class="text-base text-gray-700 leading-relaxed space-y-6 text-justify">
-                </div>
+            </div>
         </div>
 
         <div id="gallery-section" class="bg-stone-100 p-8 md:p-14 border-t border-gray-100">
@@ -84,7 +87,7 @@
     const modalBio = document.getElementById('modal-bio');
     const gallerySection = document.getElementById('gallery-section');
     const galleryCounter = document.getElementById('gallery-counter');
-    const modalBgImage = document.getElementById('modal-bg-image'); // Variável para o fundo
+    const modalBgImage = document.getElementById('modal-bg-image'); 
 
     window.abrirModal = (id) => {
         const dataDiv = document.getElementById(`data-${id}`);
@@ -104,37 +107,40 @@
         modalAtuacao.innerText = atuacaoArtista;
         
         // --- NOVA LÓGICA DE FUNDO DINÂMICO (COM ESCALA) ---
-let urlImagemFundo = '';
-let posicaoFundo = 'center'; // Padrão é centralizado
-let escalaFundo = '100%'; // DIMINUI A ESCALA PADRÃO (Ajuste este valor)
+        let urlImagemFundo = '';
+        let posicaoFundo = 'center'; 
+        let escalaFundo = '100%'; 
 
-const atuacaoLimpa = atuacaoArtista.toLowerCase().trim();
+        const atuacaoLimpa = atuacaoArtista.toLowerCase().trim();
 
-if (atuacaoLimpa === 'compositor e violonista'|| atuacaoLimpa === 'composer and guitarist') {
-    urlImagemFundo = '/images/fundo-violao2.avif';
-} else if (atuacaoLimpa === 'compositor'|| atuacaoLimpa === 'composer') {
-    urlImagemFundo = '/images/teste.jpg';
-} else if (atuacaoLimpa === 'violonista'|| atuacaoLimpa === 'guitarist') {
-    urlImagemFundo = '/images/fundo-violao2.avif';
-} else {
-    urlImagemFundo = '/images/fundo-padrao.jpg'; 
-}
+        if (atuacaoLimpa === 'compositor e violonista'|| atuacaoLimpa === 'composer and guitarist') {
+            urlImagemFundo = '/images/fundo-violao2.avif';
+        } else if (atuacaoLimpa === 'compositor'|| atuacaoLimpa === 'composer') {
+            urlImagemFundo = '/images/teste.jpg';
+        } else if (atuacaoLimpa === 'violonista'|| atuacaoLimpa === 'guitarist') {
+            urlImagemFundo = '/images/fundo-violao2.avif';
+        } else {
+            urlImagemFundo = '/images/fundo-padrao.jpg'; 
+        }
 
-// Aplica a imagem, a posição e a escala
-modalBgImage.style.backgroundImage = `url('${urlImagemFundo}')`;
-modalBgImage.style.backgroundPosition = posicaoFundo;
-modalBgImage.style.backgroundSize = escalaFundo; // Aplica a escala
-modalBgImage.style.backgroundRepeat = 'no-repeat'; // Garante que não repita
-
-// Aplica o desfoque (blur) bem pouco
-modalBgImage.style.filter = 'blur(0px)';
-// --------------------------------------
-        // --- LÓGICA DE EXIBIÇÃO DOS BOTÕES ---
+        modalBgImage.style.backgroundImage = `url('${urlImagemFundo}')`;
+        modalBgImage.style.backgroundPosition = posicaoFundo;
+        modalBgImage.style.backgroundSize = escalaFundo; 
+        modalBgImage.style.backgroundRepeat = 'no-repeat'; 
+        modalBgImage.style.filter = 'blur(0px)';
+        // --------------------------------------
+        
+        // --- LÓGICA DE EXIBIÇÃO DOS BOTÕES E TRADUÇÃO ---
         const temCatalogo = dataDiv.getAttribute('data-tem-catalogo') === 'true';
         const temDiscografia = dataDiv.getAttribute('data-tem-discografia') === 'true';
 
-        // Verifica se a URL contém "/en" ou se o idioma da página é inglês
         const isEnglish = window.location.pathname.includes('/en') || document.documentElement.lang === 'en';
+
+        // Tradução do título da Biografia
+        const bioTitle = document.getElementById('modal-bio-title');
+        if (bioTitle) {
+            bioTitle.innerText = isEnglish ? 'Biography' : 'Biografia';
+        }
 
         const btnCatalogo = document.getElementById('btn-catalogo-modal');
         if (btnCatalogo) {
@@ -189,13 +195,12 @@ modalBgImage.style.filter = 'blur(0px)';
             document.getElementById('modal-gallery-img').src = galeriaAtual[indiceAtual];
             document.getElementById('gallery-counter').innerText = `${indiceAtual + 1} / ${galeriaAtual.length}`;
 
-            // Lógica para as setas: oculta se houver apenas uma foto
             const setasContainer = document.querySelector('.group\\/gallery > div.absolute.inset-0.flex');
             if (setasContainer) {
                 if (galeriaAtual.length > 1) {
-                    setasContainer.style.display = 'flex'; // Mostra o contêiner das setas
+                    setasContainer.style.display = 'flex'; 
                 } else {
-                    setasContainer.style.display = 'none'; // Oculta o contêiner das setas
+                    setasContainer.style.display = 'none'; 
                 }
             }
         }
