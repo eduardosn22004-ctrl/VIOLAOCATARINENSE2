@@ -64,6 +64,9 @@ Furthermore, they composed 4 Imagens de Santa Catarina for string orchestra (200
 Their most recent production includes Histórias da Ilha, a children's musical (2010), and Trio Tocata (2011) for piano, violin, and cello, dedicated to Trio Aquarius and premiered at the 2011 Biennial of Contemporary Brazilian Music.
 In 1965, their Variações Elementares premiered at the III Inter-American Music Festival in Washington, and the following year, their Ludus Symphonicus was premiered by the Philadelphia Orchestra at the III Music Festival of Caracas, Venezuela. 
 In Brussels, Belgium, as a guest, they attended the European premiere of their Concerto for two guitars and string orchestra performed by the Duo Assad, and in Cologne, Germany, they conducted the Südwestfalen Philharmonie in a performance of their Canticum Naturale.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+  Source: <a href="https://abmusica.org.br/edicoes-abm/compositor/edino-krieger/" target="_blank" style="color: inherit; text-decoration: underline;">Academia Brasileira de Música</a>
+</div>
 
 </p>
     `,
@@ -77,7 +80,10 @@ In Brussels, Belgium, as a guest, they attended the European premiere of their C
     foto: "/images/pessoas/andreiu1.avif",
     bio: `<p>PhD in Music from the University of Southern Mississippi (USM). During his time in the United States, he served as a graduate assistant in a teaching capacity. In 2013, he was one of 13 guitarists selected 
     to attend the I Master en Interpretación de Guitarra Clásica in Alicante, Spain, where he received guidance from the most renowned guitarists of today: David Russell, Ignacio Rodes, Hopkinson Smith, Roberto Aussel, 
-    Manuel Barrueco, Carles Trepat, and Nigel North.(Source: Provided by the musician) 
+    Manuel Barrueco, Carles Trepat, and Nigel North.
+    <div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+Source: Provided by the musician 
+ </div>
 </p>`,
     galeria: ["/images/pessoas/andreiu2.avif", "/images/edino.avif"],
     eh_compositor: false,
@@ -90,7 +96,10 @@ In Brussels, Belgium, as a guest, they attended the European premiere of their C
     bio: `<p>Acácio Piedade is a Brazilian-Portuguese composer born in Brazil in 1961. He studied with Almeida Prado, Damiano Cozzella, Conrado Silva and Hans-Joachim Koellreutter and holds a bachelor’s degree in composition. He has a PhD in Anthropology 
     with his research into the music of the Indigenous peoples of the Amazon. He carried out post-doctoral researches at the Paris Sorbonne University and at the Hochschule für Musik Franz Liszt – Weimar. Acácio Piedade is an award-winning composer and his 
     works have been performed at concerts and festivals throughout Latin America and Europe by leading performers, ensembles and orchestras. He is a retired full professor of the Music Department of the State University of Santa Catarina and currently 
-    lives in France.(Source: acaciopiedade.com)
+    lives in France.
+    <div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+  Source: <a href="https://acaciopiedade.com/" target="_blank" style="color: inherit; text-decoration: underline;">https://acaciopiedade.com/</a>
+</div>    
 </p>`,
     galeria: ["/images/pessoas/acaciop1.avif","/images/pessoas/acaciop2.avif"],
     eh_compositor: true,
@@ -102,7 +111,10 @@ In Brussels, Belgium, as a guest, they attended the European premiere of their C
     foto: "/images/pessoas/alexandrebp1.avif",
     bio: `<p>He holds degrees in Physiotherapy and a Licentiate in Music, both from the State University of Santa Catarina (UDESC). He also holds a Bachelor’s degree in Composition and Conducting from the State University of Paraná (UNESPAR) 
     and a postgraduate degree in Humanities from the Pontifical Catholic University of Rio Grande do Sul (PUCRS). He is currently a music professor, working in the areas of Musical Composition, Harmony, Improvisation, Music History, Arrangement, 
-    Musical Analysis, and Performance (solo Brazilian guitar). He also teaches courses in acoustic guitar, bass, electric guitar, and college entrance exam preparation. (Source: Lattes Curriculum)
+    Musical Analysis, and Performance (solo Brazilian guitar). He also teaches courses in acoustic guitar, bass, electric guitar, and college entrance exam preparation. 
+    <div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+  Source: Lattes Curriculum
+</div>
 </p>`,
     galeria: ["/images/pessoas/alexandrebp1.avif"],
     eh_compositor: false,
@@ -116,7 +128,10 @@ In Brussels, Belgium, as a guest, they attended the European premiere of their C
     Adventist University Center of São Paulo (UNASP). As a guitarist, he has performed in the nightlife of Florianópolis with a popular music repertoire; he received the Elisabete Anderle Cultural Incentive Award with the violin and guitar Duo Soler 
     and opened for Duo Siqueira Lima at the Itajaí Guitar Seminar. As a conductor, he has directed various groups, including: the Bankers' Choir, the Santa Catarina Postal Service Choir (Clave Sul), the Catarinense Lyric Choir, and the Angelina Municipal 
     Choir. As a teacher, he has worked in several schools and social projects, such as: Escola Vivência, Colégio Sarapiquá, the Application College – Federal University of Santa Catarina (UFSC), the MUSICAÇÃO Project – BADESC Foundation, ONG Gente Amiga 
-    (Morro do Horácio), and CEAFIS (Chico Mendes). Since 2016, he has been a Professor of Basic, Technical, and Technological Education (EBTT) at the Catarinense Federal Institute (IFC). (Source: Provided by the Composer)
+    (Morro do Horácio), and CEAFIS (Chico Mendes). Since 2016, he has been a Professor of Basic, Technical, and Technological Education (EBTT) at the Catarinense Federal Institute (IFC).
+    <div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+Source: Provided by the musician 
+ </div>
 </p>`,
     galeria: ["/images/pessoas/andrefran1.avif","/images/pessoas/andrefran2.avif","/images/pessoas/andrefran3.avif","/images/pessoas/andrefran4.avif"],
     eh_compositor: false,
@@ -128,7 +143,10 @@ In Brussels, Belgium, as a guest, they attended the European premiere of their C
     foto: "/images/pessoas/danielmue1.avif",
     bio: `<p>
 Guitarist in the Blumenau Guitar Quartet since 2015; Guitarist in the Duo Arcanum since 2016; Bassist in the Heavy Metal band “Venus Attack” since 2009; Bassist in the pop-rock band “Necessidade Humana” between 2006 and 2010; 
-and Guitarist in “Duo Ariel,” a classical guitar duo, between 2009 and 2012. (Source: Escola Nossocanto. Blumenau - SC)
+and Guitarist in “Duo Ariel,” a classical guitar duo, between 2009 and 2012.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+  Source: <a href="https://www.escolanossocanto.com.br/professores/daniel-mueller" target="_blank" style="color: inherit; text-decoration: underline;">Escola Nosso Canto Blumenau-SC</a>
+</div>
 </p>`,
     galeria: ["/images/pessoas/danielmue1.avif"],
     eh_compositor: false,
@@ -146,7 +164,10 @@ compositions characteristics of flamenco (especially Paco de Lucía), gypsy jazz
 Yamandu Costa, another great Brazilian guitarist. His album released in 2020, Uanamasi, brought nu-jazz, hip-hop, rap, and soul music to his amalgam of styles, incorporating the use of samples and vocals—elements not present in his previous releases. 
 Felipe Coelho was honored with the Elisabete Anderle Prize in 2009 by the Santa Catarina Cultural Foundation, the Funarte Popular Music Circuit Prize in 2010, second place in the National Composition Festival in Vinhedo in 2012, and was the winner of the 
 Best Instrumentalist from Santa Catarina category at the Music SC Awards in 2014. As of April 2020, the musician had participated in over 40 music festivals and completed twelve tours with his original works, having performed in Chicago, New York, Shanghai, 
-and Buenos Aires. He has also been invited to perform with various orchestras inside and outside Brazil, most notably the KSU String Orchestra, with which he performed a concert in Atlanta in October 2015. (Source: Wikipedia – Felipe Coelho)
+and Buenos Aires. He has also been invited to perform with various orchestras inside and outside Brazil, most notably the KSU String Orchestra, with which he performed a concert in Atlanta in October 2015.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+  Source: <a href="https://pt.wikipedia.org/wiki/Felipe_Coelho" target="_blank" style="color: inherit; text-decoration: underline;">Felipe Coelho - Wikipédia</a>
+</div>
 </p>`,
     galeria: ["/images/pessoas/felipeco1.avif"],
     eh_compositor: false,
@@ -163,7 +184,10 @@ system for the guitar consisting of graphic representations of popular rhythms f
 to participate in the "Seis Cordas" (Six Strings) Project, which featured Santa Catarina's guitarist-composers and culminated in the recording of a CD produced by Renato Pimentel and sponsored by the Santa Catarina Cultural Foundation. Two of his compositions,
 titled Valsa e Bolero and Adagio, were part of this project. This event served as a major incentive for him to continue composing. In February 2020, he graduated from the State University of Santa Catarina (UDESC) with a Bachelor’s degree in Music, specializing 
 in guitar. Currently, in addition to teaching popular and classical guitar, he performs in various musical events as a solo musician in recitals, in the "voice and guitar" format, or collaborating with other musicians in night clubs and events throughout the 
-southern region of Santa Catarina. (Source: Provided by the musician)
+southern region of Santa Catarina.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+Source: Provided by the musician 
+ </div>
 </p>`,
     galeria: ["/images/pessoas/gilmed1.avif","/images/pessoas/gilmed2.avif"],
     eh_compositor: false,
@@ -184,7 +208,10 @@ and coordinator of the rhythm section. Guinha toured Europe at the invitation of
 special appearances by João Bosco and Yamandu Costa (documented on DVD). All editions were critical and public successes. Yamandu Costa recorded Guinha's song "Simpatia" on the CD Tal, released in Japan.
 In 2008, two tours were conducted in Europe for the CD LAÇADOR (Guinha Ramires, Alegre Corrêa, Alessandro Kramer), the first in April and May and the second in December. Performances were held in Austria, Germany, and Italy.
 Awarded the Elisabete Anderle Grant from the Santa Catarina Cultural Foundation, he recorded his first solo CD, VINDOURA, featuring eight original themes—one in partnership with Alegre Corrêa and another 
-with Alessandro Kramer (Bêbe). VINDOURA was launched in Florianópolis at the Álvaro de Carvalho Theater in 2011. (Source: guinharamires1.wixsite.com/guinharamires)
+with Alessandro Kramer (Bêbe). VINDOURA was launched in Florianópolis at the Álvaro de Carvalho Theater in 2011.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+  Source: <a href="https://guinharamires1.wixsite.com/guinharamires" target="_blank" style="color: inherit; text-decoration: underline;">Guinha Ramires website</a>
+</div>
 </p>`,
     galeria: ["/images/pessoas/guira2.avif","/images/pessoas/guira3.avif","/images/pessoas/guira4.avif","/images/pessoas/guira5.avif"],
     eh_compositor: true,
@@ -200,7 +227,9 @@ He holds a Bachelor’s degree in Saxophone from the Free University of Music (U
 Moving between popular music and so-called "classical music," he has always sought to dismantle such labels, as both have contributed immense technical, aesthetic, and philosophical quality to music. He has performed in various popular music groups
 as well as in partnerships for flute and guitar recitals or small chamber ensembles. Between 1990 and 1994, he studied saxophone and transverse flute with masters Demétrio Lima (Jazz Sinfônica) and Eduardo Pecci (Municipal Orchestra of São Paulo – OSM), 
 during which time he participated in the ULMSP Big Band. He is a self-taught guitarist—an instrument to which he has been dedicated since 1980 and exclusively since the 2000s—composing for the guitar as well as for various other instruments and ensembles.
-(Source: Provided by the musician)
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+Source: Provided by the musician 
+ </div>
 </p>`,
     galeria: ["/images/pessoas/rego1.avif","/images/pessoas/rego2.avif","/images/pessoas/rego3.avif"],
     eh_compositor: false,
@@ -219,7 +248,10 @@ produced by Renato Pimentel, with the songs "Sonho Dourado" in $CGDE\flat B\flat
 musicians of the new generation in Brazil, the Rio Grande do Sul-born musician Joel Colman has a wealth of history to share.He has also dedicated himself to studying and giving private lessons in electric and acoustic guitar, performing solo or with musical 
 groups in his region. In 2001, he was invited to participate in the "SEIS CORDAS" Project, which featured guitarist-composers from Santa Catarina and culminated in the recording of a CD produced by Renato Pimentel of The Magic Place studio and sponsored by 
 the Santa Catarina Cultural Foundation. Two of his compositions, titled "Moinho" and "Sonho Dourado," were part of this project. This event served as a major incentive for him to continue composing.In 2012, Joel Colman performed at the V Itajaí Guitar Seminar, 
-where he also conducted a workshop on the use of different techniques and tunings that he still utilizes today.(Source: Provided by the musician)
+where he also conducted a workshop on the use of different techniques and tunings that he still utilizes today.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+Source: Provided by the musician 
+ </div>
 </p>`,
     galeria: ["/images/pessoas/joelco1.avif","/images/pessoas/joelco2.avif","/images/pessoas/joelco3.avif"],
     eh_compositor: false,
@@ -234,7 +266,10 @@ Kleber Alexandre holds a Bachelor’s degree in Composition and Conducting from 
 among others. He studied guitar at the Municipal Music School of São Paulo (EMMSP) with Edelton Gloeden and Everton Gloeden. He also studied improvisation and arrangement with Ulisses Rocha and choro with Francisco Araújo.
 Kleber Alexandre's compositions have been performed by various concert artists in Brazil and abroad. Among them, Prelúdio is featured on the CD Music for Guitar by Brazilian Young Composers, recorded by concert guitarist Gilson Antunes. 
 In addition to compositions for guitar and various other instruments, Kleber Alexandre also composes songs and soundtracks. Notable among his works is the CD Santa Catarina, recorded by the Camerata Florianópolis, featuring his compositions for string orchestra.
-The musician is a guitar instructor at the art workshops of the Department of Artistic Culture (DAC/Secarte/UFSC). The guitar course is one of the workshops offered semiannually to the community. (Source: https://ensaioscultura.com.br/kleber-alexandre/)
+The musician is a guitar instructor at the art workshops of the Department of Artistic Culture (DAC/Secarte/UFSC). The guitar course is one of the workshops offered semiannually to the community.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+  Source: <a href="https://noticias.ufsc.br/2017/07/concerto-de-violao-com-kleber-alexandre-no-teatro-da-ufsc-nesta-quarta-feira/" target="_blank" style="color: inherit; text-decoration: underline;">UFSC's News</a>
+</div>
 </p>`,
     galeria: ["/images/pessoas/kleba1.avif"],
     eh_compositor: false,
@@ -249,7 +284,10 @@ He is a teacher, classical and electric guitarist, arranger, and composer. He be
 University of Santa Catarina (UDESC). Since 2011, he has served as a tenured professor in the Music Education Program of Palhoça, where he teaches choral singing and guitar. Currently, he is the conductor of the Palhoça Municipal School System Choir 
 (COMEP), the Palhoça Municipal School System Guitar Orchestra (OVMEP), and the Palhoça Municipal School System Symphony Orchestra (OSMEP). Parallel to these roles, he maintains an intense schedule as a professional musician in bands across the Greater 
 Florianópolis region, with a particular focus on his original work with the band "Miragem de Júpiter." His interest in composition emerged in childhood, driven by a curiosity to understand the fundamentals of musical discourse and the mechanisms that 
-provide meaning and expression to the organization of sounds. His work reflects a diverse range of influences.(Source: Provided by the musician)
+provide meaning and expression to the organization of sounds. His work reflects a diverse range of influences.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+Source: Provided by the musician 
+ </div>
 </p>`,   
     galeria: ["/images/pessoas/leanb1.avif","/images/pessoas/leanb2.avif","/images/pessoas/leanb3.avif","/images/pessoas/leanb4.avif"],
     eh_compositor: false,
@@ -264,7 +302,10 @@ Ney Souza is a guitarist, arranger, and composer from Santa Catarina. For 15 yea
 He serves as a musical director for original projects in Santa Catarina, collaborates with renowned artists, and performs alongside great instrumentalists, including Yamandu Costa, Iara Ferreira, Caetano Brasil, Arismar do Espírito Santo, Maurício Carrilho, 
 and Alessandro Penezzi. In 2024, he launched his project “Aconcagua” alongside Peruvian singer Nicole Ruju, featuring a repertoire that celebrates the richness of Latin American music, available on all digital platforms. 
 Ney also presents Itajahy, his debut solo guitar album, which combines original compositions with a unique visual experience portraying the city of Itajaí. Furthermore, the musician dedicates himself to music education through pedagogical projects. 
-He is the creator of the “Oficina de Choro: Patrimônio Cultural” (Choro Workshop: Cultural Heritage), which explores the rich history of choro, its composers, and musical appreciation. (Source: neysouza.com)
+He is the creator of the “Oficina de Choro: Patrimônio Cultural” (Choro Workshop: Cultural Heritage), which explores the rich history of choro, its composers, and musical appreciation.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+  Source: <a href="https://www.neysouza.com/" target="_blank" style="color: inherit; text-decoration: underline;">https://www.neysouza.com/</a>
+</div>
 </p>`,   
     galeria: ["/images/pessoas/neys2.avif","/images/pessoas/neys4.avif","/images/pessoas/neys5.avif"],
     eh_compositor: false,
@@ -286,7 +327,9 @@ he created the poetic song performance Fille Faille en deux mouvements. He parti
 (Brazilian Association of Canadian Studies). For over 10 years, he has performed French and Québécois songs across Brazil and Canada. As a singer, he has participated in choirs, masses, and madrigals, performed his original songs in Québec, and explored the 
 creative universe of vocal improvisation, conducting workshops on spontaneous singing and Circle Singing. Otávio Rosa has an original repertoire for solo guitar, and two of his compositions, Fazenda Norte and Eucaliptos ao Vento, are recorded on the CDs Violão 
 Catarinense (Guitar Music from Santa Catarina), volumes I (2012) and II (2019), by Andrei Uller, featuring works by Edino Krieger, Ricardo Boppré, and others, representing the guitar production of Santa Catarina.
-(Source: Provided by the musician)
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+Source: Provided by the musician 
+ </div>
 </p>`,   
     galeria: ["/images/pessoas/otar2.avif","/images/pessoas/otar3.avif","/images/pessoas/otar4.avif"],
     eh_compositor: false,
@@ -305,7 +348,10 @@ according to pianist Fábio Torres, "attained a rare maturity and created origin
 (Ribeirão Preto campus). For five years, he served as the musical director for the dance group Cia Trupe Toe, with whom he performed at the Museum of Contemporary Art Chicago. He had five compositions premiered and recorded by the UDESC Academic Orchestra. 
 In 2015, he toured with the project "Afetos, Música e Poesia" (Affections, Music, and Poetry) alongside the Santa Catarina String Quintet and soprano Marília Oliveira, who performed his compositions based on the poems of Cruz e Souza. He served as the artistic 
 coordinator for both editions of the Brazilian Musical Improvisation Seminar and composed three soundtracks for documentaries and dance performances. Fortes has performed in the cities of New York, Philadelphia, Chicago, and Lima, and in 2012, he recorded his 
-first album under his own name, which features a participation by the iconic Hermeto Pascoal. (Source: Provided by the musician)
+first album under his own name, which features a participation by the iconic Hermeto Pascoal.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+Source: Provided by the musician 
+ </div>
 </p>`,   
     galeria: ["/images/pessoas/leandrof2.avif","/images/pessoas/leandrof3.avif","/images/pessoas/leandrof4.avif"],
     eh_compositor: false,
@@ -332,7 +378,10 @@ musical studies at the Escola Funcional de Música in Florianópolis (studying u
 period, in addition to studying the guitar, Marco began teaching himself the electric guitar, supported by Ralph Denyer's The Guitar Handbook and researching rock and blues repertoire—heavily influenced by Daniel Mazza, a friend of his father—and practiced the music 
 he learned with his brothers, who are also musicians. Having grown up in a family of musicians, music has always been part of his life. As a child, Marco accompanied his father (a professional drummer) to rehearsals, shows, and recordings. Drums provided his 
 first contact with music; he studied drum rudiments with his father, inspired by the Gene Krupa method from the late 1930s (of which his father was a fan). However, at fourteen, Marco decided he wanted to learn the guitar and become part of the musical universe 
-he had experienced since boyhood. (Source: Provided by the musician)
+he had experienced since boyhood.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+Source: Provided by the musician 
+ </div>
 </p>`,   
     galeria: ["/images/pessoas/marcoca2.avif","/images/pessoas/marcoca3.avif","/images/pessoas/marcoca4.avif"],
     eh_compositor: false,
@@ -360,7 +409,10 @@ and first auditions in Brazil. Dalmacio is also the Artistic Director of the Bal
 cycles at the city's theater since 2022. Marcos Pablo Dalmacio was born in Argentina and has been based in Brazil since 2005. He holds a Master’s degree in Music from the State University of Santa Catarina (UDESC) in the field of musicology, with the thesis 
 "The guitar sonata in the Vienna of Beethoven and Schubert." He holds the titles of Professor of Guitar from the Conservatório Isaías Orbe de Tandil and Superior Professor of Guitar from the Conservatório Luis Gianneo de Mar del Plata, both in the province of 
 Buenos Aires, Argentina. He has been awarded several scholarships: Santa María de la Armonía (Mar del Plata) for summer courses in guitar, violin, and musical phenomenology; Fundación Antorchas (Buenos Aires) for advanced studies in early music with Miguel 
-de Olaso; the CAPES scholarship (Brazil) during his graduate studies; and a scholarship from the Universidad de Santiago de Compostela (Spain, 2013) to participate as a guitarist in international music courses. (Source: Provided by the Musician)
+de Olaso; the CAPES scholarship (Brazil) during his graduate studies; and a scholarship from the Universidad de Santiago de Compostela (Spain, 2013) to participate as a guitarist in international music courses.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+Source: Provided by the musician 
+ </div>
 </p>`,   
     galeria: ["/images/pessoas/marcosdal2.avif","/images/pessoas/marcosdal3.avif","/images/pessoas/marcosdal4.avif"],
     eh_compositor: false,
@@ -377,7 +429,10 @@ grant in Balneário Camboriú. Continuing his original production, he released t
 In 2018, he founded the Balneário Camboriú Guitar Camerata, currently known as the Camerata de Violões Rio Allegro, where he serves as a teacher and conductor. In 2023, he completed a postgraduate degree in Conducting from FACEC. The following year, in 2024, 
 he co-founded the Círculo Violonístico Catarinense alongside Marcos Pablo Dalmacio and Cristo Miguel de la Cruz, with the goal of promoting musical exchange and the development of the guitar within the state. As a concert artist, he has performed in various 
 regions, both as a soloist and in chamber music ensembles. As a teacher, he gives lessons in classical and popular guitar, in addition to teaching ensemble practices, chamber music, and popular bands. In composition and arrangement, his primary focus is 
-chamber music. He studied composition with Marcos Pablo Dalmacio and Alberto Heller, and refined his guitar technique under the guidance of Renato Mór, Marcos Pablo Dalmacio, Marcus Llerena, and Alvaro Henrique. (Source: Provided by the musician)
+chamber music. He studied composition with Marcos Pablo Dalmacio and Alberto Heller, and refined his guitar technique under the guidance of Renato Mór, Marcos Pablo Dalmacio, Marcus Llerena, and Alvaro Henrique.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+Source: Provided by the musician 
+ </div>
 </p>`,   
     galeria: ["/images/pessoas/pabloh2.avif","/images/pessoas/pabloh3.avif","/images/pessoas/pabloh4.avif"],
     eh_compositor: false,
@@ -398,7 +453,10 @@ his third LP, O Universo do Violão (The Universe of the Guitar), further consol
 taught at the Federal University and the Centro Integrado de Cultura (CIC) of the Santa Catarina Cultural Foundation. Currently, in the maturity of his art and technique, he also dedicates himself to musical composition and the arrangement of Brazilian popular 
 and classical music for guitar and piano. This work involves the use of music notation software for this purpose. In the fullness of this artistic activity, he created a website where his entire collection is available to internet users. In addition to his work 
 as a composer, some of his pieces have been recorded by the composer himself as well as by other performers. His works cover a wide variety of musical genres, including pieces such as boleros, sambas, sambas-canção, xotes, baiões, and several series of guitar 
-studies, among many others. (Source: Provided by the musician)
+studies, among many others.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+Source: Provided by the musician 
+ </div>
 </p>`,   
     galeria: ["/images/pessoas/ricardob2.avif","/images/pessoas/ricardob3.avif"],
     eh_compositor: true,
@@ -422,7 +480,10 @@ Cañizares, Vicente Amigo, Paco Peña, Sabicas, Ramón Montoya, Niño Ricardo, a
 (Classical Guitar, under the guidance of Professor Renato Mor-UFRGS), also studying Singing, Harmony, and Counterpoint. He settled in Europe in 1999, residing in several countries including Germany, France, Hungary, Romania, and Spain—countries to which he 
 immigrated out of interest in their indigenous music and how it relates to Romani expressions. He holds a background in "Jazz Combo/Big Band and Contemporary Music" from the Conservatoire à Rayonnement Régional d'Amiens, France. In that country, he also 
 attended various training events at the celebrated ATLA School (Paris), including private lessons and workshops with Sylvain Luc, Romane, Claude Worms, Alain Faucher, and Roland Dyens. Other musicians and theorists with whom he has studied include 
-Gerardo Núnez, Manolo Sanlúcar, José Antonio Rodriguez, Emilio Maya, Miguel Ochando, Faustino Nuñez, Felix Grande, Hubert Kappel, Badi Assad, Ferenc Snétberguer, and Costas Cotsiolis. (Source: Provided by the musician)
+Gerardo Núnez, Manolo Sanlúcar, José Antonio Rodriguez, Emilio Maya, Miguel Ochando, Faustino Nuñez, Felix Grande, Hubert Kappel, Badi Assad, Ferenc Snétberguer, and Costas Cotsiolis.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+Source: Provided by the musician 
+ </div>
 </p>`,   
     galeria: ["/images/pessoas/rafaelma2.avif","/images/pessoas/rafaelma3.avif","/images/pessoas/rafaelma4.avif","/images/pessoas/rafaelma5.avif"],
     eh_compositor: false,
@@ -442,7 +503,10 @@ Teatro La Casa Del Poeta (Argentina, 2014), São Bento do Sul Guitar Festival (B
 Itajaí Music Festival (Brazil, 2015, 2021, and 2022), Entrecuerdas International Guitar Festival (Chile, 2016 and 2019), Navegantes Guitar Seminar (Brazil, 2017), Cuerdas Al Aire International Guitar Festival (Peru, 2017), Salamanca International 
 Guitar Encounter (Mexico, 2018), ICPNA International Guitar Festival (Peru, 2019), Jaraguá do Sul Guitar Festival (Brazil, 2019), Ibero-American Guitar Summit (Spain, 2021), and the International Plucked Strings Seminar (Brazil, 2019, 2022, and 2023), among others.
 In parallel with his artistic career, he also pursues a teaching career, serving as a Professor at the Conservatório de Música Popular de Itajaí since 2009 and as Pedagogical Coordinator since 2017. Throughout his career as an educator, 
-he has conducted workshops and courses on guitar and choro practice at major institutions and festivals in Brazil, Latin America, and Europe. (Source: ricardopauletti.com.br)
+he has conducted workshops and courses on guitar and choro practice at major institutions and festivals in Brazil, Latin America, and Europe.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+  Source: <a href="https://www.ricardopauletti.com.br/" target="_blank" style="color: inherit; text-decoration: underline;">https://www.ricardopauletti.com.br/</a>
+</div>
 </p>`,   
     galeria: ["/images/pessoas/ricardopau2.avif","/images/pessoas/ricardopau3.avif"],
     eh_compositor: false,
@@ -467,7 +531,10 @@ Produced by his former Unicamp professor Ulisses Rocha, sponsored by the Campina
 received the Breakthrough Artist Award from the São Paulo Association of Art Critics (APCA). Garbelotto then began performing recitals, all met with excellent reception from both the public and critics. In Sarau para Radamés, he gathered not only
 works by the Rio-based Gaucho composer but also by authors who had connections to the honoree's life and work. This show opened perspectives for Garbelotto to explore a series of Brazilian musical masterpieces through arrangements or original works. 
 This project was supported by the Proac (Cultural Action Project) of São Paulo, granting him the opportunity to tour the state's interior. Vitor Garbelotto also performed with the Duo Camaradá alongside percussionist Lê dos Santos and had one of his 
-arrangements published by one of the leading Brazilian guitar magazines of the 2000s: Violão Pro, issue No. 16. He is currently a music teacher in São Paulo, where he resides. (Source: violaobrasileiro.com.br)
+arrangements published by one of the leading Brazilian guitar magazines of the 2000s: Violão Pro, issue No. 16. He is currently a music teacher in São Paulo, where he resides.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+  Source: <a href="Acervo Violão Brasileiro" target="_blank" style="color: inherit; text-decoration: underline;">https://www.violaobrasileiro.com.br/</a>
+</div>
 </p>`,   
     galeria: ["/images/pessoas/vitorgar2.avif"],
     eh_compositor: false,
@@ -482,7 +549,10 @@ William Pofahl is a guitarist and professor, holding a degree in Music from the 
 having performed with the Blumenau Guitar Quartet and in a duo with violinist Daniele Girardello. He has performed in several cities across the state of Santa Catarina and in the Spanish cities of Alicante and Orihuela. With the Blumenau Guitar Quartet,
 he recorded the album Música Brasileira, performing works by composers Francisco Mignone, Heitor Villa-Lobos, and Camargo Guarnieri. He completed the Master in Classical Guitar Performance at the University of Alicante, Spain, where he studied under renowned 
 guitarists such as Manuel Barrueco, Pepe Romero, David Russell, Paul O’Dette, and Sergio Assad. Currently, he is a member of the Duo Girardello & Pofahl, composed of guitar and violin. As a guitar teacher, William has dedicated himself to collective instrument 
-instruction, an experience that has resulted in the creation of arrangements and the development of pedagogical materials. (Source: Provided by the musician)
+instruction, an experience that has resulted in the creation of arrangements and the development of pedagogical materials.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+Source: Provided by the musician 
+ </div>
 </p>`,   
     galeria: ["/images/pessoas/wilpof1.avif","/images/pessoas/wilpof2.avif"],
     eh_compositor: false,
@@ -526,7 +596,10 @@ and to the most demanding stages in the world, always maintaining the soul of th
     he has composed just over 20 pieces for solo guitar and some for guitar and flute. He considers this a small number, as most of his compositional work is dedicated to his past and current bands, where he serves as the primary composer. 
     Notably, he individually composed the debut album for Luciferiano, A Face do Cão (2006). That same year, he recorded an independent material titled Refletindo at Estúdio Mug in Joinville, containing simple studies by great historical
     guitarists along with some original pieces. Most of his guitar compositions explore basic elements in a single key, with the exception of the piece "Violão Voodoo," composed while he was studying the history of the "Diabolus in Musica" 
-    (the tritone) banned in the Middle Ages. (Source: Provided by the musician)
+    (the tritone) banned in the Middle Ages. 
+    <div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+Source: Provided by the musician 
+ </div>
 
 </p>`,   
     galeria: ["/images/pessoas/antoniocgj1.avif",],
@@ -549,7 +622,9 @@ His artistic versatility also extended to the performing arts, where he served a
 Parallel to his stage career, Mailon Bugmann has built a significant legacy in music education, an activity he has practiced uninterruptedly since 2001. His teaching experience spans relevant institutions, including stints at the Blumenau Cultural Foundation, 
 the Municipal Secretariat of Education, and schools such as FreeStudio and Monteiro Lobato. Notably, he dedicated twelve years of his career to Sesc Blumenau between 2008 and 2020, establishing himself as a key figure in the training of new musicians and the 
 dissemination of the classical guitar in the region. His biography is, therefore, a portrait of a musician who unites the rigor of classical technique with the sensitivity of Brazilian music, always committed to the democratization of musical knowledge.
-(Source: https://teatrocarlosgomes.com.br/team/mailon-bugmann/)
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+  Source: <a href="https://teatrocarlosgomes.com.br/team/mailon-bugmann/" target="_blank" style="color: inherit; text-decoration: underline;">Teatro Carlos Gomes</a>
+</div>
 </p>`,   
     galeria: ["/images/pessoas/mailonbug1.avif"],
     eh_compositor: false,
@@ -570,7 +645,10 @@ In 2022 he released his first album, “Colunas” (ProAC/SP), with Latin Americ
 in national and international competitions, among them those of Florence (Italy), Tampere (Finland), Rhode Island (United States), Ciudad de Panamá (Panama), Tallinn (Estonia), Cluj-Napoca (Romania), Plovdiv and Pleven (Bulgaria), Tirana (Albania) and
 Birštonas (Lithuania). Other highlights include the awards for Best Villa-Lobos Interpreter at the Villa-Lobos National Competition, and first places in the J. S. Bach (São Paulo), Tatuí, Maurício de Oliveira (Vitória), and Fred Schneiter (Rio de Janeiro) competitions.
 He has articles published in respected national and international congresses and journals, notably research on technical aspects of the guitar and bodily gesture in performance. He was a professor at the State University of Santa Catarina and the 
-Federal University of São Carlos, and is regularly invited to perform concerts, workshops, lectures and masterclasses in festivals, universities and conservatories. (Source: Provided by the musician)
+Federal University of São Carlos, and is regularly invited to perform concerts, workshops, lectures and masterclasses in festivals, universities and conservatories.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+Source: Provided by the musician 
+ </div>
 </p>`,   
     galeria: ["/images/pessoas/brunoma2.avif"],
     eh_compositor: false,
@@ -587,6 +665,9 @@ He maintains an intense career as a concert artist and researcher, with approach
 and masterclasses. Noteworthy is his participation as a jury member for the Koblenz International Guitar Festival Competition in Germany in 2018, 2019, 2023, 2024, and 2025, where he also gave lectures and masterclasses. Currently, he is a professor 
 at the School of Music and Fine Arts of Paraná (State University of Paraná) in Curitiba, teaching and supervising at both undergraduate and graduate levels (Master of Music). He is also a collaborating professor in the Graduate Program in Music at UNICAMP, 
 supervising doctoral research.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+Source: Provided by the musician 
+ </div>
 </p>`,   
     galeria: ["/images/pessoas/fabioscar2.avif","/images/pessoas/fabioscar3.avif"],
     eh_compositor: false,
