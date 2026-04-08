@@ -125,7 +125,7 @@ ensembles e orquestras de renome. É professor titular aposentado do Departament
 Também é Bacharel em Composição e Regência pela Universidade Estadual do Paraná e possui pós graduação em Ciências Humanas pela Pontifícia Universidade Católica do Rio Grande do Sul. 
 Atualmente é professor de música. Atua nas áreas de: Composição Musical, Harmonia, Improvisação, História da Música, Arranjo, Análise musical, Intérprete (violão solo brasileiro). 
 Também leciona os seguintes cursos: violão, baixo, guitarra e pré-vestibular.
-&nbsp;<span style="color: gray; font-size: 0.8em;">Fonte:Currículo Lattes</span>
+<span style="color: gray; font-size: 0.8em;">Fonte:Currículo Lattes</span>
 </p>`,
     galeria: ["/images/pessoas/alexandrebp1.avif"],
     eh_compositor: false,
