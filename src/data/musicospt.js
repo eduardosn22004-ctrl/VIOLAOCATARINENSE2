@@ -96,7 +96,7 @@ export const musicos =[
 de graduação na função de docente. Em 2013 foi um dos 13 violonistas selecionados para cursar o I Master en Interpretación de Guitarra Clásica de 
 Alicante situado na Espanha, obtendo orientações com os mais renomados violonistas da atualidade:
 David Russell, Ignacio Rodes, Hopkinson Smith, Roberto Aussel, Manuel Barrueco, Carles Trepat e Nigel North.
-<span style="color: gray; font-size: 0.8em; margin-left: 8px; vertical-align: middle;">Fonte:Cedido pelo músico</span>
+<span style="color: gray; font-size: 0.8em; margin-left: 8px; vertical-align: middle;">Fonte: Cedido pelo músico</span>
 </p>
 </p>`,
     galeria: ["/images/pessoas/andreiu2.avif", "/images/edino.avif"],
