@@ -113,7 +113,9 @@ David Russell, Ignacio Rodes, Hopkinson Smith, Roberto Aussel, Manuel Barrueco, 
 é bacharel em composição. É doutor em Antropologia com suas pesquisas sobre a música dos povos indígenas da Amazônia. Realizou pesquisas de pós-doutorado na Universidade Paris Sorbonne 
 e na Hochschule für Musik Franz Liszt – Weimar. Acácio Piedade é um compositor premiado e suas obras têm sido executadas em concertos e festivais em toda a América Latina e Europa por intérpretes, 
 ensembles e orquestras de renome. É professor titular aposentado do Departamento de Música da Universidade do Estado de Santa Catarina e atualmente mora em Lisboa. 
-<br><span style="color: gray; font-size: 0.8em;">Fonte: <a href="https://acaciopiedade.com/" target="_blank" style="color: inherit;">https://acaciopiedade.com/</a></span>
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+  Fonte: <a href="https://acaciopiedade.com/" target="_blank" style="color: inherit; text-decoration: underline;">https://acaciopiedade.com/</a>
+</div>
 </p>`,
     galeria: ["/images/pessoas/acaciop1.avif","/images/pessoas/acaciop2.avif"],
     eh_compositor: true,
@@ -178,7 +180,10 @@ lançamentos anteriores. Felipe Coelho foi agraciado com o Prêmio Elisabete And
 e vencedor da categoria de Melhor Instrumentista Catarinense pelo Prêmio Música SC em 2014. Até abril de 2020, o músico já havia participado de mais de 40 festivais de música e realizado doze turnês com seus trabalhos autorais, já tendo se apresentado em 
 Chicago, Nova Iorque, Xangai e Buenos Aires. Foi também convidado a se apresentar em diversas orquestras dentro e fora do Brasil, com destaque para a KSU String Orchestra com a qual fez concerto em Atlanta em outubro de 2015. Até abril de 2020, 
 o músico já havia participado de mais de 40 festivais de música e realizado doze turnês com seus trabalhos autorais, já tendo se apresentado em Chicago, Nova Iorque, Xangai e Buenos Aires. Foi também convidado a se
-apresentar em diversas orquestras dentro e fora do Brasil, com destaque para a KSU String Orchestra com a qual fez concerto em Atlanta em outubro de 2015. (Fonte: Wikipédia-Felipe Coelho) 
+apresentar em diversas orquestras dentro e fora do Brasil, com destaque para a KSU String Orchestra com a qual fez concerto em Atlanta em outubro de 2015. 
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+  Fonte: <a href="https://pt.wikipedia.org/wiki/Felipe_Coelho" target="_blank" style="color: inherit; text-decoration: underline;">Felipe Coelho - Wikipédia</a>
+</div>
 </p>`,
     galeria: ["/images/pessoas/felipeco1.avif"],
     eh_compositor: false,
@@ -235,7 +240,10 @@ Yamandú Costa grava música de Guinha chamada Simpatia, no CD "Tal", lançado n
 Em 2008 duas turnês são realizadas na Europa com o CD "Laçador" (Guinha Ramires, Alegre Corrêa, Alessandro Kramer), sendo a primeira em maio e abril e a outra em dezembro. Os shows foram realizados na Áustria, Alemanha e Itália. 
 
 Contemplado com o Edital Elizabete Anderle da Fundação Catarinense de Cultura grava seu primeiro CD solo "Vindoura" com oito temas próprios, sendo um em parceria com Alegre Corrêa e outro com Alessandro Kramer (Bêbe). 
-Vindoura foi lançado em Florianópolis no Teatro Álvaro de Carvalho em 2011. (Fonte: Biografia do site do Guinha Ramires)
+Vindoura foi lançado em Florianópolis no Teatro Álvaro de Carvalho em 2011.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+  Fonte: <a href="https://guinharamires1.wixsite.com/guinharamires" target="_blank" style="color: inherit; text-decoration: underline;">Site Guinha Ramires</a>
+</div>
 </p>`,
     galeria: ["/images/pessoas/guira2.avif","/images/pessoas/guira3.avif","/images/pessoas/guira4.avif","/images/pessoas/guira5.avif"],
     eh_compositor: true,
@@ -301,7 +309,10 @@ improvisação e arranjo com Ulisses Rocha e choro com Francisco Araújo. As com
 parte do CD Music for Guitar by Brazilian Young Composers, gravado pelo concertista Gilson Antunes. Além de composições para violão e diversos outros instrumentos, Kleber Alexandre compõe também canções e 
 trilhas sonoras. Dentre sua obra, cabe ressaltar o CD Santa Catarina, gravado pela Camerata Florianópolis com suas composições para orquestra de cordas. O músico é instrutor de violão nas oficinas de arte 
 do Departamento Artístico Cultural (DAC/Secarte/UFSC). O curso de violão é uma das oficinas que são oferecidas semestralmente à comunidade. 
-(Fonte: Ensaio SCultura)</p>`,
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+  Fonte: <a href="https://noticias.ufsc.br/2017/07/concerto-de-violao-com-kleber-alexandre-no-teatro-da-ufsc-nesta-quarta-feira/" target="_blank" style="color: inherit; text-decoration: underline;">Notícias da UFSC</a>
+</div>
+</p>`,
     galeria: ["/images/pessoas/kleba1.avif"],
     eh_compositor: false,
     eh_violonista: true,
@@ -336,7 +347,10 @@ Caetano Brasil, Arismar do Espírito Santo, Maurício Carrilho e Alessandro Pene
 
 Em 2024 lança seu projeto “Aconcagua”, ao lado da cantora peruana Nicole Ruju, com um repertório que celebra a riqueza da música latino-americana e está disponível em todas as plataformas digitais. 
 Ney também apresenta "Itajahy", seu álbum de violão solo de estreia, que combina composições autorais com uma experiência visual única, retratando a cidade de Itajaí. O músico ainda se dedica à educação musical 
-através de projetos pedagógicos. Ele é o criador da “Oficina de Choro: Patrimônio Cultural”, que explora a rica história do choro, seus compositores e a apreciação musical. (Fonte:neysouza.com)
+através de projetos pedagógicos. Ele é o criador da “Oficina de Choro: Patrimônio Cultural”, que explora a rica história do choro, seus compositores e a apreciação musical. 
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+  Fonte: <a href="https://www.neysouza.com/" target="_blank" style="color: inherit; text-decoration: underline;">https://www.neysouza.com/</a>
+</div>
 </p>`,   
     galeria: ["/images/pessoas/neys2.avif","/images/pessoas/neys4.avif","/images/pessoas/neys5.avif"],
     eh_compositor: false,
@@ -542,7 +556,10 @@ Pauletti já se apresentou em diversas cidades do Brasil, América Latina e Euro
 (Brasil, 2015, 2021 e 2022), Festival Internacional de Guitarra Entrecuerdas (Chile 2016 e 2019), Seminário de Violão de Navegantes (Brasil, 2017), Festival Internacional de Guitarra Cuerdas Al Aire (Peru, 2017), Encuentro Internacional de Guitarra Salamanca
 (México, 2018), Festival Internacional de Violão do ICPNA (Peru, 2019), Festival de Violão de Jaraguá do Sul (Brasil, 2019), Cúpula Ibero-americana de Violão (Espanha, 2021), Seminário Internacional de Cordas Dedilhadas (Brasil, 2019, 2022 e 2023), dentre outros.  
 Em paralelo a carreira artística desenvolve também carreira docente atuando como Professor no Conservatório de Música Popular de Itajaí desde 2009 e como Coordenador Pedagógico desde 2017. Ao longo da carreira como professor, 
-vem ministrando oficinas, workshops e cursos de violão e prática de choro em importantes instituições e festivais no Brasil, América Latina e Europa. (Fonte:ricardopauletti.com.br)
+vem ministrando oficinas, workshops e cursos de violão e prática de choro em importantes instituições e festivais no Brasil, América Latina e Europa. 
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+  Fonte: <a href="https://www.ricardopauletti.com.br/" target="_blank" style="color: inherit; text-decoration: underline;">https://www.ricardopauletti.com.br/</a>
+</div>
 </p>`,   
     galeria: ["/images/pessoas/ricardopau2.avif","/images/pessoas/ricardopau3.avif"],
     eh_compositor: false,
@@ -570,7 +587,10 @@ Garbelotto começou então a realizar recitais, todos com excelente aceitação 
 Esse espetáculo abriu perspectivas para Garbelotto explorar uma série de obras-primas da música brasileira, por meio de arranjos ou obras originais. Tal projeto foi contemplado pelo Proac (Projeto de Ação Cultural) de São Paulo – e lhe deu a 
 oportunidade de excursionar pelo interior do Estado.
 Vitor Garbelotto também se apresentou com o duo Camaradá ao lado do percussionista Lê dos Santos e teve um arranjo de autoria dele publicado por uma das principais revistas brasileiras de violão dos anos 2000: Violão Pro, n.16.
-Atualmente é professor de música em São Paulo, onde mora. (Fonte: violaobrasileiro.com.br)
+Atualmente é professor de música em São Paulo, onde mora. 
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+  Fonte: <a href="Acervo Violão Brasileiro" target="_blank" style="color: inherit; text-decoration: underline;">https://www.violaobrasileiro.com.br/</a>
+</div>
 </p>`,   
     galeria: ["/images/pessoas/vitorgar2.avif"],
     eh_compositor: false,
@@ -672,7 +692,9 @@ sendo reconhecido com diversos prêmios nacionais de sonoplastia por sua capacid
 Paralelamente à sua carreira nos palcos, Mailon Bugmann construiu um legado significativo no ensino da música, atividade que exerce ininterruptamente desde 2001. Sua experiência docente abrange instituições de relevância, incluindo passagens pela Fundação Cultural 
 de Blumenau, pela Secretaria Municipal de Educação e por escolas como a FreeStudio e a Monteiro Lobato. Notavelmente, dedicou doze anos de sua carreira ao Sesc Blumenau, entre 2008 e 2020, consolidando-se como uma peça-chave na formação de novos músicos e na
 difusão do violão clássico na região. Sua biografia é, portanto, o retrato de um músico que une o rigor da técnica clássica à sensibilidade da música brasileira, sempre comprometido com a democratização do saber musical.
-(Fonte:https://teatrocarlosgomes.com.br/team/mailon-bugmann/)
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+  Fonte: <a href="https://teatrocarlosgomes.com.br/team/mailon-bugmann/" target="_blank" style="color: inherit; text-decoration: underline;">Teatro Carlos Gomes</a>
+</div>
 </p>`,   
     galeria: ["/images/pessoas/mailonbug1.avif"],
     eh_compositor: false,
