@@ -95,7 +95,9 @@ export const musicos =[
     bio: `<p>Doutor em Música pela Universidade do Sul do Mississippi - USM. Durante o período nos Estados Unidos esteve na condição de assistente 
 de graduação na função de docente. Em 2013 foi um dos 13 violonistas selecionados para cursar o I Master en Interpretación de Guitarra Clásica de 
 Alicante situado na Espanha, obtendo orientações com os mais renomados violonistas da atualidade:
-David Russell, Ignacio Rodes, Hopkinson Smith, Roberto Aussel, Manuel Barrueco, Carles Trepat e Nigel North. (Fonte: Cedido pelo músico) 
+David Russell, Ignacio Rodes, Hopkinson Smith, Roberto Aussel, Manuel Barrueco, Carles Trepat e Nigel North.
+&nbsp;<span style="color: gray; font-size: 0.8em;">Fonte: Cedido pelo músico</span>
+</p>
 </p>`,
     galeria: ["/images/pessoas/andreiu2.avif", "/images/edino.avif"],
     eh_compositor: false,
