@@ -454,4 +454,4 @@ export const discografia = [
                  "Suite pour la luth (BWV 995) Gavotte I & Gavotte II en rondeau", "Suite pour la luth (BWV 995) Gigue", "Grande Ouverture (opus 61)", "Bardenklange (opus 13) Unruhe", "Bardenklange (opus 13) An die Entfernte"]
       },   
   ]
-},
+}
