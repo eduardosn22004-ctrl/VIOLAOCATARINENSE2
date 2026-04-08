@@ -101,7 +101,7 @@ Source: Provided by the musician
   Source: <a href="https://acaciopiedade.com/" target="_blank" style="color: inherit; text-decoration: underline;">https://acaciopiedade.com/</a>
 </div>    
 </p>`,
-    galeria: ["/images/pessoas/acaciop2.avif","/images/pessoas/acaciop3.avif"],
+    galeria: ["/images/pessoas/acaciop3.avif","/images/pessoas/acaciop2.avif"],
     eh_compositor: true,
     eh_violonista: false,
   },
