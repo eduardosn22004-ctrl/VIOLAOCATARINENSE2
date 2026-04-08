@@ -101,7 +101,7 @@ Source: Provided by the musician
   Source: <a href="https://acaciopiedade.com/" target="_blank" style="color: inherit; text-decoration: underline;">https://acaciopiedade.com/</a>
 </div>    
 </p>`,
-    galeria: ["/images/pessoas/acaciop1.avif","/images/pessoas/acaciop2.avif"],
+    galeria: ["/images/pessoas/acacio2.avif","/images/pessoas/acaciop3.avif"],
     eh_compositor: true,
     eh_violonista: false,
   },
@@ -169,7 +169,7 @@ and Buenos Aires. He has also been invited to perform with various orchestras in
   Source: <a href="https://pt.wikipedia.org/wiki/Felipe_Coelho" target="_blank" style="color: inherit; text-decoration: underline;">Felipe Coelho - Wikipédia</a>
 </div>
 </p>`,
-    galeria: ["/images/pessoas/felipeco1.avif"],
+    galeria: ["/images/pessoas/felipeco2.avif","/images/pessoas/felipeco3.avif"],
     eh_compositor: false,
     eh_violonista: true,
   },
@@ -271,7 +271,7 @@ The musician is a guitar instructor at the art workshops of the Department of Ar
   Source: <a href="https://noticias.ufsc.br/2017/07/concerto-de-violao-com-kleber-alexandre-no-teatro-da-ufsc-nesta-quarta-feira/" target="_blank" style="color: inherit; text-decoration: underline;">UFSC's News</a>
 </div>
 </p>`,
-    galeria: ["/images/pessoas/kleba1.avif"],
+    galeria: ["/images/pessoas/kleba2.avif","/images/pessoas/kleba3.avif"],
     eh_compositor: false,
     eh_violonista: true,
   },
