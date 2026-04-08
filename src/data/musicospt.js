@@ -635,7 +635,10 @@ na Sociedade Harmonia Lyra, em Joinville. Na época, a imprensa local destacou s
 Darcy fixou residência definitiva em Joinville para ficar próximo de sua mãe, Diva. Viveu quase uma década na cidade e Morou nos bairros Glória e Iririú. Diferente de muitos músicos que tocam até o fim da vida, Darcy Villa Verde 
 tomou a decisão consciente de parar. Em abril de 2000, durante o aniversário de um amigo em Joinville, ele tocou seu violão profissionalmente pela última vez. Após essa data, "pendurou o instrumento" para sempre, encerrando um ciclo de décadas de dedicação 
 absoluta à música. Darcy faleceu em 2019, mas sua memória é preservada por meio de acervos históricos e do reconhecimento de grandes nomes da música atual. Ele é lembrado não apenas como um concertista de técnica impecável, 
-mas como um desbravador que levou o violão erudito aos rincões do Brasil e aos palcos mais exigentes do mundo, sempre mantendo a alma e a "raça" da sonoridade brasileira. (Fonte:https://darcyvillaverde.com.br/)
+mas como um desbravador que levou o violão erudito aos rincões do Brasil e aos palcos mais exigentes do mundo, sempre mantendo a alma e a "raça" da sonoridade brasileira.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+  Fonte: <a href="https://darcyvillaverde.com.br/" target="_blank" style="color: inherit; text-decoration: underline;">https://darcyvillaverde.com.br/</a>
+</div>
 </p>`,   
     galeria: ["/images/pessoas/darcy2.avif","/images/pessoas/darcy3.avif","/images/pessoas/darcy4.avif","/images/pessoas/darcy1.avif"],
     eh_compositor: false,
