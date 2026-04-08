@@ -453,5 +453,5 @@ export const discografia = [
         faixas: ["A Fantasie (P1a)", "Suite pour la luth (BWV 995) Prelude", "Suite pour la luth (BWV 995) Allemande", "Suite pour la luth (BWV 995) Courante", "Suite pour la luth (BWV 995) Sarabande", 
                  "Suite pour la luth (BWV 995) Gavotte I & Gavotte II en rondeau", "Suite pour la luth (BWV 995) Gigue", "Grande Ouverture (opus 61)", "Bardenklange (opus 13) Unruhe", "Bardenklange (opus 13) An die Entfernte"]
       },   
-  
   ];
+},
