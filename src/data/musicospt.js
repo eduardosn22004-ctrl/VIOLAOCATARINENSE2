@@ -96,7 +96,7 @@ export const musicos =[
 de graduação na função de docente. Em 2013 foi um dos 13 violonistas selecionados para cursar o I Master en Interpretación de Guitarra Clásica de 
 Alicante situado na Espanha, obtendo orientações com os mais renomados violonistas da atualidade:
 David Russell, Ignacio Rodes, Hopkinson Smith, Roberto Aussel, Manuel Barrueco, Carles Trepat e Nigel North.
-&nbsp;<span style="color: gray; font-size: 0.8em;">Fonte: Cedido pelo músico</span>
+&nbsp;<span style="color: gray; font-size: 0.8em;">Fonte:Cedido pelo músico</span>
 </p>
 </p>`,
     galeria: ["/images/pessoas/andreiu2.avif", "/images/edino.avif"],
@@ -124,7 +124,8 @@ ensembles e orquestras de renome. É professor titular aposentado do Departament
     bio: `<p>Possui graduação em Fisioterapia e em Licenciatura em Música, ambos pela Universidade do Estado de Santa Catarina. 
 Também é Bacharel em Composição e Regência pela Universidade Estadual do Paraná e possui pós graduação em Ciências Humanas pela Pontifícia Universidade Católica do Rio Grande do Sul. 
 Atualmente é professor de música. Atua nas áreas de: Composição Musical, Harmonia, Improvisação, História da Música, Arranjo, Análise musical, Intérprete (violão solo brasileiro). 
-Também leciona os seguintes cursos: violão, baixo, guitarra e pré-vestibular. (Fonte:Currículo Lattes)
+Também leciona os seguintes cursos: violão, baixo, guitarra e pré-vestibular.
+&nbsp;<span style="color: gray; font-size: 0.8em;">Fonte:Currículo Lattes</span>
 </p>`,
     galeria: ["/images/pessoas/alexandrebp1.avif"],
     eh_compositor: false,
@@ -139,7 +140,7 @@ Especialista em Regência Coral pelo Centro Universitário Adventista de São Pa
 recebeu o Prêmio Elisabete Anderle de Incentivo à Cultura com o Duo Soler de violino e violão e abriu o show do Duo Siqueira Lima no Seminário de violão de Itajaí. Como regente dirigiu diversos grupos entre eles: 
 Coral dos Bancários, Coral dos Correios de Santa Catarina (Clave Sul), Coro Lírico Catarinense e Coro Municipal de Angelina. Como professor atuou em diversas escolas e projetos sociais, tais como: Escola Vivência, Colégio Sarapiquá, 
 Colégio de Aplicação – Universidade Federal de Santa Catarina - UFSC, Projeto MUSICAÇÃO – Fundação BADESC, ONG Gente Amiga (Morro do Horácio) e CEAFIS (Chico Mendes). Desde 2016 é Prof. EBTT do Instituto Federal Catarinense - IFC. 
-(Fonte: Cedido pelo músico)
+&nbsp;<span style="color: gray; font-size: 0.8em;">Fonte:Cedido pelo músico</span>
 </p>`,
     galeria: ["/images/pessoas/andrefran1.avif","/images/pessoas/andrefran2.avif","/images/pessoas/andrefran3.avif","/images/pessoas/andrefran4.avif"],
     eh_compositor: false,
@@ -191,7 +192,8 @@ Em 2001 foi convidado a participar do Projeto “Seis Cordas” que contava coma
 Fizeram parte deste projeto duas de suas composições intituladas "Valsa e Bolero" e "Adagio". Este evento foi um grande incentivo para que continuasse compondo. 
 
 Em fevereiro de 2020 graduou-se na Universidade de Santa Catarina – UDESC no curso de Música Bacharelado habilitação em violão. Atualmente além de dar aulas de violão popular e erudito, atua em diversos eventos musicais como 
-músico solo em recitais, modalidade “voz e violão”, ou ainda em participações com outros músicos nas casas noturnas ou eventos pela região Sul de SC. (Fonte: Cedido pelo músico)
+músico solo em recitais, modalidade “voz e violão”, ou ainda em participações com outros músicos nas casas noturnas ou eventos pela região Sul de SC.
+&nbsp;<span style="color: gray; font-size: 0.8em;">Fonte:Cedido pelo músico</span>
 </p>`,
     galeria: ["/images/pessoas/gilmed1.avif","/images/pessoas/gilmed2.avif"],
     eh_compositor: false,
@@ -244,7 +246,7 @@ para flauta e violão, ou pequenos grupos de câmara.
 
 Nos anos 1990 a 1994 estudou saxofone e flauta transversal com os mestres Demétrio Lima (Jazz sinfônica) e Eduardo Pecci (Orquestra Municipal de São Paulo, OSM), período em que participou da Big Band da ULMSP. 
 É autodidata em violão , instrumento ao qual se dedica desde 1980 e a partir dos anos 2000 com exclusividade, passando a compor para este, assim como para diversos outros instrumentos e diversas formações.
-(Fonte: Cedido pelo músico)
+&nbsp;<span style="color: gray; font-size: 0.8em;">Fonte:Cedido pelo músico</span>
 </p>`,
     galeria: ["/images/pessoas/rego1.avif","/images/pessoas/rego2.avif","/images/pessoas/rego3.avif"],
     eh_compositor: false,
@@ -269,7 +271,8 @@ Dedicou-se também a estudar e dar aulas particulares de guitarra e violão e pa
 participação de compositores violonistas catarinenses e culminou na gravação de um CD produzido por Renato Pimentel do estúdio The Magic Place,  e patrocinado pela Fundação Catarinense de Cultura. Fizeram parte deste projeto duas composições suas 
 intituladas Moinho e Sonho Dourado. Este evento foi um grande incentivo para que continuasse compondo. 
 
-Em 2012 Joel Colman apresenta-se no V seminário de Violão de Itajaí, onde também faz um workshop sobre o uso de diferentes técnicas e afinações que ele utiliza até hoje. (Fonte: Cedido pelo músico)
+Em 2012 Joel Colman apresenta-se no V seminário de Violão de Itajaí, onde também faz um workshop sobre o uso de diferentes técnicas e afinações que ele utiliza até hoje.
+&nbsp;<span style="color: gray; font-size: 0.8em;">Fonte:Cedido pelo músico</span>
 </p>`,
     galeria: ["/images/pessoas/joelco1.avif","/images/pessoas/joelco2.avif","/images/pessoas/joelco3.avif"],
     eh_compositor: false,
@@ -301,7 +304,9 @@ licenciou-se em Música pela Universidade do Estado de Santa Catarina (UDESC).  
 Atualmente, é regente do Coral Municipal da Rede de Ensino de Palhoça (COMEP), da Orquestra de Violões da Rede Municipal de Ensino de Palhoça (OVMEP) e da Orquestra Sinfônica da Rede Municipal de Ensino de Palhoça (OSMEP).
 Paralelamente, desenvolve intensa atividade como músico profissional em bandas na região da Grande Florianópolis, destacando-se seu trabalho autoral com a banda “Miragem de Júpiter".  
 Seu interesse pela composição surgiu na infância, impulsionado pela curiosidade em compreender os fundamentos do discurso musical e os mecanismos que conferem sentido e expressão à organização dos sons. 
-Sua obra reflete uma abordagem diversificada de influências. (Fonte: Cedido Pelo Compositor)</p>`,   
+Sua obra reflete uma abordagem diversificada de influências.
+&nbsp;<span style="color: gray; font-size: 0.8em;">Fonte:Cedido pelo músico</span>
+</p>`,   
     galeria: ["/images/pessoas/leanb1.avif","/images/pessoas/leanb2.avif","/images/pessoas/leanb3.avif","/images/pessoas/leanb4.avif"],
     eh_compositor: false,
     eh_violonista: true,
@@ -339,7 +344,8 @@ programa que selecionou 58 trabalhos musicais de todo o Brasil, traçando um ric
 cantora e compositora canadense (Québec), criou o espetáculo de canções poéticas Fille Faille en deux mouvements, participou do I Festival de Música da UFSC, com gravação ao vivo para CD e DVD, apresentou músicas do Québec no museu Rodin, 
 em Salvador, Bahia, a convite da ABECAN (Associação Brasileira de Estudos Canadenses) e, por mais de 10 anos, apresentou Canções Francesas e do Québec pelo Brasil e Canadá. Como cantor, participou de corais, missas e madrigais, apresentou suas 
 canções em shows no Québec e explorou o universo criativo da improvisação vocal, ministrando oficinas de canto espontâneo e Circle Singing. Otávio Rosa tem um repertório autoral para violão solo e duas de suas composições, Fazenda Norte e Eucaliptos ao Vento, 
-estão gravadas nos CDs Violão Catarinense (Guitar Music from Santa Catarina), volumes I (2012) e II (2019), de Andrei Uller, com obras de Edino Krieger, Ricardo Boppré, entre outros, representando a produção violonística catarinense.  (Fonte: Cedido pelo músico)
+estão gravadas nos CDs Violão Catarinense (Guitar Music from Santa Catarina), volumes I (2012) e II (2019), de Andrei Uller, com obras de Edino Krieger, Ricardo Boppré, entre outros, representando a produção violonística catarinense.
+&nbsp;<span style="color: gray; font-size: 0.8em;">Fonte:Cedido pelo músico</span>
 </p>`,   
     galeria: ["/images/pessoas/otar2.avif","/images/pessoas/otar3.avif","/images/pessoas/otar4.avif"],
     eh_compositor: false,
@@ -359,7 +365,8 @@ e contrapontos.” No ano de 2019, apresentou workshops de improvisação na Uni
 com o qual se apresentou no Museum of Contemporary Art Chicago. Teve cinco composições estreadas e gravadas pela Orquestra Acadêmica UDESC. 
 Em 2015 realizou uma turnê com o projeto “Afetos, Música e Poesia”, ao lado do Quinteto de Cordas Catarinense e da soprano Marília Oliveira, que interpretou suas composições sobre os poemas de Cruz e Souza. Realizou a coordenação artística
 das duas edições do Seminário de Improvisação Musical Brasileira, e compôs 3 trilhas sonoras para documentários e espetáculos de dança. Fortes já se apresentou nas cidades de Nova Iorque, Philadelphia, Chicago, Lima, e em 2012 gravou seu 
-primeiro disco em seu nome, que conta com a participação do icônico Hermeto Pascoal. (Fonte: Cedido pelo músico)
+primeiro disco em seu nome, que conta com a participação do icônico Hermeto Pascoal.
+&nbsp;<span style="color: gray; font-size: 0.8em;">Fonte:Cedido pelo músico</span>
 </p>`,   
     galeria: ["/images/pessoas/leandrof2.avif","/images/pessoas/leandrof3.avif","/images/pessoas/leandrof4.avif"],
     eh_compositor: false,
@@ -388,7 +395,8 @@ Dalner Barbi. Durante esse período, além de estudar o violão, Marco começou 
 bastante influenciado por um amigo de seu pai, o Daniel Mazza, e praticava as músicas que aprendia junto com seus irmãos que também são músicos. 
 Tendo crescido em uma família de músicos, a música sempre fez parte de sua vida. Ainda criança Marco acompanhava seu pai (que era baterista profissional) em ensaios, shows e gravações. Foi com a bateria que teve o seu primeiro contato com a música, 
 estudando os rudimentos da bateria com seu pai, inspirados no método de Gene Krupa, do fim da década de 30 (cujo pai era fã). Com quatorze anos Marco decidiu que queria aprender guitarra e fazer parte do universo musical que 
-vivenciara desde menino. (Fonte: Cedido pelo músico)
+vivenciara desde menino.
+&nbsp;<span style="color: gray; font-size: 0.8em;">Fonte:Cedido pelo músico</span>
 </p>`,   
     galeria: ["/images/pessoas/marcoca2.avif","/images/pessoas/marcoca3.avif","/images/pessoas/marcoca4.avif"],
     eh_compositor: false,
@@ -418,7 +426,8 @@ Internacional de Violão de Balneário Camboriú, e fundador, Maestro e Diretor 
 está radicado no Brasil desde 2005. É Mestre em Música pela Universidade do Estado de Santa Catarina (UDESC) na área de musicologia com a dissertação “A sonata para guitarra na Viena de Beethoven e Schubert”. Possui os títulos de Professor de Violão pelo 
 Conservatório Isaías Orbe de Tandil e de Professor Superior de Violão pelo Conservatório Luis Gi-anneo de Mar del Plata, ambos da província de Buenos Aires, Argentina. Foi contemplado com diversas bolsas de estudos: Santa María de la Armonía(Mar del Plata)
 para realizar os cursos de verão em violão, violino e fenomenologia da música; Fundación Antorchas (Buenos Aires) para aperfeiçoamento em música antiga com Miguel de Olaso; a bolsa CAPES (Brasil) durante a pós-graduação, e uma bolsa da Universidad de
-Santiago de Compostela (Espanha, 2013) para participar como violonista nos cursos internacionais de música. (Fonte: Cedido pelo músico)
+Santiago de Compostela (Espanha, 2013) para participar como violonista nos cursos internacionais de música.
+&nbsp;<span style="color: gray; font-size: 0.8em;">Fonte:Cedido pelo músico</span>
 </p>`,   
     galeria: ["/images/pessoas/marcosdal2.avif","/images/pessoas/marcosdal3.avif","/images/pessoas/marcosdal4.avif"],
     eh_compositor: false,
@@ -435,7 +444,8 @@ premiação no edital LIC de Balneário Camboriú. Seguindo sua produção autor
 Balneário Camboriú. Em 2018, fundou a Camerata de Violões de Camboriú, atualmente conhecida como Camerata de Violões Rio Allegro, onde atua como maestro, professor e regente. Em 2023, concluiu a pós-graduação em Regência pela FACEC. No ano seguinte,
 em 2024, cofundou o Círculo Violonístico Catarinense, ao lado de Marcos Pablo Dalmacio e Cristo Miguel de la Cruz, com o objetivo de promover o intercâmbio musical e o desenvolvimento do violão no estado. Como concertista, tem se apresentado em diversas
 regiões, tanto como solista quanto em formações de música de câmara. Como professor, ministra aulas de violão clássico e popular, além de atuar no ensino de práticas em conjunto, formações camerísticas, clássicas e bandas populares. Na composição e 
-arranjo, seu foco principal é a música de câmara. Estudou composição com Marcos Pablo Dalmacio e Alberto Heller, e aprimorou sua técnica violonística sob a orientação de Renato Mór, Marcos Pablo Dalmacio, Marcus Llerena e Alvaro Henrique. (Fonte: Cedido pelo músico)
+arranjo, seu foco principal é a música de câmara. Estudou composição com Marcos Pablo Dalmacio e Alberto Heller, e aprimorou sua técnica violonística sob a orientação de Renato Mór, Marcos Pablo Dalmacio, Marcus Llerena e Alvaro Henrique.
+&nbsp;<span style="color: gray; font-size: 0.8em;">Fonte:Cedido pelo músico</span>
 </p>`,   
     galeria: ["/images/pessoas/pabloh2.avif","/images/pessoas/pabloh3.avif","/images/pessoas/pabloh4.avif"],
     eh_compositor: false,
@@ -457,7 +467,8 @@ Em 1982, o seu segundo LP, “Violão, Violão & Violão”, introduziu a sua ar
 Aliado a isto, sempre se apresentou em teatros e TV, tendo ajudado a formar, a par de toda a atividade musical, muitos alunos nos cursos de violão que ministrou na Universidade Federal e no Centro Integrado de Cultura da Fundação Catarinense de Cultura.  
 Atualmente, no amadurecimento de sua arte e técnica, dedica-se também a composição musical e arranjo de músicas populares brasileiras e clássicas para violão e piano. Este trabalho consiste na utilização de software de editoração de 
 partituras para este objetivo. Na plenitude desta atividade artística, criou um site em que todo o acervo está disponibilizado aos internautas. A par de exercer a composição musical, alguns de seus trabalhos foram gravados tanto pelo próprio 
-compositor como outros intérpretes. Suas obras abrangem os mais variados gêneros musicais, peças como boleros, sambas, sambas-canção, xotes, baiões, várias séries de estudos para violão, entre tantas outras. (Fonte: Cedido pelo músico)
+compositor como outros intérpretes. Suas obras abrangem os mais variados gêneros musicais, peças como boleros, sambas, sambas-canção, xotes, baiões, várias séries de estudos para violão, entre tantas outras.
+&nbsp;<span style="color: gray; font-size: 0.8em;">Fonte:Cedido pelo músico</span>
 </p>`,   
     galeria: ["/images/pessoas/ricardob2.avif","/images/pessoas/ricardob3.avif"],
     eh_compositor: true,
@@ -482,7 +493,8 @@ expoentes da música flamenca como Gerardo Nuñez, Manolo Sanlúcar, Cañizares,
 Pouco mais tarde se tornou aluno bolsista no Teatro Carlos Gomes (Violão Clássico, sob orientação do professor Renato Mor-UFRS), estudando ainda Canto, Harmonia e contraponto. Estabeleceu-se na Europa em 1999, residindo em diversos países como 
 Alemanha, França, Hungria, Romênia e Espanha, países aos quais imigrou interessado por suas músicas autóctonas e como se relacionam com as expressões ciganas. Possui formação em "Jazz Combo/Big Band e Músicas Atuais" pelo Conservatório Nacional 
 Regional de Amiens, França. Nesse país frequentou ainda diversos eventos formativos na célebre Escola ATLA (Paris), como aulas particulares e workshops com Sylvain Luc, Romane, Claude Worms, Alain Faucher e Roland Dyens. Entre outros músicos e 
-teóricos com os quais estudou estão ainda: Gerardo Núnez, Manolo Sanlúcar, José Antonio Rodriguez, Emilio Maya, Miguel Ochando, Faustino Nuñez, Felix Grande, Hubert Kappel, Badi Assad, Ferenc Snétberguer e Costas Cotsiolis. (Fonte: Cedido pelo músico)
+teóricos com os quais estudou estão ainda: Gerardo Núnez, Manolo Sanlúcar, José Antonio Rodriguez, Emilio Maya, Miguel Ochando, Faustino Nuñez, Felix Grande, Hubert Kappel, Badi Assad, Ferenc Snétberguer e Costas Cotsiolis.
+&nbsp;<span style="color: gray; font-size: 0.8em;">Fonte:Cedido pelo músico</span>
 </p>`,   
     galeria: ["/images/pessoas/rafaelma2.avif","/images/pessoas/rafaelma3.avif","/images/pessoas/rafaelma4.avif","/images/pessoas/rafaelma5.avif"],
     eh_compositor: false,
@@ -545,7 +557,8 @@ William Pofahl é violonista e professor, graduado em Música pela Universidade 
 no Quarteto de Violões de Blumenau, e em duo com o violinista Daniele Girardello. Apresentou-se em diversas cidades do estado de Santa Catarina e nas cidades espanholas de Alicante e Orihuela. Com o Quarteto de Violões de Blumenau, gravou o álbum Música Brasileira, 
 interpretando música dos compositores Francisco Mignone, Heitor Villa-Lobos e Camargo Guarnieri. Cursou o Master in Classical Guitar Performance na Universidade de Alicante, Espanha, onde estudou com renomados violonistas como Manuel Barrueco, Pepe Romero, 
 David Russell, Paul O’Dette e Sergio Assad. Atualmente é integrante do Duo Girardello & Pofahl, formado por violão e violino. Como professor de violão, William tem se dedicado ao ensino coletivo de instrumento musical, 
-experiência que tem resultado na criação de arranjos e na elaboração de materiais didáticos. (Fonte: Cedido pelo músico)
+experiência que tem resultado na criação de arranjos e na elaboração de materiais didáticos.
+&nbsp;<span style="color: gray; font-size: 0.8em;">Fonte:Cedido pelo músico</span>
 </p>`,   
     galeria: ["/images/pessoas/wilpof1.avif","/images/pessoas/wilpof2.avif"],
     eh_compositor: false,
@@ -602,7 +615,8 @@ mas como um desbravador que levou o violão erudito aos rincões do Brasil e aos
     em 2006 pela gravadora Sonic Blaster Music Label. Ainda em 2006, gravou no Estúdio Mug em Joinville-SC um material independente intitulado "Refletindo" contendo estudos simples
     de grandes violonistas da nossa história, mais algumas peças autorais. Grande parte de suas composições para violão foram feitas numa única tonalidade explorando elementos básicos 
     e, a que foge completamente da regra, é uma peça chamada "Violão Voodoo". Peça esta feita na época que cursou História da Música, quando estudou sobre o "Diabolus In Música",
-    banida na Idade Média. (Fonte: Cedido pelo músico)
+    banida na Idade Média.
+    &nbsp;<span style="color: gray; font-size: 0.8em;">Fonte:Cedido pelo músico</span>
 
 </p>`,   
     galeria: ["/images/pessoas/antoniocgj1.avif",],
@@ -647,7 +661,8 @@ Em 2022 lançou seu primeiro álbum, “Colunas” (ProAC/SP), com música latin
 em concursos nacionais e internacionais, entre eles os de Florença (Itália), Tampere (Finlândia), Rhode Island (Estados Unidos), Ciudad de Panamá (Panamá), Tallinn (Estônia), Cluj-Napoca (Romênia), Plovdiv e Pleven (Bulgária), Tirana (Albânia) e 
 Birštonas (Lituânia). Destacam-se ainda as premiações de Melhor Intérprete de Villa-Lobos no Concurso Nacional Villa-Lobos, e primeiros lugares nos concursos J. S. Bach (São Paulo), Tatuí, Mauríciode Oliveira (Vitória), e Fred Schneiter (Rio de Janeiro).
 Tem artigos publicados em respeitados congressos e revistas nacionais e internacionais, dos quais se destacam as pesquisas sobre aspectos técnicos do violão e o gesto corporal na performance. Foi professor da Universidade do Estado de Santa Catarina e
-da Universidade Federal de São Carlos, e é regularmente convidado para realizar concertos, oficinas, palestras e masterclasses em festivais, universidades e conservatórios. (Fonte: Cedido pelo músico)
+da Universidade Federal de São Carlos, e é regularmente convidado para realizar concertos, oficinas, palestras e masterclasses em festivais, universidades e conservatórios.
+&nbsp;<span style="color: gray; font-size: 0.8em;">Fonte:Cedido pelo músico</span>
 </p>`,   
     galeria: ["/images/pessoas/brunoma2.avif"],
     eh_compositor: false,
@@ -663,7 +678,8 @@ gravação da integral para violão solo do compositor brasileiro Almeida Prado,
 Mantem intensa carreira como concertista e pesquisador, com abordagens que envolve o repertório solo e de música de câmera, tendo se apresentado em diversos estados brasileiros. Atuou como convidado em diversos festivais, realizando concertos,
 palestras e masterclasses. Destaca-se a participação como membro do júri do Concurso do Koblenz International Guitar Festival na Alemanha em 2018, 2019, 2023, 2024 e 2025, onde ministrou ainda palestras e masterclass. Atualmente é professor da Escola de
 Música e Belas Artes do Paraná (Universidade Estadual do Paraná), em Curitiba, ministrando aulas e orientações na graduação e na pós-graduação (Mestrado em Música). É também professor colaborador no Programa de Pós-graduação em Música da
-UNICAMP, orientando trabalhos de Doutorado. (Fonte: Cedido pelo músico)
+UNICAMP, orientando trabalhos de Doutorado.
+&nbsp;<span style="color: gray; font-size: 0.8em;">Fonte:Cedido pelo músico</span>
 </p>`,   
     galeria: ["/images/pessoas/fabioscar2.avif","/images/pessoas/fabioscar3.avif"],
     eh_compositor: false,
