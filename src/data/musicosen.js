@@ -133,7 +133,7 @@ Source: Provided by the musician
 Source: Provided by the musician 
  </div>
 </p>`,
-    galeria: ["/images/pessoas/andrefran1.avif","/images/pessoas/andrefran2.avif","/images/pessoas/andrefran3.avif","/images/pessoas/andrefran4.avif"],
+    galeria: ["/images/pessoas/andrefran2.avif","/images/pessoas/andrefran3.avif","/images/pessoas/andrefran4.avif"],
     eh_compositor: false,
     eh_violonista: true,
   },
@@ -189,7 +189,7 @@ southern region of Santa Catarina.
 Source: Provided by the musician 
  </div>
 </p>`,
-    galeria: ["/images/pessoas/gilmed1.avif","/images/pessoas/gilmed2.avif"],
+    galeria: ["/images/pessoas/gilmed2.avif"],
     eh_compositor: false,
     eh_violonista: true,
   },
@@ -231,7 +231,7 @@ during which time he participated in the ULMSP Big Band. He is a self-taught gui
 Source: Provided by the musician 
  </div>
 </p>`,
-    galeria: ["/images/pessoas/rego1.avif","/images/pessoas/rego2.avif","/images/pessoas/rego3.avif"],
+    galeria: ["/images/pessoas/rego3.avif","/images/pessoas/rego2.avif"],
     eh_compositor: false,
     eh_violonista: true,
   },
@@ -253,7 +253,7 @@ where he also conducted a workshop on the use of different techniques and tuning
 Source: Provided by the musician 
  </div>
 </p>`,
-    galeria: ["/images/pessoas/joelco1.avif","/images/pessoas/joelco2.avif","/images/pessoas/joelco3.avif"],
+    galeria: ["/images/pessoas/joelco2.avif","/images/pessoas/joelco3.avif"],
     eh_compositor: false,
     eh_violonista: true,
   },
@@ -289,7 +289,7 @@ provide meaning and expression to the organization of sounds. His work reflects 
 Source: Provided by the musician 
  </div>
 </p>`,   
-    galeria: ["/images/pessoas/leanb1.avif","/images/pessoas/leanb2.avif","/images/pessoas/leanb3.avif","/images/pessoas/leanb4.avif"],
+    galeria: ["/images/pessoas/leanb2.avif","/images/pessoas/leanb3.avif","/images/pessoas/leanb4.avif"],
     eh_compositor: false,
     eh_violonista: true,
   },
