@@ -572,7 +572,10 @@ the local press highlighted his "enviable talent" shortly after his return from 
 near his mother, Diva. He lived in the city for nearly a decade, residing in the Glória and Iririú neighborhoods. Unlike many musicians who play until the end of their lives, Darcy Villa Verde made the conscious decision to stop. In April 2000,
 during a friend's birthday in Joinville, he played his guitar professionally for the last time. After that date, he "hung up the instrument" forever, closing a cycle of decades of absolute dedication to music. Darcy passed away in 2019, but his 
 memory is preserved through historical archives and the recognition of great names in music today. He is remembered not only as a concert artist of impeccable technique but as a trailblazer who brought the classical guitar to the far reaches of Brazil
-and to the most demanding stages in the world, always maintaining the soul of the Brazilian sound. (Source: https://darcyvillaverde.com.br/)
+and to the most demanding stages in the world, always maintaining the soul of the Brazilian sound.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+  Fonte: <a href="https://darcyvillaverde.com.br/" target="_blank" style="color: inherit; text-decoration: underline;">https://darcyvillaverde.com.br/</a>
+</div>
 </p>`,   
     galeria: ["/images/pessoas/darcy2.avif","/images/pessoas/darcy3.avif","/images/pessoas/darcy4.avif","/images/pessoas/darcy1.avif"],
     eh_compositor: false,
