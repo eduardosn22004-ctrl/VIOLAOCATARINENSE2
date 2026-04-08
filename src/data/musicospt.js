@@ -81,6 +81,10 @@ export const musicos =[
                  Em Bruxelas, Bélgica, como convidado, assistiu a estréia  européia de seu Concerto para dois violões 
                  e orquestra de cordas, pelo Duo Assad, e em Colonia, Alemanha, regeu a Orquestra Südwstfalen Philharmonie 
                  na execução de seu Canticum Naturale. 
+                 
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+  Fonte: <a href="https://abmusica.org.br/edicoes-abm/compositor/edino-krieger/" target="_blank" style="color: inherit; text-decoration: underline;">Academia Brasileira de Música</a>
+</div>
 
 </p>
     `,
@@ -160,7 +164,10 @@ Colégio de Aplicação – Universidade Federal de Santa Catarina - UFSC, Proje
     foto: "/images/pessoas/danielmue1.avif",
     bio: `<p>
 Violonista no Quarteto de Violões de Blumenau, desde 2015, no Duo Arcanum, desde 2016, e no Duo Ariel entre 2009 e 2012 .Contrabaixista na banda de Heavy Metal “Venus Attack”, desde 2009, 
-na banda de pop rock “Necessidade Humana”, entre 2006 e 2010. (Fonte: Escola Nossocanto/Blumenau - SC)
+na banda de pop rock “Necessidade Humana”, entre 2006 e 2010.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+  Fonte: <a href="https://www.escolanossocanto.com.br/professores/daniel-mueller" target="_blank" style="color: inherit; text-decoration: underline;">Escola Nosso Canto Blumenau-SC</a>
+</div>
 </p>`,
     galeria: ["/images/pessoas/danielmue1.avif"],
     eh_compositor: false,
