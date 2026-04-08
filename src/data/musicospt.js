@@ -438,9 +438,6 @@ arranjo, seu foco principal é a música de câmara. Estudou composição com Ma
     eh_compositor: false,
     eh_violonista: true,
   },
-
-  //Revisei até aqui
-  
   {
     id: "ricardob",
     nome: "Ricardo Boppré",
@@ -448,20 +445,16 @@ arranjo, seu foco principal é a música de câmara. Estudou composição com Ma
     bio: `<p>
 Nascido em Tubarão - Santa Catarina, em 05 de fevereiro de 1953, desde cedo dedicou-se à arte do violão. Com apenas 13 anos já demonstrava interesse por serenatas e partituras de violão. Com 18 anos radicou-se na capital do estado onde 
 ingressou na Associação Coral de Florianópolis. Formado em Pedagogia e Direito, Ricardo sempre encontrou espaço para expressar-se musicalmente.   
-
 Autodidata por excelência procurou, nos seus estudos violonísticos, ser o mais eclético possível no que concerne à escolha de seu repertório, procurando abranger músicas de Beethoven, Chopin, Bach, Ernesto Nazareth, 
 Pixinguinha, Tom Jobim e muitos outros. Com isso procura demonstrar que o violão está presente em todos os estilos, tanto erudito como no popular.   
-
 Em 1980, sagrou-se vencedor do Primeiro Concurso Universitário para Violão e, igualmente, do Programa de Incentivo à Criação de Pequenos Conjuntos Musicais, os quais lhe proporcionaram a gravação do primeiro
 LP “O Violão em Duas Dimensões”. Foi o primeiro violonista catarinense a ter o seu trabalho gravado em vinil. Naquele mesmo ano fundou o curso de violão na Universidade Federal de Santa Catarina, onde formou inúmeros alunos. 
 Em 1985 instituiu o mesmo curso na Fundação Catarinense de Cultura.   
-
 Em 1982, o seu segundo LP, “Violão, Violão & Violão”, introduziu a sua arte, definitivamente, no cenário musical catarinense. Em 1985, com o seu terceiro LP, “O Universo do Violão”, consagrou ainda mais a sua atividade musical. 
 Aliado a isto, sempre se apresentou em teatros e TV, tendo ajudado a formar, a par de toda a atividade musical, muitos alunos nos cursos de violão que ministrou na Universidade Federal e no Centro Integrado de Cultura da Fundação Catarinense de Cultura.  
-
 Atualmente, no amadurecimento de sua arte e técnica, dedica-se também a composição musical e arranjo de músicas populares brasileiras e clássicas para violão e piano. Este trabalho consiste na utilização de software de editoração de 
 partituras para este objetivo. Na plenitude desta atividade artística, criou um site em que todo o acervo está disponibilizado aos internautas. A par de exercer a composição musical, alguns de seus trabalhos foram gravados tanto pelo próprio 
-compositor como outros intérpretes. Suas obras abrangem os mais variados gêneros musicais, peças como boleros, sambas, sambas-canção, xotes, baiões, várias séries de estudos para violão, entre tantas outras. (Fonte: Cedido Pelo Compositor)
+compositor como outros intérpretes. Suas obras abrangem os mais variados gêneros musicais, peças como boleros, sambas, sambas-canção, xotes, baiões, várias séries de estudos para violão, entre tantas outras. (Fonte: Cedido pelo músico)
 </p>`,   
     galeria: ["/images/pessoas/ricardob2.avif","/images/pessoas/ricardob3.avif"],
     eh_compositor: true,
@@ -484,9 +477,9 @@ pelo excepcional musicólogo espanhol Faustino Nuñez. Em sua música busca um f
 pureza sonora naturais do instrumento. Como autor, submete as características naturais da Guitarra Flamenca às necessidades expressivas de seu próprio trabalho. Já como intérprete, destaca-se por versões inspiradas de obras dos principais 
 expoentes da música flamenca como Gerardo Nuñez, Manolo Sanlúcar, Cañizares, Vicente Amigo, Paco Peña, Sabicas, Ramón Montoya, Niño Ricardo ou Juan Ramón Caro. Passou a inclinar-se seriamente pelo estudo da música violonística aos 13 anos. 
 Pouco mais tarde se tornou aluno bolsista no Teatro Carlos Gomes (Violão Clássico, sob orientação do professor Renato Mor-UFRS), estudando ainda Canto, Harmonia e contraponto. Estabeleceu-se na Europa em 1999, residindo em diversos países como 
-Alemanha, França, Hungria, Romênia e Espanha - países aos quais imigrou interessado por suas  músicas autóctonas e como se relacionam com as expressões ciganas. Possui formação em "Jazz Combo/Big Band e Músicas Atuais" pelo Conservatório Nacional 
+Alemanha, França, Hungria, Romênia e Espanha, países aos quais imigrou interessado por suas músicas autóctonas e como se relacionam com as expressões ciganas. Possui formação em "Jazz Combo/Big Band e Músicas Atuais" pelo Conservatório Nacional 
 Regional de Amiens, França. Nesse país frequentou ainda diversos eventos formativos na célebre Escola ATLA (Paris), como aulas particulares e workshops com Sylvain Luc, Romane, Claude Worms, Alain Faucher e Roland Dyens. Entre outros músicos e 
-teóricos com os quais estudou estão ainda: Gerardo Núnez, Manolo Sanlúcar, José Antonio Rodriguez, Emilio Maya, Miguel Ochando, Faustino Nuñez, Felix Grande, Hubert Kappel, Badi Assad, Ferenc Snétberguer e Costas Cotsiolis. (Fonte: Cedido Pelo Compositor)
+teóricos com os quais estudou estão ainda: Gerardo Núnez, Manolo Sanlúcar, José Antonio Rodriguez, Emilio Maya, Miguel Ochando, Faustino Nuñez, Felix Grande, Hubert Kappel, Badi Assad, Ferenc Snétberguer e Costas Cotsiolis. (Fonte: Cedido pelo músico)
 </p>`,   
     galeria: ["/images/pessoas/rafaelma2.avif","/images/pessoas/rafaelma3.avif","/images/pessoas/rafaelma4.avif","/images/pessoas/rafaelma5.avif"],
     eh_compositor: false,
@@ -520,8 +513,8 @@ vem ministrando oficinas, workshops e cursos de violão e prática de choro em i
 Ganhou reconhecimento nacional ao se sagrar vencedor do Prêmio Revelação no Prêmio APCA de 2010 e de ter sido finalista do Prêmio da Música Brasileira, com o CD de estreia que continha a obra integral para violão solo de Radamés Gnattali, 
 além do recital especial chamado Sarau para Radamés.
 Filho de Valvitor Garbelotto e Mariléia D'Altoé Garbelotto, Vitor iniciou os estudos musicais em Criciúma, ainda na infância de forma autodidata, influenciado pelo irmão mais velho que tocava violão. 
-Entre os 12 e os 15 anos de idade estudou com os professores Fábio Batista e Vladimir Matos; e, aos 18, cursou medicina por curto período na Faculdade de Santa Catarina.  
-Em seguida entrou para o curso de bacharelado em música popular na Unicamp (Universidade de Campinas), onde teve como professor de violão Ulisses Rocha – o que mudaria a vida de Vitor Garbelotto para sempre. Ao ouvir Yamandu Costa solar a Brasilianas 13, 
+Entre os 12 e os 15 anos de idade estudou com os professores Fábio Batista e Vladimir Matos. Aos 18, cursou medicina por curto período na Faculdade de Santa Catarina.  
+Em seguida entrou para o curso de bacharelado em música popular na Unicamp (Universidade de Campinas), onde teve como professor de violão Ulisses Rocha, o que mudaria a vida de Vitor Garbelotto para sempre. Ao ouvir Yamandu Costa solar a Brasilianas 13, 
 de Radamés Gnattali, se apaixonou pela obra do compositor. Começou então um trabalho de pesquisa com partituras, livros e contatos musicais por meio dos festivais de violão voltados à obra de quem considerava o mestre.
 Em 2003 e 2004, participou de um concurso de interpretação de violão em Guaratinguetá (interior de São Paulo). Tocou obras de Dilermando Reis, e obteve a segunda colocação. Dois anos depois, foi semifinalista do programa Prelúdio, da TV Cultura de São Paulo, 
 quando apresentou pela primeira vez na televisão o primeiro e o terceiro movimentos do Concertino n.2 para Violão e Orquestra, de Radamés Gnattali.
@@ -549,7 +542,7 @@ William Pofahl é violonista e professor, graduado em Música pela Universidade 
 no Quarteto de Violões de Blumenau, e em duo com o violinista Daniele Girardello. Apresentou-se em diversas cidades do estado de Santa Catarina e nas cidades espanholas de Alicante e Orihuela. Com o Quarteto de Violões de Blumenau, gravou o álbum Música Brasileira, 
 interpretando música dos compositores Francisco Mignone, Heitor Villa-Lobos e Camargo Guarnieri. Cursou o Master in Classical Guitar Performance na Universidade de Alicante, Espanha, onde estudou com renomados violonistas como Manuel Barrueco, Pepe Romero, 
 David Russell, Paul O’Dette e Sergio Assad. Atualmente é integrante do Duo Girardello & Pofahl, formado por violão e violino. Como professor de violão, William tem se dedicado ao ensino coletivo de instrumento musical, 
-experiência que tem resultado na criação de arranjos e na elaboração de materiais didáticos. (Fonte:Cedido pelo músico)
+experiência que tem resultado na criação de arranjos e na elaboração de materiais didáticos. (Fonte: Cedido pelo músico)
 </p>`,   
     galeria: ["/images/pessoas/wilpof1.avif","/images/pessoas/wilpof2.avif"],
     eh_compositor: false,
@@ -579,7 +572,7 @@ mas como um desbravador que levou o violão erudito aos rincões do Brasil e aos
     id: "antoniocgj",
     nome: "Antonio Carlos Gonçalves Junior",
     foto: "/images/pessoas/antoniocgj1.avif",
-    bio: `<p> Antônio Carlos Gonçalves Junior, nasceu em São Francisco do Sul-SC, no dia 12 de julho de 1970. Seu interesse pelo violão e guitarra elétrica iniciou quando 
+    bio: `<p> Antônio Carlos Gonçalves Junior, nasceu em São Francisco do Sul - Santa Catarina, no dia 12 de julho de 1970. Seu interesse pelo violão e guitarra elétrica iniciou quando 
     criança através de seu pai que ouvia muitas músicas que davam ênfase a estes instrumentos sendo que o pai também tocava violão como hobby. Um fato curioso e "engraçado" 
     (chamaremos assim) foi que, neste tempo de criança, seu pai contratou um professor de violão para dar aulas à irmã mais velha e Antônio ficava assistindo com muita atenção todas 
     as explicações. Após a finalização das aulas, ele "corria" para pegar o violão do pai e treinava tudo o que a irmã havia aprendido naquele dia. Mas, foi somente quando adulto que 
@@ -618,13 +611,19 @@ mas como um desbravador que levou o violão erudito aos rincões do Brasil e aos
     nome: "Mailon Bugmann",
     foto: "/images/pessoas/mailonbug2.avif",
     bio: `<p>
-A trajetória artística e pedagógica de Mailon Bugmann é marcada por uma profunda dedicação ao violão clássico e à educação musical em Santa Catarina, caminhos que começaram a se cruzar quando ele deu seus primeiros passos no instrumento aos 11 anos de idade. Sua formação acadêmica sólida teve início em 1999, ao ingressar na Universidade Regional de Blumenau (FURB), onde se graduou em 2003 no curso de Artes com Habilitação em Música. Durante esse período e nos anos subsequentes, Bugmann buscou um aperfeiçoamento técnico rigoroso, estudando flauta transversal com Leandro Gaertner e consolidando sua técnica violonística sob a orientação de Renato Mor no prestigiado Teatro Carlos Gomes, além de receber tutorias do renomado violonista Marcus Llerena, em Joinville. Sua busca por excelência o levou a participar de diversos cursos e masterclasses com figuras exponenciais do cenário mundial, como Marco Pereira, Luis Mantovani, Ulisses Rocha e os internacionais Carlos Perez, Enric Madriguera e Juan Francisco Ortiz, experiências que moldaram sua identidade como intérprete e educador.
-
-No âmbito da performance, sua atuação em grupos de câmara foi fundamental para a cena cultural regional, integrando a Camerata de Violões da FURB por sete anos e o Quarteto Blumenauense de Violões, com o qual lançou em 2016 o CD "Música Brasileira". Este álbum, que contou com a direção de Tadeu do Amaral — integrante do premiado Brazilian Guitar Quartet — e apoio do Fundo Municipal de Apoio à Cultura de Blumenau, tornou-se um registro importante de sua maturidade artística. Além do quarteto, Mailon colaborou em diversos projetos em duo com William Pofahl e participou da Orquestra Seis por Oito de Violões em Joinville. Sua versatilidade artística também se estendeu às artes cênicas, onde atuou como diretor musical de teatro, sendo reconhecido com diversos prêmios nacionais de sonoplastia por sua capacidade de traduzir narrativas dramáticas em texturas sonoras.
-
+A trajetória artística e pedagógica de Mailon Bugmann é marcada por uma profunda dedicação ao violão clássico e à educação musical em Santa Catarina, caminhos que começaram a se cruzar quando ele deu seus primeiros passos no instrumento aos 11 anos de idade. 
+Sua formação acadêmica sólida teve início em 1999, ao ingressar na Universidade Regional de Blumenau (FURB), onde se graduou em 2003 no curso de Artes com Habilitação em Música. Durante esse período e nos anos subsequentes, Bugmann buscou um 
+aperfeiçoamento técnico rigoroso, estudando flauta transversal com Leandro Gaertner e consolidando sua técnica violonística sob a orientação de Renato Mor no prestigiado Teatro Carlos Gomes, além de receber tutorias do renomado violonista Marcus Llerena, em Joinville.
+Sua busca por excelência o levou a participar de diversos cursos e masterclasses com figuras exponenciais do cenário mundial, como Marco Pereira, Luis Mantovani, Ulisses Rocha e os internacionais Carlos Perez, Enric Madriguera e Juan Francisco Ortiz, 
+experiências que moldaram sua identidade como intérprete e educador.
+No âmbito da performance, sua atuação em grupos de câmara foi fundamental para a cena cultural regional, integrando a Camerata de Violões da FURB por sete anos e o Quarteto Blumenauense de Violões, com o qual lançou em 2016 o CD "Música Brasileira". 
+Este álbum, que contou com a direção de Tadeu do Amaral — integrante do premiado Brazilian Guitar Quartet — e apoio do Fundo Municipal de Apoio à Cultura de Blumenau, tornou-se um registro importante de sua maturidade artística. 
+Além do quarteto, Mailon colaborou em diversos projetos em duo com William Pofahl e participou da Orquestra Seis por Oito de Violões em Joinville. Sua versatilidade artística também se estendeu às artes cênicas, onde atuou como diretor musical de teatro, 
+sendo reconhecido com diversos prêmios nacionais de sonoplastia por sua capacidade de traduzir narrativas dramáticas em texturas sonoras.
 Paralelamente à sua carreira nos palcos, Mailon Bugmann construiu um legado significativo no ensino da música, atividade que exerce ininterruptamente desde 2001. Sua experiência docente abrange instituições de relevância, incluindo passagens pela Fundação Cultural 
 de Blumenau, pela Secretaria Municipal de Educação e por escolas como a FreeStudio e a Monteiro Lobato. Notavelmente, dedicou doze anos de sua carreira ao Sesc Blumenau, entre 2008 e 2020, consolidando-se como uma peça-chave na formação de novos músicos e na
-difusão do violão clássico na região. Sua biografia é, portanto, o retrato de um músico que une o rigor da técnica clássica à sensibilidade da música brasileira, sempre comprometido com a democratização do saber musical.(Fonte:https://teatrocarlosgomes.com.br/team/mailon-bugmann/)
+difusão do violão clássico na região. Sua biografia é, portanto, o retrato de um músico que une o rigor da técnica clássica à sensibilidade da música brasileira, sempre comprometido com a democratização do saber musical.
+(Fonte:https://teatrocarlosgomes.com.br/team/mailon-bugmann/)
 </p>`,   
     galeria: ["/images/pessoas/mailonbug1.avif"],
     eh_compositor: false,
