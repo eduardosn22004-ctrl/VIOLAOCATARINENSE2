@@ -109,7 +109,7 @@ David Russell, Ignacio Rodes, Hopkinson Smith, Roberto Aussel, Manuel Barrueco, 
 é bacharel em composição. É doutor em Antropologia com suas pesquisas sobre a música dos povos indígenas da Amazônia. Realizou pesquisas de pós-doutorado na Universidade Paris Sorbonne 
 e na Hochschule für Musik Franz Liszt – Weimar. Acácio Piedade é um compositor premiado e suas obras têm sido executadas em concertos e festivais em toda a América Latina e Europa por intérpretes, 
 ensembles e orquestras de renome. É professor titular aposentado do Departamento de Música da Universidade do Estado de Santa Catarina e atualmente mora em Lisboa. 
-<span style="color: gray; font-size: 0.8em;">Fonte: <a href="https://acaciopiedade.com/" target="_blank" style="color: inherit;">https://acaciopiedade.com/</a></span>
+&nbsp;<span style="color: gray; font-size: 0.8em;">Fonte: <a href="https://acaciopiedade.com/" target="_blank" style="color: inherit;">https://acaciopiedade.com/</a></span>
 </p>`,
     galeria: ["/images/pessoas/acaciop1.avif","/images/pessoas/acaciop2.avif"],
     eh_compositor: true,
