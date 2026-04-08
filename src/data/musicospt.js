@@ -154,7 +154,7 @@ Colégio de Aplicação – Universidade Federal de Santa Catarina - UFSC, Proje
   Fonte: Cedido pelo músico
 </div>
 </p>`,
-    galeria: ["/images/pessoas/andrefran1.avif","/images/pessoas/andrefran2.avif","/images/pessoas/andrefran3.avif","/images/pessoas/andrefran4.avif"],
+    galeria: ["/images/pessoas/andrefran2.avif","/images/pessoas/andrefran3.avif","/images/pessoas/andrefran4.avif"],
     eh_compositor: false,
     eh_violonista: true,
   },
@@ -215,7 +215,7 @@ músico solo em recitais, modalidade “voz e violão”, ou ainda em participa�
   Fonte: Cedido pelo músico
 </div>
 </p>`,
-    galeria: ["/images/pessoas/gilmed1.avif","/images/pessoas/gilmed2.avif"],
+    galeria: ["/images/pessoas/gilmed2.avif"],
     eh_compositor: false,
     eh_violonista: true,
   },
@@ -273,7 +273,7 @@ Nos anos 1990 a 1994 estudou saxofone e flauta transversal com os mestres Demét
   Fonte: Cedido pelo músico
 </div>
 </p>`,
-    galeria: ["/images/pessoas/rego1.avif","/images/pessoas/rego2.avif","/images/pessoas/rego3.avif"],
+    galeria: ["/images/pessoas/rego3.avif","/images/pessoas/rego2.avif"],
     eh_compositor: false,
     eh_violonista: true,
   },
@@ -301,7 +301,7 @@ Em 2012 Joel Colman apresenta-se no V seminário de Violão de Itajaí, onde tam
   Fonte: Cedido pelo músico
 </div>
 </p>`,
-    galeria: ["/images/pessoas/joelco1.avif","/images/pessoas/joelco2.avif","/images/pessoas/joelco3.avif"],
+    galeria: ["/images/pessoas/joelco2.avif","/images/pessoas/joelco3.avif"],
     eh_compositor: false,
     eh_violonista: true,
   },
@@ -339,7 +339,7 @@ Sua obra reflete uma abordagem diversificada de influências.
   Fonte: Cedido pelo músico
 </div>
 </p>`,   
-    galeria: ["/images/pessoas/leanb1.avif","/images/pessoas/leanb2.avif","/images/pessoas/leanb3.avif","/images/pessoas/leanb4.avif"],
+    galeria: ["/images/pessoas/leanb2.avif","/images/pessoas/leanb3.avif","/images/pessoas/leanb4.avif"],
     eh_compositor: false,
     eh_violonista: true,
   },
