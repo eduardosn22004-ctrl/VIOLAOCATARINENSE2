@@ -107,28 +107,36 @@
         modalAtuacao.innerText = atuacaoArtista;
         
         // --- NOVA LÓGICA DE FUNDO DINÂMICO (COM ESCALA) ---
-        let urlImagemFundo = '';
-        let posicaoFundo = 'center'; 
-        let escalaFundo = '100%'; 
+        let urlImagemFundo = '';
+        let posicaoFundo = 'center'; 
+        let escalaFundo = '100%'; 
 
-        const atuacaoLimpa = atuacaoArtista.toLowerCase().trim();
+        const atuacaoLimpa = atuacaoArtista.toLowerCase().trim();
+        const nomeLimpo = nomeArtista.toLowerCase().trim(); // Variável nova para ler o nome
 
-        if (atuacaoLimpa === 'compositor e violonista'|| atuacaoLimpa === 'composer and guitarist') {
-            urlImagemFundo = '/images/fundo-violao2.avif';
-        } else if (atuacaoLimpa === 'compositor'|| atuacaoLimpa === 'composer') {
-            urlImagemFundo = '/images/teste.jpg';
-        } else if (atuacaoLimpa === 'violonista'|| atuacaoLimpa === 'guitarist') {
-            urlImagemFundo = '/images/fundo-violao2.avif';
-        } else {
-            urlImagemFundo = '/images/fundo-padrao.jpg'; 
-        }
+        // 1. Verifica primeiro se é um dos artistas com fundo personalizado
+        if (nomeLimpo.includes('acácio') || nomeLimpo.includes('acacio')) {
+            urlImagemFundo = '/images/fundo-acacio.jpg'; // Coloque o caminho real da foto do Acácio aqui
+        } else if (nomeLimpo.includes('Edino Krieger')) {
+            urlImagemFundo = '/images/fundo-edino.avif'; // Coloque o caminho real da foto do Edino aqui
+        } 
+        // 2. Se não for nenhum dos dois, segue a regra normal das profissões
+        else if (atuacaoLimpa === 'compositor e violonista'|| atuacaoLimpa === 'composer and guitarist') {
+            urlImagemFundo = '/images/fundo-violao2.avif';
+        } else if (atuacaoLimpa === 'compositor'|| atuacaoLimpa === 'composer') {
+            urlImagemFundo = '/images/teste.jpg';
+        } else if (atuacaoLimpa === 'violonista'|| atuacaoLimpa === 'guitarist') {
+            urlImagemFundo = '/images/fundo-violao2.avif';
+        } else {
+            urlImagemFundo = '/images/fundo-padrao.jpg'; 
+        }
 
-        modalBgImage.style.backgroundImage = `url('${urlImagemFundo}')`;
-        modalBgImage.style.backgroundPosition = posicaoFundo;
-        modalBgImage.style.backgroundSize = escalaFundo; 
-        modalBgImage.style.backgroundRepeat = 'no-repeat'; 
-        modalBgImage.style.filter = 'blur(0px)';
-        // --------------------------------------
+        modalBgImage.style.backgroundImage = `url('${urlImagemFundo}')`;
+        modalBgImage.style.backgroundPosition = posicaoFundo;
+        modalBgImage.style.backgroundSize = escalaFundo; 
+        modalBgImage.style.backgroundRepeat = 'no-repeat'; 
+        modalBgImage.style.filter = 'blur(0px)';
+        // --------------------------------------
         
         // --- LÓGICA DE EXIBIÇÃO DOS BOTÕES E TRADUÇÃO ---
         const temCatalogo = dataDiv.getAttribute('data-tem-catalogo') === 'true';
