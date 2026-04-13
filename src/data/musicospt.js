@@ -753,6 +753,23 @@ UNICAMP, orientando trabalhos de Doutorado.
     eh_compositor: false,
     eh_violonista: true,
   },
+   {
+    id: "renatomor",
+    nome: "Renato Mor",
+    foto: "/images/pessoas/renatomor1.avif",
+    bio: `<p>
+Mestre em Educação pela Universidade Regional de Blumenau (FURB, 2005). Graduado bacharel em Violão pela Universidade Federal do Rio Grande do Sul (UFRGS, 1995). Docente do quadro da Universidade Regional de Blumenau desde 2005 nas disciplinas Optativa da 
+Prática Instrumental, Prática Musical, Teoria Musical, Percepção e Leitura Musical, Contraponto e Gêneros e Formas Musicais. Ocupa a função de Coordenador do Colegiado e Presidente do Núcleo Docente Estruturante do curso de Música. 
+Coordena desde 2000 o projeto de extensão Camerata de Violões da FURB. Integra a equipe do Núcleo de Saúde Mental do programa institucional Incubadora Tecnológica de Cooperativas Populares, onde ministra oficinas de violão para usuários do Centro de Atenção 
+Psicossocial de Blumenau. Já atuou como músico violonista em recitais solo, música de câmara e solista em concertos com orquestra em Blumenau e na região do Médio Vale do Itajaí. Atua como músico popular - voz e violão - com ênfase em pop rock internacional.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+  Fonte: Currículo Lattes
+</div>
+</p>`,   
+    galeria: ["/images/pessoas/renatomor2.avif"],
+    eh_compositor: false,
+    eh_violonista: true,
+  },
 
 
 
