@@ -19,22 +19,22 @@ const levino = [
 // 2. DADOS: Recortes
 const recortesImprensa = [
    {
-        src: '/images/registros/luizjaragua.avif', // Substitua pelos seus caminhos reais
+        src: '/images/registros/luizjaragua.avif',
         legenda: 'Luiz Stelzer, 2001',
         fonte: 'Jornal Correio do Povo - Jaraguá do Sul - 19 de maio de 2001'
     },
     {
-        src: '/images/registros/stapajo.avif', // Substitua pelos seus caminhos reais
+        src: '/images/registros/stapajo.avif',
         legenda: 'Sebastião Tapajós, 2006',
         fonte: 'Jornal Correio do Povo - Jaraguá do Sul - 21 de dezembro de 2006'
     },
-{
-        src: '/images/registros/sonora.avif', // Substitua pelos seus caminhos reais
+    {
+        src: '/images/registros/sonora.avif',
         legenda: 'Sonora Brasil, 2008',
         fonte: 'Jornal O Município - Brusque - 2 de julho de 2008'
     },
-{
-        src: '/images/registros/jdalmacio.avif', // Substitua pelos seus caminhos reais
+    {
+        src: '/images/registros/jdalmacio.avif',
         legenda: 'Duo de violão, Alessandro Lucindo e Marcos Dalmacio, 2009',
         fonte: 'Jornal O Município - Brusque - 9 de setembro de 2009'
     },
@@ -45,8 +45,8 @@ const recortesImprensa = [
     
     <div class="max-w-6xl mx-auto py-16 px-6 space-y-24">
 
-          {/* =========================================
-    CABEÇALHO PRINCIPAL
+         {/* =========================================
+     CABEÇALHO PRINCIPAL
 ========================================== */}
 <div class="flex items-center justify-center gap-4 md:gap-6 py-4">
     
@@ -63,7 +63,7 @@ const recortesImprensa = [
             </filter>
         </defs>
 
-        {/* JORNAL 1 (Base da pilha - levemente rotacionado para a esquerda) */}
+        {/* JORNAL 1 */}
         <g transform="rotate(-8 50 50) translate(-2, 4)" filter="url(#paperShadow)">
             <rect x="10" y="10" width="80" height="80" rx="2" fill="url(#pageGrad)" stroke="#a8a29e" stroke-width="0.5"/>
             <rect x="20" y="25" width="60" height="4" rx="0.5" fill="#a8a29e"/>
@@ -74,7 +74,7 @@ const recortesImprensa = [
             <rect x="20" y="57" width="45" height="1.5" rx="0.2" fill="#d6d3d1"/>
         </g>
         
-        {/* JORNAL 2 (Meio da pilha - rotacionado para a direita) */}
+        {/* JORNAL 2 */}
         <g transform="rotate(6 50 50) translate(3, -2)" filter="url(#paperShadow)">
             <rect x="10" y="10" width="80" height="80" rx="2" fill="url(#pageGrad)" stroke="#a8a29e" stroke-width="0.5"/>
             <rect x="20" y="25" width="30" height="4" rx="0.5" fill="#a8a29e"/>
@@ -85,7 +85,7 @@ const recortesImprensa = [
             <rect x="20" y="53" width="50" height="1.5" rx="0.2" fill="#d6d3d1"/>
         </g>
 
-        {/* JORNAL 3 (Topo da pilha - quase reto, destaque em vermelho escuro) */}
+        {/* JORNAL 3 */}
         <g transform="rotate(-2 50 50) translate(0, 0)" filter="url(#paperShadow)">
             <rect x="10" y="10" width="80" height="80" rx="2" fill="url(#pageGrad)" stroke="#991b1b" stroke-width="1"/>
             <rect x="20" y="25" width="60" height="6" rx="0.5" fill="#7f1d1d"/>
@@ -97,7 +97,7 @@ const recortesImprensa = [
         </g>
     </svg>
     
-    {/* Bloco de Texto (Título + Subtítulo agrupados) */}
+    {/* Bloco de Texto */}
     <div class="flex flex-col items-start">
         <h1 class="text-4xl md:text-5xl font-bold text-red-700 font-['Cinzel'] uppercase tracking-tight mb-0">
             <span class="relative after:absolute after:bottom-2 after:left-0 after:w-full after:h-[2px] after:bg-red-700">
@@ -113,9 +113,8 @@ const recortesImprensa = [
 </div>
 
 
-
         {/* =========================================
-            SEÇÃO 1: Década de 80
+            SEÇÃO 1: Edino Krieger
         ========================================== */}
         <div>
             <div class="mb-10 text-center">
@@ -194,7 +193,7 @@ const recortesImprensa = [
         </div>
 
         {/* =========================================
-            SEÇÃO 2: Década de 90 
+            SEÇÃO 2: Recortes de Imprensa 
         ========================================== */}
         
             <div class="mt-16">
@@ -247,38 +246,76 @@ const recortesImprensa = [
             </section>
         </div>
         
-
     </div>
-
 
     {/* =========================================
         MODAL (A JANELA QUE ABRE A FOTO GRANDE)
     ========================================== */}
     <div id="imageModal" class="fixed inset-0 z-[100] hidden items-center justify-center bg-black/80 backdrop-blur-sm opacity-0 transition-opacity duration-300 p-4">
         
-        <button id="closeModal" class="absolute top-6 right-6 text-white/70 hover:text-white hover:rotate-90 transition-all duration-300 cursor-pointer p-2 z-[110]">
+        <button id="closeModal" class="absolute top-4 right-4 md:top-6 md:right-6 text-white/70 hover:text-white hover:rotate-90 transition-all duration-300 cursor-pointer p-2 z-[110]">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-10 h-10">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
             </svg>
         </button>
 
-        <div id="modalContent" class="bg-white p-4 md:p-6 rounded-sm shadow-[0_20px_50px_rgba(0,0,0,0.5)] max-w-5xl max-h-[90vh] flex flex-col items-center transform scale-95 transition-transform duration-300">
-            <img 
-                id="modalImage" 
-                src="" 
-                alt="" 
-                class="max-h-[65vh] w-auto object-contain border border-stone-200 shadow-inner"
-            />
-            <div class="mt-5 text-center px-4">
+        <div id="modalContent" class="bg-white p-4 md:p-6 rounded-sm shadow-[0_20px_50px_rgba(0,0,0,0.5)] w-full max-w-5xl max-h-[95vh] flex flex-col items-center transform scale-95 transition-transform duration-300">
+            
+            {/* CONTAINER DA IMAGEM E CONTROLES FLUTUANTES */}
+            <div class="relative w-full">
+                
+                {/* Grupo: Dica + Controles de Zoom */}
+                <div class="absolute bottom-6 right-6 z-10 flex flex-col items-center gap-2">
+                    
+                    {/* Dica do teclado apenas no Desktop, centralizada em cima das lupas */}
+                    <span class="text-[10px] font-bold text-stone-500 bg-white/90 backdrop-blur px-3 py-1 rounded-full shadow-sm border border-stone-200 uppercase tracking-wider hidden md:block select-none">
+                        Ctrl + Scroll
+                    </span>
+
+                    {/* Controles de Zoom Flutuantes (Lupas) */}
+                    <div id="zoomControlsContainer" class="flex items-center gap-3 bg-white/95 backdrop-blur-md p-2.5 rounded-full shadow-[0_8px_30px_rgba(0,0,0,0.2)] border border-stone-200 transition-all">
+                        
+                        {/* Lupa Menor (-) */}
+                        <button id="zoomOutBtn" class="w-10 h-10 flex items-center justify-center bg-stone-50 hover:bg-stone-100 text-stone-600 rounded-full shadow-inner border border-stone-200 transition-transform active:scale-90" title="Afastar">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM13.5 10.5h-6" />
+                            </svg>
+                        </button>
+
+                        {/* Lupa Maior (+) */}
+                        <button id="zoomInBtn" class="w-14 h-14 flex items-center justify-center bg-stone-50 hover:bg-stone-100 text-red-700 rounded-full shadow-md border border-stone-200 transition-transform active:scale-90" title="Aproximar">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-7 h-7">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6" />
+                            </svg>
+                        </button>
+                        
+                    </div>
+                </div>
+
+                {/* Área rolável (Scroll) da imagem */}
+                <div id="imageWrapper" class="w-full overflow-auto max-h-[70vh] border border-stone-200 bg-stone-50 text-center custom-scrollbar rounded-md shadow-inner">
+                    <img 
+                        id="modalImage" 
+                        src="" 
+                        alt="" 
+                        /* Deixamos a transição do tamanho mais suave (duração 700ms e ease-in-out) */
+                        class="max-w-none inline-block transition-[height] duration-700 ease-in-out align-top"
+                        /* Tamanho inicial reduzido (45vh) para visualizar melhor o contexto ao abrir */
+                        style="height: 45vh;"
+                    />
+                </div>
+            </div>
+
+            <div class="mt-5 text-center px-4 shrink-0">
                 <p id="modalCaption" class="text-xl md:text-2xl font-bold text-stone-900 font-['Cinzel'] tracking-wide"></p>
-                <p id="modalSource" class="text-md text-stone-600 font-serif italic mt-2"></p>
+                <p id="modalSource" class="text-md text-stone-600 font-serif italic mt-1"></p>
             </div>
         </div>
     </div>
 </Layout>
 
 <style>
-    /* Esconde a barra de rolagem nativa, mantendo a funcionalidade via botões */
+    /* Esconde a barra de rolagem nativa nos cards */
     .no-scrollbar::-webkit-scrollbar {
         display: none;
     }
@@ -287,10 +324,11 @@ const recortesImprensa = [
         scrollbar-width: none;  /* Firefox */
     }
 
-    /* Manti o custom-scrollbar caso você precise dele depois em outro lugar */
-    .custom-scrollbar::-webkit-scrollbar { height: 8px; }
-    .custom-scrollbar::-webkit-scrollbar-track { background: #f5f5f4; border-radius: 10px; }
-    .custom-scrollbar::-webkit-scrollbar-thumb { background: #b91c1c; border-radius: 10px; }
+    /* Scrollbar estilizada para o Modal de Leitura (Zoom) */
+    .custom-scrollbar::-webkit-scrollbar { width: 10px; height: 10px; }
+    .custom-scrollbar::-webkit-scrollbar-track { background: #f5f5f4; border-radius: 4px; }
+    .custom-scrollbar::-webkit-scrollbar-thumb { background: #d6d3d1; border-radius: 4px; }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #a8a29e; }
 
     /* =========================================
        TAMANHO DO ÍCONE DE JORNAIS
@@ -314,7 +352,6 @@ const recortesImprensa = [
     const prevBtn = document.getElementById('prev-btn');
 
     if (container && nextBtn && prevBtn) {
-        // Largura do card + gap do Tailwind (md:min-w-[350px] + gap-8 que é 32px)
         const scrollAmount = 350 + 32; 
 
         nextBtn.addEventListener('click', () => {
@@ -327,23 +364,82 @@ const recortesImprensa = [
     }
 
     // =========================================
-    // LÓGICA DO MODAL
+    // LÓGICA DO MODAL & ZOOM
     // =========================================
     const modal = document.getElementById('imageModal');
     const modalContent = document.getElementById('modalContent');
-    const modalImg = document.getElementById('modalImage'); // <-- TOTALMENTE CORRIGIDO AQUI (Sem o 'as HTMLImageElement')
+    const modalImg = document.getElementById('modalImage'); 
     const modalCaption = document.getElementById('modalCaption');
     const modalSource = document.getElementById('modalSource');
     const closeBtn = document.getElementById('closeModal');
     const galleryItems = document.querySelectorAll('.gallery-item');
+    const imageWrapper = document.getElementById('imageWrapper'); // Puxa o container do scroll
 
+    // Variáveis do Zoom
+    let baseHeight = 45; // Altura inicial em 'vh' (reduzida conforme solicitado)
+    let currentHeight = baseHeight;
+    const buttonZoomStep = 25; // Salto pelo botão
+    const scrollZoomStep = 10; // Salto mais sutil pelo scroll do mouse
+
+    const zoomInBtn = document.getElementById('zoomInBtn');
+    const zoomOutBtn = document.getElementById('zoomOutBtn');
+
+    // Função que aplica a altura na imagem
+    function applyZoom() {
+        if (modalImg) {
+            modalImg.style.height = `${currentHeight}vh`;
+        }
+    }
+
+    // Eventos dos Botões de Zoom
+    if (zoomInBtn) {
+        zoomInBtn.addEventListener('click', () => {
+            currentHeight += buttonZoomStep;
+            applyZoom();
+        });
+    }
+
+    if (zoomOutBtn) {
+        zoomOutBtn.addEventListener('click', () => {
+            // Volta para a altura base, mas nunca menos que isso
+            currentHeight = Math.max(baseHeight, currentHeight - buttonZoomStep); 
+            applyZoom();
+        });
+    }
+
+    // Evento de Scroll (Mouse Wheel) para Zoom
+    if (imageWrapper) {
+        imageWrapper.addEventListener('wheel', (e) => {
+            // Só executa o zoom se o usuário segurar Ctrl (ou Cmd no mac)
+            // Isso previne que a pessoa fique travada sem conseguir rolar a página para ler
+            if (e.ctrlKey || e.metaKey) {
+                e.preventDefault(); // Impede o zoom nativo do navegador
+                
+                // Direção do scroll: deltaY negativo = rolou para cima (aproximar)
+                if (e.deltaY < 0) {
+                    currentHeight += scrollZoomStep;
+                } else {
+                    currentHeight = Math.max(baseHeight, currentHeight - scrollZoomStep); 
+                }
+                applyZoom();
+            }
+        }, { passive: false }); // 'passive: false' é obrigatório para o preventDefault funcionar
+    }
+
+    // Abrir Modal
     galleryItems.forEach(item => {
         item.addEventListener('click', () => {
             const src = item.getAttribute('data-src');
             const legenda = item.getAttribute('data-legenda');
             const fonte = item.getAttribute('data-fonte');
 
-            if (modalImg) modalImg.src = src || '';
+            if (modalImg) {
+                modalImg.src = src || '';
+                // Reseta a altura sempre que abrir uma nova foto
+                currentHeight = baseHeight;
+                applyZoom();
+            }
+            
             if (modalCaption) modalCaption.textContent = legenda;
             if (modalSource) modalSource.textContent = `Fonte: ${fonte}`;
 
@@ -358,6 +454,7 @@ const recortesImprensa = [
         });
     });
 
+    // Fechar Modal
     const fecharModal = () => {
         modal?.classList.add('opacity-0');
         modalContent?.classList.remove('scale-100');
@@ -366,6 +463,9 @@ const recortesImprensa = [
         setTimeout(() => {
             modal?.classList.add('hidden');
             modal?.classList.remove('flex');
+            // Por segurança, garante que ao fechar a altura volte ao normal
+            currentHeight = baseHeight;
+            applyZoom();
         }, 300);
     };
 
