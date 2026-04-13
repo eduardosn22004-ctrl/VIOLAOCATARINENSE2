@@ -138,46 +138,69 @@ const recortesImprensa = [
                     <span class="hidden md:block h-px flex-1 bg-gradient-to-l from-transparent to-red-700"></span>
                 </h2>
                 
-                {/* Adicionei mx-auto e max-w-2xl para o texto não ficar muito esticado ao ser centralizado */}
                 <p class="text-base md:text-lg text-stone-500 font-serif italic mt-4 md:mt-3 max-w-2xl mx-auto px-2">
                     Levino Albano da Conceição tendo seus recitais comentados por jornais nas cidades de Florianópolis, 
                     Itajaí e Tubarão
                 </p>
             </div>
 
-            <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10">
-                {levino.map((registro) => (
-                    <div 
-                        class="gallery-item cursor-pointer bg-white p-4 rounded-xl shadow-[0_8px_20px_rgba(0,0,0,0.08)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.15)] transform transition hover:-translate-y-1 border border-stone-100 group"
-                        data-src={registro.src}
-                        data-legenda={registro.legenda}
-                        data-fonte={registro.fonte}
-                    >
-                        <div class="relative overflow-hidden rounded-md mb-4 shadow-sm bg-stone-200">
-                            <img 
-                                src={registro.src} 
-                                alt={registro.legenda} 
-                                class="w-full h-56 md:h-64 object-cover transition-transform duration-500 group-hover:scale-105"
-                                loading="lazy"
-                            />
-                            
-                            <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-10 h-10 md:w-12 md:h-12 text-white">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
-                                </svg>
+            <div class="relative group/section">
+                
+                <button 
+                    id="prev-btn" 
+                    class="absolute left-[-20px] top-1/2 -translate-y-1/2 z-10 bg-white shadow-xl rounded-full p-3 text-red-700 hover:bg-red-700 hover:text-white transition-all opacity-0 group-hover/section:opacity-100 hidden md:block border border-stone-200"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+                    </svg>
+                </button>
+
+                <section 
+                    id="scroll-container"
+                    class="flex overflow-x-auto gap-8 pb-4 no-scrollbar snap-x snap-mandatory scroll-smooth"
+                >
+                    {levino.map((registro) => (
+                        <div 
+                            class="gallery-item cursor-pointer bg-white p-4 rounded-xl shadow-[0_8px_20px_rgba(0,0,0,0.08)] hover:shadow-[0_15px_30px_rgba(0,0,0,0.15)] transform transition hover:-translate-y-1 border border-stone-100 group min-w-[280px] md:min-w-[350px] snap-center"
+                            data-src={registro.src}
+                            data-legenda={registro.legenda}
+                            data-fonte={registro.fonte}
+                        >
+                            <div class="relative overflow-hidden rounded-md mb-4 shadow-sm bg-stone-200">
+                                <img 
+                                    src={registro.src} 
+                                    alt={registro.legenda} 
+                                    class="w-full h-56 md:h-64 object-cover transition-transform duration-500 group-hover:scale-105"
+                                    loading="lazy"
+                                />
+                                
+                                <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-opacity duration-300">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-10 h-10 md:w-12 md:h-12 text-white">
+                                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="px-2">
+                                <p class="text-base md:text-lg font-medium text-stone-800 leading-snug">
+                                    {registro.legenda}
+                                </p>
+                                <p class="text-xs md:text-sm text-stone-500 font-serif italic mt-2">
+                                    Fonte: {registro.fonte}
+                                </p>
                             </div>
                         </div>
-                        <div class="px-2">
-                            <p class="text-base md:text-lg font-medium text-stone-800 leading-snug">
-                                {registro.legenda}
-                            </p>
-                            <p class="text-xs md:text-sm text-stone-500 font-serif italic mt-2">
-                                Fonte: {registro.fonte}
-                            </p>
-                        </div>
-                    </div>
-                ))} 
-            </section>
+                    ))} 
+                </section>
+
+                <button 
+                    id="next-btn" 
+                    class="absolute right-[-20px] top-1/2 -translate-y-1/2 z-10 bg-white shadow-xl rounded-full p-3 text-red-700 hover:bg-red-700 hover:text-white transition-all opacity-0 group-hover/section:opacity-100 hidden md:block border border-stone-200"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                </button>
+            </div>
         </div>
 
 
@@ -249,15 +272,53 @@ const recortesImprensa = [
             </svg>
         </button>
 
-        <div id="modalContent" class="bg-white p-4 md:p-6 rounded-sm shadow-[0_20px_50px_rgba(0,0,0,0.5)] max-w-5xl max-h-[90vh] flex flex-col items-center transform scale-95 transition-transform duration-300 w-full md:w-auto">
-            <img 
-                id="modalImage" 
-                src="" 
-                alt="" 
-                class="max-h-[50vh] md:max-h-[65vh] w-auto object-contain border border-stone-200 shadow-inner"
-            />
+        <div id="modalContent" class="bg-white p-4 md:p-6 rounded-sm shadow-[0_20px_50px_rgba(0,0,0,0.5)] w-full max-w-5xl max-h-[95vh] flex flex-col items-center transform scale-95 transition-transform duration-300">
+            
+            {/* CONTAINER DA IMAGEM E CONTROLES FLUTUANTES */}
+            <div class="relative w-full group">
+                
+                {/* Grupo: Dica + Controles de Zoom */}
+                <div id="zoomTools" class="absolute bottom-6 right-6 z-10 flex flex-col items-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    
+                    {/* Dica do teclado apenas no Desktop */}
+                    <span class="text-[10px] font-bold text-stone-500 bg-white/90 backdrop-blur px-3 py-1 rounded-full shadow-sm border border-stone-200 uppercase tracking-wider hidden md:block select-none">
+                        Ctrl + Scroll
+                    </span>
+
+                    {/* Controles de Zoom Flutuantes (Lupas) */}
+                    <div class="flex items-center gap-3 bg-white/95 backdrop-blur-md p-2.5 rounded-full shadow-[0_8px_30px_rgba(0,0,0,0.2)] border border-stone-200 transition-all">
+                        
+                        {/* Lupa Menor (-) */}
+                        <button id="zoomOutBtn" class="w-10 h-10 flex items-center justify-center bg-stone-50 hover:bg-stone-100 text-stone-600 rounded-full shadow-inner border border-stone-200 transition-transform active:scale-90" title="Afastar">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM13.5 10.5h-6" />
+                            </svg>
+                        </button>
+
+                        {/* Lupa Maior (+) */}
+                        <button id="zoomInBtn" class="w-14 h-14 flex items-center justify-center bg-stone-50 hover:bg-stone-100 text-red-700 rounded-full shadow-md border border-stone-200 transition-transform active:scale-90" title="Aproximar">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="w-7 h-7">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607zM10.5 7.5v6m3-3h-6" />
+                            </svg>
+                        </button>
+                        
+                    </div>
+                </div>
+
+                {/* Área rolável (Scroll) da imagem sem 'flex items-center justify-center' para não cortar */}
+                <div id="imageWrapper" class="w-full overflow-auto max-h-[50vh] md:max-h-[70vh] border border-stone-200 bg-stone-50 text-center custom-scrollbar rounded-md shadow-inner pt-2">
+                    <img 
+                        id="modalImage" 
+                        src="" 
+                        alt="" 
+                        class="max-w-none inline-block transition-[height] duration-700 ease-in-out align-top"
+                        style="height: 45vh;"
+                    />
+                </div>
+            </div>
+
             {/* Adicionado overflow-y-auto e maxHeight limitando o texto no mobile para evitar quebra do modal */}
-            <div class="mt-4 md:mt-5 text-center px-2 md:px-4 overflow-y-auto max-h-[25vh] w-full">
+            <div class="mt-4 md:mt-5 text-center px-2 md:px-4 overflow-y-auto max-h-[25vh] w-full shrink-0">
                 <p id="modalCaption" class="text-lg md:text-2xl font-bold text-stone-900 font-['Cinzel'] tracking-wide leading-tight"></p>
                 <p id="modalSource" class="text-sm md:text-md text-stone-600 font-serif italic mt-2"></p>
             </div>
@@ -266,9 +327,19 @@ const recortesImprensa = [
 </Layout>
 
 <style>
-    .custom-scrollbar::-webkit-scrollbar { height: 8px; }
-    .custom-scrollbar::-webkit-scrollbar-track { background: #f5f5f4; border-radius: 10px; }
-    .custom-scrollbar::-webkit-scrollbar-thumb { background: #b91c1c; border-radius: 10px; }
+    /* Esconde a barra de rolagem nativa, mantendo a funcionalidade via botões */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE e Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+
+    .custom-scrollbar::-webkit-scrollbar { height: 8px; width: 10px; }
+    .custom-scrollbar::-webkit-scrollbar-track { background: #f5f5f4; border-radius: 4px; }
+    .custom-scrollbar::-webkit-scrollbar-thumb { background: #d6d3d1; border-radius: 4px; }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover { background: #a8a29e; }
 
     /* =========================================
        TAMANHO DO ÍCONE DE JORNAIS
@@ -284,21 +355,105 @@ const recortesImprensa = [
 </style>
 
 <script>
+    // =========================================
+    // LÓGICA DO CARROSSEL DE SETAS
+    // =========================================
+    const container = document.getElementById('scroll-container');
+    const nextBtn = document.getElementById('next-btn');
+    const prevBtn = document.getElementById('prev-btn');
+
+    if (container && nextBtn && prevBtn) {
+        const scrollAmount = 350 + 32; 
+
+        nextBtn.addEventListener('click', () => {
+            container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+        });
+
+        prevBtn.addEventListener('click', () => {
+            container.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+        });
+    }
+
+    // =========================================
+    // LÓGICA DO MODAL & ZOOM
+    // =========================================
     const modal = document.getElementById('imageModal');
     const modalContent = document.getElementById('modalContent');
-    const modalImg = document.getElementById('modalImage') as HTMLImageElement;
+    const modalImg = document.getElementById('modalImage'); 
     const modalCaption = document.getElementById('modalCaption');
     const modalSource = document.getElementById('modalSource');
     const closeBtn = document.getElementById('closeModal');
     const galleryItems = document.querySelectorAll('.gallery-item');
+    const imageWrapper = document.getElementById('imageWrapper');
+    const zoomTools = document.getElementById('zoomTools');
 
+    // Variáveis do Zoom
+    let baseHeight = 45; // Altura inicial em 'vh'
+    let currentHeight = baseHeight;
+    const buttonZoomStep = 25; // Salto pelo botão
+    const scrollZoomStep = 10; // Salto mais sutil pelo scroll do mouse
+
+    // Função que aplica a altura na imagem
+    function applyZoom() {
+        if (modalImg) {
+            modalImg.style.height = `${currentHeight}vh`;
+        }
+    }
+
+    // Eventos dos Botões de Zoom
+    const zoomInBtn = document.getElementById('zoomInBtn');
+    const zoomOutBtn = document.getElementById('zoomOutBtn');
+
+    if (zoomInBtn) {
+        zoomInBtn.addEventListener('click', () => {
+            currentHeight += buttonZoomStep;
+            applyZoom();
+        });
+    }
+
+    if (zoomOutBtn) {
+        zoomOutBtn.addEventListener('click', () => {
+            currentHeight = Math.max(baseHeight, currentHeight - buttonZoomStep); 
+            applyZoom();
+        });
+    }
+
+    // Evento de Scroll (Mouse Wheel) para Zoom
+    if (imageWrapper) {
+        imageWrapper.addEventListener('wheel', (e) => {
+            // Só executa o zoom se o usuário segurar Ctrl (ou Cmd no mac)
+            if (e.ctrlKey || e.metaKey) {
+                e.preventDefault(); // Impede o zoom nativo do navegador
+                
+                // Direção do scroll: deltaY negativo = rolou para cima (aproximar)
+                if (e.deltaY < 0) {
+                    currentHeight += scrollZoomStep;
+                } else {
+                    currentHeight = Math.max(baseHeight, currentHeight - scrollZoomStep); 
+                }
+                applyZoom();
+            }
+        }, { passive: false }); 
+    }
+
+    // Abrir Modal
     galleryItems.forEach(item => {
         item.addEventListener('click', () => {
             const src = item.getAttribute('data-src');
             const legenda = item.getAttribute('data-legenda');
             const fonte = item.getAttribute('data-fonte');
 
-            if (modalImg) modalImg.src = src || '';
+            if (modalImg) {
+                modalImg.src = src || '';
+                
+                // Aplica sempre o padrão com zoom
+                modalImg.className = "max-w-none inline-block transition-[height] duration-700 ease-in-out align-top";
+                currentHeight = baseHeight;
+                applyZoom();
+                
+                if (zoomTools) zoomTools.style.display = 'flex';
+            }
+            
             if (modalCaption) modalCaption.textContent = legenda;
             if (modalSource) modalSource.textContent = `Fonte: ${fonte}`;
 
@@ -313,6 +468,7 @@ const recortesImprensa = [
         });
     });
 
+    // Fechar Modal
     const fecharModal = () => {
         modal?.classList.add('opacity-0');
         modalContent?.classList.remove('scale-100');
@@ -321,6 +477,9 @@ const recortesImprensa = [
         setTimeout(() => {
             modal?.classList.add('hidden');
             modal?.classList.remove('flex');
+            // Garante que ao fechar a altura volte ao normal
+            currentHeight = baseHeight;
+            applyZoom();
         }, 300);
     };
 
