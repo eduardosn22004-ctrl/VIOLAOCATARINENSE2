@@ -676,6 +676,24 @@ Source: Provided by the musician
     eh_compositor: false,
     eh_violonista: true,
   },
+  {
+    id: "renatomor",
+    nome: "Renato Mor",
+    foto: "/images/pessoas/renatomor1.avif",
+    bio: `<p>
+Master of Education from the Regional University of Blumenau (FURB, 2005). Bachelor’s degree in Guitar from the Federal University of Rio Grande do Sul (UFRGS, 1995). A faculty member at the Regional University of Blumenau since 2005, 
+teaching the courses Instrumental Practice (Elective), Musical Practice, Music Theory, Musical Perception and Reading, Counterpoint, and Musical Genres and Forms. He serves as the Coordinator of the Collegiate Body and Chair of the Structured Faculty Nucleus
+for the Music program. Since 2000, he has coordinated the extension project Camerata de Violões da FURB. He is a member of the Mental Health Nucleus team of the institutional program Technological Incubator of Popular Cooperatives, where he conducts guitar
+workshops for users of the Psychosocial Care Center of Blumenau. He has performed as a guitarist in solo recitals, chamber music, and as a soloist in orchestral concerts in Blumenau and the Middle Itajaí Valley region. He also performs as a popular musician—vocals 
+and guitar—with an emphasis on international pop rock.
+<div style="color: gray; font-size: 0.8em; text-align: right; margin-top: 5px;">
+  Fonte: Lattes Curriculum
+</div>
+</p>`,   
+    galeria: ["/images/pessoas/renatomor2.avif"],
+    eh_compositor: false,
+    eh_violonista: true,
+  },
 
 
 
