@@ -4,41 +4,29 @@
 
 <!DOCTYPE html>
 <html lang="pt">
-  <head>
-    <meta charset="utf-8" />
-    <title>Pierrot Game Music</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-    <script is:inline>
-      // Função para detectar o melhor idioma
-      function getTargetLanguage() {
-        // Verifica se o usuário já escolheu um idioma manualmente antes (opcional)
-        const savedLang = localStorage.getItem('preferred-lang');
-        if (savedLang && (savedLang === 'pt' || savedLang === 'en')) {
-          return savedLang;
-        }
+<head>
+  <meta charset="utf-8" />
+  <title>Violão Catarinense</title>
+  
+  <script is:inline>
+    // 1. Detecta o idioma do navegador
+    // navigator.language geralmente retorna algo como 'pt-BR' ou 'en-US'
+    const userLang = navigator.language || navigator.userLanguage;
+    const isEnglish = userLang.startsWith('en');
 
-        // Pega o idioma do navegador (ex: "pt-BR" -> "pt")
-        const browserLang = navigator.language.split('-')[0];
-        return browserLang === 'en' ? 'en' : 'pt';
-      }
+    // 2. Define o destino (padrão é português)
+    const targetPath = isEnglish ? '/en/' : '/pt/';
 
-      // Executa o redirecionamento
-      const lang = getTargetLanguage();
-      window.location.replace(`/${lang}/`);
-    </script>
+    // 3. Redireciona imediatamente sem deixar rastro no histórico de navegação
+    window.location.replace(targetPath);
+  </script>
 
-    <noscript>
-      <meta http-equiv="refresh" content="0;url=/pt/" />
-    </noscript>
-    
-    <link rel="canonical" href="https://pierrotgamemusic.com/pt/" />
-  </head>
-  <body class="bg-[#0f172a]">
-    <div class="flex h-screen items-center justify-center">
-      <div class="text-slate-400 animate-pulse font-sans">
-        Loading... / Carregando...
-      </div>
-    </div>
-  </body>
+  <link rel="canonical" href="https://violaocatarinense.com.br/pt/" />
+  <noscript>
+    <meta http-equiv="refresh" content="0;url=/pt/" />
+  </noscript>
+</head>
+<body style="background: #111; color: #fff; font-family: sans-serif; display: flex; align-items: center; justify-content: center; height: 100vh;">
+  <p>Carregando / Loading...</p>
+</body>
 </html>
