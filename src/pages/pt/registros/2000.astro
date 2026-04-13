@@ -262,10 +262,10 @@ const recortesImprensa = [
         <div id="modalContent" class="bg-white p-4 md:p-6 rounded-sm shadow-[0_20px_50px_rgba(0,0,0,0.5)] w-full max-w-5xl max-h-[95vh] flex flex-col items-center transform scale-95 transition-transform duration-300">
             
             {/* CONTAINER DA IMAGEM E CONTROLES FLUTUANTES */}
-            <div class="relative w-full">
+            <div class="relative w-full group">
                 
                 {/* Grupo: Dica + Controles de Zoom */}
-                <div class="absolute bottom-6 right-6 z-10 flex flex-col items-center gap-2">
+                <div class="absolute bottom-6 right-6 z-10 flex flex-col items-center gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     
                     {/* Dica do teclado apenas no Desktop, centralizada em cima das lupas */}
                     <span class="text-[10px] font-bold text-stone-500 bg-white/90 backdrop-blur px-3 py-1 rounded-full shadow-sm border border-stone-200 uppercase tracking-wider hidden md:block select-none">
