@@ -4,9 +4,9 @@ export const catalogo = [
     compositor: "Darcy Villa Verde",
     obras: [
       { titulo: "Foi ela - Ary Barroso", ano: "", formacao: "Violão Solo", linkYoutube: "" },
-      { titulo: "Eu Sonhei Que Tu Estavas Tão Linda - Lamartine Babo - F. Matoso", ano: "Violão Solo", formacao: "", linkYoutube: "" },
-      { titulo: "A Felicidade - Tom Jobim", ano: "Violão Solo", formacao: "Violão Solo", linkYoutube: "" },
-      { titulo: "Se Tu Soubesse - cristóvão de alencar", ano: "Violão Solo", formacao: "", linkYoutube: "" }
+      { titulo: "Eu Sonhei Que Tu Estavas Tão Linda - Lamartine Babo - F. Matoso", ano: "", formacao: "Violão Solo", linkYoutube: "" },
+      { titulo: "A Felicidade - Tom Jobim", ano: "", formacao: "Violão Solo", linkYoutube: "" },
+      { titulo: "Se Tu Soubesse - cristóvão de alencar", ano: "", formacao: "Violão Solo", linkYoutube: "" }
     ]
   },
 {
