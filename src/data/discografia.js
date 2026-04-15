@@ -346,20 +346,7 @@ export const discografia = [
   {
     nome: "Duos",
     albuns: [
-      {
-        id: "cdg",
-        titulo: "Como o Diabo Gosta",
-        ano: "1995",
-        capa: "/images/capa/cdg.avif",
-        faixas: ["Baga-bagum", "Amigo Quente", "Alguém Especial", "Como o Diabo Gosta", "Glub! Glub!", "Adiviná Quien Es?", "Joaquinha", "Para Os Velhos Amigos", "Domingo Na Lagoa", "Pré-datado", "Verão em Floripa"]
-      },
-      {
-        id: "beijomanga",
-        titulo: "Beijo Manga",
-        ano: "1996",
-        capa: "/images/capa/beijomanga.jpg",
-        faixas: ["Beijo Manga", "Quebraceira", "Omelete", "Rose-Cheia-De-Pose", "Romance - Nei Lisboa", "Beira Mar", "Sons da Infância", "Zé da Zilda", "Ironildo", "Samba Pra Inglês Vê", "Ligadinho"]
-      },
+
 
     ]
   },
@@ -389,6 +376,20 @@ export const discografia = [
     nome: "Formações Diversas",
     albuns: [
       {
+        id: "cdg",
+        titulo: "Como o Diabo Gosta",
+        ano: "1995",
+        capa: "/images/capa/cdg.avif",
+        faixas: ["Baga-bagum", "Amigo Quente", "Alguém Especial", "Como o Diabo Gosta", "Glub! Glub!", "Adiviná Quien Es?", "Joaquinha", "Para Os Velhos Amigos", "Domingo Na Lagoa", "Pré-datado", "Verão em Floripa"]
+      },
+      {
+        id: "beijomanga",
+        titulo: "Beijo Manga",
+        ano: "1996",
+        capa: "/images/capa/beijomanga.jpg",
+        faixas: ["Beijo Manga", "Quebraceira", "Omelete", "Rose-Cheia-De-Pose", "Romance - Nei Lisboa", "Beira Mar", "Sons da Infância", "Zé da Zilda", "Ironildo", "Samba Pra Inglês Vê", "Ligadinho"]
+      },
+           {
         id: "Handmade",
         titulo: "Handmade",
         ano: "1999",
