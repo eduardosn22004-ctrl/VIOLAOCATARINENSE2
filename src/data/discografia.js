@@ -343,15 +343,13 @@ export const discografia = [
       }
     ]
   },
-{/*
 {
     nome: "Duos",
     albuns: [
 
 
     ]
-  }
-*/}
+  },
 
   {
     nome: "Quartetos",
