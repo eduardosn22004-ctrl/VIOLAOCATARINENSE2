@@ -83,13 +83,6 @@ export const discografia = [
         capa: "/images/capa/itajahy.avif",
         faixas: ["Kurupi", "AfroZorro", "Expectativas", "Paulistano", "Samba de Tempo Feliz", "Choro Pro Villa", "Saudade do Tom", "Caravana do Amanhã", "Variações Sambadas", "Jeré"]
       },
-      {
-        id: "aconcagua",
-        titulo: "Aconcagua",
-        ano: "2025",
-        capa: "/images/capa/aconcagua.avif",
-        faixas: ["Ave Rara", "Cancion De Las Simples Cosas", "Azúcar de Caña", "Poesía #1 - Que Trapasen Los Andes Sus Murallas", "Extraña Norma", "Zamba Del Laurel", "Poesía #2 - Por Allá Estará El Mar", "Maré de Quarto", "Dentro de Mim Mora Um Anjo"]
-      }
     ]
   },
   {
@@ -397,7 +390,14 @@ export const discografia = [
         capa: "/images/capa/handmade.avif",
         faixas: ["Tânia", "Feito a Mão", "Cumbanchero - Rafael Hernández", "Inconsciente Coletivo - Alegre Corrêa", "Infância - Alegre Corrêa", "Sandandes do Sol - Joe Valentin", "Estilo Consagrado", "Festa do Barão - Alegre Corrêa", 
 "Viena - Alegre Corrêa", "Encore - Alegre Corrêa"]
-      }   
+      },
+      {
+        id: "aconcagua",
+        titulo: "Aconcagua",
+        ano: "2025",
+        capa: "/images/capa/aconcagua.avif",
+        faixas: ["Ave Rara", "Cancion De Las Simples Cosas", "Azúcar de Caña", "Poesía #1 - Que Trapasen Los Andes Sus Murallas", "Extraña Norma", "Zamba Del Laurel", "Poesía #2 - Por Allá Estará El Mar", "Maré de Quarto", "Dentro de Mim Mora Um Anjo"]
+      }
     ]
   },
 {
