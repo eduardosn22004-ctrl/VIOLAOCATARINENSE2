@@ -433,7 +433,7 @@ export const discografia = [
       {
         id: "bcolunas",
         titulo: "Colunas",
-        ano: "2012",
+        ano: "2022",
         capa: "/images/capa/bcolunas.avif",
         faixas: ["La Ciudad de Las Columnas - Introducción", "La Ciudad de las Columnas - Pieza sin título n. 1: Andar La Habana", "La Ciudad de Las Columnas - Paseo", "La Ciudad de Las Columnas - La Ceiba Y El Colibrí", 
                  "La Ciudad de Las Columnas - Convento de San Francisco", "La Ciudad de las Columnas - Segundo paseo", "La Ciudad de las Columnas - Por la Calle del Obispo", "La Ciudad de Las Columnas - Amanecer En El Morro",
