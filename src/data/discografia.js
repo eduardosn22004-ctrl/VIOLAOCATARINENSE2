@@ -350,8 +350,8 @@ export const discografia = [
 
 
     ]
-  },
-  */}
+  }
+*/}
 
   {
     nome: "Quartetos",
