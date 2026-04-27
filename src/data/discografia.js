@@ -301,17 +301,6 @@ export const discografia = [
     nome: "Marcos Pablo Dalmacio",
     albuns: [
       {
-        id: "cordasacordo",
-        titulo: "Cordas de Acordo",
-        descricao: {
-                    pt: "Duo Violão",
-                    en: "Guitar Duo",
-             },     
-        ano: "2009",
-        capa: "/images/capa/cordasacordo.jpg",
-        faixas: ["My Lord Willoughby´s Welcome Home", "Two-Part Invention No. 1 in C Major, BWV 772", "Two-Part Invention No. 2 in C Minor, BWV 773", "Two-Part Invention No. 4 in D Minor, BWV 775", "Two-Part Invention No. 8 in F Major, BWV 779", "Two-Part Invention No. 13 in A Minor, BWV 784", "Harpsichord Sonatas: I. Allegro", "Harpsichord Sonatas: II. Andante", "Harpsichord Sonatas: III. Allegro", "Sonata IX", "Serenade No. 1 in A Major, Op. 96: I. Largo Maestoso - Allegro Moderato", "Serenade No. 1 in A Major, Op. 96: II. Larghetto", "Serenade No. 1 in A Major, Op. 96: III. Allegretto", "Variazioni Concertanti, Op. 130: I. Introduzione", "Variazioni Concertanti, Op. 130: II. Tema", "Variazioni Concertanti, Op. 130: III. Variazione, Pt. 1", "Variazioni Concertanti, Op. 130: III. Variazione, Pt. 2", "Variazioni Concertanti, Op. 130: III. Variazione, Pt. 3", "Variazioni Concertanti, Op. 130: III. Variazione, Pt. 4", "Variazioni Concertanti, Op. 130: III. Variazione, Pt. 5", "Variazioni Concertanti, Op. 130: III. Variazione, Pt. 6", "Variazioni Concertanti, Op. 130: Coda", "Fantasie In F Major", "Impromptu In F Major", "Barcarola In G Minor", "Der Ball"]
-      },
-      {
         id: "ricercare",
         titulo: "Ricercare",
         descricao: {
@@ -483,6 +472,23 @@ export const discografia = [
         faixas: ["Caminhar - Edson Castel", "Sonhos Tropicais - Jorge Gibbon", "Suicida - Jorge Gibbon", "Moleque Ensaboado - Otávio Rosa", "Baiã - Otávio Rosa", "Bolero Do Benfeitor - Jorge Gibbon", "Sete Mares - E. Castel, J. Gibbon", "Da Terra - Otávio Rosa", 
 "Sambaé - E. Castel, Herlano Rosa", "Nosferatus - Jorge Gibbon", "Na Areia Da Praia - Edson Castel", "Mantra - Jorge Gibbon"]
       }
+    ]
+  },
+  {
+    nome: "Duos",
+    albuns: [
+      {
+        id: "cordasacordo",
+        titulo: "Cordas de Acordo",
+        descricao: {
+                    pt: "Duo Violão",
+                    en: "Guitar Duo",
+             },     
+        ano: "2009",
+        capa: "/images/capa/cordasacordo.jpg",
+        faixas: ["My Lord Willoughby´s Welcome Home", "Two-Part Invention No. 1 in C Major, BWV 772", "Two-Part Invention No. 2 in C Minor, BWV 773", "Two-Part Invention No. 4 in D Minor, BWV 775", "Two-Part Invention No. 8 in F Major, BWV 779", "Two-Part Invention No. 13 in A Minor, BWV 784", "Harpsichord Sonatas: I. Allegro", "Harpsichord Sonatas: II. Andante", "Harpsichord Sonatas: III. Allegro", "Sonata IX", "Serenade No. 1 in A Major, Op. 96: I. Largo Maestoso - Allegro Moderato", "Serenade No. 1 in A Major, Op. 96: II. Larghetto", "Serenade No. 1 in A Major, Op. 96: III. Allegretto", "Variazioni Concertanti, Op. 130: I. Introduzione", "Variazioni Concertanti, Op. 130: II. Tema", "Variazioni Concertanti, Op. 130: III. Variazione, Pt. 1", "Variazioni Concertanti, Op. 130: III. Variazione, Pt. 2", "Variazioni Concertanti, Op. 130: III. Variazione, Pt. 3", "Variazioni Concertanti, Op. 130: III. Variazione, Pt. 4", "Variazioni Concertanti, Op. 130: III. Variazione, Pt. 5", "Variazioni Concertanti, Op. 130: III. Variazione, Pt. 6", "Variazioni Concertanti, Op. 130: Coda", "Fantasie In F Major", "Impromptu In F Major", "Barcarola In G Minor", "Der Ball"]
+      },
+
     ]
   },
 
