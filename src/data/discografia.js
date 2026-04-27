@@ -481,8 +481,8 @@ export const discografia = [
         id: "cordasacordo",
         titulo: "Cordas de Acordo",
         descricao: {
-                    pt: "Duo Violão",
-                    en: "Guitar Duo",
+                    pt: "Duo Brar",
+                    en: "Duo Brar",
              },     
         ano: "2009",
         capa: "/images/capa/cordasacordo.jpg",
