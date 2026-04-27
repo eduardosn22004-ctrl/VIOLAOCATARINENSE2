@@ -16,6 +16,10 @@ export const discografia = [
       {
         id: "violaocat2",
         titulo: "Violão Catarinense - Volume II",
+        descricao: {
+                    pt: "Violão Solo",
+                    en: "Solo Guitar"
+          },
         ano: "2019",
         capa: "/images/capa/violaocat2.avif",
         faixas: ["Eucaliptos ao Vento - Otávio Rosa", "Sehnsucht - Rafael Marciniak", "Ruínas - Gil Medeiros","Apotheose - Andrei Uller","Á Breve Infância - Marco Cardozo","O Harpear - Marco Cardozo","Estudo Simplório - Marco Cardozo","Vil Metal - Marco Cardozo", "Moinho - Joel Colman","Jusciele - Andrei Uller","II Neige! - Henrique Oswald"]
@@ -28,6 +32,10 @@ export const discografia = [
       {
         id: "terraguar",
         titulo: "Terraguar",
+        descricao: {
+                    pt: "Violão Solo",
+                    en: "Solo Guitar"
+          },
         ano: "1997",
         capa: "/images/capa/terraguar.jpg",
         faixas: ["Despertar", "Dança Dos Ventos", "Moinho", "Lembranças Do Passado", "Cordilheira", "Alabama", "América Do Sol", "Tene And C", "Sonho Dourado", "Going Home", "Celebração", "Rosa Branca", "Refúgio", "Deja-Vu", "Trem Caipira", "Dimensão"]
@@ -40,6 +48,10 @@ export const discografia = [
       {
         id: "darcy-completo",
         titulo: "Darcy Villa Verde- Disco Compacto",
+         descricao: {
+                    pt: "Violão Solo",
+                    en: "Solo Guitar"
+          },  
         ano: "1962",
         capa: "/images/capa/darcycompacto.jpg",
         faixas: ["Foi Ela - Ary Barroso", "Eu sonhei que tu estavas tão linda - Lamartine Babo e F. Matoso", "A felicidade - Tom Jobim e Vinicius de Moraes", "Se tu soubesse - Jorge Moram e Cristovão de Alencar"]
@@ -52,6 +64,10 @@ export const discografia = [
       {
         id: "radamescompleto",
         titulo: "Radamés Gnattali - Integral Para Violão Solo",
+        descricao: {
+                    pt: "Violão Solo",
+                    en: "Solo Guitar"
+          },  
         ano: "2010",
         capa: "/images/capa/radamescompleto.avif",
         faixas: ["Pastoril", "Toada", "Valsa", "Dança Brasileira", "Frevo", "Samba", "Choro", "Tocata Em Ritmo De Samba Nº 2", "Tocata Em Ritmo De Samba Nº 1", "Estudo I - Presto Possible", "Estudo II - Valsa Seresteira", "Estudo III - Moderato", "Estudo IV - Lento Espressivo", "Estudo V - Allegretto", "Estudo VI - Ritmado", "Estudo VII - Comodo", "Estudo VIII - Moderato", "Estudo IX - Lento", "Estudo XX - Dolente"]
@@ -59,6 +75,10 @@ export const discografia = [
       {
         id: "radamessarau",
         titulo: "Sarau Para Radamés",
+        descricao: {
+                    pt: "Violão Solo",
+                    en: "Solo Guitar"
+          },  
         ano: "2015",
         capa: "/images/capa/radamessarau.avif",
         faixas: ["Camará", "Meu Amigo Radamés","Sarau Para Radamés", "Escorregando", "Obrigado, Paulinho", "Vaidosa Nº 1","Remexendo", "Rosa", "Lamentos do Morro", "Canto De Iemanjá", "Canto De Xangô", "Suspiro"]
@@ -71,6 +91,10 @@ export const discografia = [
       {
         id: "lechorinhos",
         titulo: "Chorinhos",
+        descricao: {
+                    pt: "Violão Solo",
+                    en: "Solo Guitar"
+          },  
         ano: "2023",
         capa: "/images/capa/lechorinhos.avif",
         faixas: ["Chorinho da Marina","Chorinho do Ravi","Chorinho do Rian"]
@@ -83,6 +107,10 @@ export const discografia = [
       {
         id: "itajahy",
         titulo: "Itajahy",
+        descricao: {
+                    pt: "Violão Solo",
+                    en: "Solo Guitar"
+          },  
         ano: "2025",
         capa: "/images/capa/itajahy.avif",
         faixas: ["Kurupi", "AfroZorro", "Expectativas", "Paulistano", "Samba de Tempo Feliz", "Choro Pro Villa", "Saudade do Tom", "Caravana do Amanhã", "Variações Sambadas", "Jeré"]
@@ -90,6 +118,10 @@ export const discografia = [
        {
         id: "aconcagua",
         titulo: "Aconcagua",
+         descricao: {
+                    pt: "Violão e Voz",
+                    en: "Guitar and Voice"
+          },  
         ano: "2025",
         capa: "/images/capa/aconcagua.avif",
         faixas: ["Ave Rara", "Cancion De Las Simples Cosas", "Azúcar de Caña", "Poesía #1 - Que Trapasen Los Andes Sus Murallas", "Extraña Norma", "Zamba Del Laurel", "Poesía #2 - Por Allá Estará El Mar", "Maré de Quarto", "Dentro de Mim Mora Um Anjo"]
@@ -102,6 +134,10 @@ export const discografia = [
       {
         id: "violao2d",
         titulo: "Violão Em Duas Dimensões",
+        descricao: {
+                    pt: "Violão Solo",
+                    en: "Solo Guitar"
+                       },  
         ano: "1980",
         capa: "/images/capa/violao2d.jpg",
         faixas: ["Abismos de Rosas - Américo Jacomino", "Noite de Estrelas", "Romance de Amor - Antônio Rovira", "Jesus Alegria Dos Homens - J.S. Bach", "Caixinha de Música - Isaías Sávio", "Asa Branca - Luiz Gonzaga", "Noturno - Op.9 N°2 - F. Chopin", "Adágio Sostenuto da Sonata Ao Luar - L. V. Beethoven", "Fascinação - F. D. Marchetti", "Le Lac De Come - G. Galo", "Sons de Carrilhões - João Pernambuco"]
@@ -109,6 +145,10 @@ export const discografia = [
       {
         id: "violao3d",
         titulo: "Violão, Violão & Violão",
+          descricao: {
+                    pt: "Violão Solo",
+                    en: "Solo Guitar"
+                       },  
         ano: "1983",
         capa: "/images/capa/violao3d.jpg",
         faixas: ["Odeon - Ernesto Nazareth", "Serenata do Adeus - Vinicius de Morais", "Allegro Da Sinfonia Nº 40, K. 550 - Mozart", "Romance De Amor - Antônio Rovira", "Andréa - Alceni Duarte", "Aquarela Brasileira - Ari Barroso", "As Pastorinhas - João De Barro, Noel Rosa", "Song For Anna - André Popp", "Pedacinhos Do Céu - Waldir Azevedo", "Dúvida","Ontem, Ao Luar - Catullo Da Paixão Cearense", "Ave Maria - Franz Schubert"]
@@ -116,6 +156,10 @@ export const discografia = [
       {
         id: "universoviolao",
         titulo: "O Universo do Violão",
+          descricao: {
+                    pt: "Violão Solo",
+                    en: "Solo Guitar",
+             },  
         ano: "1985",
         capa: "/images/capa/universoviolao.jpg",
         faixas: ["Carinhoso - Pixinguinha", "Canção Para Luiz Ricardo", "Canção Para Luiz Ricardo - Denise Baptista Boppré", "Aurélio - Luiz Aurélio Baptista", "Gente Humilde - Chico, Garoto, Vinicius", "Luar Do Sertão - Catulo Da Paixão Cearense", "Ave Maria - Gounod, Bach", "Apanhei-Te, Cavaquinho - Ernesto Nazareth", "Brejeiro - Ernesto Nazareth", "Cavatina - Stanley Myers", "Na Baixa Do Sapateiro - Ary Barroso", "Ária Da Quarta Corda - Bach", "Choro Para Denise", "Foi Boto, Sinhá - Waldemar Henrique"]
@@ -128,13 +172,21 @@ export const discografia = [
       {
         id: "alujazz",
         titulo: "Alujazz",
-        ano: "2016",
+        descricao: {
+                    pt: "Formação diversa",
+                    en: "Mixed Ensemble",
+             },          
+       ano: "2016",
         capa: "/images/capa/alujazz.avif",
         faixas: ["Afro Shark", "Daqui A Meia Hora", "A Prueba de Água", "Festejando", "Em Trânsito", "Ligeirinha", "Novos Rumos, Velhos Sonhos", "Alujazz", "Ofensiva", "Olha Agulha Pra Fogão a Gás" ,"Muleke"]
       },
       {
         id: "escolhas",
         titulo: "Escolhas",
+         descricao: {
+                    pt: "Formação diversa",
+                    en: "Mixed Ensemble",
+             }, 
         ano: "2012",
         capa: "/images/capa/escolhas.avif",
         faixas: ["Irmã", "Por Diferentes Caminhos", "Um Lugar Esquecido", "Sol e o Silêncio", "Gérbera Vermelha", "No Meio da Noite", "Nada a Perder", "Depois da Tempestade", "De Inspiração"]
@@ -142,6 +194,10 @@ export const discografia = [
       {
         id: "instrumentalcasa",
         titulo: "Instrumental da Casa",
+        descricao: {
+                    pt: "Orquestra de Cordas e Violão",
+                    en: "Strings and Guitar",
+             }, 
         ano: "2015",
         capa: "/images/capa/instrumentalcasa.jpg",
         faixas: ["Onde Nasce A Paixão", "Valsa Dos Desencontros", "Pomerode", "Saudades de Astoria"]
@@ -149,6 +205,10 @@ export const discografia = [
       {
         id: "diagonal",
         titulo: "Diagonal",
+        descricao: {
+                    pt: "Formação diversa",
+                    en: "Mixed Ensemble",
+             },          
         ano: "2018",
         capa: "/images/capa/diagonal.avif",
         faixas: ["Força", "Quase Como Uma Perda", "Vamos em Frente", "Pra Fechar o Dia Bem", "O Voo dos Sapatos", "Vai Maurici", "Recomeço", "Pomerode"]
