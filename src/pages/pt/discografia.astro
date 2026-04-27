@@ -176,10 +176,10 @@ discografiaFinal.forEach(artista => {
         {album.titulo}
     </h3>
     
-    {/* NOVA DESCRIÇÃO EM CINZA FRACO */}
-    {album.descricao && (
+    {/* NOVA DESCRIÇÃO BILÍNGUE */}
+    {album.descricao && album.descricao[lang] && (
         <p class="text-xs text-stone-400 mt-1 italic line-clamp-1">
-            {album.descricao}
+            {album.descricao[lang]}
         </p>
     )}
 
