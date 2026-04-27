@@ -5,7 +5,10 @@ export const discografia = [
       {
         id: "violaocat1",
         titulo: "Violão Catarinense",
-        descricao: "Violão Solo",
+        descricao: {
+                    pt: "Violão Solo",
+                    en: "Solo Guitar"
+          },
         ano: "2012",
         capa: "/images/capa/violaocat.avif",
         faixas: ["Romanceiro - Edino Krieger", "Prelúdio- Edino Krieger", "Canção do Infinito no.3 - Ricardo Boppré", "Alternâncias- Edino Krieger","Ritmata- Edino Krieger","Passacalha Para Fred Schneiter- Edino Krieger","Fazenda Norte - Otávio Rosa", "Reconciliação - Andrei Uller"]
