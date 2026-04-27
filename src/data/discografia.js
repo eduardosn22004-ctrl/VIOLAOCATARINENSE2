@@ -506,6 +506,10 @@ export const discografia = [
       {
         id: "quartetosambaqui",
         titulo: "Quarteto Sambaqui",
+        descricao: {
+                    pt: "Quarteto de Violão",
+                    en: "Guitar Quartet",
+             },     
         ano: "2012",
         capa: "/images/capa/quartetosambaqui.avif",
         faixas: ["Galope - Rodolfo Kohlbach", "Parada de Mosquitos - Anita Kohlbach", "Eu Sou Brasil - Anita Kohlbach", "Um Beijo Divinal - João Graxa", "A Cor do Lírio - João Graxa", "Ida - João Graxa", "Adágio, Sinfonia Em Dó Maior - Pepi Prantl", 
@@ -515,6 +519,10 @@ export const discografia = [
       {
         id: "quartetoblumenau",
         titulo: "Quarteto de Violões de Blumenau",
+         descricao: {
+                    pt: "Quarteto de Violão",
+                    en: "Guitar Quartet",
+             },    
         ano: "2016",
         capa: "/images/capa/quartetoblumenau.avif",
         faixas: ["Lundu - Francisco Mignone", "Dança Negra - Mozart Camargo Guarnieri", "Improviso IV - Mozart Camargo Guarnieri", "Valsa n. 9 - Mozart Camargo Guarnieri", "Prelúdio Bachianas Brasileiras n. 4 - Villa-Lobos", 
