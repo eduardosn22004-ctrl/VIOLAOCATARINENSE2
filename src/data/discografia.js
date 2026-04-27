@@ -221,6 +221,10 @@ export const discografia = [
       {
         id: "raizestran",
         titulo: "Raízes Trançadas",
+        descricao: {
+                    pt: "Formação diversa",
+                    en: "Mixed Ensemble",
+             },          
         ano: "2007",
         capa: "/images/capa/raizestran.avif",
         faixas: ["Vento Sul", "Florianópolis", "Escorreguinga", "Dança das Idéias", "O Bote", "Chá de Boldo", "Doce Amargura", "Trançando Raízes"]
@@ -228,6 +232,10 @@ export const discografia = [
       {
         id: "catavento",
         titulo: "CataVento",
+        descricao: {
+                    pt: "Formação diversa",
+                    en: "Mixed Ensemble",
+             },          
         ano: "2012",
         capa: "/images/capa/catavento.avif",
         faixas: ["Passagem", "Suite Electróacustica", "Hawa", "Plano B", "Mosaico", "Portanto", "Rojo Y Amarillo", "Nascente", "Choro Fantasiado", "Cartagena"]
@@ -235,6 +243,10 @@ export const discografia = [
       {
         id: "musadiversa",
         titulo: "Musadiversa",
+        descricao: {
+                    pt: "Formação diversa",
+                    en: "Mixed Ensemble",
+             },          
         ano: "2011",
         capa: "/images/capa/musadiversa.avif",
         faixas: ["Djazza Nova", "Matransica", "Impressões Digitais", "Linha Curvas", "Musadiversa", "Vinheta I", "Mosaico"]
@@ -242,6 +254,10 @@ export const discografia = [
       {
         id: "tdireçoes",
         titulo: "Todas as Direções",
+        descricao: {
+                    pt: "Orquestra de Cordas e Violão",
+                    en: "Strings and Guitar",
+             },          
         ano: "2013",
         capa: "/images/capa/tdireçoes.avif",
         faixas: ["Ecos Dos Anjos", "Penumbra Y Luz", "Antigos Caminho - Choro Valsa", "Três Melodias", "Hawa", "Nascente", "Choro Fantasiado", "Cartagena"]
@@ -249,6 +265,10 @@ export const discografia = [
       {
         id: "hcerta",
         titulo: "Hora Certa",
+        descricao: {
+                    pt: "Violão, Contrabaixo Acústico e Bateria",
+                    en: "Guitar, Double Bass, and Drums",
+             },          
         ano: "2016",
         capa: "/images/capa/hcerta.avif",
         faixas: ["Batida Herança", "O Monge", "Telhados", "Dois Sóis", "Mosaico", "Chá de Boldo", "Hora Certa"]
@@ -256,6 +276,10 @@ export const discografia = [
       {
         id: "uanamasi",
         titulo: "Uanamasi",
+        descricao: {
+                    pt: "Formação diversa",
+                    en: "Mixed Ensemble",
+             },        
         ano: "2016",
         capa: "/images/capa/uanamasi.avif",
         faixas: ["Uanamasi No.1", "Uanamasi No.2", "Uanamasi No.3 ", "Uanamasi No.4", "Araucaria", "Soleá", "Da Lapa ao Sertão"]
@@ -263,6 +287,10 @@ export const discografia = [
       {
         id: "cs",
         titulo: "Creative Sessions",
+        descricao: {
+                    pt: "Formação diversa",
+                    en: "Mixed Ensemble",
+             },     
         ano: "2025",
         capa: "/images/capa/cs.jpg",
         faixas: ["AfroMetal", "Baião Existencial", "Flower Groove", "Message", "Palestina", "Suíte Brasileira", "Slo Magic", "Kareo", "Agora"]
