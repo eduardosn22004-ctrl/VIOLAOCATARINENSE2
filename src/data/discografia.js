@@ -348,7 +348,10 @@ export const discografia = [
         id: "ca3",
         titulo: "Compositores Americanos: 3 Piezas para Guitarra",
         ano: "2016",
-
+        descricao: {
+                    pt: "Violão Solo",
+                    en: "Solo Guitar",
+             },     
         capa: "/images/capa/ca3.avif",
         faixas: ["Barcarola, Op. 1, No. 2", "Poeme 3", "Estudo Nazarethiano, No. 3"]
       },
@@ -356,6 +359,10 @@ export const discografia = [
         id: "pcd",
         titulo: "Preludio, Canto & Danza, para Guitarra y Clave, Opus 21",
         ano: "2022",
+        descricao: {
+                    pt: "Violão e Cravo",
+                    en: "Guitar and Harpsichord",
+             },     
         capa: "/images/capa/pcd.avif",
         faixas: ["Preludio, Canto & Danza, para Guitarra y Clave, Opus 21"]
       },
@@ -363,6 +370,10 @@ export const discografia = [
         id: "ip5",
         titulo: "Impressões Poéticas, 5 Preludios para Guitarra Op. 20",
         ano: "2023",
+        descricao: {
+                    pt: "Violão Solo",
+                    en: "Solo Guitar",
+             },  
         capa: "/images/capa/ip5.jpg",
         faixas: ["Impressões Poéticas, 5 Preludios para Guitarra Op. 20"]
       }
@@ -375,6 +386,10 @@ export const discografia = [
         id: "variabr",
         titulo: "Variações Brasileiras",
         ano: "2014",
+        descricao: {
+                    pt: "Formação diversa",
+                    en: "Mixed Ensemble",
+             },      
         capa: "/images/capa/variabr.avif",
         faixas: ["Carrilhando", "Tem Frevo No Choro", "Braguiana", "Anunciação", "Dedicado", "Baião-Açu", "Doutor Sabe-Tudo", "Valsa da Saudade", "O Futebol"]
       },
@@ -382,19 +397,31 @@ export const discografia = [
         id: "chorofaia",
         titulo: "Choro de Faia",
         ano: "2014",
-        capa: "/images/capa/chorofaia.avif",
+        descricao: {
+                    pt: "Formação diversa",
+                    en: "Mixed Ensemble",
+             },    
+              capa: "/images/capa/chorofaia.avif",
         faixas: ["Papa Terra", "Choro de Faia", "Arranca Rabo", "Atentadinho", "Valsa Fole", "Claridão", "Afrosete", "Leo na Esquina", "Dois em Um", "O Galo Teixeirinha"]
       },
       {
         id: "palavracancao",
         titulo: "Palavra da Canção",
         ano: "2018",
+        descricao: {
+                    pt: "Formação diversa",
+                    en: "Mixed Ensemble",
+             },    
         capa: "/images/capa/palavracancao.avif",
         faixas: ["Valsa Iluminada", "Choro de Faia", "Batuque Na Geral", "Sete Sóis", "Palavra da Canção", "Acalanto para Isabela", "Rio, Equilíbrio da Vida", "Sambadim"]
       },
       {
         id: "ritualcordas",
         titulo: "Ritual das Cordas",
+        descricao: {
+                    pt: "Violão Solo",
+                    en: "Solo Guitar",
+             },    
         ano: "2021",
         capa: "/images/capa/ritualcordas.avif",
         faixas: ["Dança das Segundas", "Vale das Almas", "Vento Errante", "O Voo da Arraia", "Luz de Agosto", "Baião Açu", "Papa-Terra", "Valsa da Saudade", "Ritual das Cordas I", "Ritual das Cordas II", "Ritual das Cordas III"]
@@ -402,6 +429,11 @@ export const discografia = [
       {
         id: "10estudobr",
         titulo: "10 Peças de Estudo para Violão Brasileiro",
+        descricao: {
+                    pt: "Violão Solo",
+                    en: "Solo Guitar",
+             },    
+        ano: "2021",
         ano: "2021",
         capa: "/images/capa/10estudobr.avif",
         faixas: ["Estudo 1: Valsa", "Estudo 2: Bossa Nova", "Estudo 3: Choro", "Estudo 4: Xote", "Estudo 5: Baião", "Estudo 6: Maxixe", "Estudo 7: Polca", "Estudo 8: Maracatu", "Estudo 9: Samba", "Estudo 10: Ijexá"]
@@ -409,6 +441,10 @@ export const discografia = [
       {
         id: "paulettitrio",
         titulo: "Ricardo Pauletti Trio",
+        descricao: {
+                    pt: "Violão, Acordeon e Bateria",
+                    en: "Guitar, Accordion, and Drums",
+             },    
         ano: "2021",
         capa: "/images/capa/paulettitrio.avif",
         faixas: ["Tem Frevo No Choro", "Choro de Faia", "Atentadinho", "Valsa de Fole", "Baião Açu", "Papa-Terra", "O Galo Teixeirinha", "Valsa da Saudade", "Anunciação", "Leo na Esquina"]
@@ -416,6 +452,10 @@ export const discografia = [
       {
         id: "dancacinesteticas",
         titulo: "Danças Cinestésicas",
+        descricao: {
+                    pt: "Violão, Acordeon e Bateria",
+                    en: "Guitar, Accordion, and Drums",
+             },    
         ano: "2025",
         capa: "/images/capa/dancacinesteticas.avif",
         faixas: ["O Jardim de Takemitsu", "Fantasia Jonguiana", "Variações Sambadas", "Dança Atonal I", "Dança Atonal II", "Dança Atonal III", "Dança Atonal IV", "Dança Atonal V", "Dança Atonal VI", "Dança Atonal VII"]
@@ -469,11 +509,15 @@ export const discografia = [
     ]
   },  
     {
-    nome: "Formações Diversas",
+    nome: "Guinha Ramires",
     albuns: [
       {
         id: "cdg",
         titulo: "Como o Diabo Gosta",
+        descricao: {
+                    pt: "Formação diversa",
+                    en: "Mixed Ensemble",
+             }, 
         ano: "1995",
         capa: "/images/capa/cdg.avif",
         faixas: ["Baga-bagum", "Amigo Quente", "Alguém Especial", "Como o Diabo Gosta", "Glub! Glub!", "Adiviná Quien Es?", "Joaquinha", "Para Os Velhos Amigos", "Domingo Na Lagoa", "Pré-datado", "Verão em Floripa"]
@@ -481,6 +525,10 @@ export const discografia = [
       {
         id: "beijomanga",
         titulo: "Beijo Manga",
+        descricao: {
+                    pt: "Formação diversa",
+                    en: "Mixed Ensemble",
+             }, 
         ano: "1996",
         capa: "/images/capa/beijomanga.jpg",
         faixas: ["Beijo Manga", "Quebraceira", "Omelete", "Rose-Cheia-De-Pose", "Romance - Nei Lisboa", "Beira Mar", "Sons da Infância", "Zé da Zilda", "Ironildo", "Samba Pra Inglês Vê", "Ligadinho"]
@@ -488,6 +536,10 @@ export const discografia = [
            {
         id: "Handmade",
         titulo: "Handmade",
+             descricao: {
+                    pt: "Formação diversa",
+                    en: "Mixed Ensemble",
+             }, 
         ano: "1999",
         capa: "/images/capa/handmade.avif",
         faixas: ["Tânia", "Feito a Mão", "Cumbanchero - Rafael Hernández", "Inconsciente Coletivo - Alegre Corrêa", "Infância - Alegre Corrêa", "Sandandes do Sol - Joe Valentin", "Estilo Consagrado", "Festa do Barão - Alegre Corrêa", 
@@ -501,6 +553,10 @@ export const discografia = [
       {
         id: "hifi",
         titulo: "HI-FI",
+        descricao: {
+                    pt: "Violão Solo",
+                    en: "Solo Guitar",
+             }, 
         ano: "2019",
         capa: "/images/capa/hifi.avif",
         faixas: ["Prólogo", "Ábaco", "(Quilombo) Terral", "(Quilombo) Quebra-Côco", "(Quilombo) Réquiem", "Estásimo", "(Sehnsucht) Prelúdio I: Spiegelraum", "(Sehnsucht) Prelúdio II: Spiegelungen",
@@ -514,6 +570,10 @@ export const discografia = [
       {
         id: "mpau",
         titulo: "Música Paulista para Violão",
+                descricao: {
+                    pt: "Violão Solo",
+                    en: "Solo Guitar",
+             }, 
         ano: "2012",
         capa: "/images/capa/mpau.avif",
         faixas: ["Vigoroso", "Interlúdio(chorinho)", "Cantiga", "Toccata-Rondó", "Poesilúdio nº1", "Visage Intérieur", "Visage Extérieur", "Discurso", "Meditação", "Memória", "Valsa Choro", "Ponteio", "Pequena Fantasia de Esquina nº1", 
@@ -522,6 +582,10 @@ export const discografia = [
        {
         id: "obrabr",
         titulo: "Obras Brasileiras para Violão",
+        descricao: {
+                    pt: "Violão Solo",
+                    en: "Solo Guitar",
+             }, 
         ano: "2020",
         capa: "/images/capa/obrabr.avif",
         faixas: ["Alegre e Deciso", "Lento", "Cateretê", "Página Solta (Valsa)", "Minueto", "Noturno (em ré menor)", "Ponteio e Toccatina", "Melancoli(r)a", "Allegro","Lento Ostinato",
@@ -535,6 +599,10 @@ export const discografia = [
       {
         id: "bcolunas",
         titulo: "Colunas",
+        descricao: {
+                    pt: "Violão Solo",
+                    en: "Solo Guitar",
+             }, 
         ano: "2022",
         capa: "/images/capa/bcolunas.avif",
         faixas: ["La Ciudad de Las Columnas - Introducción", "La Ciudad de las Columnas - Pieza sin título n. 1: Andar La Habana", "La Ciudad de Las Columnas - Paseo", "La Ciudad de Las Columnas - La Ceiba Y El Colibrí", 
@@ -545,6 +613,10 @@ export const discografia = [
       {
         id: "barabescos",
         titulo: "Arabescos",
+        descricao: {
+                    pt: "Violão Solo",
+                    en: "Solo Guitar",
+             }, 
         ano: "2025",
         capa: "/images/capa/barabescos.avif",
         faixas: ["A Fantasie (P1a)", "Suite pour la luth (BWV 995) Prelude", "Suite pour la luth (BWV 995) Allemande", "Suite pour la luth (BWV 995) Courante", "Suite pour la luth (BWV 995) Sarabande", 
