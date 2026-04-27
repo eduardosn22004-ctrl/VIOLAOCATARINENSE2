@@ -303,6 +303,10 @@ export const discografia = [
       {
         id: "cordasacordo",
         titulo: "Cordas de Acordo",
+        descricao: {
+                    pt: "Duo Violão",
+                    en: "Guitar Duo",
+             },     
         ano: "2009",
         capa: "/images/capa/cordasacordo.jpg",
         faixas: ["My Lord Willoughby´s Welcome Home", "Two-Part Invention No. 1 in C Major, BWV 772", "Two-Part Invention No. 2 in C Minor, BWV 773", "Two-Part Invention No. 4 in D Minor, BWV 775", "Two-Part Invention No. 8 in F Major, BWV 779", "Two-Part Invention No. 13 in A Minor, BWV 784", "Harpsichord Sonatas: I. Allegro", "Harpsichord Sonatas: II. Andante", "Harpsichord Sonatas: III. Allegro", "Sonata IX", "Serenade No. 1 in A Major, Op. 96: I. Largo Maestoso - Allegro Moderato", "Serenade No. 1 in A Major, Op. 96: II. Larghetto", "Serenade No. 1 in A Major, Op. 96: III. Allegretto", "Variazioni Concertanti, Op. 130: I. Introduzione", "Variazioni Concertanti, Op. 130: II. Tema", "Variazioni Concertanti, Op. 130: III. Variazione, Pt. 1", "Variazioni Concertanti, Op. 130: III. Variazione, Pt. 2", "Variazioni Concertanti, Op. 130: III. Variazione, Pt. 3", "Variazioni Concertanti, Op. 130: III. Variazione, Pt. 4", "Variazioni Concertanti, Op. 130: III. Variazione, Pt. 5", "Variazioni Concertanti, Op. 130: III. Variazione, Pt. 6", "Variazioni Concertanti, Op. 130: Coda", "Fantasie In F Major", "Impromptu In F Major", "Barcarola In G Minor", "Der Ball"]
@@ -310,20 +314,21 @@ export const discografia = [
       {
         id: "ricercare",
         titulo: "Ricercare",
+        descricao: {
+                    pt: "Violão Solo e Família das Guitarras Históricas",
+                    en: "Guitar Solo and The Historical Guitar Family",
+             },     
         ano: "2015",
         capa: "/images/capa/ricercare.jpg",
         faixas: ["Homenaje a Tárrega, Op. 69: I. Garrotín", "Homenaje a Tárrega, Op. 69: II. Soleares", "Prelúdio No. 4 in E Minor", "Suite Populaire Brésilienne: II. Schottish-Chôro", "Julia Florida (Barcarola)", "Vals No. 3, Op. 8", "Preludio No. 6 in D Major", "Valse (In D Major)", "Menuet in C, Op. 5 No. 3 (Early Romantic Guitar)", "Menuet in C Minor, Op. 24 No. 1 (Early Romantic Guitar)", "12 Etudes, Op. 6 No. 8 (Early Romantic Guitar)", "Etude in C, Op. 29 No. 5 (Early Romantic Guitar)", "Phantasia in A-Moll (10 String Guitar)", "Phantasia in D-Dur (10 String Guitar)", "Nouvelles Decouvertes Sur La Guitarre: Prelude in A Minor (Baroque Guitar)", "Nouvelles Decouvertes Sur La Guitarre: Fugue in A Minor (Baroque Guitar)", "Livre De Pièces Pour La Guittarre Dédié Au Roy: Sarabande in E Minor (Baroque Guitar)", "Livre De Pièces Pour La Guittarre Dédié Au Roy: Menuet in E Minor (Baroque Guitar)", "Livre De Pièces Pour La Guittarre Dédié Au Roy: Passacaille in E Minor (Baroque Guitar)", "Tombeau de Gogo (Allemande in a Minor)", "Prelude in A Minor (8 String Guitar)", "Chaconne in a Minor (8 String Guitar)", "Le Premier Livre De Guiterre: Fantasia I (Renaissance Guitar)", "Tiers Livre De Tabulature De Guiterre: Pimontoyse (Renaissance Guitar)", "Le Premier Livre De Guiterne: Fantasia I (Renaissance Guitar)", "Le Premier Livre De Guiterne: Bransle (Renaissance Guitar)", "Delphin De Música: Diferencias Sobre Guárdame Las Vacas (Vihuela)", "Delphin De Música: La Canción Del Emperador (Vihuela)", "Tres Libros De Música En Cifra Para Vihuela: Fantasia X", "El Maestro (Libro De Vihuela): Fantasia I"]
       },
       {
-        id: "flutesonata",
-        titulo: "Flute Sonata Opus 13",
-        ano: "2016",
-        capa: "/images/capa/flutesonata.jpg",
-        faixas: ["Flute Sonata in C Minor Opus 13 - I.Adagio", "Flute Sonata in C Minor Opus 13 - II.Fuga","Flute Sonata in C Minor Opus 13 - III.Alegro"]
-      },
-      {
         id: "sd10",
         titulo: "Série Didáctia: 10 Morceaux del Método Opus 241 (Guitarra Romántica)",
+         descricao: {
+                    pt: "Guitarra Romântica",
+                    en: "Early Romantic Guitar",
+             },     
         ano: "2021",
         capa: "/images/capa/sd10.jpg",
         faixas: ["Série Didáctia: 10 Morceaux del Método Opus 241 (Guitarra Romántica)"]
@@ -331,6 +336,10 @@ export const discografia = [
       {
         id: "hiddenmaster",
         titulo: "Hidden Masterpieces",
+        descricao: {
+                    pt: "Duo: Flauta e Violão, Trio: Flauta, Trompa e Violão, Trio: Flauta, Violino e Violão",
+                    en: "Duo: Flute and Guitar, Trio: Flute, Horn and Guitar, Trio: Flute, Violin and Guitar",
+             },     
         ano: "2018",
         capa: "/images/capa/hiddenmaster.jpg",
         faixas: ["Gran Duetto Concertante in a Major Opus 52: I. Andante Sostenuto", "Gran Duetto Concertante in a Major Opus 52: II. Menuetto - Allegro Vivace", "Gran Duetto Concertante in a Major Opus 52: III. Rondo Militare - Allegretto", "Gran Trio in E Minor, Opus 9 No 3: I. Allegro Vivace", "Gran Trio in E Minor, Opus 9 No 3: II. Romance - Largo", "Gran Trio in E Minor, Opus 9 No 3: III. Rondo - Allegretto", "Serenade in D Major: I. Adagio", "Serenade in D Major: II. Menuetto - Allegro", "Serenade in D Major: III. Rondo", "Serenade in D Major: IV. Adagio", "Serenade in D Major: V. Polonaise - Trio", "Serenade in D Major: VI. Andante Con Variazione"]
@@ -339,6 +348,7 @@ export const discografia = [
         id: "ca3",
         titulo: "Compositores Americanos: 3 Piezas para Guitarra",
         ano: "2016",
+
         capa: "/images/capa/ca3.avif",
         faixas: ["Barcarola, Op. 1, No. 2", "Poeme 3", "Estudo Nazarethiano, No. 3"]
       },
