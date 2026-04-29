@@ -696,18 +696,6 @@ export const discografia = [
         faixas: ["Com a Tropilha Por Diante", "Depois do Lombo do Pingo", "Tirador", "Tô de Volta, Chamarrita", "Tocando Um Baio Por Diante", "Rainha", "Na Outra Lua", "Tirana do Lenço Florido", "Um Rasguido e Seus Encantos", "Folcloreando", "Quase de Rédeas No Chão", 
                  "O Último Tirão", "Benquerença", "Algo de Antes", "Florzita de Campo Aberto"]
       },
-     {
-        id: "meutempocanto",
-        titulo: "Meu Tempo, Meu Canto",
-        descricao: {
-                    pt: "Música Tradicionalista",
-                    en: "Traditional Music",
-             }, 
-        ano: "2017",
-        capa: "/images/capa/meutempocanto.avif",
-        faixas: ["Com a Tropilha Por Diante", "Depois do Lombo do Pingo", "Tirador", "Tô de Volta, Chamarrita", "Tocando Um Baio Por Diante", "Rainha", "Na Outra Lua", "Tirana do Lenço Florido", "Um Rasguido e Seus Encantos", "Folcloreando", "Quase de Rédeas No Chão", 
-                 "O Último Tirão", "Benquerença", "Algo de Antes", "Florzita de Campo Aberto"]
-      },
       {
         id: "festivais",
         titulo: "Festivais",
