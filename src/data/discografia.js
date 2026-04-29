@@ -763,7 +763,7 @@ export const discografia = [
                     en: "Traditional Music",
              }, 
         ano: "2021",
-        capa: "/images/capa/rastrosau".avif",
+        capa: "/images/capa/rastrosau.avif",
         faixas: ["Rastros e Saudades", "Tô no Céu", "No Florir das Açucenas", "Guasqueiro", "Sem Ti", "Junto aos Arreios", "Voltando de uma Tropeada", "Guiada", "Na Outra Lua", "Milongas e Cordas", "Tropa Estendida", "Tal a Aurora", "Moço Antigo", "Perdoa"]
       }, 
       {
