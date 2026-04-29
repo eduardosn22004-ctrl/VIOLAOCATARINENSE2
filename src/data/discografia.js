@@ -810,7 +810,7 @@ export const discografia = [
         ano: "2025",
         capa: "/images/capa/ensaioquar.avif",
         faixas: ["A Chacarera da Moça", "Com a Tropilha por Diante", "Folcloreando", "Gauchando", "Tocando um Baio por Diante", "Peão do Posto do Meio", "Redomão", "Rincão dos Touros", "Tô de Volta Chamarrita", "Na Outra Lua"]
-      },
+      }
       
       }
   }
