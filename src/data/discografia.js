@@ -10,7 +10,7 @@ export const discografia = [
                     en: "Solo Guitar"
           },
         ano: "2012",
-        capa: "/images/capa/violaocat.avif",
+        capa: "/images/capa/violaocat.png",
         faixas: ["Romanceiro - Edino Krieger", "Prelúdio- Edino Krieger", "Canção do Infinito no.3 - Ricardo Boppré", "Alternâncias- Edino Krieger","Ritmata- Edino Krieger","Passacalha Para Fred Schneiter- Edino Krieger","Fazenda Norte - Otávio Rosa", "Reconciliação - Andrei Uller"]
       },
       {
@@ -21,7 +21,7 @@ export const discografia = [
                     en: "Solo Guitar"
           },
         ano: "2019",
-        capa: "/images/capa/violaocat2.avif",
+        capa: "/images/capa/violaocat2.png",
         faixas: ["Eucaliptos ao Vento - Otávio Rosa", "Sehnsucht - Rafael Marciniak", "Ruínas - Gil Medeiros","Apotheose - Andrei Uller","Á Breve Infância - Marco Cardozo","O Harpear - Marco Cardozo","Estudo Simplório - Marco Cardozo","Vil Metal - Marco Cardozo", "Moinho - Joel Colman","Jusciele - Andrei Uller","II Neige! - Henrique Oswald"]
       },
       {
@@ -32,7 +32,7 @@ export const discografia = [
                     en: "Solo Guitar"
           },
         ano: "A ser lançado",
-        capa: "/images/capa/violaocat3.avif",
+        capa: "/images/capa/violaocat3.png",
         faixas: []
       },
     ]
