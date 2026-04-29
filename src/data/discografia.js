@@ -813,4 +813,5 @@ export const discografia = [
       },
       
       }
+  }
  ]
