@@ -13,7 +13,7 @@ export const catalogo = [
     id: "ricardob",
     compositor: "Ricardo Boppre",
     obras: [
-      { titulo: "O Velinho", ano: "", formacao: "", linkYoutube: "https://youtu.be/c4C3aFmF27M?si=3KJQ0b0cG2YUWzct" },
+      { titulo: "O Velhinho", ano: "", formacao: "", linkYoutube: "https://youtu.be/c4C3aFmF27M?si=3KJQ0b0cG2YUWzct" },
       { titulo: "O Holy Night", ano: "", formacao: "", linkYoutube: "https://youtu.be/7faW2fTG9c0?si=hdl72HT8kmLV53GC" },
       { titulo: "Noite Feliz", ano: "", formacao: "", linkYoutube: "https://youtu.be/JffDw32h7Mo?si=em5Cu6hK2c6jK4UF" },
       { titulo: "Natal das Crianças", ano: "", formacao: "", linkYoutube: "https://youtu.be/7RkakszxvB8?si=qr42HlJdnlAdRFAA" },
