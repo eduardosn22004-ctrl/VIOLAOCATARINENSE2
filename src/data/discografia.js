@@ -657,4 +657,160 @@ export const discografia = [
       },   
   ]
 },
+  {
+    nome: "Quarteto Coração de Potro",
+    albuns: [
+      {
+        id: "tempodenafo",
+        titulo: "Tempo a Dentro, Campo Afora",
+        descricao: {
+                    pt: "Música Tradicionalista",
+                    en: "Traditional Music",
+             }, 
+        ano: "2009",
+        capa: "/images/capa/tempodenafo.avif",
+        faixas: ["Apresentação", "Tempo Adentro, Campo Afora", "Meu Tordilho 'Roba Moça'", "No Florir das Açucenas", "Rastros e Saudades", "Onde Um Guacho Dobra os Punhos", "Muito Além da Minha Tropa", "Não Era Pra Ser", "Tal a Aurora", "Milonga Para Cantar Querência", 
+                 "Eu Guitarreiro", "Assim Sou Eu e Me Vou", "Frente Ao Teu Grito de Forma", "De Semear e Germinar", "Noite de Ronda Redonda", "Milonga do Peão Mensual", "Faixa Extra (Depoimento Luiz Marenco)"]
+      },
+      {
+        id: "vouevenho",
+        titulo: "Pra Onde Vou e de Onde Venho",
+        descricao: {
+                    pt: "Música Tradicionalista",
+                    en: "Traditional Music",
+             }, 
+        ano: "2012",
+        capa: "/images/capa/vouevenho.avif",
+        faixas: ["Pra Onde Vou e de Onde Venho", "O Texto das Reculutas", "Tropilha Chamarrita", "O Casco e a Pedra", "Santo da Gaita", "Sem Ti", "Milonga de Campo a Laurindo Pedra", "Morena, Baila Comigo", "En El Corazón de Mi Madre", "Chamarrita Romancera",
+                 "Segunda-feira Bem Cedo", "São As Luzes Dos Teus Olhos", "Milonga e Baguala", "Marca de Fé", "Outra Lua Por Ti", "Raça e Paixão"]
+      },
+      {
+        id: "meutempocanto",
+        titulo: "Meu Tempo, Meu Canto",
+       descricao: {
+                    pt: "Música Tradicionalista",
+                    en: "Traditional Music",
+             }, 
+        ano: "2017",
+        capa: "/images/capa/meutempocanto.avif",
+        faixas: ["Com a Tropilha Por Diante", "Depois do Lombo do Pingo", "Tirador", "Tô de Volta, Chamarrita", "Tocando Um Baio Por Diante", "Rainha", "Na Outra Lua", "Tirana do Lenço Florido", "Um Rasguido e Seus Encantos", "Folcloreando", "Quase de Rédeas No Chão", 
+                 "O Último Tirão", "Benquerença", "Algo de Antes", "Florzita de Campo Aberto"]
+      },
+     {
+        id: "meutempocanto",
+        titulo: "Meu Tempo, Meu Canto",
+        descricao: {
+                    pt: "Música Tradicionalista",
+                    en: "Traditional Music",
+             }, 
+        ano: "2017",
+        capa: "/images/capa/meutempocanto.avif",
+        faixas: ["Com a Tropilha Por Diante", "Depois do Lombo do Pingo", "Tirador", "Tô de Volta, Chamarrita", "Tocando Um Baio Por Diante", "Rainha", "Na Outra Lua", "Tirana do Lenço Florido", "Um Rasguido e Seus Encantos", "Folcloreando", "Quase de Rédeas No Chão", 
+                 "O Último Tirão", "Benquerença", "Algo de Antes", "Florzita de Campo Aberto"]
+      },
+      {
+        id: "festivais",
+        titulo: "Festivais",
+        descricao: {
+                    pt: "Música Tradicionalista",
+                    en: "Traditional Music",
+             }, 
+        ano: "2019",
+        capa: "/images/capa/festivais.avif",
+        faixas: ["Pala Rubro", "João Sem Tropa", "Cantilena", "Rancho de Barro", "Como uma Chuva de Estrelas", "Caminho de Volta", "Moça", "Já Extraviei Tanto Verso", "Pingo", "Benzido", "Proseando"]
+      },
+      {
+        id: "festivais2",
+        titulo: "Festivais Vol. II",
+        descricao: {
+                    pt: "Música Tradicionalista",
+                    en: "Traditional Music",
+             }, 
+        ano: "2020",
+        capa: "/images/capa/festivais2.avif",
+        faixas: ["Tardezinha", "Noturno", "Entre as pedras do meu canto", "Sonora", "Foi só o susto prenda minha", "Gauchando", "Maria, falta uma estrela (feat. Catharina Goulart)", "Meu canto, lua dos ventos", "Milonga de cruzar o ano", "Bailarina", "Rancho", "Ateu (feat. Marcelo Oliveira)"]
+      }, 
+      {
+        id: "quarteando",
+        titulo: "Quarteando",
+        descricao: {
+                    pt: "Música Tradicionalista",
+                    en: "Traditional Music",
+             }, 
+        ano: "2020",
+        capa: "/images/capa/quarteando.avif",
+        faixas: ["Quarteteando", "Chamamezito", "Ferrão e Mel de Abelha", "Vida Afora, Noite Adentro (Feat. Marcelo Oliveira)", "Garupeiro", "Lobuna", "Alma de Palanque (Para Chico Bastos)", "Gaita nos Tentos", "Poema de Quatro Galhos (feat. Carolina Goulart)", 
+                 "Tempo Presente", "Guitarreiro e Cantor", "Eu Sou a Décima", "Saudade (em Memória ao Amigo Henrique Vernetti Schuch)", "Só (feat. Carol Goulart)", "Vó Judith", "Copla Essencial"]
+      }, 
+      {
+        id: "devolta",
+        titulo: "De Volta",
+        descricao: {
+                    pt: "Música Tradicionalista",
+                    en: "Traditional Music",
+             }, 
+        ano: "2020",
+        capa: "/images/capa/devolta.avif",
+        faixas: ["De Volta", "Eu Fiz Esta Chamarrita", "La Ranchera (feat. Catherine Vergnes)", "Um Zaino Negro Luzeiro", "Guapeando", "A Zamba Que Fiz Pra Ti", "Meu Sonho Nos Teus Caminhos", "Trança de Três (Um Romance de Tranças)", "Chinita", "Pitanga", "Dona Lua e Senhor Sol",
+                 "A Chacarera da Moça", "Crioulo (feat. Adriano Silva Alves)"]
+      }, 
+      {
+        id: "rastrosau",
+        
+        titulo: "Rastros e Saudades",
+        descricao: {
+                    pt: "Música Tradicionalista",
+                    en: "Traditional Music",
+             }, 
+        ano: "2021",
+        capa: "/images/capa/rastrosau".avif",
+        faixas: ["Rastros e Saudades", "Tô no Céu", "No Florir das Açucenas", "Guasqueiro", "Sem Ti", "Junto aos Arreios", "Voltando de uma Tropeada", "Guiada", "Na Outra Lua", "Milongas e Cordas", "Tropa Estendida", "Tal a Aurora", "Moço Antigo", "Perdoa"]
+      }, 
+      {
+        id: "sencillito",
+        titulo: "Sencillito",
+        descricao: {
+                    pt: "Música Tradicionalista",
+                    en: "Traditional Music",
+             }, 
+        ano: "2021",
+        capa: "/images/capa/sencillito.avif",
+        faixas: ["Primitivo", "Potrilho, Potro e Pingaço", "Já Faz Tempo", "O Recorredor", "Poema de Adeus", "Violão Guitarra Crioula", "O Casco e a Pedra"]
+      }, 
+       {
+        id: "quartetotelmo",
+        titulo: "Quarteto Canta Telmo",
+        descricao: {
+                    pt: "Música Tradicionalista",
+                    en: "Traditional Music",
+             }, 
+        ano: "2022",
+        capa: "/images/capa/quartetotelmo.avif",
+        faixas: ["Reculuta", "Roubo da Gaita Velha", "Esquilador", "Baile de Rancho", "Morada Antiga", "Defumando Ausências", "Cavalo", "Marcação", "Tempos de Praça", "Prenda Minha"]
+      }, 
+       {
+        id: "cantandocavalo",
+        titulo: "Cantando Cavalos Mansos",
+        descricao: {
+                    pt: "Música Tradicionalista",
+                    en: "Traditional Music",
+             }, 
+        ano: "2023",
+        capa: "/images/capa/cantandocavalo.avif",
+        faixas: ["Um Quadro de Campo Aberto", "Milongão Pra Assobiar Desencilhando", "Voltando do Rancho Dela", "Que Lua Deixei Pra Ela", "Que eu volto fim de Semana", "Seu campeiro", "Te vejo por estes campos", "Meu tostado pôr de sol", 
+                 "Ferrão e mel de abelha", "Minha lobuna estancieira", "Cavalos Mansos"]
+      },
+      {
+        id: "ensaioquar",
+        titulo: "Ensaio",
+        descricao: {
+                    pt: "Música Tradicionalista",
+                    en: "Traditional Music",
+             }, 
+        ano: "2025",
+        capa: "/images/capa/ensaioquar.avif",
+        faixas: ["A Chacarera da Moça", "Com a Tropilha por Diante", "Folcloreando", "Gauchando", "Tocando um Baio por Diante", "Peão do Posto do Meio", "Redomão", "Rincão dos Touros", "Tô de Volta Chamarrita", "Na Outra Lua"]
+      },
+      
  ]
+},
