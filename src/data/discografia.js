@@ -23,7 +23,18 @@ export const discografia = [
         ano: "2019",
         capa: "/images/capa/violaocat2.avif",
         faixas: ["Eucaliptos ao Vento - Otávio Rosa", "Sehnsucht - Rafael Marciniak", "Ruínas - Gil Medeiros","Apotheose - Andrei Uller","Á Breve Infância - Marco Cardozo","O Harpear - Marco Cardozo","Estudo Simplório - Marco Cardozo","Vil Metal - Marco Cardozo", "Moinho - Joel Colman","Jusciele - Andrei Uller","II Neige! - Henrique Oswald"]
-      }
+      },
+      {
+        id: "violaocat3",
+        titulo: "Violão Catarinense - Volume III",
+        descricao: {
+                    pt: "Violão Solo",
+                    en: "Solo Guitar"
+          },
+        ano: "A ser lançado",
+        capa: "/images/capa/violaocat3.avif",
+        faixas: []
+      },
     ]
   },
   {
